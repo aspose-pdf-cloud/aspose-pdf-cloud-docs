@@ -7,5 +7,5 @@ weight: 20
 
 This section has following topics:
 
-- [Aspose Pdf Importer](/aspose-pdf-importer-html/)
-- [Aspose Pdf Exporter](/aspose-pdf-exporter-html/)
+- [Aspose Pdf Importer](/aspose-pdf-importer/)
+- [Aspose Pdf Exporter](/aspose-pdf-exporter/)

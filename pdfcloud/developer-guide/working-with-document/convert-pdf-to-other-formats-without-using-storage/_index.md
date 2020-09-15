@@ -53,7 +53,7 @@ curl -v "http://api.aspose.cloud/v1.1/pdf/testing.pdf/SaveAs/tiff -X PUT -d {"ex
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 **Convert PDF to other Formats without using Storage**
 

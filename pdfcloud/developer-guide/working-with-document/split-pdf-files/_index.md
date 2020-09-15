@@ -94,7 +94,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4Pages.pdf/split?format=pdf&from
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 **Split PDF Files**
 

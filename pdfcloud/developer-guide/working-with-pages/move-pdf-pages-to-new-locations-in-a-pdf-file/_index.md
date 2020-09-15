@@ -76,7 +76,7 @@ curl -X POST http://api.aspose.cloud/v3.0/pdf/testing.pdf/pages/1/movePage?newIn
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 **Move PDF pages to new Location**
 

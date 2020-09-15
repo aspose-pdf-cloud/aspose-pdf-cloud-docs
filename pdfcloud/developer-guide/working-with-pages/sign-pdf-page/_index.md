@@ -83,7 +83,7 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/testing.pdf/pages/1/sign" \
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 **Sign a page in PDF**
 

@@ -5,7 +5,7 @@ url: /encrypting-and-decrypting-pdf-documents/
 weight: 120
 ---
 
-- [Certify a PDF Document](/certify-a-pdf-document-html/)
-- [Decrypting a PDF Document](/decrypting-a-pdf-document-html/)
-- [Encrypting PDF Documents](/encrypting-pdf-documents-html/)
-- [Read Document Signature Fields](/read-document-signature-fields-html/)
+- [Certify a PDF Document](/certify-a-pdf-document/)
+- [Decrypting a PDF Document](/decrypting-a-pdf-document/)
+- [Encrypting PDF Documents](/encrypting-pdf-documents/)
+- [Read Document Signature Fields](/read-document-signature-fields/)

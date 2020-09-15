@@ -64,7 +64,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/pages/1/certify?docMd
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 # **SDK Examples**
 ![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
 

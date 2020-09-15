@@ -326,4 +326,4 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/sample.pdf/pages/1/text" -X GET -H "Co
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)

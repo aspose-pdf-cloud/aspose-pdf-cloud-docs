@@ -545,4 +545,4 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/radiobutton/tes
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)

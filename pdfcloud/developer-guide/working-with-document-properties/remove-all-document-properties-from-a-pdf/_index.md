@@ -77,7 +77,7 @@ curl -v "http://api.aspose.cloud/v2.0/pdf/4pages.pdf/documentproperties" \
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 **Remove all document properties**
 

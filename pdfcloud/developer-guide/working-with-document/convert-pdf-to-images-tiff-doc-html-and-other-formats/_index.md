@@ -53,7 +53,7 @@ curl -v http://api.aspose.cloud/v1.1/pdf/testing.pdf?format=html -X GET -H "Cont
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 **Convert PDF to Images, TIFF, DOC, HTML and other Formats**
 

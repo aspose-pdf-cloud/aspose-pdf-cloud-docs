@@ -202,7 +202,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 **Add new page in PDF**
 
