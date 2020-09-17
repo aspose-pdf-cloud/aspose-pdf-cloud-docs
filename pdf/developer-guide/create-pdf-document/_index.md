@@ -11,11 +11,11 @@ Aspose.PDF Cloud API allows you to *create PDF* files from different file format
 
 The following articles explain a number of ways to create a PDF Document. Each article contains API detail, cURL and SDKs examples:
 
-1. [Create Empty PDF](/create-empty-pdf/)
-1. [Create PDF from HTML](/create-pdf-from-html/)
-1. [Create PDF from XML](/create-pdf-from-xml/)
-1. [Create a PDF Document from Images](/create-pdf-document-from-images/)
-1. [Create PDF from JPG, PNG or TIFF](/create-pdf-from-jpg-png-or-tiff/)
+1. [Create Empty PDF](/pdf/create-empty-pdf/)
+1. [Create PDF from HTML](/pdf/create-pdf-from-html/)
+1. [Create PDF from XML](/pdf/create-pdf-from-xml/)
+1. [Create a PDF Document from Images](/pdf/create-pdf-document-from-images/)
+1. [Create PDF from JPG, PNG or TIFF](/pdf/create-pdf-from-jpg-png-or-tiff/)
 
 
 
