@@ -52,13 +52,9 @@ Aspose.PDF Cloud allows you to update Form Fields to a PDF Document.
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -66,13 +62,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields?page=1" \
-
 -X PUT \
-
 -d "{'Name': 'checkBoxField2', 'Type': 'Boolean', 'Values': ['1'], 'Rect': {'X': '50', 'Y': '200', 'Width': '150', 'Height': '220'}}" -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

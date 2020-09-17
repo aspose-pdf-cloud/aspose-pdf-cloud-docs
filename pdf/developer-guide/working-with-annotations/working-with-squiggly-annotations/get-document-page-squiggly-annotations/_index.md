@@ -19,13 +19,9 @@ This example allows you to read Squiggly Annotations from a page of a PDF Docume
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -35,9 +31,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/pages/1/annotations/squiggly" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```

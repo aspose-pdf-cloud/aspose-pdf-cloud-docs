@@ -34,13 +34,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -48,13 +44,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/epub?srcPath=4pages.epub" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -105,13 +97,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -119,13 +107,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/web?url=https://www.nord.no/en/about/rules-regulations" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -176,13 +160,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -190,13 +170,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/latex?srcPath=textexample.tex" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -249,13 +225,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -263,11 +235,8 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/mht?srcPath=mhtexample.mht" \
-
 -X GET -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -327,13 +296,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -341,13 +306,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/web?url=https://www.nord.no/en/about/rules-regulations" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -400,13 +361,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -414,13 +371,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/ps?srcPath=typography.ps" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -473,13 +426,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -487,13 +436,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/xslfo?srcPath=XslfoExample.xslfo" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -546,13 +491,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -560,13 +501,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/xps?srcPath=simple.xps?url=https://www.nord.no/en/about/rules-regulations" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -619,13 +556,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -633,13 +566,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/svg?srcPath=simple.svg" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -704,13 +633,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -718,13 +643,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/doc?srcPath=sample.docx" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -777,13 +698,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -791,13 +708,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/pcl?srcPath=template.pcl" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -850,13 +763,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -864,13 +773,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/create/xml?srcPath=template.xml" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -923,13 +828,9 @@ The above API also supports the following request params
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -937,9 +838,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/create/markdown?srcPath=test.md" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: Bearer <jwt token>"
 
 ```

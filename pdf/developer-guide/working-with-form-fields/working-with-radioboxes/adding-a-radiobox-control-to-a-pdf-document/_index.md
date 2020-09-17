@@ -22,13 +22,9 @@ Aspose.PDF Cloud allows you to add a RadioBox fields to a PDF Document. The Aspo
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -36,13 +32,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/radiobutton" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>" \
-
 -H "Content-Type: application/json" \
-
 -d "[ { \"PartialName\": \"test1Field1\", \"Rect\": { \"LLX\": 100, \"LLY\": 100, \"URX\": 160, \"URY\": 140 }, \"PageIndex\": 1, \"IsGroup\": false, \"Color\": { \"A\": 255, \"R\": 255, \"G\": 0, \"B\": 0 }, \"Margin\": { \"Left\": 0, \"Right\": 0, \"Top\": 0, \"Bottom\": 0 }, \"Highlighting\": \"None\", \"HorizontalAlignment\": \"None\", \"VerticalAlignment\": \"None\", \"RadioButtonOptionsField\": [ { \"Rect\": { \"LLX\": 100, \"LLY\": 130, \"URX\": 160, \"URY\": 140 }, \"PageIndex\": 1, \"IsGroup\": false, \"Highlighting\": \"None\", \"HorizontalAlignment\": \"None\", \"VerticalAlignment\": \"None\", \"OptionName\": \"1\", \"Style\": \"Square\" }, { \"Rect\": { \"LLX\": 150, \"LLY\": 120, \"URX\": 160, \"URY\": 130 }, \"PageIndex\": 1, \"IsGroup\": false, \"Highlighting\": \"None\", \"HorizontalAlignment\": \"None\", \"VerticalAlignment\": \"None\", \"OptionName\": \"2\", \"Style\": \"Circle\" } ], \"Style\": \"Cross\", \"Selected\": 1 }]"
 
 ```

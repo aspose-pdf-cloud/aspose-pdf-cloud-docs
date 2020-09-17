@@ -19,13 +19,9 @@ This article explains how to create PDF file from JPG, PNG or TIFF using Aspose.
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -33,13 +29,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test\_jpeg.pdf/create/images" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token> \
-
 -H "Content-Type: application/json" \
-
 -d "{ \"IsOCR\": true, \"OCRLangs\": \"string\", \"ImagesList\": [ { \"ImagePath\": \"template.jpg\", \"ImageSrcType\": \"Common\", \"LeftMargin\": 0, \"RightMargin\": 0, \"TopMargin\": 10, \"BottomMargin\": 10, \"PageWidth\": 800, \"PageHeight\": 1000, \"MarginInfo\": { \"Left\": 10, \"Right\": 10, \"Top\": 10, \"Bottom\": 10 } } ]}"
 
 ```

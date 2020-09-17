@@ -30,13 +30,9 @@ Input File: [PDF With Forms](attachments/1245738/7209025.pdf)
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -44,13 +40,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithAcroForm.pdf/fields" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>" 
 
 ```

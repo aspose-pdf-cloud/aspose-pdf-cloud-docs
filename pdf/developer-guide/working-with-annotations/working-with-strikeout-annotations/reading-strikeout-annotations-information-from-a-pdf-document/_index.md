@@ -176,13 +176,9 @@ We have used [PdfWithAnnotations.pdf](attachments/7243085/7209030.pdf) for the e
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -190,9 +186,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/annotations/strikeout" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```

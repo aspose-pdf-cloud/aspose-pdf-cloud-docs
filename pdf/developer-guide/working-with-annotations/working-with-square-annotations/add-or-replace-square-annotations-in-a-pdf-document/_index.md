@@ -121,13 +121,9 @@ Suppose, we have the following **Square Annotation** information which need to b
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -135,13 +131,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/annotations/square" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token> \
-
 -H "Content-Type: application/json" \
-
 -d "[ { \"InteriorColor\": { \"A\": 255, \"R\": 220, \"G\": 220, \"B\": 220 }, \"Frame\": null, \"CreationDate\": \"02/25/2011 01:11:50.000 PM\", \"Subject\": \"Rectangle\", \"Title\": \"Maxim\", \"RichText\": \"<?xml version=\\\"1.0\\\"?><body xmlns=\\\"http://www.w3.org/1999/xhtml\\\" xmlns:xfa=\\\"http://www.xfa.org/schema/xfa-data/1.0/\\\" xfa:APIVersion=\\\"Acrobat:7.0.0\\\" xfa:spec=\\\"2.0.2\\\" ><p><span style=\\\"text-decoration:;font-size:10.0pt\\\">Contents</span></p></body>\", \"Color\": { \"A\": 255, \"R\": 70, \"G\": 162, \"B\": 185 }, \"Contents\": \"Contents\", \"Modified\": \"02/25/2011 01:14:50.000 PM\", \"Id\": \"GI5TKOZRGU2SYNRQHAWDEMJVFQ3DEOI\", \"Flags\": [ \"Print\" ], \"Name\": \"75131114-55b2-44e8-a28a-476fb5dab933\", \"Rect\": { \"LLX\": 155.131, \"LLY\": 608.948, \"URX\": 214.513, \"URY\": 628.461 }, \"PageIndex\": 2, \"ZIndex\": 0, \"HorizontalAlignment\": \"Left\", \"VerticalAlignment\": \"Top\", \"Links\": [ { \"Href\": \"/PdfWithAnnotations.pdf/annotations/square/GI5TKOZRGU2SYNRQHAWDEMJVFQ3DEOI\", \"Rel\": \"self\", \"Type\": null, \"Title\": null } ] }]"
 
 ```

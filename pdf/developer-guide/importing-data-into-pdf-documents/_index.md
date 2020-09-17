@@ -32,9 +32,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml?xmlFilePath=sample.pdf" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: Bearer <jwt token>
 
 ```
@@ -77,13 +75,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml?xmlFilePath
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -91,9 +85,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```
@@ -126,13 +118,9 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml" \
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -140,9 +128,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml?xmlFilePath=test.xml" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```
@@ -191,13 +177,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml?xmlFilePath
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -205,9 +187,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf?fdfFilePath=test.fdf" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: Bearer <jwt token>
 
 ```
@@ -250,13 +230,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf?fdfFilePath
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -264,9 +240,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```
@@ -315,13 +289,9 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf" \
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -329,9 +299,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf?fdfFilePath=test.fdf" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```
@@ -380,13 +348,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf?fdfFilePath
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -394,9 +358,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf?xfdfFilePath=test.xfdf" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: Bearer <jwt token>
 
 ```
@@ -445,13 +407,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf?xfdfFilePa
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -459,9 +417,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```
@@ -504,13 +460,9 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf" \
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -518,9 +470,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf?xfdfFilePath=test.xfdf" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```

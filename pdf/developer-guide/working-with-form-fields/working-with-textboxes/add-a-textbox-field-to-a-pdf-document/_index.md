@@ -22,13 +22,9 @@ Aspose.PDF Cloud allows you to add a TextBox fields from a PDF Document. The Asp
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -36,13 +32,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/textbox" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>" \
-
 -H "Content-Type: application/json" \
-
 -d "[ { \"PartialName\": \"checkBoxField22\", \"Rect\": { \"LLX\": 0, \"LLY\": 0, \"URX\": 0, \"URY\": 0 }, \"Value\": null, \"PageIndex\": 2, \"Height\": 10, \"Width\": 10, \"ZIndex\": 0, \"IsGroup\": true, \"IsSharedField\": true, \"Flags\": [ \"Default\" ], \"Color\": { \"A\": 255, \"R\": 0, \"G\": 0, \"B\": 0 }, \"Contents\": null, \"Margin\": { \"Left\": 10, \"Right\": 10, \"Top\": 10, \"Bottom\": 10 }, \"Highlighting\": \"Invert\", \"HorizontalAlignment\": \"Left\", \"VerticalAlignment\": \"TOP\", \"Multiline\": true, \"SpellCheck\": true, \"Scrollable\": true, \"ForceCombs\": true, \"MaxLen\": 0, }]"
 
 ```

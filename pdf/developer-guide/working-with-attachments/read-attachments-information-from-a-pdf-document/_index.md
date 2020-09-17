@@ -28,13 +28,9 @@ We have used [PdfWithEmbeddedFiles.pdf](attachments/1245466/7209029.pdf) as an e
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -42,9 +38,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/PdfWithEmbeddedFiles.pdf/attachments" \
-
 -H "Content-Type:application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

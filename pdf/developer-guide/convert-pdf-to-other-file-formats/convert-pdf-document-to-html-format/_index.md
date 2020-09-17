@@ -29,17 +29,12 @@ We have provided a separate API for each of the following use case:
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -47,9 +42,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 // cURL example to convert PDF Document to HTML Format
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/convert/html?outPath=result.html&additionalMarginWidthInPoints=10&compressSvgGraphicsIfAny=true&convertMarkedContentToLayers=true&defaultFontName=tahoma&documentType=Html5&fixedLayout=true&flowLayoutParagraphFullWidth=true&outputFormat=Zip" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>
 
 ```

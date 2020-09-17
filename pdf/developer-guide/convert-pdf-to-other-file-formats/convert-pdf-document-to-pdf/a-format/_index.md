@@ -37,17 +37,12 @@ We have provided a sparate API for each of the following use case:
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 

@@ -28,13 +28,9 @@ We have used [PdfWithEmbeddedFiles.pdf](https://docs.aspose.cloud/download/atta
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -42,11 +38,8 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithEmbeddedFiles.pdf/attachments/1" \
-
 -X GET\
-
 -H "Content-Type:application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

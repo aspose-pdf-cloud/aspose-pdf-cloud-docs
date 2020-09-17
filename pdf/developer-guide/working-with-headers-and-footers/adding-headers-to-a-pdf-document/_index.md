@@ -25,13 +25,9 @@ Aspose.PDF Cloud allows you to add Header to a PDF Document. Aspose.PDF Cloud su
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -73,13 +69,9 @@ curl -v "http://api-qa.aspose.cloud/v3.0/pdf/4pages.pdf/header/text" -X POST -H 
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```

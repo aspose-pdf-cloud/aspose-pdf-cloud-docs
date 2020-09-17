@@ -27,15 +27,10 @@ curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant\_type=client\_
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?ocr=false" \
-
 -X PUT \
-
 -d '{ "ImagesList": [ "33539.jpg", "44781.jpg"] }' \
-
 -H 'Accept: application/json' \
-
 -H 'Content-Type: application/json' \
-
 -H 'Authorization: Bearer qexxj5qRXa4A0Tda1b49xnoqqw5gukzwTED1q8ZFE5Cl3oiI\_y8mNd0XNOwKMVwBqylNyEtufG8YrDqfLVjW8YeeXVz5P---L1oLo\_mIdr3W1Fdy\_Vmwyw7l0AN2vGMJ4QhZEt5vtttLBJEi2HgBXQQIkvfoIyi8iHQzEoooGYHSQqeXAZ3yCBO1tMeg0rTRvyjUHOM0ULsOR6j5Jme06MBcQLkEid9QbibrrwdfkixiAkSCGJnDanZT\_edoFoJNM31vVPdNSHXvH7XCOW3-J\_YMcV0L4GMU6r7Iq7hVEznfqgivKrLpcBVoaKo-5wCNVQILe-Qul7VW-QpkWs6uawfiT2Wa8VrDjCZMYuhD93Yoq4CxrQKLZnDSesNHbJ6-Pkv6MHdsT8Pqo3Gvt9-G1qshkOAEzb8tEUWePSay6kFk4Gjc'
 
 ```

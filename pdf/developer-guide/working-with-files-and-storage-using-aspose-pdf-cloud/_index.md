@@ -23,13 +23,9 @@ Aspose.PF Cloud provides helper functions to work with files uploaded to Aspose
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -37,9 +33,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/storage/file/4pages.pdf" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: Bearer <JWT Token>"
 
 ```
@@ -73,13 +67,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/storage/file/4pages.pdf" \
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -87,13 +77,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/test.pdf" \
-
 -H "accept: application/json" \
-
 -H "Content-Type: multipart/form-data" \
-
 -T C:/test.pdf \
-
 -H "authorization: Bearer <jwt token>"
 
 ```
@@ -147,13 +133,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/test.pdf" \
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -161,9 +143,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/copy/4pages.pdf?destPath=temp%2F4pages.pdf&srcStorageName=First%20Storage" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>"
 
 ```
@@ -197,13 +177,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/copy/4pages.pdf?dest
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -211,9 +187,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/move/test.pdf?destPath=temp%2Ftest.pdf&srcStorageName=First%20Storage" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>" 
 
 ```
@@ -247,13 +221,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/move/test.pdf?destPa
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -261,9 +231,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X DELETE "https://api.aspose.cloud/v3.0/pdf/storage/file/test.pdf?storageName=First%20Storage" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>"
 
 ```

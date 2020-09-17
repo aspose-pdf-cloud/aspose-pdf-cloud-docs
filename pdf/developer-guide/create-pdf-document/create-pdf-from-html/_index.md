@@ -33,7 +33,6 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4pages.pdf&htmlFileName=HtmlExample1.html&height=800&width=600&
 
 isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
-
 -H "accept: application/json" 
 
 -H "authorization: Bearer Bearer <jwt tokon>" 

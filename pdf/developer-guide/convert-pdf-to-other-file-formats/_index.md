@@ -102,15 +102,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/html?outPath=result.zip" \
-
 -X PUT \
-
 -T 4pages.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
@@ -174,15 +169,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/tiff?outPath=result.tiff" \
-
 -X PUT \
-
 -T Sample.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr\_5xY4iSuSAgCI\_Ff\_ZZj0omRFC8HX4i79YdgyvKl7\_rw\_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK\_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS\_nu5CdmrTNkznwyWXQgYsN\_rdTTqs8v80WUURCTqbbLyCRuB\_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K\_9O9zU"
 
 ```
@@ -246,15 +236,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/svg?outPath=result.svg" \
-
 -X PUT \
-
 -T Sample.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr\_5xY4iSuSAgCI\_Ff\_ZZj0omRFC8HX4i79YdgyvKl7\_rw\_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK\_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS\_nu5CdmrTNkznwyWXQgYsN\_rdTTqs8v80WUURCTqbbLyCRuB\_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K\_9O9zU"
 
 ```
@@ -314,15 +299,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/epub?outPath=result.epub" \
-
 -X PUT \
-
 -T 4pages.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer mgKu2PBimT9Mw4wfpefhJ9vYjmzauI0q6aL-u7I\_Pl4tXMlOSOnyOyeBqcgI1318GsYM8JL7AZDGstr7oKxkixwMq24oZZiCNPcIe6w8P43vYDSRjjjpEfJzps-XLbzzTyUYEIJ2X2yi0UbsKpChDPdSq81PqDnjjhmpyuFqfOX1htNrnTZzpqc\_IoIDkrb4h0DWPtFqjnfjaPgV9P5msTS807qSHUMzgwj7l\_tM1LhJWBP5rOuy35DCC0W9Tlb-HgR3MpdqVC99uctz9dCi\_uo5lnwueCzLkFYovioyBbOrxKIyiZN42Qc9nlFshho1PLnNMvy42eO9VZFAe3hk3rZQCnvQmUL828P8VYk0\_hWFuUKWZDVvp4ch9B1ZZqdT4Ai\_ND2aUHSnp49Voyd7BQIcddPI-M4Km2Yth6mryTlBTnY-"
 
 ```
@@ -382,15 +362,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/pptx?outPath=result.pptx" \
-
 -X PUT \
-
 -T 4pages.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
@@ -450,15 +425,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/latex?outPath=result.latex" \
-
 -X PUT \
-
 -T 4pages.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
@@ -518,15 +488,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/mobixml?outPath=result.mobi" \
-
 -X PUT \
-
 -T 4pages.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
@@ -586,15 +551,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xfatoacroform?outPath=result.pdf" \
-
 -X PUT \
-
 -T PdfWithXfaForm.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
@@ -654,15 +614,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xml?outPath=result.xml" \
-
 -X PUT \
-
 -T 4pages.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
@@ -722,15 +677,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xps?outPath=result.xps" \
-
 -X PUT \
-
 -T Sample.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr\_5xY4iSuSAgCI\_Ff\_ZZj0omRFC8HX4i79YdgyvKl7\_rw\_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK\_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS\_nu5CdmrTNkznwyWXQgYsN\_rdTTqs8v80WUURCTqbbLyCRuB\_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K\_9O9zU"
 
 ```
@@ -790,15 +740,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xls?outPath=result.xls" \
-
 -X PUT \
-
 -T Sample.pdf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr\_5xY4iSuSAgCI\_Ff\_ZZj0omRFC8HX4i79YdgyvKl7\_rw\_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK\_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS\_nu5CdmrTNkznwyWXQgYsN\_rdTTqs8v80WUURCTqbbLyCRuB\_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K\_9O9zU"
 
 ```

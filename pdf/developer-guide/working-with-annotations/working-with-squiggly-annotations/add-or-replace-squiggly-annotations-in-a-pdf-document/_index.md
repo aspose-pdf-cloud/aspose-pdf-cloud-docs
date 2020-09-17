@@ -159,13 +159,9 @@ Suppose, we have the following **Squiggly Annotation** information which need to
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -173,13 +169,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/annotations/squiggly" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token> \
-
 -H "Content-Type: application/json" \
-
 -d "[ { \"QuadPoints\": [ { \"X\": 71.1594, \"Y\": 402.692 }, { \"X\": 129.095, \"Y\": 402.692 }, { \"X\": 71.1594, \"Y\": 390.109 }, { \"X\": 129.095, \"Y\": 390.109 } ], \"CreationDate\": \"02/25/2011 01:40:45.000 PM\", \"Subject\": \"Underline\", \"Title\": \"Maxim\", \"RichText\": \"<?xml version=\\\"1.0\\\"?><body xmlns=\\\"http://www.w3.org/1999/xhtml\\\" xmlns:xfa=\\\"http://www.xfa.org/schema/xfa-data/1.0/\\\" xfa:APIVersion=\\\"Acrobat:7.0.0\\\" xfa:spec=\\\"2.0.2\\\" ><p><span style=\\\"text-decoration:;font-size:10.0pt\\\">Contents</span></p></body>\", \"Color\": { \"A\": 255, \"R\": 70, \"G\": 162, \"B\": 185 }, \"Contents\": \"Contents\", \"Modified\": \"02/25/2011 01:41:38.000 PM\", \"Id\": \"GI5TSOZWG4WDGOBZFQYTGMZMGQYDI\", \"Flags\": [ \"Print\" ], \"Name\": \"a8111b25-b071-4a9f-a004-26f750cc715e\", \"Rect\": { \"LLX\": 67.6935, \"LLY\": 389.609, \"URX\": 132.561, \"URY\": 403.192 }, \"PageIndex\": 2, \"ZIndex\": 0, \"HorizontalAlignment\": \"Left\", \"VerticalAlignment\": \"Top\", \"Links\": [ { \"Href\": \"/PdfWithAnnotations.pdf/annotations/squiggly/GI5TSOZWG4WDGOBZFQYTGMZMGQYDI\", \"Rel\": \"self\", \"Type\": null, \"Title\": null } ] }]"
 
 ```

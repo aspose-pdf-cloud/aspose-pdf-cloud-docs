@@ -65,13 +65,9 @@ curl -v "http://api-qa.aspose.cloud/v2.0/pdf/4pages.pdf/footer/text" -X POST -H 
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```

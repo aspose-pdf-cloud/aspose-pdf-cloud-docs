@@ -29,13 +29,9 @@ All the below operation convert the PDF Page to a Image File and the resultant f
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -45,9 +41,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/tiff?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>"
 
 ```
@@ -74,9 +68,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant\_type=client\_
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/jpeg?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>"
 
 ```
@@ -95,13 +87,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/jpeg?w
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -111,9 +99,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/png?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>" --output 4pages.png
 
 ```
@@ -132,13 +118,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/png?wi
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -148,9 +130,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/emf?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>" --output test.emf
 
 ```
@@ -169,13 +149,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/emf?wi
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -185,9 +161,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/bmp?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>" --output test.bmp
 
 ```
@@ -206,13 +180,9 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/bmp?wi
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -222,9 +192,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/gif?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>" --output test.gif
 
 ```
@@ -256,13 +224,9 @@ All the below operation convert the PDF Page to a Image File and the resultant f
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -272,9 +236,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/tiff?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>"
 
 ```
@@ -303,13 +265,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/tiff?w
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -319,9 +277,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/jpeg?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>"
 
 ```
@@ -350,13 +306,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/jpeg?w
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -366,9 +318,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/png?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>"
 
 ```
@@ -397,13 +347,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/png?wi
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -413,9 +359,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/emf?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>"
 
 ```
@@ -444,13 +388,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/emf?wi
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -460,9 +400,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/bmp?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>"
 
 ```
@@ -491,13 +429,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/bmp?wi
 ```html
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -507,9 +441,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/gif?width=800&height=600" \
-
 -H "accept: multipart/form-data" \
-
 -H "authorization: <jwt token>"
 
 ```

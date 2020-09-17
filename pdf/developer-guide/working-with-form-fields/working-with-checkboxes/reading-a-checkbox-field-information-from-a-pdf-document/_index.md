@@ -22,13 +22,9 @@ Aspose.PDF Cloud allows you to read a CheckBoxes field information from a PDF Do
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -36,9 +32,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/checkbox/testField" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>"
 
 ```

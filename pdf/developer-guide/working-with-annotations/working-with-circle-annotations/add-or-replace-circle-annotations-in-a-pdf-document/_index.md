@@ -131,13 +131,9 @@ Suppose, we have the following **Circle Annotation** information which need to b
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -145,13 +141,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/2/annotations/circle" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token> \
-
 -H "Content-Type: application/json" \
-
 -d "[ { \"InteriorColor\": { \"A\": 255, \"R\": 220, \"G\": 220, \"B\": 220 }, \"Frame\": { \"LLX\": 7.97098, \"LLY\": 8.44714, \"URX\": 7.97102, \"URY\": 8.44716 }, \"CreationDate\": \"02/25/2011 01:15:27.000 PM\", \"Subject\": \"Oval\", \"Title\": \"Maxim\", \"RichText\": \"<?xml version=\\\"1.0\\\"?><body xmlns=\\\"http://www.w3.org/1999/xhtml\\\" xmlns:xfa=\\\"http://www.xfa.org/schema/xfa-data/1.0/\\\" xfa:APIVersion=\\\"Acrobat:7.0.0\\\" xfa:spec=\\\"2.0.2\\\" ><p><span style=\\\"text-decoration:;font-size:10.0pt\\\">Contents</span></p></body>\", \"Color\": { \"A\": 255, \"R\": 70, \"G\": 162, \"B\": 185 }, \"Contents\": \"Contents\", \"Modified\": \"02/25/2011 01:16:18.000 PM\", \"Id\": \"GI5TCOZRGU2SYNJWGMWDEMJWFQ3DAMA\", \"Flags\": [ \"Print\" ], \"Name\": \"7aea0d97-9c56-449f-b716-73e1612c83f8\", \"Rect\": { \"LLX\": 155.666, \"LLY\": 563.26, \"URX\": 215.439, \"URY\": 599.148 }, \"PageIndex\": 2, \"ZIndex\": 0, \"HorizontalAlignment\": \"Left\", \"VerticalAlignment\": \"Top\", \"Links\": [ { \"Href\": \"/PdfWithAnnotations.pdf/annotations/circle/GI5TCOZRGU2SYNJWGMWDEMJWFQ3DAMA\", \"Rel\": \"self\", \"Type\": null, \"Title\": null } ] }]"
 
 ```

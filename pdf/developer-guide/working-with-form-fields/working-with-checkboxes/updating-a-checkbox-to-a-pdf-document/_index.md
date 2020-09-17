@@ -22,13 +22,9 @@ Aspose.PDF Cloud allows you to update a TextBox fields from a PDF Document. The 
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -36,13 +32,9 @@ curl -v "https://api.aspose.cloud/connect/token" \
 ```java
 
 curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/checkbox/testField" \
-
 -H "accept: application/json" \
-
 -H "authorization: Bearer <jwt token>" \
-
 -H "Content-Type: application/json" \
-
 -d "{ \"PartialName\": \"testField\", \"Rect\": { \"LLX\": 100, \"LLY\": 100, \"URX\": 200, \"URY\": 200 }, \"PageIndex\": 1, \"IsGroup\": false, \"Color\": { \"A\": 255, \"R\": 255, \"G\": 0, \"B\": 0 }, \"Highlighting\": \"None\", \"HorizontalAlignment\": \"None\", \"VerticalAlignment\": \"None\", \"Style\": \"Cross\", \"Checked\": true, \"ExportValue\": \"true\" }, { \"PartialName\": \"testField1\", \"Rect\": { \"LLX\": 200, \"LLY\": 200, \"URX\": 400, \"URY\": 400 }, \"PageIndex\": 1, \"IsGroup\": false, \"Color\": { \"A\": 255, \"R\": 0, \"G\": 255, \"B\": 0 }, \"Highlighting\": \"None\", \"HorizontalAlignment\": \"None\", \"VerticalAlignment\": \"None\", \"Style\": \"Diamond\", \"Checked\": false, \"ExportValue\": \"false\"}"
 
 ```
