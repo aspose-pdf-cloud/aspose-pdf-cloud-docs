@@ -8,10 +8,10 @@ weight: 170
 ## **Introduction**
 Using Aspose.PDF Cloud allows you to add Stamp Information to a PDF Document. 
 ### **Stamp Types**
-- [Text Stamp](/add-text-stamp-watermark-to-a-pdf-page/)
-- [Image Stamp](/add-image-stamp-watermark-to-a-pdf-page/)
-- [PDF File as a stamp](/add-pdf-page-as-stamp-watermark-to-a-pdf-page/)
-- [Page N of N Stamp](/add-page-number-stamp-to-a-pdf-page/)
+- [Text Stamp](/pdf/add-text-stamp-watermark-to-a-pdf-page/)
+- [Image Stamp](/pdf/add-image-stamp-watermark-to-a-pdf-page/)
+- [PDF File as a stamp](/pdf/add-pdf-page-as-stamp-watermark-to-a-pdf-page/)
+- [Page N of N Stamp](/pdf/add-page-number-stamp-to-a-pdf-page/)
 ### **API Information**
 The Aspose.PDF Cloud API uses the following API Resource Properties for adding stamps to a PDF Document
 

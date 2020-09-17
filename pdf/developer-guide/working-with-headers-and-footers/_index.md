@@ -5,5 +5,5 @@ url: /working-with-headers-and-footers/
 weight: 130
 ---
 
-- [Adding Headers to a PDF Document](/adding-headers-to-a-pdf-document/)
-- [Adding Footers to a PDF Document](/adding-footers-to-a-pdf-document/)
+- [Adding Headers to a PDF Document](/pdf/adding-headers-to-a-pdf-document/)
+- [Adding Footers to a PDF Document](/pdf/adding-footers-to-a-pdf-document/)

@@ -5,5 +5,5 @@ url: /working-with-tables-in-pdf-documents/
 weight: 90
 ---
 
-- [Adding a Table in a PDF Document](/adding-a-table-in-a-pdf-document/)
-- [Reading Table Information from a PDF Document](/reading-table-information-from-a-pdf-document/)
+- [Adding a Table in a PDF Document](/pdf/adding-a-table-in-a-pdf-document/)
+- [Reading Table Information from a PDF Document](/pdf/reading-table-information-from-a-pdf-document/)
