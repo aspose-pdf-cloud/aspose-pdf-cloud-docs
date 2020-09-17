@@ -8,16 +8,16 @@ weight: 20
 ---
 
 ## **Aspose.PDF for Cloud Features**
-#### **General**
+### **General**
 - REST based API
 - Platform Independent
 - Integrates with other cloud services
-#### **Storage**
+### **Storage**
 - Work with Aspose for Cloud storage
 - Work with [third party storages](https://docs.aspose.cloud/display/totalcloud/How+to+Configure+3rd+Party+Cloud+Storages)
 - Work with documents (using URL) stored at remote servers
 - Store output documents to Aspose for Cloud or [third party storages](https://docs.aspose.cloud/display/totalcloud/How+to+Configure+3rd+Party+Cloud+Storages)
-#### **Document**
+### **Document**
 - Create PDF documents from different formats
   - Empty PDF
   - HTML
@@ -44,7 +44,7 @@ weight: 20
   - Set a particular property
   - Remove all properties
 - Get page count
-#### **Page**
+### **Page**
 - Add, copy, move or delete PDF pages
 - Convert all or specific pages to other formats
 - Get page count
@@ -52,12 +52,12 @@ weight: 20
   - text
   - image
   - PDF page
-#### **Form Fields**
+### **Form Fields**
 - Update form fields
 - Get all form fields
 - Get a particular form field
 - Get form field count
-#### **Text**
+### **Text**
 - Replace
   - single text instance in a PDF file
   - single text instance in a PDF page
@@ -76,7 +76,7 @@ weight: 20
 - Get fragment count from a particular page
 - Get segment count from a particular fragment
 - Get text format
-#### **Images**
+### **Images**
 - Replace Images in a PDF file
 - Extract images from the PDF
   - with default size
@@ -85,44 +85,44 @@ weight: 20
 - Convert PDF pages to images
   - with default size
   - with specified size
-#### **Annotations**
+### **Annotations**
 - Get all annotations from a PDF page
 - Get a specific annotation from a PDF page
 - Get annotation count from a PDF page
-#### **Line Annotations**
+### **Line Annotations**
 - Get all line annotations from a PDF page
 - Get page line annotations
 - Get line annotation by ID
 - Update line annotation
-#### **Circle Annotations**
+### **Circle Annotations**
 - Get all circle annotations from a PDF page
 - Get page circle annotations
 - Get circle annotation by ID
 - Update circle annotation
-#### **Square Annotations**
+### **Square Annotations**
 - Get all square annotations from a PDF page
 - Get page square annotations
 - Get square annotation by ID
 - Update square annotation
-#### **Underline Annotations**
+### **Underline Annotations**
 - Get all underline annotations from a PDF page
 - Get page underline annotations
 - Get underline annotation by ID
 - Update underline annotation
-#### **Squiggly Annotations**
+### **Squiggly Annotations**
 - Get all squiggly annotations from a PDF page
 - Get page squiggly annotations
 - Get squiggly annotation by ID
 - Update squiggly annotation
-#### **Bookmark**
+### **Bookmark**
 - Get all bookmarks from a PDF
 - Get a specific bookmark from a PDF
 - Get bookmark count from a PDF
-#### **Link**
+### **Link**
 - Get all links from a PDF page
 - Get a specific link from a PDF page
 - Get link count from a PDF page
-#### **Attachment**
+### **Attachment**
 - Get all attachments from a PDF
 - Get a specific attachment from a PDF
 - Get attachment count from a PDF
