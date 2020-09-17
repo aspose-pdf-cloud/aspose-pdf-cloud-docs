@@ -20,7 +20,7 @@ This article explains how to create PDF file from JPG, PNG or TIFF using Aspose.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -28,7 +28,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 ```java
 
-curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test\_jpeg.pdf/create/images" \
+curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 -H "accept: application/json" \
 -H "authorization: Bearer <jwt token> \
 -H "Content-Type: application/json" \
@@ -528,7 +528,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Document-create\_pdf\_from\_tiff-.rb" >}}
+{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Document-create_pdf_from_tiff-.rb" >}}
 
 {{< /tab >}}
 

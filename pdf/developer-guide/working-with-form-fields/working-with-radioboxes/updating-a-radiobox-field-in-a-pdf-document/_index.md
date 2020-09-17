@@ -23,7 +23,7 @@ Aspose.PDF Cloud allows you to update a RadioBox fields in a PDF Document. The A
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 

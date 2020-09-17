@@ -10,7 +10,7 @@ You can install AsposePDFCloud with gem:
 
 ```java
 
-gem install aspose\_pdf\_cloud
+gem install aspose_pdf_cloud
 
 ```
 ### **Source Code**

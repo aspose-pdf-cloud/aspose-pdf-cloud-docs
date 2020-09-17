@@ -33,13 +33,13 @@ This example allows you to extract a particular image from a PDF page using Aspo
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/jpeg" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6\_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X\_j8o3ecgUnla\_IgdUYlTMC96eUroh\_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04\_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/jpeg" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X_j8o3ecgUnla_IgdUYlTMC96eUroh_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
 
 ```
 
@@ -67,13 +67,13 @@ Binary Data
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" \-X POST \-d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \-H "Content-Type: application/x-www-form-urlencoded" \-H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" \-X POST \-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \-H "Content-Type: application/x-www-form-urlencoded" \-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/jpeg" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6\_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X\_j8o3ecgUnla\_IgdUYlTMC96eUroh\_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04\_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/jpeg" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X_j8o3ecgUnla_IgdUYlTMC96eUroh_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
 
 ```
 
@@ -116,13 +116,13 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5T
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" \-X POST \-d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \-H "Content-Type: application/x-www-form-urlencoded" \-H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" \-X POST \-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \-H "Content-Type: application/x-www-form-urlencoded" \-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/tiff" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6\_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X\_j8o3ecgUnla\_IgdUYlTMC96eUroh\_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04\_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/tiff" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X_j8o3ecgUnla_IgdUYlTMC96eUroh_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
 
 ```
 
@@ -150,13 +150,13 @@ Binary Data
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" \-X POST \-d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \-H "Content-Type: application/x-www-form-urlencoded" \-H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" \-X POST \-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \-H "Content-Type: application/x-www-form-urlencoded" \-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/tiff" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6\_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X\_j8o3ecgUnla\_IgdUYlTMC96eUroh\_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04\_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/tiff" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X_j8o3ecgUnla_IgdUYlTMC96eUroh_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
 
 ```
 
@@ -199,13 +199,13 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5T
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" \-X POST \-d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \-H "Content-Type: application/x-www-form-urlencoded" \-H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" \-X POST \-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \-H "Content-Type: application/x-www-form-urlencoded" \-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/gif" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6\_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X\_j8o3ecgUnla\_IgdUYlTMC96eUroh\_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04\_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/gif" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X_j8o3ecgUnla_IgdUYlTMC96eUroh_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
 
 ```
 
@@ -233,13 +233,13 @@ Binary Data
 
 ```java
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/giff" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6\_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X\_j8o3ecgUnla\_IgdUYlTMC96eUroh\_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04\_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/giff" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X_j8o3ecgUnla_IgdUYlTMC96eUroh_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
 
 ```
 
@@ -282,13 +282,13 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5T
 
 ```java
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/png" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6\_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X\_j8o3ecgUnla\_IgdUYlTMC96eUroh\_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04\_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/png" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X_j8o3ecgUnla_IgdUYlTMC96eUroh_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
 
 ```
 
@@ -316,13 +316,13 @@ Binary Data
 
 ```java
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/png" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6\_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X\_j8o3ecgUnla\_IgdUYlTMC96eUroh\_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04\_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5TQNRMGU4DELBSHEYCYNZYGY/extract/png" -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ICquFamF6_KpGOeV0z12skg9hZcFMrxH4XULtscXPUkCjboj0oS8uIA9NoQy3L7AKxm4r3wtePpMbr-ahzzqD8vy5PGP9iHhmufU9lDMqmOsJPClT8O5kjjiTUNeu1r2AhFU8HSq7plUC7oLq1Ryj-ecVZFxVGx7azow8X_j8o3ecgUnla_IgdUYlTMC96eUroh_B2LD6OfnZfCQO1QbYGQZhCFIEsvyFiMUNJzHltlHG6yG0fFC5j7-x8C4dE7yYPq9YglPek3zAxZKS32lQG-m0NbF6Ckox50BvutEmBekOykKjmwjdZqx-6eDQL6js2V-RagtdVTyI8jhmwbVdyPf4aoAzZt01JzxFIto8UHzutjrBnGm0MidY80UgFRuO04_9RqxAUoPFbiTINO0XLXucal4G266HcCt19b2kNEN3tIV"
 
 ```
 

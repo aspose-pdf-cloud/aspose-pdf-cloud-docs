@@ -25,13 +25,13 @@ This example allows you to export data from PDF Documents to a variety of File F
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xml" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjcwNjczMTMsImV4cCI6MTU2NzE1MzcxMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.cDfobSCDhKyoaqYib2esXXPvWvDWvFzfFVw7x-VTjgUcnYV1wC-vYn6zgebYMExPwAPCCMflNw4Uwc1Zi\_MQxjAdKeUoetesAySW6yQs5pzIq4ifvwxYDoyd6P64cDP8GCveIfr4CqI\_9UU9hernKXk3nBCSj7CKHe8YC7WrlJDmnNm8cFKUFNFHu1ZIzhZX2Xw-B6z8KfNRIaFi5NGGGW-\_MYesaqGuoMLM7IkP2C5XzlyvuvH2pFFYVA7roeMPksCXm233dmPQe4xmnePKO1HQoIkQYPFmdBWokDl\_T1745L2uCynkE-ul7l7wuwc1SRTjkrHV\_X7Dp5Qt8DW-1g"
+curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xml" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjcwNjczMTMsImV4cCI6MTU2NzE1MzcxMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.cDfobSCDhKyoaqYib2esXXPvWvDWvFzfFVw7x-VTjgUcnYV1wC-vYn6zgebYMExPwAPCCMflNw4Uwc1Zi_MQxjAdKeUoetesAySW6yQs5pzIq4ifvwxYDoyd6P64cDP8GCveIfr4CqI_9UU9hernKXk3nBCSj7CKHe8YC7WrlJDmnNm8cFKUFNFHu1ZIzhZX2Xw-B6z8KfNRIaFi5NGGGW-_MYesaqGuoMLM7IkP2C5XzlyvuvH2pFFYVA7roeMPksCXm233dmPQe4xmnePKO1HQoIkQYPFmdBWokDl_T1745L2uCynkE-ul7l7wuwc1SRTjkrHV_X7Dp5Qt8DW-1g"
 
 ```
 
@@ -83,13 +83,13 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xml" -H "accept
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xfdf" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjcwNjczMTMsImV4cCI6MTU2NzE1MzcxMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.cDfobSCDhKyoaqYib2esXXPvWvDWvFzfFVw7x-VTjgUcnYV1wC-vYn6zgebYMExPwAPCCMflNw4Uwc1Zi\_MQxjAdKeUoetesAySW6yQs5pzIq4ifvwxYDoyd6P64cDP8GCveIfr4CqI\_9UU9hernKXk3nBCSj7CKHe8YC7WrlJDmnNm8cFKUFNFHu1ZIzhZX2Xw-B6z8KfNRIaFi5NGGGW-\_MYesaqGuoMLM7IkP2C5XzlyvuvH2pFFYVA7roeMPksCXm233dmPQe4xmnePKO1HQoIkQYPFmdBWokDl\_T1745L2uCynkE-ul7l7wuwc1SRTjkrHV\_X7Dp5Qt8DW-1g"
+curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xfdf" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjcwNjczMTMsImV4cCI6MTU2NzE1MzcxMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.cDfobSCDhKyoaqYib2esXXPvWvDWvFzfFVw7x-VTjgUcnYV1wC-vYn6zgebYMExPwAPCCMflNw4Uwc1Zi_MQxjAdKeUoetesAySW6yQs5pzIq4ifvwxYDoyd6P64cDP8GCveIfr4CqI_9UU9hernKXk3nBCSj7CKHe8YC7WrlJDmnNm8cFKUFNFHu1ZIzhZX2Xw-B6z8KfNRIaFi5NGGGW-_MYesaqGuoMLM7IkP2C5XzlyvuvH2pFFYVA7roeMPksCXm233dmPQe4xmnePKO1HQoIkQYPFmdBWokDl_T1745L2uCynkE-ul7l7wuwc1SRTjkrHV_X7Dp5Qt8DW-1g"
 
 ```
 
@@ -145,13 +145,13 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xfdf" -H "accep
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/fdf" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjcwNjczMTMsImV4cCI6MTU2NzE1MzcxMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.cDfobSCDhKyoaqYib2esXXPvWvDWvFzfFVw7x-VTjgUcnYV1wC-vYn6zgebYMExPwAPCCMflNw4Uwc1Zi\_MQxjAdKeUoetesAySW6yQs5pzIq4ifvwxYDoyd6P64cDP8GCveIfr4CqI\_9UU9hernKXk3nBCSj7CKHe8YC7WrlJDmnNm8cFKUFNFHu1ZIzhZX2Xw-B6z8KfNRIaFi5NGGGW-\_MYesaqGuoMLM7IkP2C5XzlyvuvH2pFFYVA7roeMPksCXm233dmPQe4xmnePKO1HQoIkQYPFmdBWokDl\_T1745L2uCynkE-ul7l7wuwc1SRTjkrHV\_X7Dp5Qt8DW-1g"
+curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/fdf" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjcwNjczMTMsImV4cCI6MTU2NzE1MzcxMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.cDfobSCDhKyoaqYib2esXXPvWvDWvFzfFVw7x-VTjgUcnYV1wC-vYn6zgebYMExPwAPCCMflNw4Uwc1Zi_MQxjAdKeUoetesAySW6yQs5pzIq4ifvwxYDoyd6P64cDP8GCveIfr4CqI_9UU9hernKXk3nBCSj7CKHe8YC7WrlJDmnNm8cFKUFNFHu1ZIzhZX2Xw-B6z8KfNRIaFi5NGGGW-_MYesaqGuoMLM7IkP2C5XzlyvuvH2pFFYVA7roeMPksCXm233dmPQe4xmnePKO1HQoIkQYPFmdBWokDl_T1745L2uCynkE-ul7l7wuwc1SRTjkrHV_X7Dp5Qt8DW-1g"
 
 ```
 

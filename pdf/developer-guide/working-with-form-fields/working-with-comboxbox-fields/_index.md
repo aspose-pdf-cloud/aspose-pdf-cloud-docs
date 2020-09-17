@@ -25,13 +25,13 @@ Aspose.PDF Cloud allows you to work with ComboBox Field to a PDF Document. The A
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
- curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/combobox" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzgyOTE5MzIsImV4cCI6MTU3ODM3ODMzMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiI2NTk5ODQiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.KnMOG8pXUaRyP\_ScuevLYt8rmY8yixXAOa1mYKDiXE8YOqH3CtkmXkeoUOxUcV7jY-GfkvP6yQUhWw79O16IJJSBeIUhiT-BG30p36P635fqVnnuknYhOfrXqvBYt68ma7wuuwotAy96nNE2kPV8SGEewHyx8EutbqXIhuqM\_B7kztLVmCy7RS9Q\_NrYr0imb1mfO5vVQMhi4uhAqinpNjR2m4aP9RWoRec4y\_N1ft2H9DK1CxbqhV8WsshXDbtPqAQgO2ujOL7Z0eMRic3w0GUV8Txx3G1ggMX1I2-t-nOvGhfTj0z1Ti2fPRyw9vnEe03pkc3Gq-C6WgGhSCtA9A" -H "Content-Type: application/json" -d "[ { \"PartialName\": \"testField\", \"Rect\": { \"LLX\": 100, \"LLY\": 100, \"URX\": 160, \"URY\": 140 }, \"PageIndex\": 1, \"IsGroup\": false, \"Color\": { \"A\": 255, \"R\": 255, \"G\": 0, \"B\": 0 }, \"Margin\": { \"Left\": 0, \"Right\": 0, \"Top\": 0, \"Bottom\": 0 }, \"Highlighting\": \"None\", \"HorizontalAlignment\": \"None\", \"VerticalAlignment\": \"None\", \"Selected\": 2, \"Options\": [ { \"Value\": \"one\", \"Name\": \"one\" }, { \"Value\": \"two\", \"Name\": \"two\", \"Selected\": true } ] }]"
+ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/combobox" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzgyOTE5MzIsImV4cCI6MTU3ODM3ODMzMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiI2NTk5ODQiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.KnMOG8pXUaRyP_ScuevLYt8rmY8yixXAOa1mYKDiXE8YOqH3CtkmXkeoUOxUcV7jY-GfkvP6yQUhWw79O16IJJSBeIUhiT-BG30p36P635fqVnnuknYhOfrXqvBYt68ma7wuuwotAy96nNE2kPV8SGEewHyx8EutbqXIhuqM_B7kztLVmCy7RS9Q_NrYr0imb1mfO5vVQMhi4uhAqinpNjR2m4aP9RWoRec4y_N1ft2H9DK1CxbqhV8WsshXDbtPqAQgO2ujOL7Z0eMRic3w0GUV8Txx3G1ggMX1I2-t-nOvGhfTj0z1Ti2fPRyw9vnEe03pkc3Gq-C6WgGhSCtA9A" -H "Content-Type: application/json" -d "[ { \"PartialName\": \"testField\", \"Rect\": { \"LLX\": 100, \"LLY\": 100, \"URX\": 160, \"URY\": 140 }, \"PageIndex\": 1, \"IsGroup\": false, \"Color\": { \"A\": 255, \"R\": 255, \"G\": 0, \"B\": 0 }, \"Margin\": { \"Left\": 0, \"Right\": 0, \"Top\": 0, \"Bottom\": 0 }, \"Highlighting\": \"None\", \"HorizontalAlignment\": \"None\", \"VerticalAlignment\": \"None\", \"Selected\": 2, \"Options\": [ { \"Value\": \"one\", \"Name\": \"one\" }, { \"Value\": \"two\", \"Name\": \"two\", \"Selected\": true } ] }]"
 
 ```
 
@@ -64,13 +64,13 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/page/1/fields/combobox" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzgyOTE5MzIsImV4cCI6MTU3ODM3ODMzMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiI2NTk5ODQiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.KnMOG8pXUaRyP\_ScuevLYt8rmY8yixXAOa1mYKDiXE8YOqH3CtkmXkeoUOxUcV7jY-GfkvP6yQUhWw79O16IJJSBeIUhiT-BG30p36P635fqVnnuknYhOfrXqvBYt68ma7wuuwotAy96nNE2kPV8SGEewHyx8EutbqXIhuqM\_B7kztLVmCy7RS9Q\_NrYr0imb1mfO5vVQMhi4uhAqinpNjR2m4aP9RWoRec4y\_N1ft2H9DK1CxbqhV8WsshXDbtPqAQgO2ujOL7Z0eMRic3w0GUV8Txx3G1ggMX1I2-t-nOvGhfTj0z1Ti2fPRyw9vnEe03pkc3Gq-C6WgGhSCtA9A"
+curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/page/1/fields/combobox" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzgyOTE5MzIsImV4cCI6MTU3ODM3ODMzMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiI2NTk5ODQiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.KnMOG8pXUaRyP_ScuevLYt8rmY8yixXAOa1mYKDiXE8YOqH3CtkmXkeoUOxUcV7jY-GfkvP6yQUhWw79O16IJJSBeIUhiT-BG30p36P635fqVnnuknYhOfrXqvBYt68ma7wuuwotAy96nNE2kPV8SGEewHyx8EutbqXIhuqM_B7kztLVmCy7RS9Q_NrYr0imb1mfO5vVQMhi4uhAqinpNjR2m4aP9RWoRec4y_N1ft2H9DK1CxbqhV8WsshXDbtPqAQgO2ujOL7Z0eMRic3w0GUV8Txx3G1ggMX1I2-t-nOvGhfTj0z1Ti2fPRyw9vnEe03pkc3Gq-C6WgGhSCtA9A"
 
 ```
 
@@ -411,13 +411,13 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/page/1/fields/combobox
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/combobox/testField3" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzgyOTE5MzIsImV4cCI6MTU3ODM3ODMzMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiI2NTk5ODQiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.KnMOG8pXUaRyP\_ScuevLYt8rmY8yixXAOa1mYKDiXE8YOqH3CtkmXkeoUOxUcV7jY-GfkvP6yQUhWw79O16IJJSBeIUhiT-BG30p36P635fqVnnuknYhOfrXqvBYt68ma7wuuwotAy96nNE2kPV8SGEewHyx8EutbqXIhuqM\_B7kztLVmCy7RS9Q\_NrYr0imb1mfO5vVQMhi4uhAqinpNjR2m4aP9RWoRec4y\_N1ft2H9DK1CxbqhV8WsshXDbtPqAQgO2ujOL7Z0eMRic3w0GUV8Txx3G1ggMX1I2-t-nOvGhfTj0z1Ti2fPRyw9vnEe03pkc3Gq-C6WgGhSCtA9A"
+curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/combobox/testField3" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzgyOTE5MzIsImV4cCI6MTU3ODM3ODMzMiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiI2NTk5ODQiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.KnMOG8pXUaRyP_ScuevLYt8rmY8yixXAOa1mYKDiXE8YOqH3CtkmXkeoUOxUcV7jY-GfkvP6yQUhWw79O16IJJSBeIUhiT-BG30p36P635fqVnnuknYhOfrXqvBYt68ma7wuuwotAy96nNE2kPV8SGEewHyx8EutbqXIhuqM_B7kztLVmCy7RS9Q_NrYr0imb1mfO5vVQMhi4uhAqinpNjR2m4aP9RWoRec4y_N1ft2H9DK1CxbqhV8WsshXDbtPqAQgO2ujOL7Z0eMRic3w0GUV8Txx3G1ggMX1I2-t-nOvGhfTj0z1Ti2fPRyw9vnEe03pkc3Gq-C6WgGhSCtA9A"
 
 ```
 

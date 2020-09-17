@@ -86,7 +86,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Attachments-download\_document\_attachment\_by\_index-.rb" >}}
+{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Attachments-download_document_attachment_by_index-.rb" >}}
 
 {{< /tab >}}
 

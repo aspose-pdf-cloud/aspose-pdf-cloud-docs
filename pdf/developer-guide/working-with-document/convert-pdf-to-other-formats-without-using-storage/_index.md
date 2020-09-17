@@ -5,7 +5,7 @@ url: /convert-pdf-to-other-formats-without-using-storage/
 weight: 20
 ---
 
-![todo:image\_alt\_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 # **Introduction**
 This example allows you to convert PDF documents to other formats without uploading to any storage using Aspose.Pdf for Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. In case of PDF to HTML, Aspose for Cloud service returns the output as a ZIP file because there can be multiple supporting files in the output.
 ## **Resource**
@@ -21,7 +21,7 @@ We're referring some common methods in the REST examples to perform general oper
 
 ```java
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -29,7 +29,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant\_type=client\_
 
 ```java
 
-curl -v "http://api.aspose.cloud/v1.1/pdf/testing.pdf/SaveAs/tiff -X PUT -d {"exportOptions": [{"Brightness": 0, "Compression": "string", "ColorDepth": "string", "LeftMargin": 0, "RightMargin": 0, "TopMargin": 0, "BottomMargin": 0, "Orientation": "string", "SkipBlankPages": true, "Width": 0, "Height": 0, "XResolution": 0, "YResolution": 0, "PageIndex": 0, "PageCount": 0, "ResultFile": "string"}]} -H "Content-Type: application/json"-H "Accept: application/json"-H "Authorization: Bearer yPFyyiN2jamYggVq9p6Tg8EOIC7f5zr2tWmClPWuKJWtfVv2CNpb1qno7GAufwT10ttkHLe7GVlZg4-YjpSfi5gM3xMy5obgaP4HIta8EZ6bwopPbS6i-gPiNHM6CraFmSEKWvDDUwIWopcR0apcRyyxzBR4GhuRDbbagrl0efGhjmkR4VbnX382dXcf0uvyzuTpz7OB3S2ZJsJhOdZ16TOkfrtjFgeTjFm2LBENkVPpQP6nFMBDL2D8\_EoUgS2Rn4q65eZQqtcqhbUWtsAwPQiX2le0QxACQ0o0lWYAaCGvFGODcEQyqJUa7fXSIxXNICilGBoA1k-wWQtZyoqipgt8sC1lbN4ctS5wDsFmBE9cMhyn68FO\_ZuQzZqfqsN\_U9fQt-VVLif2woStjXotyL3kjqDVwbOKNpSAw2c4uh9xX7xL"
+curl -v "http://api.aspose.cloud/v1.1/pdf/testing.pdf/SaveAs/tiff -X PUT -d {"exportOptions": [{"Brightness": 0, "Compression": "string", "ColorDepth": "string", "LeftMargin": 0, "RightMargin": 0, "TopMargin": 0, "BottomMargin": 0, "Orientation": "string", "SkipBlankPages": true, "Width": 0, "Height": 0, "XResolution": 0, "YResolution": 0, "PageIndex": 0, "PageCount": 0, "ResultFile": "string"}]} -H "Content-Type: application/json"-H "Accept: application/json"-H "Authorization: Bearer yPFyyiN2jamYggVq9p6Tg8EOIC7f5zr2tWmClPWuKJWtfVv2CNpb1qno7GAufwT10ttkHLe7GVlZg4-YjpSfi5gM3xMy5obgaP4HIta8EZ6bwopPbS6i-gPiNHM6CraFmSEKWvDDUwIWopcR0apcRyyxzBR4GhuRDbbagrl0efGhjmkR4VbnX382dXcf0uvyzuTpz7OB3S2ZJsJhOdZ16TOkfrtjFgeTjFm2LBENkVPpQP6nFMBDL2D8_EoUgS2Rn4q65eZQqtcqhbUWtsAwPQiX2le0QxACQ0o0lWYAaCGvFGODcEQyqJUa7fXSIxXNICilGBoA1k-wWQtZyoqipgt8sC1lbN4ctS5wDsFmBE9cMhyn68FO_ZuQzZqfqsN_U9fQt-VVLif2woStjXotyL3kjqDVwbOKNpSAw2c4uh9xX7xL"
 
 ```
 
@@ -77,7 +77,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="4" >}}
 
-{{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-convert\_document\_from\_request\_content\_to\_specified\_format-.rb" >}}
+{{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-convert_document_from_request_content_to_specified_format-.rb" >}}
 
 {{< /tab >}}
 

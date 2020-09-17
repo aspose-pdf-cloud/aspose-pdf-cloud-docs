@@ -21,7 +21,7 @@ You can also [checkout](https://www.npmjs.com/package/asposepdfcloud) Aspose.Pdf
 
 ```java
 
-cd SDKs/Aspose.Pdf\_Cloud\_SDK\_for\_NodeJS
+cd SDKs/Aspose.Pdf_Cloud_SDK_for_NodeJS
 
 npm install .
 

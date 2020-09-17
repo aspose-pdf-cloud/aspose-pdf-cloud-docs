@@ -28,7 +28,7 @@ Aspose.PDF Cloud allows you to Certify a PDF Document. Certification allows a en
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -36,7 +36,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/pages/1/certify?docMdpAccessPermissionType=FillingInForms" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjY5MzMwOTUsImV4cCI6MTU2NzAxOTQ5NSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.KJlGHaNr22yBubDajw332H7crzhU7pxT\_a\_iXLARQQ9zoiVBXZbvbbDUFnNzoWSbjP-4482Sy\_e3Lss4pRpI7eQXR\_hEolamgQeki-krxQtofuzTtgXX9oSZVFbYt8Q9WQZyTTfCshQ5oQWq4VRxSgu2cvRp354BqSV4E1fxtQ5qX6a-iQNmwqoGlCQv0t2vDeYWjhqAOA-bkB5cC5xOGpy-TyLdPdVa8Xh7XBRGRY2WYCdn\_dNnQrz2ItGJTVuMWTRjvIwcg7\_qKAOE0q9whEWioWUMLPmYVEmeqJKudSXsZTy6s\_nS\_jDNXvdeDZDJgAf4bLKqxscCqJDgLmWk1w" -H "Content-Type: application/json" -d "{ \"SignaturePath\": \"33226.p12\", \"SignatureType\": \"PKCS7\", \"Password\": \"sIikZSmz\", \"Contact\": \"test@mail.ru\", \"Location\": \"Ukraine\", \"Visible\": true, \"Rectangle\": { \"LLX\": 100, \"LLY\": 100, \"URX\": 500, \"URY\": 200 }, \"FormFieldName\": \"Signature1\", \"Authority\": \"Sergey Smal\", \"Date\": \"08/01/2012 12:15:00.000 PM\", \"ShowProperties\": false}"
+curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/pages/1/certify?docMdpAccessPermissionType=FillingInForms" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjY5MzMwOTUsImV4cCI6MTU2NzAxOTQ5NSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.KJlGHaNr22yBubDajw332H7crzhU7pxT_a_iXLARQQ9zoiVBXZbvbbDUFnNzoWSbjP-4482Sy_e3Lss4pRpI7eQXR_hEolamgQeki-krxQtofuzTtgXX9oSZVFbYt8Q9WQZyTTfCshQ5oQWq4VRxSgu2cvRp354BqSV4E1fxtQ5qX6a-iQNmwqoGlCQv0t2vDeYWjhqAOA-bkB5cC5xOGpy-TyLdPdVa8Xh7XBRGRY2WYCdn_dNnQrz2ItGJTVuMWTRjvIwcg7_qKAOE0q9whEWioWUMLPmYVEmeqJKudSXsZTy6s_nS_jDNXvdeDZDJgAf4bLKqxscCqJDgLmWk1w" -H "Content-Type: application/json" -d "{ \"SignaturePath\": \"33226.p12\", \"SignatureType\": \"PKCS7\", \"Password\": \"sIikZSmz\", \"Contact\": \"test@mail.ru\", \"Location\": \"Ukraine\", \"Visible\": true, \"Rectangle\": { \"LLX\": 100, \"LLY\": 100, \"URX\": 500, \"URY\": 200 }, \"FormFieldName\": \"Signature1\", \"Authority\": \"Sergey Smal\", \"Date\": \"08/01/2012 12:15:00.000 PM\", \"ShowProperties\": false}"
 
 ```
 
@@ -62,13 +62,13 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/pages/1/certify?docMd
 # **SDK Source**
 The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 # **SDK Examples**
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 C#
 
 {{< gist "aspose-cloud" "67c1ec9de6e6fcd5917244c4291dc5b0" "Examples-SignExamples-PostSignDocumentExample.cs" >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Go
 

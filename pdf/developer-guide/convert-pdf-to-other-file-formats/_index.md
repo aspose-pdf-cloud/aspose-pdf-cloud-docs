@@ -14,7 +14,7 @@ Please refer to the below section for information on converting different file t
 
 
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to MS Doc and DocX
 ### **Introduction**
@@ -37,13 +37,13 @@ This API enables you to convert PDF document to DOC or DOCX format. Please check
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v "https://api.aspose.cloud/v1.1/pdf/empty.pdf" -X PUT -H "Content-Type: application/json"- H "Accept: application/json" -H "Authorization: Bearer -Ou\_UHdVStdZldtjaeFUAowQ3x2KLlSHd5ovZfDtZqpgdC6FLlalPmO8VJ58HXp8sgGhLqMqlnzEzIF2fEhEyJ3D7xzaw\_c8cAuk3qoag3g7bghMHw\_pe\_RTxxJ9r04R9YAGFbbAcoU1ddPvrPz0e1FSakagM42Ie2eA8D1MyBVJ1D-RZJrfebPePuOLvR\_hOD8Doqk5SBi\_j-efODJK\_PmGUxj0onOrUUx8Tj\_GuUKrG6DcBnpl84\_UykdOP87IeHnT2\_NZCHQIgOY0vtfW6AUGfP9jO5W1mBS\_q3lthTDRMg2LuZ6s0r9MKlwVJ\_n7sn3TUCrr8kGmUB3k0mL0rrd5TSKm7yjx8hhjap43PlFhwk-r9g7guWsuFLoeDqPa4JNJ1NFM54qQvgWKCp5oDj4dZfbc7qhfIelNh1gW4VYwfmgz"
+curl -v "https://api.aspose.cloud/v1.1/pdf/empty.pdf" -X PUT -H "Content-Type: application/json"- H "Accept: application/json" -H "Authorization: Bearer -Ou_UHdVStdZldtjaeFUAowQ3x2KLlSHd5ovZfDtZqpgdC6FLlalPmO8VJ58HXp8sgGhLqMqlnzEzIF2fEhEyJ3D7xzaw_c8cAuk3qoag3g7bghMHw_pe_RTxxJ9r04R9YAGFbbAcoU1ddPvrPz0e1FSakagM42Ie2eA8D1MyBVJ1D-RZJrfebPePuOLvR_hOD8Doqk5SBi_j-efODJK_PmGUxj0onOrUUx8Tj_GuUKrG6DcBnpl84_UykdOP87IeHnT2_NZCHQIgOY0vtfW6AUGfP9jO5W1mBS_q3lthTDRMg2LuZ6s0r9MKlwVJ_n7sn3TUCrr8kGmUB3k0mL0rrd5TSKm7yjx8hhjap43PlFhwk-r9g7guWsuFLoeDqPa4JNJ1NFM54qQvgWKCp5oDj4dZfbc7qhfIelNh1gW4VYwfmgz"
 
 ```
 
@@ -77,7 +77,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/empty.pdf" -X PUT -H "Content-Type: a
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to HTML
 ### **Introduction**
@@ -95,7 +95,7 @@ This API enables you to convert PDF document to HTML format. The API returns out
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -106,7 +106,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/html?outPath=result.zip" \
 -T 4pages.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
+-H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV_IE2FD7dDeM1thXF65g__BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8_PSdT6JHuAOukz8cVIvIC_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg_XxZW45lP6zRs1Y-tiI8bt_g_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
 
@@ -144,7 +144,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/html?outPath=result.zip" \
 
 
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to TIFF
 ### **Introduction**
@@ -162,7 +162,7 @@ This API enables you to convert PDF document to TIFF format.
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -173,7 +173,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/tiff?outPath=result.tiff" \
 -T Sample.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr\_5xY4iSuSAgCI\_Ff\_ZZj0omRFC8HX4i79YdgyvKl7\_rw\_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK\_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS\_nu5CdmrTNkznwyWXQgYsN\_rdTTqs8v80WUURCTqbbLyCRuB\_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K\_9O9zU"
+-H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr_5xY4iSuSAgCI_Ff_ZZj0omRFC8HX4i79YdgyvKl7_rw_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS_nu5CdmrTNkznwyWXQgYsN_rdTTqs8v80WUURCTqbbLyCRuB_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K_9O9zU"
 
 ```
 
@@ -211,7 +211,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/tiff?outPath=result.tiff" \
 
 
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to SVG
 ### **Introduction**
@@ -229,7 +229,7 @@ This API enables you to convert PDF document to SVG format.
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -240,7 +240,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/svg?outPath=result.svg" \
 -T Sample.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr\_5xY4iSuSAgCI\_Ff\_ZZj0omRFC8HX4i79YdgyvKl7\_rw\_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK\_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS\_nu5CdmrTNkznwyWXQgYsN\_rdTTqs8v80WUURCTqbbLyCRuB\_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K\_9O9zU"
+-H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr_5xY4iSuSAgCI_Ff_ZZj0omRFC8HX4i79YdgyvKl7_rw_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS_nu5CdmrTNkznwyWXQgYsN_rdTTqs8v80WUURCTqbbLyCRuB_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K_9O9zU"
 
 ```
 
@@ -274,7 +274,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/svg?outPath=result.svg" \
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to ePUB
 ### **Introduction**
@@ -292,7 +292,7 @@ This API enables you to convert PDF document to EPUB format
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -303,7 +303,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/epub?outPath=result.epub" \
 -T 4pages.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer mgKu2PBimT9Mw4wfpefhJ9vYjmzauI0q6aL-u7I\_Pl4tXMlOSOnyOyeBqcgI1318GsYM8JL7AZDGstr7oKxkixwMq24oZZiCNPcIe6w8P43vYDSRjjjpEfJzps-XLbzzTyUYEIJ2X2yi0UbsKpChDPdSq81PqDnjjhmpyuFqfOX1htNrnTZzpqc\_IoIDkrb4h0DWPtFqjnfjaPgV9P5msTS807qSHUMzgwj7l\_tM1LhJWBP5rOuy35DCC0W9Tlb-HgR3MpdqVC99uctz9dCi\_uo5lnwueCzLkFYovioyBbOrxKIyiZN42Qc9nlFshho1PLnNMvy42eO9VZFAe3hk3rZQCnvQmUL828P8VYk0\_hWFuUKWZDVvp4ch9B1ZZqdT4Ai\_ND2aUHSnp49Voyd7BQIcddPI-M4Km2Yth6mryTlBTnY-"
+-H "Authorization: Bearer mgKu2PBimT9Mw4wfpefhJ9vYjmzauI0q6aL-u7I_Pl4tXMlOSOnyOyeBqcgI1318GsYM8JL7AZDGstr7oKxkixwMq24oZZiCNPcIe6w8P43vYDSRjjjpEfJzps-XLbzzTyUYEIJ2X2yi0UbsKpChDPdSq81PqDnjjhmpyuFqfOX1htNrnTZzpqc_IoIDkrb4h0DWPtFqjnfjaPgV9P5msTS807qSHUMzgwj7l_tM1LhJWBP5rOuy35DCC0W9Tlb-HgR3MpdqVC99uctz9dCi_uo5lnwueCzLkFYovioyBbOrxKIyiZN42Qc9nlFshho1PLnNMvy42eO9VZFAe3hk3rZQCnvQmUL828P8VYk0_hWFuUKWZDVvp4ch9B1ZZqdT4Ai_ND2aUHSnp49Voyd7BQIcddPI-M4Km2Yth6mryTlBTnY-"
 
 ```
 
@@ -337,7 +337,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/epub?outPath=result.epub" \
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to PPTX
 ### **Introduction**
@@ -355,7 +355,7 @@ This API enables you to convert PDF document to PPTX format
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -366,7 +366,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/pptx?outPath=result.pptx" \
 -T 4pages.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
+-H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV_IE2FD7dDeM1thXF65g__BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8_PSdT6JHuAOukz8cVIvIC_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg_XxZW45lP6zRs1Y-tiI8bt_g_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
 
@@ -400,7 +400,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/pptx?outPath=result.pptx" \
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to LaTeX
 ### **Introduction**
@@ -418,7 +418,7 @@ This API enables you to convert PDF document to LaTeX format
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -429,7 +429,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/latex?outPath=result.latex" \
 -T 4pages.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
+-H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV_IE2FD7dDeM1thXF65g__BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8_PSdT6JHuAOukz8cVIvIC_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg_XxZW45lP6zRs1Y-tiI8bt_g_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
 
@@ -463,7 +463,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/latex?outPath=result.latex" \
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to MobiXML
 ### **Introduction**
@@ -481,7 +481,7 @@ This API enables you to convert PDF document to MOBIXML format.
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -492,7 +492,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/mobixml?outPath=result.mobi" 
 -T 4pages.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
+-H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV_IE2FD7dDeM1thXF65g__BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8_PSdT6JHuAOukz8cVIvIC_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg_XxZW45lP6zRs1Y-tiI8bt_g_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
 
@@ -526,7 +526,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/mobixml?outPath=result.mobi" 
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to XFA
 ### **Introduction**
@@ -544,7 +544,7 @@ This API enables you to convert PDF document which contains XFAForm to PDF with 
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -555,7 +555,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xfatoacroform?outPath=result.
 -T PdfWithXfaForm.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
+-H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV_IE2FD7dDeM1thXF65g__BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8_PSdT6JHuAOukz8cVIvIC_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg_XxZW45lP6zRs1Y-tiI8bt_g_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
 
@@ -589,7 +589,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xfatoacroform?outPath=result.
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to XML
 ### **Introduction**
@@ -607,7 +607,7 @@ This API enables you to convert PDF document to XML format
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -618,7 +618,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xml?outPath=result.xml" \
 -T 4pages.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV\_IE2FD7dDeM1thXF65g\_\_BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8\_PSdT6JHuAOukz8cVIvIC\_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg\_XxZW45lP6zRs1Y-tiI8bt\_g\_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F\_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
+-H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV_IE2FD7dDeM1thXF65g__BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8_PSdT6JHuAOukz8cVIvIC_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg_XxZW45lP6zRs1Y-tiI8bt_g_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
 
@@ -652,7 +652,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xml?outPath=result.xml" \
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to XPS
 ### **Introduction**
@@ -670,7 +670,7 @@ This API enables you to convert PDF document to XPS format
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -681,7 +681,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xps?outPath=result.xps" \
 -T Sample.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr\_5xY4iSuSAgCI\_Ff\_ZZj0omRFC8HX4i79YdgyvKl7\_rw\_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK\_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS\_nu5CdmrTNkznwyWXQgYsN\_rdTTqs8v80WUURCTqbbLyCRuB\_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K\_9O9zU"
+-H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr_5xY4iSuSAgCI_Ff_ZZj0omRFC8HX4i79YdgyvKl7_rw_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS_nu5CdmrTNkznwyWXQgYsN_rdTTqs8v80WUURCTqbbLyCRuB_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K_9O9zU"
 
 ```
 
@@ -715,7 +715,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xps?outPath=result.xps" \
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Converting PDF to XLS 
 ### **Introduction**
@@ -733,7 +733,7 @@ This API enables you to convert PDF document to XLS format. 
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -744,7 +744,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xls?outPath=result.xls" \
 -T Sample.pdf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
--H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr\_5xY4iSuSAgCI\_Ff\_ZZj0omRFC8HX4i79YdgyvKl7\_rw\_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK\_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS\_nu5CdmrTNkznwyWXQgYsN\_rdTTqs8v80WUURCTqbbLyCRuB\_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K\_9O9zU"
+-H "Authorization: Bearer lSlmWnFGg1oAdiD6ShhBf7EkPXwNAZ2NRaQqgdB4KhxPq9ZnZN4ijqgnWvdpA1kB2bEQK8vGZ0OgqbPPZTbq1gTzMX-xKs8wuGXWUb0jzHC15Y1MVRWzne-jid2GBeyWZwGs4mNvr_5xY4iSuSAgCI_Ff_ZZj0omRFC8HX4i79YdgyvKl7_rw_oCMAkSVKwbywkzBNWnMimaj6WU9kX7-Z3WlJ6PhVBen7umdo49K06mFrPRJfWYspIdkGG3kNeBw3gvUNxhVegpyRxK_xdKQMC3c5QCqS59ArZQsUmYGKIhUoS_nu5CdmrTNkznwyWXQgYsN_rdTTqs8v80WUURCTqbbLyCRuB_sYC2EXJ6JNJ2DYszowi9ZkBmZzjNkZp-pXmbF4WdipQiWnt9ZL9r69icM-OrdgU1f2HJEeHU0K_9O9zU"
 
 ```
 

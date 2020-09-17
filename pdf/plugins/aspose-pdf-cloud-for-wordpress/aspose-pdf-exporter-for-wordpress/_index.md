@@ -41,9 +41,9 @@ Please follow these simple steps to get started
 1. Open PHP Storm and Choose **File** > **Open Project**
 1. Browse to the latest source code that you have downloaded,
 ### **Source code overview**
-- Aspose\_Cloud\_SDK\_For\_PHP-master - Contains Aspose for Cloud SDK API for different operations.
-- Aspose\_Pdf\_Exporter.php - Contains main plugin code.
-- aspose\_pdf\_exporter\_admin.php - Contains configuration page html and other admin related code.
+- Aspose_Cloud_SDK_For_PHP-master - Contains Aspose for Cloud SDK API for different operations.
+- Aspose_Pdf_Exporter.php - Contains main plugin code.
+- aspose_pdf_exporter_admin.php - Contains configuration page html and other admin related code.
 - asposePdfConverter.php - Contains code for exporting posts into pdf.
 ## **Downloading and installing**
 ### **Downloading**

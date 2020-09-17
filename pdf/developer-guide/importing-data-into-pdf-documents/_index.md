@@ -25,7 +25,7 @@ For all these example we have used the sample files [test.xml](attachments/7244
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -76,7 +76,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml?xmlFilePath
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -119,7 +119,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml" \
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -178,7 +178,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml?xmlFilePath
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -231,7 +231,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf?fdfFilePath
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -290,7 +290,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf" \
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -349,7 +349,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf?fdfFilePath
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -408,7 +408,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf?xfdfFilePa
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -461,7 +461,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf" \
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 

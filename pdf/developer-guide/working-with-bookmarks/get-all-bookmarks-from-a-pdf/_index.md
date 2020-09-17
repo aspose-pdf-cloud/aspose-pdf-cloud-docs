@@ -23,7 +23,7 @@ Input Document: [PDFWithBookmars.pdf](attachments/1245474/1512040.pdf)
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -31,7 +31,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 
 ```java
 
-curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" -X GET -H "Accept: application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjIwMTIyMTcsImV4cCI6MTU2MjA5ODYxNywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.mwj8eey4SNAbw0Ww12cyXsh5-LaHiP-nWoquh5LOYFhNYspQBZQQkjpbyQ81j2Za36ebr4Foiy7OEc0FGXpQSDEHGyeJlPj6cocNYez1s5OKnweHuoQ6LAcacYPnXPQ3FTnHgSbdfk\_ewWXRmZr-GdQy-A\_3Z7ZH7ZkbvnCDNLLTteKY050yj2ZbEte6pd4xS5PgwOFguTzv6VslI-U\_C3n1BYAvwfv0-mqthEZiJOWXVn9jQxisjDpZO6-Zx1v4L1\_Wnti1acSFupW-FHxucDeRBmExwHP-7p2CzsqoVQ2ElkzJZJ6ZCF4v8B19yHItR6wkGqk8rsIq19gRR7D3NA" --ssl-no-revoke
+curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" -X GET -H "Accept: application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjIwMTIyMTcsImV4cCI6MTU2MjA5ODYxNywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.mwj8eey4SNAbw0Ww12cyXsh5-LaHiP-nWoquh5LOYFhNYspQBZQQkjpbyQ81j2Za36ebr4Foiy7OEc0FGXpQSDEHGyeJlPj6cocNYez1s5OKnweHuoQ6LAcacYPnXPQ3FTnHgSbdfk_ewWXRmZr-GdQy-A_3Z7ZH7ZkbvnCDNLLTteKY050yj2ZbEte6pd4xS5PgwOFguTzv6VslI-U_C3n1BYAvwfv0-mqthEZiJOWXVn9jQxisjDpZO6-Zx1v4L1_Wnti1acSFupW-FHxucDeRBmExwHP-7p2CzsqoVQ2ElkzJZJ6ZCF4v8B19yHItR6wkGqk8rsIq19gRR7D3NA" --ssl-no-revoke
 
 ```
 
@@ -75,15 +75,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
             "PageDisplay":"XYZ",
 
-            "PageDisplay\_Bottom":null,
+            "PageDisplay_Bottom":null,
 
-            "PageDisplay\_Left":82,
+            "PageDisplay_Left":82,
 
-            "PageDisplay\_Right":null,
+            "PageDisplay_Right":null,
 
-            "PageDisplay\_Top":784,
+            "PageDisplay_Top":784,
 
-            "PageDisplay\_Zoom":2,
+            "PageDisplay_Zoom":2,
 
             "PageNumber":1,
 
@@ -111,15 +111,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
                      "PageDisplay":"XYZ",
 
-                     "PageDisplay\_Bottom":null,
+                     "PageDisplay_Bottom":null,
 
-                     "PageDisplay\_Left":17,
+                     "PageDisplay_Left":17,
 
-                     "PageDisplay\_Right":null,
+                     "PageDisplay_Right":null,
 
-                     "PageDisplay\_Top":831,
+                     "PageDisplay_Top":831,
 
-                     "PageDisplay\_Zoom":2,
+                     "PageDisplay_Zoom":2,
 
                      "PageNumber":1,
 
@@ -201,15 +201,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
             "PageDisplay":"Fit",
 
-            "PageDisplay\_Bottom":null,
+            "PageDisplay_Bottom":null,
 
-            "PageDisplay\_Left":null,
+            "PageDisplay_Left":null,
 
-            "PageDisplay\_Right":null,
+            "PageDisplay_Right":null,
 
-            "PageDisplay\_Top":null,
+            "PageDisplay_Top":null,
 
-            "PageDisplay\_Zoom":null,
+            "PageDisplay_Zoom":null,
 
             "PageNumber":2,
 
@@ -253,15 +253,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
             "PageDisplay":"FitB",
 
-            "PageDisplay\_Bottom":null,
+            "PageDisplay_Bottom":null,
 
-            "PageDisplay\_Left":null,
+            "PageDisplay_Left":null,
 
-            "PageDisplay\_Right":null,
+            "PageDisplay_Right":null,
 
-            "PageDisplay\_Top":null,
+            "PageDisplay_Top":null,
 
-            "PageDisplay\_Zoom":null,
+            "PageDisplay_Zoom":null,
 
             "PageNumber":2,
 
@@ -305,15 +305,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
             "PageDisplay":"FitV",
 
-            "PageDisplay\_Bottom":null,
+            "PageDisplay_Bottom":null,
 
-            "PageDisplay\_Left":82,
+            "PageDisplay_Left":82,
 
-            "PageDisplay\_Right":null,
+            "PageDisplay_Right":null,
 
-            "PageDisplay\_Top":null,
+            "PageDisplay_Top":null,
 
-            "PageDisplay\_Zoom":null,
+            "PageDisplay_Zoom":null,
 
             "PageNumber":3,
 
@@ -357,15 +357,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
             "PageDisplay":"FitBV",
 
-            "PageDisplay\_Bottom":null,
+            "PageDisplay_Bottom":null,
 
-            "PageDisplay\_Left":82,
+            "PageDisplay_Left":82,
 
-            "PageDisplay\_Right":null,
+            "PageDisplay_Right":null,
 
-            "PageDisplay\_Top":null,
+            "PageDisplay_Top":null,
 
-            "PageDisplay\_Zoom":null,
+            "PageDisplay_Zoom":null,
 
             "PageNumber":3,
 
@@ -409,15 +409,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
             "PageDisplay":"FitH",
 
-            "PageDisplay\_Bottom":null,
+            "PageDisplay_Bottom":null,
 
-            "PageDisplay\_Left":null,
+            "PageDisplay_Left":null,
 
-            "PageDisplay\_Right":null,
+            "PageDisplay_Right":null,
 
-            "PageDisplay\_Top":784,
+            "PageDisplay_Top":784,
 
-            "PageDisplay\_Zoom":null,
+            "PageDisplay_Zoom":null,
 
             "PageNumber":4,
 
@@ -461,15 +461,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
             "PageDisplay":"FitBH",
 
-            "PageDisplay\_Bottom":null,
+            "PageDisplay_Bottom":null,
 
-            "PageDisplay\_Left":null,
+            "PageDisplay_Left":null,
 
-            "PageDisplay\_Right":null,
+            "PageDisplay_Right":null,
 
-            "PageDisplay\_Top":784,
+            "PageDisplay_Top":784,
 
-            "PageDisplay\_Zoom":null,
+            "PageDisplay_Zoom":null,
 
             "PageNumber":4,
 
@@ -513,15 +513,15 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
             "PageDisplay":"FitR",
 
-            "PageDisplay\_Bottom":702,
+            "PageDisplay_Bottom":702,
 
-            "PageDisplay\_Left":82,
+            "PageDisplay_Left":82,
 
-            "PageDisplay\_Right":164,
+            "PageDisplay_Right":164,
 
-            "PageDisplay\_Top":784,
+            "PageDisplay_Top":784,
 
-            "PageDisplay\_Zoom":null,
+            "PageDisplay_Zoom":null,
 
             "PageNumber":5,
 
@@ -605,7 +605,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Bookmarks-read\_document\_bookmarks-.rb" >}}
+{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Bookmarks-read_document_bookmarks-.rb" >}}
 
 {{< /tab >}}
 

@@ -5,7 +5,7 @@ url: /convert-pdf-document-to-pdf/a-format/
 weight: 30
 ---
 
-![todo:image\_alt\_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 # **Introduction**
 This API enables you to convert PDF document to a PDF/A compliant PDF file. Please check [API Reference page](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToPdfA) that provides the description of API's parameters. The **type** parameter specifies the type of PdfA format and can contain one of the following two values:
 
@@ -41,7 +41,7 @@ We have provided a sparate API for each of the following use case:
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
+-d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -49,7 +49,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 // cURL example to convert PDF Document to a PDF/A compliant PDF file
 
-curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/convert/pdfa?type=PDFA1A" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQwMjQ5OTIsImV4cCI6MTU5NDExMTM5MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.AJBRmS7IdnYG8Flw0J-xNMsT4k4iB2tWxPnbh72QEX5-GiiGKBLl1gGk2KQ1hSRurHtf69vmWuZtlXmpwdsdrLRJ2IsGvExsOfTQpDIbmSx8snxyxKiBeRaQeOs9XiJ11AeOKyRL4Fw2ilOpGiaxtlG-zhN-BV5IfZH3-TUJJ7GPHe4H1wGFSCTuU\_\_E4rpTByWFfrf0Qs1iy81RtNWSa2ggV9tQHu\_9B9EWkpibDThBWfxL4Sx4qQAJI\_2iMA9yId2sYKibTVqocK4wNmwOnYUP3-UqeH4Oe0PtZnRDvwxwWBWfuhGwWQq5cc2cZf9ntfj4Qx\_OSvtUCs0dAUm\_6Q"
+curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/convert/pdfa?type=PDFA1A" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQwMjQ5OTIsImV4cCI6MTU5NDExMTM5MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.AJBRmS7IdnYG8Flw0J-xNMsT4k4iB2tWxPnbh72QEX5-GiiGKBLl1gGk2KQ1hSRurHtf69vmWuZtlXmpwdsdrLRJ2IsGvExsOfTQpDIbmSx8snxyxKiBeRaQeOs9XiJ11AeOKyRL4Fw2ilOpGiaxtlG-zhN-BV5IfZH3-TUJJ7GPHe4H1wGFSCTuU__E4rpTByWFfrf0Qs1iy81RtNWSa2ggV9tQHu_9B9EWkpibDThBWfxL4Sx4qQAJI_2iMA9yId2sYKibTVqocK4wNmwOnYUP3-UqeH4Oe0PtZnRDvwxwWBWfuhGwWQq5cc2cZf9ntfj4Qx_OSvtUCs0dAUm_6Q"
 
 ```
 

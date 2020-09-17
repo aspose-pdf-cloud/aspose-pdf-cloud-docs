@@ -31,9 +31,9 @@ We believe the key to success lies in our ability to support and establish mutua
 - [Support forum](https://forum.aspose.cloud/c/pdf)
 - [Blog](https://blog.aspose.cloud/2020/07/23/import-pdf-as-a-wordpress-post-using-free-plugin/)
 ### **Source code overview**
-- Aspose\_Cloud\_SDK\_For\_PHP-master - Contains Aspose for Cloud SDK API for different operations.
-- Aspose\_Pdf\_Importer.php - Contains main plugin code.
-- aspose\_pdf\_importer\_admin.php - Contains configuration page html and other admin related code.
+- Aspose_Cloud_SDK_For_PHP-master - Contains Aspose for Cloud SDK API for different operations.
+- Aspose_Pdf_Importer.php - Contains main plugin code.
+- aspose_pdf_importer_admin.php - Contains configuration page html and other admin related code.
 - getAsposePdfContent.php - Contains code for importing content from pdf file.
 ## **Downloading and Installing**
 ### **Downloading**

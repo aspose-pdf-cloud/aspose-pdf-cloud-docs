@@ -31,7 +31,7 @@ Input File: [PDF With Forms](attachments/1245738/7209025.pdf)
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -361,7 +361,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-FormFields-get\_document\_fields-.rb" >}}
+{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-FormFields-get_document_fields-.rb" >}}
 
 {{< /tab >}}
 

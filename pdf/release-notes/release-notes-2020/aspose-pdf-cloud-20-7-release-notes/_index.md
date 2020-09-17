@@ -8,7 +8,7 @@ weight: 10
 ---
 
 ### **New Features**
-- **PDFCLOUD-1586** Support for PDF\_A\_3A Format.
+- **PDFCLOUD-1586** Support for PDF_A_3A Format.
 - **PDFCLOUD-1615** Support of **MaxResolution** option in **OptimizeOption**.
 - **PDFCLOUD-1607** Implemented Info action.
 - **PDFCLOUD-1616** Support **ImageCompressionOptions** in **OptimizeOptions**

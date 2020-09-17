@@ -18,7 +18,7 @@ This article example how to create a PDF file from images using Aspose.PDF Cloud
 
 ```java
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant\_type=client\_credentials&client\_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client\_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -31,7 +31,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 -d '{ "ImagesList": [ "33539.jpg", "44781.jpg"] }' \
 -H 'Accept: application/json' \
 -H 'Content-Type: application/json' \
--H 'Authorization: Bearer qexxj5qRXa4A0Tda1b49xnoqqw5gukzwTED1q8ZFE5Cl3oiI\_y8mNd0XNOwKMVwBqylNyEtufG8YrDqfLVjW8YeeXVz5P---L1oLo\_mIdr3W1Fdy\_Vmwyw7l0AN2vGMJ4QhZEt5vtttLBJEi2HgBXQQIkvfoIyi8iHQzEoooGYHSQqeXAZ3yCBO1tMeg0rTRvyjUHOM0ULsOR6j5Jme06MBcQLkEid9QbibrrwdfkixiAkSCGJnDanZT\_edoFoJNM31vVPdNSHXvH7XCOW3-J\_YMcV0L4GMU6r7Iq7hVEznfqgivKrLpcBVoaKo-5wCNVQILe-Qul7VW-QpkWs6uawfiT2Wa8VrDjCZMYuhD93Yoq4CxrQKLZnDSesNHbJ6-Pkv6MHdsT8Pqo3Gvt9-G1qshkOAEzb8tEUWePSay6kFk4Gjc'
+-H 'Authorization: Bearer qexxj5qRXa4A0Tda1b49xnoqqw5gukzwTED1q8ZFE5Cl3oiI_y8mNd0XNOwKMVwBqylNyEtufG8YrDqfLVjW8YeeXVz5P---L1oLo_mIdr3W1Fdy_Vmwyw7l0AN2vGMJ4QhZEt5vtttLBJEi2HgBXQQIkvfoIyi8iHQzEoooGYHSQqeXAZ3yCBO1tMeg0rTRvyjUHOM0ULsOR6j5Jme06MBcQLkEid9QbibrrwdfkixiAkSCGJnDanZT_edoFoJNM31vVPdNSHXvH7XCOW3-J_YMcV0L4GMU6r7Iq7hVEznfqgivKrLpcBVoaKo-5wCNVQILe-Qul7VW-QpkWs6uawfiT2Wa8VrDjCZMYuhD93Yoq4CxrQKLZnDSesNHbJ6-Pkv6MHdsT8Pqo3Gvt9-G1qshkOAEzb8tEUWePSay6kFk4Gjc'
 
 ```
 
@@ -599,7 +599,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="4" >}}
 
-{{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-create\_pdf\_from\_jpeg-.rb" >}}
+{{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-create_pdf_from_jpeg-.rb" >}}
 
 {{< /tab >}}
 

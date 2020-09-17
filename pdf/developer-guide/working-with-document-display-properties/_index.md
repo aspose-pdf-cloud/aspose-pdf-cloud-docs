@@ -21,13 +21,13 @@ Aspose.PDF Cloud allows you to read display properties for a PDF Document. Aspos
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/displayproperties" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzkxMTY5NzcsImV4cCI6MTU3OTIwMzM3NywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiI2NTk5ODQiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.HyLoK2N\_PKX-s0TVTMep7twgTMhMJS8--1Xk3k5NwTfRULpw97fzI54X0xekWeDUs3bUA4K\_HpY5VvHg\_i3yFH35GXZRhiWRYELCcNUkXgoRDFu1-kNETCxNINAJ\_nG3bNCvUKVqkYMQp12hVtlBenTADdoo1gy1CrgOPFOkzyozG3JmeV9TmdGbH3wO6U0PTLTUYAaMczc5j-lu5h\_0p4rz4JduR5LRvvR1Hhu6mCXPbSCPkoIv0OZLw4\_bZlCNYzEF3kRcEx6xDxFVVGuXu6-\_-qoXTf0l1eJv-CNCigCcGvTA75s-8nnZMwWxNznkTTYY9KrQa6m\_o6mTLF9Ylg"
+curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/displayproperties" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzkxMTY5NzcsImV4cCI6MTU3OTIwMzM3NywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiI2NTk5ODQiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.HyLoK2N_PKX-s0TVTMep7twgTMhMJS8--1Xk3k5NwTfRULpw97fzI54X0xekWeDUs3bUA4K_HpY5VvHg_i3yFH35GXZRhiWRYELCcNUkXgoRDFu1-kNETCxNINAJ_nG3bNCvUKVqkYMQp12hVtlBenTADdoo1gy1CrgOPFOkzyozG3JmeV9TmdGbH3wO6U0PTLTUYAaMczc5j-lu5h_0p4rz4JduR5LRvvR1Hhu6mCXPbSCPkoIv0OZLw4_bZlCNYzEF3kRcEx6xDxFVVGuXu6-_-qoXTf0l1eJv-CNCigCcGvTA75s-8nnZMwWxNznkTTYY9KrQa6m_o6mTLF9Ylg"
 
 ```
 

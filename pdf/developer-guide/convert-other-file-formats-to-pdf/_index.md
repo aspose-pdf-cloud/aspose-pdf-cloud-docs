@@ -10,7 +10,7 @@ Aspose.PDF Cloud allows a flexible and easy way to convert multiple file formats
 ## **Convert other formats to PDF**
 
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert EPUB to PDF
 ### **Resource Information**
@@ -35,7 +35,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -65,7 +65,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert Web to PDF
 ### **Resource Information**
@@ -98,7 +98,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -136,7 +136,7 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/create/web?url=https://www.nord.no/en
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert LaTeX to PDF
 ### **Resource Information**
@@ -161,7 +161,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -201,7 +201,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert MHT to PDF
 ### **Resource Information**
@@ -226,7 +226,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -265,7 +265,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert HTML to PDF
 ### **Resource Information**
@@ -297,7 +297,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -337,7 +337,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert PS to PDF
 ### **Resource Information**
@@ -362,7 +362,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -402,7 +402,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert XslFo to PDF
 ### **Resource Information**
@@ -427,7 +427,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -467,7 +467,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert XPS to PDF
 ### **Resource Information**
@@ -492,7 +492,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -532,7 +532,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert SVG to PDF
 ### **Resource Information**
@@ -557,7 +557,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -601,7 +601,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert DOC and Doc X to PDF
 ### **Resource Information**
@@ -634,7 +634,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -674,7 +674,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert PCL to PDF
 ### **Resource Information**
@@ -699,7 +699,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -739,7 +739,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert XML to PDF
 ### **Resource Information**
@@ -764,7 +764,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -804,7 +804,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Convert Markdwn to PDF
 ### **Resource Information**
@@ -829,7 +829,7 @@ The above API also supports the following request params
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 

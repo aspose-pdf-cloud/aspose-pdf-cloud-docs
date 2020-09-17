@@ -103,13 +103,13 @@ Aspose.PDF Cloud allows you to add a Text Stamp to a PDF Document
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<CLIENT\_SID>&client\_secret=<CLIENT\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<CLIENT_SID>&client_secret=<CLIENT_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/pdf/test.pdf/pages/1/stamps/text" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQwMjQ5OTIsImV4cCI6MTU5NDExMTM5MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.AJBRmS7IdnYG8Flw0J-xNMsT4k4iB2tWxPnbh72QEX5-GiiGKBLl1gGk2KQ1hSRurHtf69vmWuZtlXmpwdsdrLRJ2IsGvExsOfTQpDIbmSx8snxyxKiBeRaQeOs9XiJ11AeOKyRL4Fw2ilOpGiaxtlG-zhN-BV5IfZH3-TUJJ7GPHe4H1wGFSCTuU\_\_E4rpTByWFfrf0Qs1iy81RtNWSa2ggV9tQHu\_9B9EWkpibDThBWfxL4Sx4qQAJI\_2iMA9yId2sYKibTVqocK4wNmwOnYUP3-UqeH4Oe0PtZnRDvwxwWBWfuhGwWQq5cc2cZf9ntfj4Qx\_OSvtUCs0dAUm\_6Q" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "[ { \"Links\": [ { \"Href\": \"string\", \"Rel\": \"string\", \"Type\": \"string\", \"Title\": \"string\" } ], \"Background\": true, \"HorizontalAlignment\": \"None\", \"Opacity\": 0, \"Rotate\": \"None\", \"RotateAngle\": 0, \"XIndent\": 0, \"YIndent\": 0, \"Zoom\": 0, \"TextAlignment\": \"None\", \"Value\": \"string\", \"TextState\": { \"FontSize\": 0, \"Font\": \"string\", \"ForegroundColor\": { \"A\": 0, \"R\": 0, \"G\": 0, \"B\": 0 }, \"BackgroundColor\": { \"A\": 0, \"R\": 0, \"G\": 0, \"B\": 0 }, \"FontStyle\": \"Regular\" }, \"VerticalAlignment\": \"None\", \"BottomMargin\": 0, \"LeftMargin\": 0, \"TopMargin\": 0, \"RightMargin\": 0 }]"   
+curl -X POST "https://api.aspose.cloud/v3.0/pdf/test.pdf/pages/1/stamps/text" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQwMjQ5OTIsImV4cCI6MTU5NDExMTM5MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.AJBRmS7IdnYG8Flw0J-xNMsT4k4iB2tWxPnbh72QEX5-GiiGKBLl1gGk2KQ1hSRurHtf69vmWuZtlXmpwdsdrLRJ2IsGvExsOfTQpDIbmSx8snxyxKiBeRaQeOs9XiJ11AeOKyRL4Fw2ilOpGiaxtlG-zhN-BV5IfZH3-TUJJ7GPHe4H1wGFSCTuU__E4rpTByWFfrf0Qs1iy81RtNWSa2ggV9tQHu_9B9EWkpibDThBWfxL4Sx4qQAJI_2iMA9yId2sYKibTVqocK4wNmwOnYUP3-UqeH4Oe0PtZnRDvwxwWBWfuhGwWQq5cc2cZf9ntfj4Qx_OSvtUCs0dAUm_6Q" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "[ { \"Links\": [ { \"Href\": \"string\", \"Rel\": \"string\", \"Type\": \"string\", \"Title\": \"string\" } ], \"Background\": true, \"HorizontalAlignment\": \"None\", \"Opacity\": 0, \"Rotate\": \"None\", \"RotateAngle\": 0, \"XIndent\": 0, \"YIndent\": 0, \"Zoom\": 0, \"TextAlignment\": \"None\", \"Value\": \"string\", \"TextState\": { \"FontSize\": 0, \"Font\": \"string\", \"ForegroundColor\": { \"A\": 0, \"R\": 0, \"G\": 0, \"B\": 0 }, \"BackgroundColor\": { \"A\": 0, \"R\": 0, \"G\": 0, \"B\": 0 }, \"FontStyle\": \"Regular\" }, \"VerticalAlignment\": \"None\", \"BottomMargin\": 0, \"LeftMargin\": 0, \"TopMargin\": 0, \"RightMargin\": 0 }]"   
 
 ```
 
@@ -159,7 +159,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Watermarks-add\_page\_stamp-.rb" >}}
+{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Watermarks-add_page_stamp-.rb" >}}
 
 {{< /tab >}}
 

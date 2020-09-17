@@ -39,7 +39,7 @@ The **cryptoAlgorithm** takes the follwing possible values
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -47,7 +47,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/encrypt?outPath=newFile.pdf&userPassword=cGFzc3dvcmQxMg==&ownerPassword=cGFzc3dvcmQxMg==&cryptoAlgorithm=AESx256" -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ur73UWyPXc8UGGTu0PoZhNPHMKlwQbD5mE4K6ss6js\_BStTs7dCqOj5cptTuF6iz8dZ7P6uebTW8DTFNwdYNrbF0UFh2DukehHPyKR8sIgZwYdB1eki6nX9S2Co9I9fK0MSmkKDD7emjLpeY25\_gyggwLt4t3Jx4D1ljkFV53R2uuDnVZmWLmp5YQH8WY-bsGMp8e9Rj9cp1X0hiA9qN79u4JjXMtnp4oR4AkoqdI2-mJGpk7njnRJk1NNAXIkO-iLQbh\_Y8FC5pMIXOfg8yTVLkBYDrdh3wkpP5RW0\_sJxkMgAoozCVT8T5Gg7KWDbDpCJJ-O5cr99MeVP7eLY2ETOpUFkwOpsXocmVh4DVNRCz-nRr2HfpXqaDWgMWFsqfacnSQwW611xKl-v\_iyDy4yr4hqzOE3Hyf4pvGlw-OS-jHhM5" -d {}
+curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/encrypt?outPath=newFile.pdf&userPassword=cGFzc3dvcmQxMg==&ownerPassword=cGFzc3dvcmQxMg==&cryptoAlgorithm=AESx256" -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer ur73UWyPXc8UGGTu0PoZhNPHMKlwQbD5mE4K6ss6js_BStTs7dCqOj5cptTuF6iz8dZ7P6uebTW8DTFNwdYNrbF0UFh2DukehHPyKR8sIgZwYdB1eki6nX9S2Co9I9fK0MSmkKDD7emjLpeY25_gyggwLt4t3Jx4D1ljkFV53R2uuDnVZmWLmp5YQH8WY-bsGMp8e9Rj9cp1X0hiA9qN79u4JjXMtnp4oR4AkoqdI2-mJGpk7njnRJk1NNAXIkO-iLQbh_Y8FC5pMIXOfg8yTVLkBYDrdh3wkpP5RW0_sJxkMgAoozCVT8T5Gg7KWDbDpCJJ-O5cr99MeVP7eLY2ETOpUFkwOpsXocmVh4DVNRCz-nRr2HfpXqaDWgMWFsqfacnSQwW611xKl-v_iyDy4yr4hqzOE3Hyf4pvGlw-OS-jHhM5" -d {}
 
 ```
 

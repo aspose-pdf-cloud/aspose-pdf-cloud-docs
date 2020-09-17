@@ -27,11 +27,11 @@ This example allows you to create an empty PDF file using Aspose.PDF REST API. T
 
 ```java
 
-// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client\_secret" and App SID in "client\_id" argument.
+// Please get your App Key and App SID from https://dashboard.aspose.cloud/#/apps. Kindly place App Key in "client_secret" and App SID in "client_id" argument.
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -554,7 +554,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-create\_new\_document-.rb" >}}
+{{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-create_new_document-.rb" >}}
 
 {{< /tab >}}
 

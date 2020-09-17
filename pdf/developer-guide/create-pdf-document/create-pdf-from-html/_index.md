@@ -22,7 +22,7 @@ This example allows you to create PDF file from HTML using Aspose.PDF for Cloud 
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -505,7 +505,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="4" >}}
 
-{{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-create\_PDF\_from\_html-.rb" >}}
+{{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-create_PDF_from_html-.rb" >}}
 
 {{< /tab >}}
 

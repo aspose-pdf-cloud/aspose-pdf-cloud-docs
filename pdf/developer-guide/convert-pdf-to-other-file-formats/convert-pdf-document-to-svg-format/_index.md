@@ -31,7 +31,7 @@ You can **convert PDF to SVG** by using Aspose.PDF Cloud REST API. The SDKs are
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
+-d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -39,7 +39,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 // cURL example to convert PDF Document to SVG Format
 
-curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/convert/svg?outPath=result.svg" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQyMDM0ODIsImV4cCI6MTU5NDI4OTg4MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.Sms8wYcZrqsu-Z1us8ixABAHyWwo4TUlKNEeF2l-aUijOaAI0sk4t0XtltchkxtGVrks4YSEQ3\_48LvksO72aoJfjICi6h3vZuxF\_yrb5oNqw9yyq05vDO9EqH0YHhCFB0LTPFj9HhDmsEko7rbtHJtdmo2vxTGKWBBh8f1O0l2OTTbKww5LpYntZ\_MOSgG8xbHj7DFl72idAfTMbX4\_Zi1I4JgSw2IAbwB-WUnuLL27unzJB2uUApQsdI-lGaY8IEXAeqAcVcIZIve1hxzmFRN03SpPPKXDgV4P3hvG8xCrZ6pMoWh5IKcyyUXN5ZRvBnuMDsgiQb6ZC16XV2TMHQ"
+curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/convert/svg?outPath=result.svg" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQyMDM0ODIsImV4cCI6MTU5NDI4OTg4MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.Sms8wYcZrqsu-Z1us8ixABAHyWwo4TUlKNEeF2l-aUijOaAI0sk4t0XtltchkxtGVrks4YSEQ3_48LvksO72aoJfjICi6h3vZuxF_yrb5oNqw9yyq05vDO9EqH0YHhCFB0LTPFj9HhDmsEko7rbtHJtdmo2vxTGKWBBh8f1O0l2OTTbKww5LpYntZ_MOSgG8xbHj7DFl72idAfTMbX4_Zi1I4JgSw2IAbwB-WUnuLL27unzJB2uUApQsdI-lGaY8IEXAeqAcVcIZIve1hxzmFRN03SpPPKXDgV4P3hvG8xCrZ6pMoWh5IKcyyUXN5ZRvBnuMDsgiQb6ZC16XV2TMHQ"
 
 ```
 

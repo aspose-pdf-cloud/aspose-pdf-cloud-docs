@@ -25,7 +25,7 @@ Input File: [PdfWithLinks.pdf](attachments/1245463/1512044.pdf)
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -125,7 +125,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Links-read\_page\_link\_annotation\_by\_index-.rb" >}}
+{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Links-read_page_link_annotation_by_index-.rb" >}}
 
 {{< /tab >}}
 

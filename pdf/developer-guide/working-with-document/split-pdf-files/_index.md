@@ -26,7 +26,7 @@ The following Aspose.Pdf for Cloud REST API resource has been used in the exampl
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\_credentials&client\_id=<APP\_SID>&client\_secret=<APP\_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -34,7 +34,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant\_type=client\
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/pdf/4Pages.pdf/split?format=pdf&from=1&to=2" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQzNjcwNTEsImV4cCI6MTU5NDQ1MzQ1MSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.G9SCHOFGgsXhMvkr6IfiI-KNSnoooNLMzKVSynS-xhCNHlHntYGFdlfGoD0i\_vhmhs8AVbGwsiyN2eN4TSsyA-AML4juQGHbXjwDXBHd0EQq6mVq-gkfDTKwnbamuwYDNF3HQ\_OtQ-eFVn4wBLIx6Bx3C0X5OHOmKU2oYucpbQNzodSIG5Cz8e9wS539MoYvAC-FG-PF06P5EEjVSB7-pZNRTDFCDxlWpk5hkCIIcctEPgQCRzCiu9PGDctHFrup-LuQdmGCrY4gLG6eyHeJIaAYKWRg9YcxG9M5Wlztdv5P\_TirG79ilgS-BGt234hvY3BhQoJyb5VJPalYtIUwdQ"
+curl -X POST "https://api.aspose.cloud/v3.0/pdf/4Pages.pdf/split?format=pdf&from=1&to=2" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQzNjcwNTEsImV4cCI6MTU5NDQ1MzQ1MSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.G9SCHOFGgsXhMvkr6IfiI-KNSnoooNLMzKVSynS-xhCNHlHntYGFdlfGoD0i_vhmhs8AVbGwsiyN2eN4TSsyA-AML4juQGHbXjwDXBHd0EQq6mVq-gkfDTKwnbamuwYDNF3HQ_OtQ-eFVn4wBLIx6Bx3C0X5OHOmKU2oYucpbQNzodSIG5Cz8e9wS539MoYvAC-FG-PF06P5EEjVSB7-pZNRTDFCDxlWpk5hkCIIcctEPgQCRzCiu9PGDctHFrup-LuQdmGCrY4gLG6eyHeJIaAYKWRg9YcxG9M5Wlztdv5P_TirG79ilgS-BGt234hvY3BhQoJyb5VJPalYtIUwdQ"
 
 ```
 
@@ -120,7 +120,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Document-split\_document-.rb" >}}
+{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Document-split_document-.rb" >}}
 
 {{< /tab >}}
 
