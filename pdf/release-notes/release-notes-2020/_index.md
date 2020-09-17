@@ -4,7 +4,7 @@ type: docs
 url: /release-notes-2020/
 weight: 10
 ---
-
+- [Aspose.PDF Cloud 20.8 Release Notes](/pdf/aspose-pdf-cloud-20-8-release-notes/)
 - [Aspose.PDF Cloud 20.7 Release Notes](/pdf/aspose-pdf-cloud-20-7-release-notes/)
 - [Aspose.PDF Cloud 20.6 Release Notes](/pdf/aspose-pdf-cloud-20-6-release-notes/)
 - [Aspose.PDF Cloud 20.5 Release Notes](/pdf/aspose-pdf-cloud-20-5-release-notes/)
