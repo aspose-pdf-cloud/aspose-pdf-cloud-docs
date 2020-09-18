@@ -77,9 +77,9 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/empty.pdf" -X PUT -H "Content-Type: a
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
-Converting PDF to HTML
+
+## **Converting PDF to HTML**
 ### **Introduction**
 This API enables you to convert PDF document to HTML format. The API returns output file in a zip format which you can later unzip to get the HTML file.
 ### **cURL Example**
@@ -211,9 +211,9 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/tiff?outPath=result.tiff" \
 
 
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to SVG**
 
-Converting PDF to SVG
+
 ### **Introduction**
 This API enables you to convert PDF document to SVG format.
 ### **cURL Example**
@@ -274,7 +274,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/svg?outPath=result.svg" \
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to ePUB**
 
 Converting PDF to ePUB
 ### **Introduction**
@@ -337,7 +337,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/epub?outPath=result.epub" \
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to PPTX**
 
 Converting PDF to PPTX
 ### **Introduction**
@@ -400,7 +400,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/pptx?outPath=result.pptx" \
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to LaTeX**
 
 Converting PDF to LaTeX
 ### **Introduction**
@@ -463,7 +463,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/latex?outPath=result.latex" \
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to MobiXML**
 
 Converting PDF to MobiXML
 ### **Introduction**
@@ -526,7 +526,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/mobixml?outPath=result.mobi" 
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to XFA**
 
 Converting PDF to XFA
 ### **Introduction**
@@ -589,7 +589,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xfatoacroform?outPath=result.
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to XML**
 
 Converting PDF to XML
 ### **Introduction**
@@ -652,7 +652,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xml?outPath=result.xml" \
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to XPS**
 
 Converting PDF to XPS
 ### **Introduction**
@@ -715,7 +715,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/xps?outPath=result.xps" \
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to XLS**
 
 Converting PDF to XLS 
 ### **Introduction**
