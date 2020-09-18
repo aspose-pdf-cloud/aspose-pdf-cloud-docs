@@ -2157,7 +2157,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/result1.pdf/merge" -H "accept: ap
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 **Merge Multiple PDF Files**
 

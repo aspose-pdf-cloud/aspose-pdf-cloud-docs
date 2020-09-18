@@ -16,9 +16,9 @@ This API enables you to convert PDF document to XPS format. Please check [API Re
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToXps) lets you call the REST API directly from the browser.
 ## **cURL Example**
-**Input Document:**  [Sample.pdf](attachments/1246153/1507329.pdf)
+**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/4pages.pdf)
 
-**Output Document:** [result.xps](attachments/1246157/1507334.xps)**  
+
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

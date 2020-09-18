@@ -25,7 +25,7 @@ This example allows you to extract images from a PDF Document in a particular fo
 |folder|false|Query|String|Source folder for PDF File|
 |destFolder|false|Query|String|The extracted images are placed in this folder|
 ### **cURL Example**
-Input File: [PDF With Images](attachments/7242524/7209028.pdf)
+
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -82,7 +82,7 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/pages/1/images/extr
 |folder|false|Query|String|Source folder for PDF File|
 |destFolder|false|Query|String|The extracted images are placed in this folder|
 ### **cURL Example**
-Input File: [PDF With Images](attachments/7242524/7209028.pdf)
+
 
 {{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 
@@ -145,7 +145,7 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/pages/1/images/extr
 |folder|false|Query|String|Source folder for PDF File|
 |destFolder|false|Query|String|The extracted images are placed in this folder|
 ### **cURL Example**
-Input File: [PDF With Images](attachments/7242524/7209028.pdf)
+
 
 {{< tabs tabTotal="2" tabID="9" tabName1="Request" tabName2="Response" >}}
 
@@ -206,7 +206,7 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/pages/1/images/extr
 |folder|false|Query|String|Source folder for PDF File|
 |destFolder|false|Query|String|The extracted images are placed in this folder|
 ### **cURL Example**
-Input File: [PDF With Images](attachments/7242524/7209028.pdf)
+
 
 {{< tabs tabTotal="2" tabID="13" tabName1="Request" tabName2="Response" >}}
 

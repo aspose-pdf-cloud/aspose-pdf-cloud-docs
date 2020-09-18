@@ -21,9 +21,8 @@ We have provided a separate API for each of the following use case:
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutXfaPdfInStorageToAcroForm) lets you call the REST API directly from the browser.
 ## **cURL Example**
-**Input Document:** [PdfWithXfaForm.pdf](attachments/1246149/1507349.pdf)
+**Input Document:** [PdfWithXfaForm.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithXfaForm.pdf)
 
-**Output Document: [**result.pdf](attachments/1246149/1507348.pdf)****  
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

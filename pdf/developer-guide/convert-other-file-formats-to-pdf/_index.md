@@ -10,9 +10,9 @@ Aspose.PDF Cloud allows a flexible and easy way to convert multiple file formats
 ## **Convert other formats to PDF**
 
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert EPUB to PDF**
 
-Convert EPUB to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -65,9 +65,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert Web to PDF**
 
-Convert Web to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -136,9 +136,9 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/create/web?url=https://www.nord.no/en
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert LaTeX to PDF**
 
-Convert LaTeX to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -201,9 +201,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert MHT to PDF**
 
-Convert MHT to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -265,9 +265,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert HTML to PDF**
 
-Convert HTML to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -337,9 +337,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert PS to PDF**
 
-Convert PS to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -402,9 +402,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert XslFo to PDF**
 
-Convert XslFo to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -467,9 +467,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert XPS to PDF**
 
-Convert XPS to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -532,9 +532,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert SVG to PDF**
 
-Convert SVG to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -600,10 +600,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 
 
+## **Convert DOC and Doc X to PDF**
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
-Convert DOC and Doc X to PDF
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -674,9 +673,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert PCL to PDF**
 
-Convert PCL to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -739,9 +738,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert XML to PDF**
 
-Convert XML to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
@@ -804,9 +803,9 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< /tabs >}}
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Convert Markdwn to PDF**
 
-Convert Markdwn to PDF
+
 ### **Resource Information**
 
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|

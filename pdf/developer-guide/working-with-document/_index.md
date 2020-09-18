@@ -5,7 +5,7 @@ url: /working-with-document/
 weight: 40
 ---
 
-- [Convert PDF to Images, TIFF, DOC, HTML and other Formats](/pdf/convert-pdf-to-images-2c-tiff-2c-doc-2c-html-and-other-formats/)
+- [Convert PDF to Images, TIFF, DOC, HTML and other Formats](/pdf/convert-pdf-to-images-tiff-doc-html-and-other-formats/)
 - [Convert PDF to other Formats without using Storage](/pdf/convert-pdf-to-other-formats-without-using-storage/)
 - [Merge Multiple PDF Files](/pdf/merge-multiple-pdf-files/)
 - [Split PDF Files](/pdf/split-pdf-files/)

@@ -15,7 +15,7 @@ Aspose.PDF Cloud allows you to read a specific attachment information in a PDF D
 ### **cURL Example**
 {{% alert color="primary" %}} 
 
-We have used [PdfWithEmbeddedFiles.pdf](https://docs.aspose.cloud/download/attachments/1245466/PdfWithEmbeddedFiles.pdf?version=1&modificationDate=1560543302929&api=v2) as an example below
+We have used [PdfWithEmbeddedFiles.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithEmbeddedFiles.pdf) as an example below
 
 {{% /alert %}} 
 
@@ -98,7 +98,7 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithEmbeddedFiles.pdf/attachments/
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 **Get specific attachment**
 

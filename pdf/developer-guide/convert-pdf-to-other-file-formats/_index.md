@@ -14,9 +14,9 @@ Please refer to the below section for information on converting different file t
 
 
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
-Converting PDF to MS Doc and DocX
+## **Converting PDF to MS Doc and DocX**
+
 ### **Introduction**
 This API enables you to convert PDF document to DOC or DOCX format. Please check [API Reference page](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToDoc) for the description of API's parameters. The **mode** parameter of the API allows you to control how a PDF document is converted into a word processing document and it can contain one of the following two values:
 
@@ -25,9 +25,8 @@ This API enables you to convert PDF document to DOC or DOCX format. Please check
 - **Flow** 
   Full recognition mode, the engine performs grouping and multi-level analysis to restore the original document author's intent and produce a maximally editable document. The downside is that the output document might look different from the original PDF file.
 ### **cURL Example**
-**Input Document:**  [Sample.pdf](attachments/1246153/1507329.pdf)
-
-**Output Document: [**result.doc](attachments/1246153/1507330.doc)**  
+**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
+  
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -83,9 +82,8 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/empty.pdf" -X PUT -H "Content-Type: a
 ### **Introduction**
 This API enables you to convert PDF document to HTML format. The API returns output file in a zip format which you can later unzip to get the HTML file.
 ### **cURL Example**
-**Input Document:** [4pages.pdf](attachments/1246146/1507345.pdf) 
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf) 
 
-**Output Document: [**result.zip](attachments/1246146/1507353.zip)**
 
 {{< tabs tabTotal="2" tabID="6" tabName1="Request" tabName2="Response" >}}
 
@@ -144,15 +142,15 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/html?outPath=result.zip" \
 
 
 
-![todo:image_alt_text](/images/icons/grey_arrow_down.png)
+## **Converting PDF to TIFF**
 
-Converting PDF to TIFF
+
 ### **Introduction**
 This API enables you to convert PDF document to TIFF format.
 ### **cURL Example**
-**Input Document:**  [Sample.pdf](attachments/1246153/1507329.pdf)
+**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
 
-**Output Document: [**result.tiff](attachments/1246159/1507332.tiff)**
+
 
 {{< tabs tabTotal="2" tabID="12" tabName1="Request" tabName2="Response" >}}
 
@@ -217,9 +215,8 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/convert/tiff?outPath=result.tiff" \
 ### **Introduction**
 This API enables you to convert PDF document to SVG format.
 ### **cURL Example**
-**Input Document:**  [Sample.pdf](attachments/1246153/1507329.pdf)
+**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
 
-**Output Document: [**result.svg](attachments/1246158/1507335.svg)**
 
 {{< tabs tabTotal="2" tabID="17" tabName1="Request" tabName2="Response" >}}
 
@@ -280,9 +277,9 @@ Converting PDF to ePUB
 ### **Introduction**
 This API enables you to convert PDF document to EPUB format
 ### **cURL Example**
-**Input Document:** [4pages.pdf](attachments/1246145/1507339.pdf)
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
 
-**Output Document: [**result.epub](attachments/1246145/1507340.epub)** 
+
 
 {{< tabs tabTotal="2" tabID="22" tabName1="Request" tabName2="Response" >}}
 
@@ -343,9 +340,8 @@ Converting PDF to PPTX
 ### **Introduction**
 This API enables you to convert PDF document to PPTX format
 ### **cURL Example**
-**Input Document:** [4pages.pdf](attachments/1246146/1507345.pdf) 
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf) 
 
-**Output Document: [**result.pptx](attachments/1246144/1507344.pptx)** 
 
 {{< tabs tabTotal="2" tabID="27" tabName1="Request" tabName2="Response" >}}
 
@@ -406,9 +402,8 @@ Converting PDF to LaTeX
 ### **Introduction**
 This API enables you to convert PDF document to LaTeX format
 ### **cURL Example**
-**Input Document:** [4pages.pdf](attachments/1246146/1507345.pdf) 
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf) 
 
-**Output Document: [**result.latex](attachments/1246147/1507343.latex)** 
 
 {{< tabs tabTotal="2" tabID="32" tabName1="Request" tabName2="Response" >}}
 
@@ -469,9 +464,8 @@ Converting PDF to MobiXML
 ### **Introduction**
 This API enables you to convert PDF document to MOBIXML format.
 ### **cURL Example**
-**Input Document:** [4pages.pdf](attachments/1246146/1507345.pdf) 
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf) 
 
-**Output Document:**  [result.mobi](attachments/1246148/1507350.mobi)
 
 {{< tabs tabTotal="2" tabID="37" tabName1="Request" tabName2="Response" >}}
 
@@ -532,9 +526,9 @@ Converting PDF to XFA
 ### **Introduction**
 This API enables you to convert PDF document which contains XFAForm to PDF with AcroForm
 ### **cURL Example**
-**Input Document:** [PdfWithXfaForm.pdf](attachments/1246149/1507349.pdf)
+**Input Document:** [PdfWithXfaForm.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/PdfWithXfaForm.pdfattachments/1246149/1507349.pdf)
 
-**Output Document: [**result.pdf](attachments/1246149/1507348.pdf)** 
+
 
 {{< tabs tabTotal="2" tabID="42" tabName1="Request" tabName2="Response" >}}
 
@@ -595,9 +589,8 @@ Converting PDF to XML
 ### **Introduction**
 This API enables you to convert PDF document to XML format
 ### **cURL Example**
-**Input Document:** [4pages.pdf](attachments/1246146/1507345.pdf) 
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf) 
 
-**Output Document: [**result.xml](attachments/1246150/1507347.xml)** 
 
 {{< tabs tabTotal="2" tabID="47" tabName1="Request" tabName2="Response" >}}
 
@@ -658,9 +651,8 @@ Converting PDF to XPS
 ### **Introduction**
 This API enables you to convert PDF document to XPS format
 ### **cURL Example**
-**Input Document:**  [Sample.pdf](attachments/1246153/1507329.pdf)
-
-**Output Document:** [result.xps](attachments/1246157/1507334.xps) 
+**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
+ 
 
 {{< tabs tabTotal="2" tabID="52" tabName1="Request" tabName2="Response" >}}
 
@@ -721,9 +713,8 @@ Converting PDF to XLS
 ### **Introduction**
 This API enables you to convert PDF document to XLS format. 
 ### **cURL Example**
-**Input Document:**  [Sample.pdf](attachments/1246153/1507329.pdf)
+**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
 
-**Output Document: [**result.xls](attachments/1246156/1507333.xls)**
 
 {{< tabs tabTotal="2" tabID="57" tabName1="Request" tabName2="Response" >}}
 

@@ -105,7 +105,7 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithLinks.pdf/pages/1/links" \
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 **Get all links from PDF**
 

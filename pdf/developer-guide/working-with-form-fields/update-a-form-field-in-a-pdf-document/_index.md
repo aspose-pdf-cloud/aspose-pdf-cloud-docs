@@ -89,7 +89,7 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields?page=1" \
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 **Update form field in PDF**
 

@@ -13,7 +13,7 @@ This example allows you to get all bookmarks from a PDF using Aspose.PDF Cloud A
 | :- | :- | :- | :- |
 |/pdf/{name}/bookmarks/tree|GET|Read Document Bookmarks Tree|[GetDocumentBookmarks](https://apireference.aspose.cloud/pdf/#!/Bookmarks/GetDocumentBookmarks)|
 ### **cURL Example**
-Input Document: [PDFWithBookmars.pdf](attachments/1245474/1512040.pdf)
+Input Document: [PDFWithBookmars.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/PdfWithBookmarks.pdf)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -579,7 +579,7 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/PdfWithBookmarks.pdf/bookmarks/tree" 
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 **Get all bookmarks**
 

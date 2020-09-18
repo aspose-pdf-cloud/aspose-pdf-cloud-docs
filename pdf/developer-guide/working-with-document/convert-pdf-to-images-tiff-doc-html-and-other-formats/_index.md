@@ -5,7 +5,7 @@ url: /convert-pdf-to-images-tiff-doc-html-and-other-formats/
 weight: 10
 ---
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+
 # **Introduction**
 This example allows you to convert PDF document to other formats using Aspose.Pdf for Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. In case of PDF to HTML, Aspose for Cloud service returns the output as a ZIP file because there can be multiple supporting files in the output.
 ## **Resource**
@@ -53,7 +53,7 @@ curl -v http://api.aspose.cloud/v1.1/pdf/testing.pdf?format=html -X GET -H "Cont
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 **Convert PDF to Images, TIFF, DOC, HTML and other Formats**
 

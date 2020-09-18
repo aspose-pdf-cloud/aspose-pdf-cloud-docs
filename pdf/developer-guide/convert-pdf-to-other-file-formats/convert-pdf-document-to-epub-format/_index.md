@@ -20,9 +20,9 @@ We have provided a separate API for each of the following use case:
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToDoc) lets you call the REST API directly from the browser.
 ## **cURL Example**
-**Input Document:** [4pages.pdf](attachments/1246145/1507339.pdf)
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/4pages.pdf)
 
-**Output Document: [**result.epub](attachments/1246145/1507340.epub)****  
+**Output Document: [**result.epub](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/result.epub)****  
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

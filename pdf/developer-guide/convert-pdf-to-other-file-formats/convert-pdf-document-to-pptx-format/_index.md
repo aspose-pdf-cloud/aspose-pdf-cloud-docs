@@ -18,9 +18,9 @@ We have provided a separate API for each of the following use case:
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToPptx) lets you call the REST API directly from the browser.
 ## **cURL Example**
-**Input Document:** [4pages.pdf](attachments/1246146/1507345.pdf) 
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/4pages.pdf) 
 
-**Output Document: [**result.pptx](attachments/1246144/1507344.pptx)****  
+**Output Document: [**result.pptx](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/result.pptx)****  
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

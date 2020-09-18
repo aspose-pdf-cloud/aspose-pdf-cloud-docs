@@ -61,4 +61,4 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/decrypt?outPath=test-out.pdf&password=
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)

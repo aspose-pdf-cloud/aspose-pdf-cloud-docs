@@ -17,7 +17,7 @@ Aspose.PDF Cloud allows you to read Square Annotation information from a PDF Dou
 ### **cURL Example**
 {{% alert color="primary" %}} 
 
-We have used [PdfWithAnnotations.pdf](attachments/7243085/7209030.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/square/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/square** or **/pdf/{name}/annotations/square** to get the desired annotation identifier. The above resources return the following Square Annotation information for the document
+We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/square/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/square** or **/pdf/{name}/annotations/square** to get the desired annotation identifier. The above resources return the following Square Annotation information for the document
 
 ```java
 
@@ -279,7 +279,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/annotation
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 # **SDK Examples**
 {{< tabs tabTotal="1" tabID="6" tabName1="C#" >}}
 

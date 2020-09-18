@@ -154,6 +154,6 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5T
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 

@@ -10,7 +10,7 @@ This example allows you to import data from a variety of file formats into a PDF
 
 
 ## **API Information**
-For all these example we have used the sample files [test.xml](attachments/7244255/7209038.xml) [test.fdf](attachments/7244255/7209039.fdf) [test.xfdf](attachments/7244255/7209041.xfdf)
+For all these example we have used the sample files [test.xml](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/test.xml) [test.fdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/test.fdf) [test.xfdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/test.xfdf)
 ### **Importing data from XML Files**
 
 |**API**|**Type**|**Description**|

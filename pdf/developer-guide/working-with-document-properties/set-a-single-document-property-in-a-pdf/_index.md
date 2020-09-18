@@ -94,7 +94,7 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/4pages.pdf/documentproperties/author?v
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 **Set single document property**
 

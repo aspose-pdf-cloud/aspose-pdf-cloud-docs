@@ -91,7 +91,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/wordCount" \
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
 {{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Node.js" tabName3="Perl" tabName4="Java" tabName5="Python" tabName6="Android" tabName7="Go" >}}
 

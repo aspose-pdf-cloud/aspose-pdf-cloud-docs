@@ -17,7 +17,7 @@ Aspose.PDF Cloud allows you to read Text Annotation information from a PDF Doucm
 ### **cURL Example**
 {{% alert color="primary" %}} 
 
-We have used [PdfWithAnnotations.pdf](attachments/7243085/7209030.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/line/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/line** or **/pdf/{name}/annotations/line** to get the desired annotation identifier. The above resources return the following Line Annotation information for the document
+We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/line/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/line** or **/pdf/{name}/annotations/line** to get the desired annotation identifier. The above resources return the following Line Annotation information for the document
 
 ```java
 
@@ -357,7 +357,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/annotation
 
 {{< /tabs >}}
 # **SDK Source**
-The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 # **SDK Examples**
 **GetDocumentLineAnnotations**
 
