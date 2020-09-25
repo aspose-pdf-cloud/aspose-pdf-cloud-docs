@@ -8,8 +8,12 @@ on:
 jobs:
   job-one:
     name: Deploy
-    runs-on: [self-hosted, linux, x64, dev4-pdf-cloud]
+    runs-on: [self-hosted, linux, x64, dev4-pdf]
     steps:
       - name: hugo build
         run: |
-          cd aspose-pdf-cloud-docs
+          cd aspose-pdf-cloud-docs && git stash && git pull
+          cd lutsk-aspose-prototype && git stash && git pull
+          cd themes/lutsk-aspose-theme && git stash && git pull
+          sudo npm install -D --save autoprefixer
+          sudo npm install -D --save postcss-cli
