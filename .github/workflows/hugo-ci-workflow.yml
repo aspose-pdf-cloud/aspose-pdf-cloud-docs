@@ -8,7 +8,7 @@ on:
 jobs:
   job-one:
     name: Deploy
-    runs-on: [self-hosted, linux, x64, dev4-pdf]
+    runs-on: [self-hosted, linux, x64, dev4-pdf-cloud]
     steps:
       - name: hugo build
         run: |
