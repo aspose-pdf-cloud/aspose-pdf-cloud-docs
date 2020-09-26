@@ -4,7 +4,7 @@ type: docs
 url: /aspose-pdf-cloud-20-8-release-notes/
 keywords: "Aspose.PDF Cloud, Release Notes"
 description: "Aspose.PDF Cloud 20.8 Release Notes"
-weight: 10
+weight: 14
 ---
 
 # **New Features**
