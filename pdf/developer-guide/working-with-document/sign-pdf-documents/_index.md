@@ -13,7 +13,7 @@ The following Aspose.Pdf for Cloud REST API resource has been used in the exampl
 |**Parameter**|**Required**|**Description**|**Type**|
 | :- | :- | :- | :- |
 |name|true|The document name.|String|
-|signature|true|<p>Signature object containing signature data. Example can be</p><p>{<br>'SignaturePath':'test1234.pfx',<br>'SignatureType':'PKCS7',<br>'Password': 'aspose',<br>'Appearance':'string',<br>'Reason':'test',<br>'Contact':'test',<br>'Location':'test',<br>'Visible':true,<br>'Rectangle':{<br>'LLX':100,<br>'LLY':100,<br>'URX':100,<br>'URY':100<br>},<br>'FormFieldName':'Signature1',<br>'Authority':'Aspose Developer',<br>'Date':'06/20/2017 2:00:00.000 AM',<br>'ShowProperties':true<br>}</p>|` `JSON|
+|signature|true|<p>Signature object containing signature data. Example can be</p><p>{<br>'SignaturePath':'test1234.pfx',<br>'SignatureType':'PKCS7',<br>'Password': 'aspose',<br>'Appearance':'string',<br>'Reason':'test',<br>'Contact':'test',<br>'Location':'test',<br>'Visible':true,<br>'Rectangle':{<br>'LLX':100,<br>'LLY':100,<br>'URX':100,<br>'URY':100<br>},<br>'FormFieldName':'Signature1',<br>'Authority':'Aspose Developer',<br>'Date':'06/20/2017 2:00:00.000 AM',<br>'ShowProperties':true<br>}</p>| JSON|
 
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -41,15 +41,10 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/signature" -H 
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
 "Code":200,
-
 "Status":"OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -60,7 +55,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Sign PDF Documents**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -105,16 +100,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Document-SignPdfDoc-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-SignPdf.go" >}}
 

@@ -73,7 +73,7 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithLinks.pdf/pages/1/links/1" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/Sample-Bookmark.pdf/pages/1/links/1",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/Sample-Bookmark.pdf/pages/1/links/1",
 
         "Rel": "self",
 

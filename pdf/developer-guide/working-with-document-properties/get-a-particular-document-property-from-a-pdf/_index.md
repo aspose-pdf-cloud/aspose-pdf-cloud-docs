@@ -100,59 +100,47 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Get a particular document property**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
-
-{{< tab tabNum="1" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="Java" tabName2="PHP" tabName3="Ruby"  tabName4="Python" tabName5="Node.js" tabName6="Android" tabName7="Go" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="2" >}}
+{{< tab tabNum="1" >}}
 
 {{< gist "aspose-cloud" "18d4826e80a1b2eeb8c3f55da5f8dc13" "Examples-JAVA-SDK-src-main-java-com-aspose-pdf-cloud-examples-properties-GetParticularDocumentPropertyExample-get-particular-document-property.java" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="3" >}}
+{{< tab tabNum="2" >}}
 
 {{< gist "aspose-cloud" "6cabe1c58163af282039ac0e77ca291d" "Examples-PHP-DocumentProperties-GetDocumentProperty-.php" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="4" >}}
+{{< tab tabNum="3" >}}
 
 {{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-DocumentProperties-read_document_property_by_name-.rb" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="5" >}}
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "40abf24492216bf27557f639af52c7c3" "GetParticularDocumentProperty.py" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="6" >}}
+{{< tab tabNum="5" >}}
 
 {{< gist "aspose-cloud" "86742b353d1dae0d2db0b0a9bb0299eb" "Examples-Node.js-Document-Properties-GetParticularProperty-1.js" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="7" >}}
+{{< tab tabNum="6" >}}
 
 {{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-properties-GetParticularDocumentPropertyExample-1.java" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Document-Properties-GetParticularProperty-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
+{{< tab tabNum="7" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-GetProperty.go" >}}
 

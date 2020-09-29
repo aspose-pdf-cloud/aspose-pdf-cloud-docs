@@ -5,7 +5,7 @@ url: /create-empty-pdf/
 weight: 10
 ---
 
-# **Introduction**
+# <ins>**Introduction**
 This example allows you to create an empty PDF file using Aspose.PDF REST API. The API has the following properties
 
 
@@ -16,9 +16,9 @@ This example allows you to create an empty PDF file using Aspose.PDF REST API. T
 |storage|no|The document storage|query|query|
 |folder|no|The new document folder.|query|query|
 
-## **Resource**
+## <ins>**Resource**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Document/PutCreateDocument) lets you call the REST API directly from the browser.
-## **cURL Example**
+## <ins>**cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -533,12 +533,12 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf"\
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+# <ins>**SDK Source**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-pdf-cloud) for a complete list of Aspose.PDF SDKs along with working examples, to get you started in no time.
-## **SDK Examples**
+## <ins>**SDK Examples**
 **Create Empty PDF**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Python" tabName5="Node.js" tabName6="Java" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Python" tabName5="Node.js" tabName6="Java" tabName7="Android"  tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -583,16 +583,6 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-pdf" "316a7b68434c0790210c455da62eb029" "Examples-Perl-Document-CreateEmptyPdf-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-CreateEmptyPdf.go" >}}
 

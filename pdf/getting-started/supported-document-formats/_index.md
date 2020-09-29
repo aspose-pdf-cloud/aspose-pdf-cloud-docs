@@ -5,12 +5,12 @@ url: /supported-document-formats/
 weight: 30
 ---
 
-## **Supported Load Formats**
+## <ins>**Supported Load Formats**
 
 |**Format**|**Description**|**Load**|**Save**|
 | :- | :- | :- | :- |
 |[PDF](https://wiki.fileformat.com/view/pdf/)|Portable Document Format|{{< emoticons/tick >}}|{{< emoticons/tick >}} |
-|[EPUB](https://docs.fileformat.com/epub/)|Ebook file format|{{< emoticons/tick >}}| |
+|[EPUB](https://docs.fileformat.com/ebook/epub/)|Ebook file format|{{< emoticons/tick >}}| |
 |[HTML](https://wiki.fileformat.com/web/html/)|HTML Format|{{< emoticons/tick >}}| |
 |[TeX](https://wiki.fileformat.com/page-description-language/tex/)|LaTex typesetting file format|{{< emoticons/tick >}}| |
 |[MHT](https://wiki.fileformat.com/web/mhtml/)|MHTML Document|{{< emoticons/tick >}}| |

@@ -7,7 +7,9 @@ description: "You can convert pdf to ppt by using Aspose.PDF Cloud REST API. The
 weight: 70
 ---
 
-# **Introduction**
+# <ins>**Converting PDF to PPTX**
+
+## **Introduction**
 This API enables you to convert PDF document to PPTX format. Please check [API Reference page](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToPptx) for the description of API's parameters.
 
 We have provided a separate API for each of the following use case:
@@ -17,31 +19,31 @@ We have provided a separate API for each of the following use case:
 1. [Converts PDF document (in request content) to PPTX format and uploads resulting file to storage](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToPptx)
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToPptx) lets you call the REST API directly from the browser.
-## **cURL Example**
-**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/4pages.pdf) 
+### **cURL Example**
+**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf) 
 
-**Output Document: [**result.pptx](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/result.pptx)****  
+**Output Documen:** [result.pptx ](https://docs.aspose.cloud/download/attachments/1246144/result.pptx?version=1&modificationDate=1530860900249&api=v2)
 
-{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="27" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
+**Get Authentication token**
+
 ```java
 
-// First get Access Token
-// Get App Key and App SID from https://dashboard.aspose.cloud/
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
-curl -v "https://api.aspose.cloud/oauth2/token" \
--X POST \
--d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
--H "Content-Type: application/x-www-form-urlencoded" \
--H "Accept: application/json"
+```
 
+```java
 
-
-// cURL example to convert PDF Document to PPTX Format
-
-curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4Pages.pdf/convert/pptx?outPath=result.pptx&separateImages=true&slidesAsImages=true" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTQyMDM0ODIsImV4cCI6MTU5NDI4OTg4MiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdLCJjbGllbnRfaWQiOiJiZmM1MzQyOS01NzkwLTRhZTUtOGE5Ni04OWVjYWJlNGIyYTAiLCJjbGllbnRfZGVmYXVsdF9zdG9yYWdlIjoiMjVDNDNBNUMtMEQ1RS00MjFCLTlGMTUtQjRCNzY0RDRCMEVEIiwiY2xpZW50X2lkU3J2SWQiOiI0MDQ4OTkiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiLCJhcGkuc3RvcmFnZSJdfQ.Sms8wYcZrqsu-Z1us8ixABAHyWwo4TUlKNEeF2l-aUijOaAI0sk4t0XtltchkxtGVrks4YSEQ3_48LvksO72aoJfjICi6h3vZuxF_yrb5oNqw9yyq05vDO9EqH0YHhCFB0LTPFj9HhDmsEko7rbtHJtdmo2vxTGKWBBh8f1O0l2OTTbKww5LpYntZ_MOSgG8xbHj7DFl72idAfTMbX4_Zi1I4JgSw2IAbwB-WUnuLL27unzJB2uUApQsdI-lGaY8IEXAeqAcVcIZIve1hxzmFRN03SpPPKXDgV4P3hvG8xCrZ6pMoWh5IKcyyUXN5ZRvBnuMDsgiQb6ZC16XV2TMHQ"
+curl -v "https://api.aspose.cloud/v3.0/pdf/convert/pptx?outPath=result.pptx" \
+-X PUT \
+-T 4pages.pdf \
+-H "Content-Type: multipart/form-data" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer Xju2mC3FlzhSCHCek61zfopM3dyWwotXhInl05sAVyiWo3Nc3R1r3UjqgqUyYRicrLKt8pJFSgZqik90lmfltE-P9zsIwHBheE2Qh4yfgLV_IE2FD7dDeM1thXF65g__BwScOqabN2MkyLwV8PzWZQhQSP7bPVR3VQhefJiCUKZdGRqTAirJ8_PSdT6JHuAOukz8cVIvIC_Ss5C8B2RilsrP-IRrK9ClJlqnsix6EH2E7ndvsdAlg_XxZW45lP6zRs1Y-tiI8bt_g_3FtngghwoJVQDKIijJp44QicmZaiZcDHyNqQz5zjY3NntsYMoLhGmuWvRhj6ZymYTRf1zLrZbjyBRJEM-vFOKpnCoR6UBwjXigt8swJx7usD-fuQ4F_0ogoyO4jfoq-nL0IJGg-ShdlEOfNTzQdlhdxRhvCeM2cIg6"
 
 ```
 
@@ -52,11 +54,8 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4Pages.pdf/convert/pptx?outPath=r
 ```java
 
 {
-
   "Code": 201,
-
   "Status": "Created"
-
 }
 
 ```
@@ -64,34 +63,12 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4Pages.pdf/convert/pptx?outPath=r
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-pdf-cloud) for a complete list of Aspose.PDF SDKs along with working examples, to get you started in no time.
-## **SDK Examples**
-{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Ruby" >}}
+### **SDK Example**
+{{< tabs tabTotal="1" tabID="31" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
 
-
-
 {{< gist "aspose-cloud" "67c1ec9de6e6fcd5917244c4291dc5b0" "Examples-ConvertExamples-GetPdfInStorageToPptxExample.cs" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="2" >}}
-
-
-
-{{< /tab >}}
-
-{{< tab tabNum="3" >}}
-
-
-
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
-
-
 
 {{< /tab >}}
 

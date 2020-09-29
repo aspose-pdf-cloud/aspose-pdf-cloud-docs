@@ -5,14 +5,14 @@ url: /create-pdf-from-html/
 weight: 20
 ---
 
-# **Introduction**
+# <ins>**Introduction**
 This example allows you to create PDF file from HTML using Aspose.PDF for Cloud API.
-## **Resource**
+## <ins>**Resource**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Document/PutCreateDocument) lets you call the REST API directly from the browser.
-## **cURL Example**
-**Template File:** [HtmlExample1.html](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/HtmlExample1.html)
+## <ins>**cURL Example**
+**Template File:** [HtmlExample1.html](https://docs.aspose.cloud/download/attachments/1245793/HtmlExample1.html?version=1&modificationDate=1530780343226&api=v2)
 
-**Output File:** [HtmlExample1.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/HtmlExample1.pdf)
+**Output File:** [HtmlExample1.pdf](https://docs.aspose.cloud/download/attachments/1245793/HtmlExample1.pdf?version=1&modificationDate=1530780493254&api=v2)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -267,7 +267,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
                 {
 
-                    "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf/documentproperties",
+                    "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf/documentproperties",
 
                     "Rel": "self",
 
@@ -297,7 +297,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
                             {
 
-                                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf/pages/1/images",
+                                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf/pages/1/images",
 
                                 "Rel": "self",
 
@@ -337,7 +337,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
                 {
 
-                    "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf/pages",
+                    "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf/pages",
 
                     "Rel": "self",
 
@@ -355,7 +355,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "self",
 
@@ -367,7 +367,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "alternate",
 
@@ -379,7 +379,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "alternate",
 
@@ -391,7 +391,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "alternate",
 
@@ -403,7 +403,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "alternate",
 
@@ -415,7 +415,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "alternate",
 
@@ -427,7 +427,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "alternate",
 
@@ -439,7 +439,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "alternate",
 
@@ -451,7 +451,7 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/HtmlExample1.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/HtmlExample1.pdf",
 
                 "Rel": "alternate",
 
@@ -478,12 +478,12 @@ isLandscape=true&marginLeft=10&marginBottom=10&marginRight=10&marginTop=10" \
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+# <ins>**SDK Source**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-pdf-cloud) for a complete list of Aspose.PDF SDKs along with working examples, to get you started in no time.
-## **SDK Examples**
+## <ins>**SDK Examples**
 **Create PDF from HTML**
 
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -524,16 +524,6 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 {{< tab tabNum="7" >}}
 
 {{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-documents-CreatePDFFromHtmlExample-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Document-CreateFromHTML-1.pl" >}}
 
 {{< /tab >}}
 

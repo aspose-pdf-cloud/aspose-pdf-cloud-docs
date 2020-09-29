@@ -101,7 +101,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/PdfWithEmbeddedFiles.pdf/attachme
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/SampleAttachment.pdf/attachments",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/SampleAttachment.pdf/attachments",
 
         "Rel": "self",
 

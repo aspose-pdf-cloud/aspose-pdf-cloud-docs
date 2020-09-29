@@ -5,11 +5,11 @@ url: /create-pdf-from-jpg-png-or-tiff/
 weight: 50
 ---
 
-# **Introduction**
+# <ins>**Introduction**
 This article explains how to create PDF file from JPG, PNG or TIFF using Aspose.PDF Cloud API.
-## **Resource URI**
+## <ins>**Resource URI**
  [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Document/PutCreateDocument) lets you call the REST API directly from the browser.
-## **cURL Example**
+## <ins>**cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -264,7 +264,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
                 {
 
-                    "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf/documentproperties",
+                    "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf/documentproperties",
 
                     "Rel": "self",
 
@@ -320,7 +320,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
                             {
 
-                                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf/pages/1/images",
+                                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf/pages/1/images",
 
                                 "Rel": "self",
 
@@ -360,7 +360,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
                 {
 
-                    "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf/pages",
+                    "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf/pages",
 
                     "Rel": "self",
 
@@ -378,7 +378,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "self",
 
@@ -390,7 +390,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "alternate",
 
@@ -402,7 +402,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "alternate",
 
@@ -414,7 +414,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "alternate",
 
@@ -426,7 +426,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "alternate",
 
@@ -438,7 +438,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "alternate",
 
@@ -450,7 +450,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "alternate",
 
@@ -462,7 +462,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "alternate",
 
@@ -474,7 +474,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/sample-jpeg.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/sample-jpeg.pdf",
 
                 "Rel": "alternate",
 
@@ -501,12 +501,12 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/test_jpeg.pdf/create/images" \
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+# <ins>**SDK Source**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-pdf-cloud) for a complete list of Aspose.PDF SDKs along with working examples, to get you started in no time.
-## **SDK Examples**
+## <ins>**SDK Examples**
 **Create PDF from TIFF**
 
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -547,16 +547,6 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 {{< tab tabNum="7" >}}
 
 {{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-documents-CreatePDFFromTiffExample-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Document-CreatePdfFromTIFF-1.pl" >}}
 
 {{< /tab >}}
 

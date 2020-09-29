@@ -17,4 +17,4 @@ PM> Install-Package Aspose.Pdf-Cloud
 
 Or In Microsoft Visual Studio -> “Tools” -> “NuGet Package Manager” -> “Manage NuGet Packages for Solution” Search “Aspose.Pdf-Cloud” and then Press “Install”
 ### **Source Code**
-The Source code and Dlls can also be downloaded from [GitHub](https://github.com/aspose-pdf/Aspose.Pdf-for-Cloud/releases/tag/Aspose.Pdf_Cloud_SDK_For_.NET_v1_0_0) and [CodePlex](https://asposepdfcloud.codeplex.com/releases/view/619455).
+The Source code and Dlls can also be downloaded from GitHub and [CodePlex](https://asposepdfcloud.codeplex.com/releases/view/619455).

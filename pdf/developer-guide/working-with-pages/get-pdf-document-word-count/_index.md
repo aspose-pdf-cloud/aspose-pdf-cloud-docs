@@ -93,7 +93,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/wordCount" \
 # **SDK Source**
 The Aspose for Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)
 ## **SDK Examples**
-{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Node.js" tabName3="Perl" tabName4="Java" tabName5="Python" tabName6="Android" tabName7="Go" >}}
+{{< tabs tabTotal="6" tabID="5" tabName1="C#" tabName2="Node.js" tabName3="Java" tabName4="Python" tabName5="Android" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -109,29 +109,23 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Pages-GetWordsCount-1.pl" >}}
+{{< gist "aspose-cloud" "18d4826e80a1b2eeb8c3f55da5f8dc13" "Examples-JAVA-SDK-src-main-java-com-aspose-pdf-cloud-examples-documents-GetWordsPerPageExample-create-pdf-svg.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "18d4826e80a1b2eeb8c3f55da5f8dc13" "Examples-JAVA-SDK-src-main-java-com-aspose-pdf-cloud-examples-documents-GetWordsPerPageExample-create-pdf-svg.java" >}}
+{{< gist "aspose-cloud" "40abf24492216bf27557f639af52c7c3" "GetWordCountFromDocument.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cloud" "40abf24492216bf27557f639af52c7c3" "GetWordCountFromDocument.py" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="6" >}}
-
 {{< gist "aspose-pdf" "2605f3d097921d61b665d23e70aa16a3" "Examples-JAVA-SDK-src-main-java-com-aspose-pdf-cloud-examples-documents-GetWordsPerPageExample-create-pdf-svg.java" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="7" >}}
+{{< tab tabNum="6" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-GetWordsPerPage.go" >}}
 

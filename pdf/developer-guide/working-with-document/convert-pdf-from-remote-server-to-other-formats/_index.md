@@ -5,13 +5,12 @@ url: /convert-pdf-from-remote-server-to-other-formats/
 weight: 70
 ---
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 # **Introduction**
 This example allows you to convert PDF documents uploaded at a remote server to other formats using Aspose.Pdf for Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. In case of PDF to HTML, Aspose for Cloud service returns the output as a ZIP file because there can be multiple supporting files in the output.
 ## **Resource**
 The following Aspose.Pdf for Cloud REST API resource has been used in the examples: [convert (Controller resource)](https://apireference.aspose.cloud/pdf/#!/Document/Document_PutConvertDocument).
 ## **REST Methods References**
-We're referring some common methods in the REST examples to perform general operations. These methods can be found at the following page: [REST API Methods](http://www.aspose.com/docs/display/rest/REST+API+Methods)
+We're referring some common methods in the REST examples to perform general operations. These methods can be found at the following page: REST API Methods
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -27,7 +26,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_cr
 
 ```java
 
-curl -v http://api.aspose.cloud/v1.1/pdf/{documentname}/SaveAs/tiff -X PUT -d {"exportOptions": [{"Brightness": 0, "Compression": "string", "ColorDepth": "string", "LeftMargin": 0, "RightMargin": 0, "TopMargin": 0, "BottomMargin": 0, "Orientation": "string", "SkipBlankPages": true, "Width": 0, "Height": 0, "XResolution": 0, "YResolution": 0, "PageIndex": 0, "PageCount": 0, "ResultFile": "string"}]} -H "Content-Type: application/json" -H "Accept: application/json"-H "Authorization: Bearer yPFyyiN2jamYggVq9p6Tg8EOIC7f5zr2tWmClPWuKJWtfVv2CNpb1qno7GAufwT10ttkHLe7GVlZg4-YjpSfi5gM3xMy5obgaP4HIta8EZ6bwopPbS6i-gPiNHM6CraFmSEKWvDDUwIWopcR0apcRyyxzBR4GhuRDbbagrl0efGhjmkR4VbnX382dXcf0uvyzuTpz7OB3S2ZJsJhOdZ16TOkfrtjFgeTjFm2LBENkVPpQP6nFMBDL2D8_EoUgS2Rn4q65eZQqtcqhbUWtsAwPQiX2le0QxACQ0o0lWYAaCGvFGODcEQyqJUa7fXSIxXNICilGBoA1k-wWQtZyoqipgt8sC1lbN4ctS5wDsFmBE9cMhyn68FO_ZuQzZqfqsN_U9fQt-VVLif2woStjXotyL3kjqDVwbOKNpSAw2c4uh9xX7xL"
+curl -v http://api.aspose.cloud/v3.0/pdf/{documentname}/SaveAs/tiff -X PUT -d {"exportOptions": [{"Brightness": 0, "Compression": "string", "ColorDepth": "string", "LeftMargin": 0, "RightMargin": 0, "TopMargin": 0, "BottomMargin": 0, "Orientation": "string", "SkipBlankPages": true, "Width": 0, "Height": 0, "XResolution": 0, "YResolution": 0, "PageIndex": 0, "PageCount": 0, "ResultFile": "string"}]} -H "Content-Type: application/json" -H "Accept: application/json"-H "Authorization: Bearer yPFyyiN2jamYggVq9p6Tg8EOIC7f5zr2tWmClPWuKJWtfVv2CNpb1qno7GAufwT10ttkHLe7GVlZg4-YjpSfi5gM3xMy5obgaP4HIta8EZ6bwopPbS6i-gPiNHM6CraFmSEKWvDDUwIWopcR0apcRyyxzBR4GhuRDbbagrl0efGhjmkR4VbnX382dXcf0uvyzuTpz7OB3S2ZJsJhOdZ16TOkfrtjFgeTjFm2LBENkVPpQP6nFMBDL2D8_EoUgS2Rn4q65eZQqtcqhbUWtsAwPQiX2le0QxACQ0o0lWYAaCGvFGODcEQyqJUa7fXSIxXNICilGBoA1k-wWQtZyoqipgt8sC1lbN4ctS5wDsFmBE9cMhyn68FO_ZuQzZqfqsN_U9fQt-VVLif2woStjXotyL3kjqDVwbOKNpSAw2c4uh9xX7xL"
 
 ```
 
@@ -36,15 +35,10 @@ curl -v http://api.aspose.cloud/v1.1/pdf/{documentname}/SaveAs/tiff -X PUT -d {"
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
 "Code":200,
-
 "Status":"OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -55,7 +49,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Convert PDF from Remote Server to other Formats**
 
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android">}}
 
 {{< tab tabNum="1" >}}
 
@@ -96,16 +90,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 {{< tab tabNum="7" >}}
 
 {{< gist "aspose-pdf" "531368565ace35fc131f3e7b44b4e322" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-documents-ConvertPDFRemoteServer-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-pdf" "316a7b68434c0790210c455da62eb029" "Examples-Perl-Document-ConvertPdfFromRemoteServer-1.pl" >}}
 
 {{< /tab >}}
 
