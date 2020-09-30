@@ -79,15 +79,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields?page=1" \
 {{< tab tabNum="2" >}}
 
 ```java
-
 {  
-
   "Code": 200,
-
   "Status": "OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -98,7 +93,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available
 ## **SDK Examples**
 **Update form field in PDF**
 
-{{< tabs tabTotal="6" tabID="6" tabName1="C#" tabName2="Node.js" tabName3="Perl" tabName4="Java" tabName5="Android" tabName6="Go" >}}
+{{< tabs tabTotal="4" tabID="6" tabName1="C#" tabName2="Node.js" tabName3="Java" tabName4="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -114,23 +109,11 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Form-Fields-CreateFormField-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "18d4826e80a1b2eeb8c3f55da5f8dc13" "Examples-JAVA-SDK-src-main-java-com-aspose-pdf-cloud-examples-formfields-CreateFormFieldExample-1.java" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="5" >}}
-
-{{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-slides-cloud-examples-CreateFormFieldExample.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="6" >}}
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-AddField.go" >}}
 

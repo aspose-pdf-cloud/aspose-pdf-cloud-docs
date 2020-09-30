@@ -6,7 +6,7 @@ weight: 30
 ---
 
 # **Introduction**
-Aspose.PDF Cloud allows you to readf TextBox fields from a PDF Document. The Aspose.PDF Cloud API provides the following methods
+Aspose.PDF Cloud allows you to read TextBox fields from a PDF Document. The Aspose.PDF Cloud API provides the following methods
 ### **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|

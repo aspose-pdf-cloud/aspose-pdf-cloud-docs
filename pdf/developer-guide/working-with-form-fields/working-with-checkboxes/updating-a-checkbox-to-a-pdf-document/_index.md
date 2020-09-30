@@ -44,15 +44,10 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/fields/checkbox/testFi
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
    "Code":200,
-
    "Status":"OK"
-
 }
-
 ```
 
 {{< /tab >}}

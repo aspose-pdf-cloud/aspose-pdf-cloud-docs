@@ -102,8 +102,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tabs tabTotal="7" tabID="5" tabName1="Java" tabName2="PHP" tabName3="Ruby"  tabName4="Python" tabName5="Node.js" tabName6="Android" tabName7="Go" >}}
 
-{{< /tab >}}
-
 {{< tab tabNum="1" >}}
 
 {{< gist "aspose-cloud" "18d4826e80a1b2eeb8c3f55da5f8dc13" "Examples-JAVA-SDK-src-main-java-com-aspose-pdf-cloud-examples-properties-GetParticularDocumentPropertyExample-get-particular-document-property.java" >}}

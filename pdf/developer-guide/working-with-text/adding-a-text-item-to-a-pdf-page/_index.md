@@ -124,8 +124,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/sample.pdf/pages/1/text" -X PUT -H "Co
 {{< tab tabNum="2" >}}
 
 ```java
-
-{"Code":200,"Status":"OK"}
+{
+"Code":200,
+"Status":"OK"
+}
 
 ```
 

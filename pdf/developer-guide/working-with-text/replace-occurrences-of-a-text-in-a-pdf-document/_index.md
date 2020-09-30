@@ -111,8 +111,11 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/sample.pdf/text/replace" -X POST -H "C
 {{< tab tabNum="2" >}}
 
 ```java
-
-{"Matches":0,"Code":200,"Status":"OK"}
+{
+"Matches":0,
+"Code":200,
+"Status":"OK"
+}
 
 ```
 

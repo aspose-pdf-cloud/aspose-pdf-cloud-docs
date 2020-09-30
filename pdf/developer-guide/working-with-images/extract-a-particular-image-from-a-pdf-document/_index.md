@@ -83,7 +83,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5T
 
 ```java
 
-{"Code":200,"Status":"OK"}
+{
+"Code":200,
+"Status":"OK"
+}
 
 ```
 
@@ -166,7 +169,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5T
 
 ```java
 
-{"Code":200,"Status":"OK"}
+{
+"Code":200,
+"Status":"OK"
+}
 
 ```
 
@@ -249,7 +255,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5T
 
 ```java
 
-{"Code":200,"Status":"OK"}
+{
+"Code":200,
+"Status":"OK"
+}
 
 ```
 
@@ -332,7 +341,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithImages2.pdf/images/GE5TOMRXHA5T
 
 ```java
 
-{"Code":200,"Status":"OK"}
+{
+"Code":200,
+"Status":"OK"
+}
 
 ```
 

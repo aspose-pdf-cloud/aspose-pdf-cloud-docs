@@ -40,15 +40,10 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_c
 {{< tab tabNum="2" >}}
 
 ```java
-
  {
-
   "Code": 200,
-
   "Status": "OK"
-
 }
-
 ```
 
 {{< /tab >}}
