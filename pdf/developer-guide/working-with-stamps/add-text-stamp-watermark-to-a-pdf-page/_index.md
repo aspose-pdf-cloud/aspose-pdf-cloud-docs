@@ -137,7 +137,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Add text stamp**
 
-{{< tabs tabTotal="9" tabID="6" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" >}}
+{{< tabs tabTotal="7" tabID="6" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -178,16 +178,6 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 {{< tab tabNum="7" >}}
 
 {{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-watermarks-AddWatermarkToPDFExample-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-WatermarksOrStamps-AddTextStamp-1.pl" >}}
 
 {{< /tab >}}
 

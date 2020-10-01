@@ -7,7 +7,7 @@ weight: 30
 
 We are pleased to announce the release of Aspose.PDF for Cloud 10.6.0 with following improvements.
 ## **New Features**
-- SAASPDF-134 [PDF to HTML](/pages/createpage.action?spaceKey=pdfcloud&title=PDF+to+HTML&linkCreation=true&fromPageId=1245860) Support saving to a single HTML file with all resources
+- SAASPDF-134 PDF to HTML Support saving to a single HTML file with all resources
 - SAASPDF-104 Add support to convert EPUB to PDF file format
 ## **Bugs**
 - SAASPDF-120 PDF to PNG conversion issue

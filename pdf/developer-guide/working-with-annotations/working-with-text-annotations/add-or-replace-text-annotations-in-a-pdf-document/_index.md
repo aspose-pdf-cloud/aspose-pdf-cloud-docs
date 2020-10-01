@@ -14,7 +14,6 @@ Aspose.PDF Cloud allows you to add or replace Text Annotation information in a P
 |/pdf/{name}/pages/{pageNumber}/annotations/text|POST|Add document page text annotations.|[PostPageTextAnnotations](https://apireference.aspose.cloud/pdf/#/Annotations/PostPageTextAnnotations)|
 |/pdf/{name}/pages/{pageNumber}/annotations/text|PUT|Replace document Text annotation|[PutTextAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/PutTextAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
 Suppose, we have the following **Text Annotation** information which need to be added in a document page.
 
@@ -106,8 +105,6 @@ Suppose, we have the following **Text Annotation** information which need to be 
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -141,11 +138,8 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/annotations/t
 ```java
 
 {
-
 	"Code":200,
-
    	"Status":"OK"
-
 }
 
 ```

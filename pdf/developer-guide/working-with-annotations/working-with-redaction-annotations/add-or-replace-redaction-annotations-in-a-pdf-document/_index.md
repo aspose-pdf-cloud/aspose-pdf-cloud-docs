@@ -14,7 +14,6 @@ Aspose.PDF Cloud allows you to add or replace Redaction Annotation information i
 |/pdf/{name}/pages/{pageNumber}/annotations/redaction|POST|Add document page redaction annotations.|[PostPageRedactionAnnotations](https://apireference.aspose.cloud/pdf/#/Annotations/PostPageRedactionAnnotations)|
 |/pdf/{name}/pages/{pageNumber}/annotations/redaction|PUT|Replace document redaction annotation|[PutRedactionAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/PutRedactionAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
 Suppose, we have the following **Redaction Annotation** information which need to be added in a document page.
 
@@ -150,8 +149,6 @@ Suppose, we have the following **Redaction Annotation** information which need t
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -185,11 +182,8 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/annotations/r
 ```java
 
 {
-
 	"Code":200,
-
    	"Status":"OK"
-
 }
 
 ```

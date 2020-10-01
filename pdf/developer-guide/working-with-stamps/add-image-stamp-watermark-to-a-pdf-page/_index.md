@@ -118,15 +118,10 @@ curl -v -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/stamps/ima
 {{< tab tabNum="2" >}}
 
 ```java
-
 {  
-
   "Code": 200,
-
   "Status": "created"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -137,21 +132,11 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available
 ## **SDK Examples**
 **Add image stamp**
 
-{{< tabs tabTotal="3" tabID="6" tabName1="C#" tabName2="Java" tabName3="Perl" >}}
+{{< tabs tabTotal="1" tabID="6" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
 
 {{< gist "aspose-cloud" "8c0678437a10062f840ba17f5a719535" "Examples-DotNET-CSharp-WatermarksOrStamps-AddImageStamp-1.cs" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="2" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="3" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-WatermarksOrStamps-AddImageStamp-1.pl" >}}
 
 {{< /tab >}}
 

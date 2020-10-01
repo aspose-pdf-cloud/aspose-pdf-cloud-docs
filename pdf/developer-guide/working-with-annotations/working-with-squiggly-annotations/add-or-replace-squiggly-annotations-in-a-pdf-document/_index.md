@@ -14,7 +14,6 @@ Aspose.PDF Cloud allows you to add or replace Squiggly Annotation information in
 |/pdf/{name}/pages/{pageNumber}/annotations/squiggly|POST|Add document page squiggly annotations.|[PostPageSquigglyAnnotations](https://apireference.aspose.cloud/pdf/#/Annotations/PostPageSquigglyAnnotations)|
 |/pdf/{name}/pages/{pageNumber}/annotations/squiggly|PUT|Replace document squiggly annotation|[PutSquigglyAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/PutLineAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
 Suppose, we have the following **Squiggly Annotation** information which need to be added in a document page.
 
@@ -148,8 +147,6 @@ Suppose, we have the following **Squiggly Annotation** information which need to
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -183,11 +180,8 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/annotations/s
 ```java
 
 {
-
 	"Code":200,
-
    	"Status":"OK"
-
 }
 
 ```

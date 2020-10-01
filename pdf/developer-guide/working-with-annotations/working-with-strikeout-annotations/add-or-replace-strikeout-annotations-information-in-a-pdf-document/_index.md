@@ -153,15 +153,10 @@ Suppose we have the following Strikeout Annotation information for the document
          }
 
       ]
-
-   },
-
+{
    "Code":200,
-
    "Status":"OK"
-
 }
-
 ```
 
 {{% /alert %}} 
@@ -197,15 +192,10 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/2/annotations/s
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
    "Code":200,
-
    "Status":"OK"
-
 }
-
 ```
 
 {{< /tab >}}

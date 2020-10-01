@@ -39,15 +39,10 @@ curl -v "http://api.aspose.cloud/v2.0/pdf/4pages.pdf/footer/text" -X POST -H "Co
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 201,
-
   "Status": "Created"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -83,15 +78,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/4pages.pdf/footer/text" -X POST -H "Co
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 201,
-
   "Status": "Created"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -100,4 +90,3 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/4pages.pdf/footer/text" -X POST -H "Co
 
 
 
-PostDocumentImageFooter

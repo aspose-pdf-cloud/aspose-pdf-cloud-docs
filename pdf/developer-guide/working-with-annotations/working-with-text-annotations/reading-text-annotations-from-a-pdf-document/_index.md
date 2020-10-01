@@ -15,9 +15,8 @@ Aspose.PDF Cloud allows you to read Text Annotation information from a PDF Doucm
 |/pdf/{name}/pages/{pageNumber}/annotations/text|GET|Read Document Annotations from a Page in PDF Document|[GetPageTextAnnotations](https://apireference.aspose.cloud/pdf/#!/Annotations/GetPageTextAnnotations)|
 |/pdf/{name}/annotations/text/{annotationId}|GET|Read Annotation by ID|[GetTextAnnotation](https://apireference.aspose.cloud/pdf/#!/Annotations/GetTextAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
-We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/text/{annotationId}** resource to read Annotation Information by ID. You can use /pdf/{name}/annotations/text or **/pdf/{name}/annotations/text** to get the desired annotation identifier. The above resources return the following Text Annotation information for the document
+We have used PdfWithAnnotations.pdf for the example below. In this example we are demonstration **/pdf/{name}/annotations/text/{annotationId}** resource to read Annotation Information by ID. You can use /pdf/{name}/annotations/text or **/pdf/{name}/annotations/text** to get the desired annotation identifier. The above resources return the following Text Annotation information for the document
 
 ```java
 
@@ -234,8 +233,6 @@ We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose
 }
 
 ```
-
-{{% /alert %}} 
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 

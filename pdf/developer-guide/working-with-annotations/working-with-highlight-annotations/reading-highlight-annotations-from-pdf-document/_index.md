@@ -15,9 +15,8 @@ Aspose.PDF Cloud allows you to read Highlight Annotation information from a PDF 
 |/pdf/{name}/pages/{pageNumber}/annotations/highlight|GET|Read Document Annotations from a Page in PDF Document|[GetPageHighlightAnnotations](https://apireference.aspose.cloud/pdf/#!/Annotations/GetPageHighlightAnnotations)|
 |/pdf/{name}/annotations/highlight/{annotationId}|GET|Read Annotation by ID|[GetHighlightAnnotation](https://apireference.aspose.cloud/pdf/#!/Annotations/GetHighlightAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
-We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/highlight/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/highlight**or **/pdf/{name}/annotations/highlight** to get the desired annotation identifier. The above resources return the following Highlight Annotation information for the document
+We have used PdfWithAnnotations.pdf  for the example below. In this example we are demonstration **/pdf/{name}/annotations/highlight/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/highlight**or **/pdf/{name}/annotations/highlight** to get the desired annotation identifier. The above resources return the following Highlight Annotation information for the document
 
 ```java
 
@@ -163,8 +162,6 @@ We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -304,11 +301,8 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/annotations/highlight"
       ]
 
    },
-
    "Code":200,
-
    "Status":"OK"
-
 }
 
 ```

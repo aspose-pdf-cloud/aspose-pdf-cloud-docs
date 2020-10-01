@@ -14,7 +14,6 @@ Aspose.PDF Cloud allows you to add or replace Highlight Annotation information i
 |/pdf/{name}/pages/{pageNumber}/annotations/highlight|POST|Add document page highlight annotations.|[PostPageHighlightAnnotations](https://apireference.aspose.cloud/pdf/#/Annotations/PostPageHighlightAnnotations)|
 |/pdf/{name}/pages/{pageNumber}/annotations/highlight|PUT|Replace document highlight annotation|[PutHighlightAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/PutHighlightAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
 Suppose, we have the following **Highlight Annotation** information which need to be added in a document page.
 
@@ -147,10 +146,14 @@ Suppose, we have the following **Highlight Annotation** information which need t
       ]
 
    }
-
+   
+{
+	"Code":200,
+	
+   	"Status":"OK"
+   	
+}
 ```
-
-{{% /alert %}} 
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
@@ -183,15 +186,10 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/annotations/h
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
 	"Code":200,
-
    	"Status":"OK"
-
 }
-
 ```
 
 {{< /tab >}}

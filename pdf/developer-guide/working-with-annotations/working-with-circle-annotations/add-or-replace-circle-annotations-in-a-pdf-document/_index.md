@@ -14,7 +14,6 @@ Aspose.PDF Cloud allows you to add or replace Circle Annotation information in a
 |/pdf/{name}/pages/{pageNumber}/annotations/circle|POST|Add document page circle annotations.|[PostPageCircleAnnotations](https://apireference.aspose.cloud/pdf/#/Annotations/PostPageCircleAnnotations)|
 |/pdf/{name}/pages/{pageNumber}/annotations/circle|PUT|Replace document circle annotation|[PutCircleAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/PutLineAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
 Suppose, we have the following **Circle Annotation** information which need to be added in a document page.
 
@@ -120,8 +119,6 @@ Suppose, we have the following **Circle Annotation** information which need to b
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -153,13 +150,9 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/2/annotations/c
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
 	"Code":200,
-
    	"Status":"OK"
-
 }
 
 ```

@@ -6,7 +6,7 @@ weight: 70
 ---
 
 ### **New Features**
-- PDFCLOUD-1191: Implement a method to add SignatureField
-- PDFCLOUD-1192: Implement method to update SignatureField 
+- **PDFCLOUD-1191**: Implement a method to add SignatureField
+- **PDFCLOUD-1192**: Implement method to update SignatureField 
 ### **Bugs**
-- PDFCLOUD-1452: PostBookmark API is throwing Invalid Index error
+- **PDFCLOUD-1452**: PostBookmark API is throwing Invalid Index error
