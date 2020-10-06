@@ -6,7 +6,7 @@ weight: 60
 ---
 
 ### **New Features**
-- PDFCLOUD-1456: Implement a method to convert PDFA to PDF and upload the resulting file to storage
-- PDFCLOUD-1457: Implement a method to convert PDFA to PDF and return resulting file in response 
+- **PDFCLOUD-1456**: Implement a method to convert PDFA to PDF and upload the resulting file to storage
+- **PDFCLOUD-1457**: Implement a method to convert PDFA to PDF and return resulting file in response 
 ### **Bugs**
-- PDFCLOUD-1458: An exception is thrown when using non-default storage
+- **PDFCLOUD-1458**: An exception is thrown when using non-default storage

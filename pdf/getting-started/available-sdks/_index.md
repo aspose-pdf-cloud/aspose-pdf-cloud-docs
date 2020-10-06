@@ -8,7 +8,7 @@ weight: 50
 ---
 
 # **Aspose.PDF Cloud SDKs**
-Aspose.PDF Cloud REST API is a powerful API to create, convert, edit and manipulate **PDF files.** The API allows you to **convert word to pdf**, **pdf to doc**, **pdf to ppt**, **pdf to html**, **pdf to tiff**, **pdf to svg**, **pdf to epub**, **pdf to latex**, **pdf to xml**, **pdf to pcl**, **pdf to jpg**, **jpg to pdf**, **tiff to pdf**, by using the SDKs in various languages such as, C#, Java, Python, Ruby, PHP, Node.js, Swift, Android and Go*.* 
+Aspose.PDF Cloud REST API is a powerful API to create, convert, edit and manipulate **PDF files.** The API allows you to **convert word to pdf**, **pdf to doc**, **pdf to ppt**, **pdf to html**, **pdf to tiff**, **pdf to svg**, **pdf to epub**, **pdf to latex**, **pdf to xml**, **pdf to pcl**, **pdf to jpg**, **jpg to pdf**, **tiff to pdf**, by using the SDKs in various languages such as, C#, Java, Python, Ruby, PHP, Node.js, Swift, Android and Go. 
 # **Supported SDKs**
 {{< tabs tabTotal="9" tabID="1" tabName1="Swift" tabName2="go" tabName3="Node.JS" tabName4="Python" tabName5="Android" tabName6="JAVA" tabName7="PHP" tabName8="Ruby" tabName9="dotNET" >}}
 
@@ -44,7 +44,7 @@ Please visit the Aspose.PDF Cloud [GitHub Repository](https://github.com/aspose-
 
 {{< tab tabNum="6" >}}
 
-Please visit the Aspose.PDF Cloud [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift) to get started with the Aspose.PDF Cloud JAVA SDK
+Please visit the Aspose.PDF Cloud [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-java) to get started with the Aspose.PDF Cloud JAVA SDK
 
 {{< /tab >}}
 

@@ -5,8 +5,9 @@ url: /convert-pdf-document-to-pdf/a-format/
 weight: 30
 ---
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
-# **Introduction**
+# <ins> **Converting PDF to XFA**
+
+## **Introduction**
 This API enables you to convert PDF document to a PDF/A compliant PDF file. Please check [API Reference page](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToPdfA) that provides the description of API's parameters. The **type** parameter specifies the type of PdfA format and can contain one of the following two values:
 
 - **PDFA1A** Portable Document Format Level A compliance
@@ -25,13 +26,15 @@ We have provided a sparate API for each of the following use case:
 1. [Converts PDF document (in request content) to PdfA format and uploads resulting file to storage](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToPdfA)
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToPdfA) lets you call the REST API directly from the browser.
-## **cURL Example**
+### **cURL Example**
 **Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/4pages.pdf)
 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
+
+**Get Authentication token**
 
 ```java
 
@@ -65,33 +68,15 @@ content-type: application/pdf
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+### **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-pdf-cloud) for a complete list of Aspose.PDF SDKs along with working examples, to get you started in no time.
 ## **SDK Examples**
-{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Python" tabName4="Ruby" >}}
+{{< tabs tabTotal="1" tabID="1" tabName1="C#"  >}}
 
 {{< tab tabNum="1" >}}
 
 
-
 {{< /tab >}}
 
-{{< tab tabNum="2" >}}
-
-
-
-{{< /tab >}}
-
-{{< tab tabNum="3" >}}
-
-
-
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
-
-
-
-{{< /tab >}}
 
 {{< /tabs >}}

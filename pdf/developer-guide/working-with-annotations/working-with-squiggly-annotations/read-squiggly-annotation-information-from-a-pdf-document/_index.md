@@ -15,9 +15,8 @@ Aspose.PDF Cloud allows you to read Squiggly Annotation information from a PDF 
 |/pdf/{name}/pages/{pageNumber}/annotations/squiggly|GET|Read Document Annotations from a Page in PDF Document|[GetPageSquigglyAnnotations](https://apireference.aspose.cloud/pdf/#!/Annotations/GetPageSquigglyAnnotations)|
 |/pdf/{name}/annotations/squiggly/{annotationId}|GET|Read Annotation by ID|[GetSquigglyAnnotation](https://apireference.aspose.cloud/pdf/#!/Annotations/GetSquigglyAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
-We have used [PdfWithAnnotations.pdf](attachments/7243085/7209030.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/squiggly/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/squiggly**or **/pdf/{name}/annotations/squiggly**to get the desired annotation identifier. The above resources return the following Squiggly Annotation information for the document
+We have used PdfWithAnnotations.pdf for the example below. In this example we are demonstration **/pdf/{name}/annotations/squiggly/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/squiggly**or **/pdf/{name}/annotations/squiggly**to get the desired annotation identifier. The above resources return the following Squiggly Annotation information for the document
 
 ```java
 
@@ -164,8 +163,6 @@ We have used [PdfWithAnnotations.pdf](attachments/7243085/7209030.pdf) for the e
 }
 
 ```
-
-{{% /alert %}} 
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 

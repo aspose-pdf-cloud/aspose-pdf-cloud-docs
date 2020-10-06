@@ -10,7 +10,7 @@ This example allows you to import data from a variety of file formats into a PDF
 
 
 ## **API Information**
-For all these example we have used the sample files [test.xml](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/test.xml) [test.fdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/test.fdf) [test.xfdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/test.xfdf)
+For all these example we have used the sample files test.xml, test.fdf, test.xfdf
 ### **Importing data from XML Files**
 
 |**API**|**Type**|**Description**|
@@ -138,15 +138,10 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml?xmlFilePath
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 201,
-
   "Status": "OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -250,15 +245,10 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf" \
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 200,
-
   "Status": "OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -309,15 +299,10 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/fdf?fdfFilePath
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 200,
-
   "Status": "OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -368,15 +353,10 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf?xfdfFilePa
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 200,
-
   "Status": "OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -480,15 +460,10 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xfdf?xfdfFilePa
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 200,
-
   "Status": "OK"
-
 }
-
 ```
 
 {{< /tab >}}

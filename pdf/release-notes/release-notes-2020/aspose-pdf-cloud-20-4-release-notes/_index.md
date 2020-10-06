@@ -8,6 +8,6 @@ weight: 40
 ---
 
 ### **New Features**
-- PDFCLOUD-1517 Add the ability to insert an HTML fragment in a table cell.
-- PDFCLOUD-1518 Add the ability to use image file from storage as a table cell background.
-- PDFCLOUD-1529 Add the ability to add image files from storage into table cell.
+- **PDFCLOUD-1517** Add the ability to insert an HTML fragment in a table cell.
+- **PDFCLOUD-1518** Add the ability to use image file from storage as a table cell background.
+- **PDFCLOUD-1529** Add the ability to add image files from storage into table cell.

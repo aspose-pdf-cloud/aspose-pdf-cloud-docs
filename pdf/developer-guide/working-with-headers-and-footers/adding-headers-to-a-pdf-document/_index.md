@@ -11,7 +11,7 @@ Aspose.PDF Cloud allows you to add Header to a PDF Document. Aspose.PDF Cloud su
 
 |**API**|**Type**|**Description**|**Swagger Link**|**Request DTO**|
 | :- | :- | :- | :- | :- |
-|/pdf/{name}/header/text|POST|Add document Text Header|[PostDocumentTextHeader](https://apireference.aspose.cloud/pdf/#!/HeaderFooter/PostDocumentTextHeader)|[TextHeader](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php/blob/master/docs/Thttps://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php/blob/master/docs/TextHeader.md)|
+|/pdf/{name}/header/text|POST|Add document Text Header|[PostDocumentTextHeader](https://apireference.aspose.cloud/pdf/#!/HeaderFooter/PostDocumentTextHeader)|[TextHeader](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php/blob/master/docs/TextHeader.md)|
 |/pdf/{name}/header/image|POST|Add document Image Header|[PostDocumentImageHeader](https://apireference.aspose.cloud/pdf/#!/HeaderFooter/PostDocumentImageHeader)|[ImageHeader](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php/blob/master/docs/ImageHeader.md)|
 ### **cURL Example**
 **Example for adding a Text Header to a PDF Document**
@@ -43,15 +43,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/4pages.pdf/header/text" -X POST -H "Co
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 201,
-
   "Status": "Created"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -87,15 +82,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/4pages.pdf/header/text" -X POST -H "Co
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
   "Code": 201,
-
   "Status": "Created"
-
 }
-
 ```
 
 {{< /tab >}}

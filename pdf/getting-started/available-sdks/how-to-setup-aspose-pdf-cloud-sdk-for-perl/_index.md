@@ -14,8 +14,8 @@ cpan AsposePdfCloud::PdfApi
 
 ```
 ### **Direct Method**
-\1. Download the latest package from [github](https://github.com/aspose-pdf/Aspose.Pdf-for-Cloud/archive/master.zip)
-\2. Unpack and run following command
+1. Download the latest package from github
+2. Unpack and run following command
 
 ```java
 

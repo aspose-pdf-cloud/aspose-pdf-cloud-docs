@@ -13,8 +13,7 @@ Aspose.PDF Cloud allows you to add or replace Line Annotation information in a P
 | :- | :- | :- | :- |
 |/pdf/{name}/pages/{pageNumber}/annotations/line|POST|Add document page line annotations.|[PostPageLineAnnotations](https://apireference.aspose.cloud/pdf/#/Annotations/PostPageLineAnnotations)|
 |/pdf/{name}/pages/{pageNumber}/annotations/line|PUT|Replace document line annotation|[PutLineAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/PutLineAnnotation)|
-### **cURL Example**
-{{% alert color="primary" %}} 
+### **cURL Example** 
 
 Suppose, we have the following **Line Annotation** information which need to be added in a document page.
 
@@ -148,8 +147,6 @@ Suppose, we have the following **Line Annotation** information which need to be 
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -181,13 +178,9 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/2/annotations/l
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
 	"Code":200,
-
    	"Status":"OK"
-
 }
 
 ```

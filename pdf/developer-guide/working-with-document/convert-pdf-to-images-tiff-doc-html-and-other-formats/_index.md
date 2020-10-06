@@ -11,7 +11,7 @@ This example allows you to convert PDF document to other formats using Aspose.Pd
 ## **Resource**
 The following Aspose.Pdf for Cloud REST API resource has been used in the examples: [document](https://apireference.aspose.cloud/pdf/#!/Document/Document_PutConvertDocument).
 ## **REST Methods References**
-We're referring some common methods in the REST examples to perform general operations. These methods can be found at the following page: [REST API Methods](http://www.aspose.com/docs/display/rest/REST+API+Methods)
+We're referring some common methods in the REST examples to perform general operations. These methods can be found at the following page: REST API Methods
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -29,7 +29,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_cr
 
 ```java
 
-curl -v http://api.aspose.cloud/v1.1/pdf/testing.pdf?format=html -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer yPFyyiN2jamYggVq9p6Tg8EOIC7f5zr2tWmClPWuKJWtfVv2CNpb1qno7GAufwT10ttkHLe7GVlZg4-YjpSfi5gM3xMy5obgaP4HIta8EZ6bwopPbS6i-gPiNHM6CraFmSEKWvDDUwIWopcR0apcRyyxzBR4GhuRDbbagrl0efGhjmkR4VbnX382dXcf0uvyzuTpz7OB3S2ZJsJhOdZ16TOkfrtjFgeTjFm2LBENkVPpQP6nFMBDL2D8_EoUgS2Rn4q65eZQqtcqhbUWtsAwPQiX2le0QxACQ0o0lWYAaCGvFGODcEQyqJUa7fXSIxXNICilGBoA1k-wWQtZyoqipgt8sC1lbN4ctS5wDsFmBE9cMhyn68FO_ZuQzZqfqsN_U9fQt-VVLif2woStjXotyL3kjqDVwbOKNpSAw2c4uh9xX7xL"
+curl -v http://api.aspose.cloud/v3.0/pdf/testing.pdf?format=html -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer yPFyyiN2jamYggVq9p6Tg8EOIC7f5zr2tWmClPWuKJWtfVv2CNpb1qno7GAufwT10ttkHLe7GVlZg4-YjpSfi5gM3xMy5obgaP4HIta8EZ6bwopPbS6i-gPiNHM6CraFmSEKWvDDUwIWopcR0apcRyyxzBR4GhuRDbbagrl0efGhjmkR4VbnX382dXcf0uvyzuTpz7OB3S2ZJsJhOdZ16TOkfrtjFgeTjFm2LBENkVPpQP6nFMBDL2D8_EoUgS2Rn4q65eZQqtcqhbUWtsAwPQiX2le0QxACQ0o0lWYAaCGvFGODcEQyqJUa7fXSIxXNICilGBoA1k-wWQtZyoqipgt8sC1lbN4ctS5wDsFmBE9cMhyn68FO_ZuQzZqfqsN_U9fQt-VVLif2woStjXotyL3kjqDVwbOKNpSAw2c4uh9xX7xL"
 
 ```
 
@@ -38,15 +38,10 @@ curl -v http://api.aspose.cloud/v1.1/pdf/testing.pdf?format=html -X GET -H "Cont
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
 "Code":200,
-
 "Status":"OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -57,7 +52,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Convert PDF to Images, TIFF, DOC, HTML and other Formats**
 
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android">}}
 
 {{< tab tabNum="1" >}}
 
@@ -98,16 +93,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 {{< tab tabNum="7" >}}
 
 {{< gist "aspose-pdf" "531368565ace35fc131f3e7b44b4e322" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-documents-ConvertPDFToVariousFormats-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-pdf" "316a7b68434c0790210c455da62eb029" "Examples-Perl-Document-ConvertPdfFromImages-1.pl" >}}
 
 {{< /tab >}}
 

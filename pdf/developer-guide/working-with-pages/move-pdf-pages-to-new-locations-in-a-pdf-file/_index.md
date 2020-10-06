@@ -54,15 +54,10 @@ curl -X POST http://api.aspose.cloud/v3.0/pdf/testing.pdf/pages/1/movePage?newIn
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
 "Code":200,
-
 "Status":"OK"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -73,7 +68,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Move PDF pages to new Location**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Node.js" tabName6="Python" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="3" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP">}}
 
 {{< tab tabNum="1" >}}
 
@@ -90,44 +85,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 {{< tab tabNum="3" >}}
 
 {{< gist "aspose-cloud" "6cabe1c58163af282039ac0e77ca291d" "Examples-PHP-Pages-PostMovePage-.php" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
-
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Pages-move_page_to_new_position-.rb" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="5" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="6" >}}
-
-{{< gist "aspose-cloud" "40abf24492216bf27557f639af52c7c3" "MovePagesToNewLocation.py" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="7" >}}
-
-{{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-pages-MovePDFToNewLocation-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Pages-MovePages-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
-
-{{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-MovePage.go" >}}
 
 {{< /tab >}}
 

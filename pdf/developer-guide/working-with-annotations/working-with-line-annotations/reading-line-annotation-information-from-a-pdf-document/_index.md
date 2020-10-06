@@ -15,7 +15,6 @@ Aspose.PDF Cloud allows you to read Text Annotation information from a PDF Doucm
 |/pdf/{name}/pages/{pageNumber}/annotations/line|GET|Read Document Annotations from a Page in PDF Document|[GetPageLineAnnotations](https://apireference.aspose.cloud/pdf/#!/Annotations/GetPageLineAnnotations)|
 |/pdf/{name}/annotations/line/{annotationId}|GET|Read Annotation by ID|[GetLineAnnotation](https://apireference.aspose.cloud/pdf/#!/Annotations/GetLineAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
 We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/line/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/line** or **/pdf/{name}/annotations/line** to get the desired annotation identifier. The above resources return the following Line Annotation information for the document
 
@@ -181,8 +180,6 @@ We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -341,14 +338,10 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/annotation
 
     ]
 
-  },
-
+  } 
   "Code": 200,
-
   "Status": "OK"
-
 }
-
 
 
 ```

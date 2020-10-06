@@ -54,7 +54,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4Pages.pdf/split?format=pdf&from
 
         "Id": 1,
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/18052dbb-cf0a-4be3-a8a4-099a56d5ec17.pdf",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/18052dbb-cf0a-4be3-a8a4-099a56d5ec17.pdf",
 
         "Rel": "self",
 
@@ -68,7 +68,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4Pages.pdf/split?format=pdf&from
 
         "Id": 2,
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/c7a7afc6-f625-420f-befa-e5df5bb71099.pdf",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/c7a7afc6-f625-420f-befa-e5df5bb71099.pdf",
 
         "Rel": "self",
 
@@ -98,7 +98,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Split PDF Files**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -143,16 +143,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-pdf" "316a7b68434c0790210c455da62eb029" "Examples-Perl-Document-SplitPdfFiles-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Go-SplitPdf.go" >}}
 

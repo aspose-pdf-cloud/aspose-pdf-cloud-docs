@@ -14,7 +14,6 @@ Aspose.PDF Cloud allows you to add or replace Square Annotation information in a
 |/pdf/{name}/pages/{pageNumber}/annotations/square|POST|Add document page square annotations.|[PostPageSquareAnnotations](https://apireference.aspose.cloud/pdf/#/Annotations/PostPageSquareAnnotations)|
 |/pdf/{name}/pages/{pageNumber}/annotations/square|PUT|Replace document square annotation|[PutSquareAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/PutSquareAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
 Suppose, we have the following **Square Annotation** information which need to be added in a document page.
 
@@ -110,8 +109,6 @@ Suppose, we have the following **Square Annotation** information which need to b
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -145,11 +142,8 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/annotations/s
 ```java
 
 {
-
 	"Code":200,
-
    	"Status":"OK"
-
 }
 
 ```

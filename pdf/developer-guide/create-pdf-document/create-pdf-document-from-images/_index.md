@@ -5,11 +5,11 @@ url: /create-pdf-document-from-images/
 weight: 40
 ---
 
-# **Introduction**
+# <ins>**Introduction**
 This article example how to create a PDF file from images using Aspose.PDF Cloud API.
-## **Resource URI**
+## <ins>**Resource URI**
  [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Document/PutCreateDocumentFromImages) lets you call the REST API directly from the browser.
-## **cURL Example**
+## <ins>**cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -26,7 +26,7 @@ curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_cr
 
 ```java
 
-curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?ocr=false" \
+curl -v "https://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf/fromimages?ocr=false" \
 -X PUT \
 -d '{ "ImagesList": [ "33539.jpg", "44781.jpg"] }' \
 -H 'Accept: application/json' \
@@ -263,7 +263,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
                 {
 
-                    "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/documentproperties",
+                    "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf/documentproperties",
 
                     "Rel": "self",
 
@@ -319,7 +319,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
                             {
 
-                                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/pages/1/images",
+                                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf/pages/1/images",
 
                                 "Rel": "self",
 
@@ -391,7 +391,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
                             {
 
-                                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/pages/2/images",
+                                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf/pages/2/images",
 
                                 "Rel": "self",
 
@@ -431,7 +431,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
                 {
 
-                    "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/pages",
+                    "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf/pages",
 
                     "Rel": "self",
 
@@ -449,7 +449,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "self",
 
@@ -461,7 +461,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "alternate",
 
@@ -473,7 +473,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "alternate",
 
@@ -485,7 +485,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "alternate",
 
@@ -497,7 +497,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "alternate",
 
@@ -509,7 +509,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "alternate",
 
@@ -521,7 +521,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "alternate",
 
@@ -533,7 +533,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "alternate",
 
@@ -545,7 +545,7 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/pdffromimagesinquery.pdf",
 
                 "Rel": "alternate",
 
@@ -572,12 +572,12 @@ curl -v "https://api.aspose.cloud/v1.1/pdf/pdffromimagesinquery.pdf/fromimages?o
 {{< /tab >}}
 
 {{< /tabs >}}
-# **Cloud SDKs**
+# <ins>**Cloud SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-pdf-cloud) for a complete list of Aspose.PDF SDKs along with working examples, to get you started in no time.
-## **SDK Examples**
+## <ins>**SDK Examples**
 **Create PDF from JPEG**
 
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -618,16 +618,6 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 {{< tab tabNum="7" >}}
 
 {{< gist "aspose-pdf" "531368565ace35fc131f3e7b44b4e322" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-images-CreatePDFFromJPGExample-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-pdf" "316a7b68434c0790210c455da62eb029" "Examples-Perl-Document-CreatePdfFromJPEG-1.pl" >}}
 
 {{< /tab >}}
 

@@ -7,9 +7,6 @@ description: "Get PDF document page count by using Aspose.PDF Cloud REST API. Th
 weight: 20
 ---
 
-
-
-
 # **Introduction**
 This example allows you to get PDF document page count using Aspose.PDF Cloud API in your applications. The API has the following properties
 
@@ -118,7 +115,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample.pdf/pages",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample.pdf/pages",
 
         "Rel": "self",
 
@@ -148,7 +145,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Get PDF Page Count**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -193,16 +190,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Pages-GetPageCount-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-GetPagesCount.go" >}}
 

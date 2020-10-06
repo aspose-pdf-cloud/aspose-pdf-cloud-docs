@@ -38,11 +38,8 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/eng.pdf/ocr?lang=rus%2Ceng" -H "a
 ```java
 
 {
-
    "Code":200,
-
    "Status":"OK"
-
 }
 
 ```

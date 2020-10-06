@@ -14,4 +14,4 @@ gem install aspose_pdf_cloud
 
 ```
 ### **Source Code**
-This SDK is open source and available at [GitHub](https://github.com/aspose-pdf/Aspose.Pdf-for-Cloud/tree/master/SDKs/Aspose.Pdf_Cloud_SDK_for_Ruby) and [CodePlex](https://asposepdfcloud.codeplex.com/SourceControl/latest#SDKs/Aspose.Pdf_Cloud_SDK_for_Ruby/).
+This SDK is open source and available at GitHub and [CodePlex](https://asposepdfcloud.codeplex.com/SourceControl/latest#SDKs/Aspose.Pdf_Cloud_SDK_for_Ruby/).

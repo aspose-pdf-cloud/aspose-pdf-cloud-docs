@@ -15,9 +15,8 @@ Aspose.PDF Cloud allows you to read Circle Annotation information from a PDF Dou
 |/pdf/{name}/pages/{pageNumber}/annotations/cirlce|GET|Read Document Annotations from a Page in PDF Document|[GetPageCircleAnnotations](https://apireference.aspose.cloud/pdf/#!/Annotations/GetPageCircleAnnotations)|
 |/pdf/{name}/annotations/cirlce/{annotationId}|GET|Read Annotation by ID|[GetCircleAnnotation](https://apireference.aspose.cloud/pdf/#!/Annotations/GetCircleAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
-We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/circle/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/circle** or **/pdf/{name}/annotations/circle** to get the desired annotation identifier. The above resources return the following Circle Annotation information for the document
+We have used PdfWithAnnotations.pdf  for the example below. In this example we are demonstration **/pdf/{name}/annotations/circle/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/circle** or **/pdf/{name}/annotations/circle** to get the desired annotation identifier. The above resources return the following Circle Annotation information for the document
 
 ```java
 
@@ -144,16 +143,11 @@ We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose
       ]
 
    },
-
    "Code":200,
-
    "Status":"OK"
-
 }
 
 ```
-
-{{% /alert %}} 
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
@@ -284,11 +278,8 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/annotation
       ]
 
    },
-
    "Code":200,
-
    "Status":"OK"
-
 }
 
 ```

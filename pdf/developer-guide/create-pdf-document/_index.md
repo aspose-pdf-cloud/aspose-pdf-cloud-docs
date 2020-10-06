@@ -7,7 +7,7 @@ description: "Aspose.PDF Cloud API allows you to create PDF files from different
 weight: 10
 ---
 
-Aspose.PDF Cloud API allows you to *create PDF* files from different file formats**.** You can *create pdf from images*, *html to pdf*, *jpg to pdf*, *tiff to pdf* and *xml to pdf* by using the SDKs in various languages such as, C#, Java, Python, Ruby, PHP, Node.js, Swift, Android and Go*.*
+Aspose.PDF Cloud API allows you to *create PDF* files from different file formats. You can *create pdf from images*, *html to pdf*, *jpg to pdf*, *tiff to pdf* and *xml to pdf* by using the SDKs in various languages such as, C#, Java, Python, Ruby, PHP, Node.js, Swift, Android and Go.
 
 The following articles explain a number of ways to create a PDF Document. Each article contains API detail, cURL and SDKs examples:
 

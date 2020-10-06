@@ -15,9 +15,8 @@ Aspose.PDF Cloud allows you to read Square Annotation information from a PDF Dou
 |/pdf/{name}/pages/{pageNumber}/annotations/square|GET|Read Document Annotations from a Page in PDF Document|[GetPageSquareAnnotations](https://apireference.aspose.cloud/pdf/#!/Annotations/GetPageSquareAnnotations)|
 |/pdf/{name}/annotations/square/{annotationId}|GET|Read Annotation by ID|[GetSquareAnnotation](https://apireference.aspose.cloud/pdf/#!/Annotations/GetSquareAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
-We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/square/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/square** or **/pdf/{name}/annotations/square** to get the desired annotation identifier. The above resources return the following Square Annotation information for the document
+We have used PdfWithAnnotations.pdf for the example below. In this example we are demonstration **/pdf/{name}/annotations/square/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/square** or **/pdf/{name}/annotations/square** to get the desired annotation identifier. The above resources return the following Square Annotation information for the document
 
 ```java
 
@@ -143,8 +142,6 @@ We have used [PdfWithAnnotations.pdf](https://github.com/aspose-pdf-cloud/aspose
 
 ```
 
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -266,11 +263,8 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/annotation
       ]
 
    },
-
    "Code":200,
-
    "Status":"OK"
-
 }
 
 ```

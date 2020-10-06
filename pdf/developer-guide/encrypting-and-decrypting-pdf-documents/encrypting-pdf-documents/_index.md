@@ -56,15 +56,10 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/PdfWithAnnotations.pdf/encrypt?outPath
 {{< tab tabNum="2" >}}
 
 ```java
-
 {
-
    "Code":200,
-
    "Status":"OK"
-
 }
-
 ```
 
 {{< /tab >}}

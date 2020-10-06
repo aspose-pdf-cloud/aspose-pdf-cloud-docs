@@ -118,15 +118,10 @@ curl -v -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/stamps/pdf
 {{< tab tabNum="2" >}}
 
 ```java
-
 {  
-
   "Code": 200,
-
   "Status": "created"
-
 }
-
 ```
 
 {{< /tab >}}
@@ -137,7 +132,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available
 ## **SDK Examples**
 **Add PDF page stamp**
 
-{{< tabs tabTotal="7" tabID="6" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Node.js" tabName5="Python" tabName6="Android" tabName7="Objective C" >}}
+{{< tabs tabTotal="6" tabID="6" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Node.js" tabName5="Python" tabName6="Android"  >}}
 
 {{< tab tabNum="1" >}}
 
@@ -172,10 +167,6 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available
 {{< tab tabNum="6" >}}
 
 {{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-watermarks-AddPDFPageAsStampExample-add-pdf-page-stamp.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="7" >}}
 
 {{< /tab >}}
 

@@ -264,7 +264,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
             {
 
-               "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/documentproperties",
+               "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/documentproperties",
 
                "Rel":"self",
 
@@ -296,7 +296,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/1/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/images",
 
                         "Rel":"self",
 
@@ -344,7 +344,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/2/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/2/images",
 
                         "Rel":"self",
 
@@ -392,7 +392,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/3/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/3/images",
 
                         "Rel":"self",
 
@@ -440,7 +440,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/4/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/4/images",
 
                         "Rel":"self",
 
@@ -488,7 +488,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/5/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/5/images",
 
                         "Rel":"self",
 
@@ -536,7 +536,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/6/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/6/images",
 
                         "Rel":"self",
 
@@ -584,7 +584,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/7/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/7/images",
 
                         "Rel":"self",
 
@@ -632,7 +632,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/8/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/8/images",
 
                         "Rel":"self",
 
@@ -680,7 +680,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/9/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/9/images",
 
                         "Rel":"self",
 
@@ -728,7 +728,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/10/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/10/images",
 
                         "Rel":"self",
 
@@ -776,7 +776,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/11/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/11/images",
 
                         "Rel":"self",
 
@@ -824,7 +824,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/12/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/12/images",
 
                         "Rel":"self",
 
@@ -872,7 +872,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/13/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/13/images",
 
                         "Rel":"self",
 
@@ -920,7 +920,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/14/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/14/images",
 
                         "Rel":"self",
 
@@ -968,7 +968,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/15/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/15/images",
 
                         "Rel":"self",
 
@@ -1016,7 +1016,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/16/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/16/images",
 
                         "Rel":"self",
 
@@ -1064,7 +1064,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/17/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/17/images",
 
                         "Rel":"self",
 
@@ -1112,7 +1112,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/18/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/18/images",
 
                         "Rel":"self",
 
@@ -1160,7 +1160,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/19/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/19/images",
 
                         "Rel":"self",
 
@@ -1208,7 +1208,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/20/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/20/images",
 
                         "Rel":"self",
 
@@ -1256,7 +1256,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/21/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/21/images",
 
                         "Rel":"self",
 
@@ -1304,7 +1304,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/22/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/22/images",
 
                         "Rel":"self",
 
@@ -1352,7 +1352,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/23/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/23/images",
 
                         "Rel":"self",
 
@@ -1400,7 +1400,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/24/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/24/images",
 
                         "Rel":"self",
 
@@ -1448,7 +1448,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/25/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/25/images",
 
                         "Rel":"self",
 
@@ -1496,7 +1496,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/26/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/26/images",
 
                         "Rel":"self",
 
@@ -1544,7 +1544,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/27/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/27/images",
 
                         "Rel":"self",
 
@@ -1592,7 +1592,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/28/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/28/images",
 
                         "Rel":"self",
 
@@ -1640,7 +1640,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/29/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/29/images",
 
                         "Rel":"self",
 
@@ -1688,7 +1688,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/30/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/30/images",
 
                         "Rel":"self",
 
@@ -1736,7 +1736,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/31/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/31/images",
 
                         "Rel":"self",
 
@@ -1784,7 +1784,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/32/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/32/images",
 
                         "Rel":"self",
 
@@ -1832,7 +1832,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/33/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/33/images",
 
                         "Rel":"self",
 
@@ -1880,7 +1880,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/34/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/34/images",
 
                         "Rel":"self",
 
@@ -1928,7 +1928,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/35/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/35/images",
 
                         "Rel":"self",
 
@@ -1976,7 +1976,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/36/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/36/images",
 
                         "Rel":"self",
 
@@ -2024,7 +2024,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/37/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/37/images",
 
                         "Rel":"self",
 
@@ -2072,7 +2072,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
                      {
 
-                        "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages/38/images",
+                        "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/38/images",
 
                         "Rel":"self",
 
@@ -2112,7 +2112,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
             {
 
-               "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf/pages",
+               "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages",
 
                "Rel":"self",
 
@@ -2130,7 +2130,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"self",
 
@@ -2142,7 +2142,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"alternate",
 
@@ -2154,7 +2154,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"alternate",
 
@@ -2166,7 +2166,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"alternate",
 
@@ -2178,7 +2178,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"alternate",
 
@@ -2190,7 +2190,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"alternate",
 
@@ -2202,7 +2202,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"alternate",
 
@@ -2214,7 +2214,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"alternate",
 
@@ -2226,7 +2226,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/appendDocument?append
 
          {
 
-            "Href":"http://api.aspose.cloud/v1.1/pdf/4pages.pdf",
+            "Href":"http://api.aspose.cloud/v3.0/pdf/4pages.pdf",
 
             "Rel":"alternate",
 
@@ -2258,7 +2258,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Append PDF Files**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -2303,16 +2303,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Document-AppendPdfFiles-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-AppendPdf.go" >}}
 

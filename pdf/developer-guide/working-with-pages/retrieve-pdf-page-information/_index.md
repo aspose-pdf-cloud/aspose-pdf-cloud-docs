@@ -68,7 +68,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
         {
 
-          "Href": "http://api.aspose.cloud/v1.1/pdf/sample-input.pdf/pages/1/images",
+          "Href": "http://api.aspose.cloud/v3.0/pdf/sample-input.pdf/pages/1/images",
 
           "Rel": "self",
 
@@ -98,7 +98,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample-input.pdf/pages/1",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample-input.pdf/pages/1",
 
         "Rel": "self",
 
@@ -110,7 +110,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample-input.pdf/pages/1",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample-input.pdf/pages/1",
 
         "Rel": "alternate",
 
@@ -122,7 +122,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample-input.pdf/pages/1",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample-input.pdf/pages/1",
 
         "Rel": "alternate",
 
@@ -134,7 +134,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample-input.pdf/pages/1",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample-input.pdf/pages/1",
 
         "Rel": "alternate",
 
@@ -146,7 +146,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample-input.pdf/pages/1",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample-input.pdf/pages/1",
 
         "Rel": "alternate",
 
@@ -158,7 +158,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample-input.pdf/pages/1",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample-input.pdf/pages/1",
 
         "Rel": "alternate",
 
@@ -170,7 +170,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample-input.pdf/pages/1",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample-input.pdf/pages/1",
 
         "Rel": "alternate",
 
@@ -200,7 +200,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available
 ## **SDK Examples**
 **Add new page in PDF**
 
-{{< tabs tabTotal="5" tabID="5" tabName1="C#" tabName2="Node.js" tabName3="Perl" tabName4="Java" tabName5="Go" >}}
+{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="Node.js" tabName3="Java" tabName4="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -216,17 +216,11 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Pages-GetPageInformation-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
-
 {{< gist "aspose-cloud" "18d4826e80a1b2eeb8c3f55da5f8dc13" "Examples-JAVA-SDK-src-main-java-com-aspose-pdf-cloud-examples-pages-GetPageInfomationExample-1.java" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="5" >}}
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-GetPageInfomation.go" >}}
 

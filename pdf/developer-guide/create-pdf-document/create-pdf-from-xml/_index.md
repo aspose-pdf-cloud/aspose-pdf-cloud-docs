@@ -5,16 +5,16 @@ url: /create-pdf-from-xml/
 weight: 30
 ---
 
-# **Introduction**
+# <ins>**Introduction**
 This example allows you to create PDF file from XML using Aspose.PDF  Cloud API.
-## **Resource URI**
+## <ins>**Resource URI**
  [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Document/PutCreateDocument) lets you call the REST API directly from the browser.
-## **cURL Example**
-**Template File:** [Simple.xslt](attachments/1245794/1507337.xslt)** 
+## <ins>**cURL Example**
+**Template File:** [Simple.xslt](https://docs.aspose.cloud/download/attachments/1245794/Simple.xslt?version=1&modificationDate=1530782674446&api=v2) 
 
-**Data File:** [Simple.xml](attachments/1245794/1507341.xml)** 
+**Data File:** [Simple.xml](https://docs.aspose.cloud/download/attachments/1245794/Simple.xml?version=1&modificationDate=1530782691585&api=v2) 
 
-**Output File: [**XmlExample1.pdf](attachments/1245794/1507342.pdf)**
+**Output File: [XmlExample1.pdf](https://docs.aspose.cloud/download/attachments/1245794/XmlExample1.pdf?version=1&modificationDate=1530782708432&api=v2)**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -266,7 +266,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
                 {
 
-                    "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf/documentproperties",
+                    "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf/documentproperties",
 
                     "Rel": "self",
 
@@ -288,7 +288,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
                 {
 
-                    "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf/pages",
+                    "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf/pages",
 
                     "Rel": "self",
 
@@ -306,7 +306,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "self",
 
@@ -318,7 +318,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "alternate",
 
@@ -330,7 +330,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "alternate",
 
@@ -342,7 +342,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "alternate",
 
@@ -354,7 +354,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "alternate",
 
@@ -366,7 +366,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "alternate",
 
@@ -378,7 +378,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "alternate",
 
@@ -390,7 +390,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "alternate",
 
@@ -402,7 +402,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 
             {
 
-                "Href": "http://api.aspose.cloud/v1.1/pdf/XMLExample.pdf",
+                "Href": "http://api.aspose.cloud/v3.0/pdf/XMLExample.pdf",
 
                 "Rel": "alternate",
 
@@ -429,12 +429,12 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/create/html?srcPath=4p
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+# <ins>**SDK Source**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Check out our [GitHub repository](https://github.com/aspose-pdf-cloud) for a complete list of Aspose.PDF SDKs along with working examples, to get you started in no time.
-## **SDK Examples**
+## <ins>**SDK Examples**
 **Create PDF from XML**
 
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -475,16 +475,6 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 {{< tab tabNum="7" >}}
 
 {{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-documents-CreatePDFFromXMLExample-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Document-CreateFromXML-1.pl" >}}
 
 {{< /tab >}}
 

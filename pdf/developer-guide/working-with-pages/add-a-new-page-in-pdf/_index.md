@@ -121,7 +121,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages" \
 
       {
 
-        "Href": "http://api.aspose.cloud/v1.1/pdf/sample.pdf/pages",
+        "Href": "http://api.aspose.cloud/v3.0/pdf/sample.pdf/pages",
 
         "Rel": "self",
 
@@ -151,7 +151,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Aspose.PDF
 ## **SDK Examples**
 **Add new page in PDF**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Android" tabName7="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -185,25 +185,11 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Aspose.PDF
 
 {{< tab tabNum="6" >}}
 
-{{< /tab >}}
-
-{{< tab tabNum="7" >}}
-
 {{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-pages-AddNewPagePDFExample-add-new-page-pdf-example.java" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Pages-AddNewPage-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
+{{< tab tabNum="7" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-AddNewPage.go" >}}
 
