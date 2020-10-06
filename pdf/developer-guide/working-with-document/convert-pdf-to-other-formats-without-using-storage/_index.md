@@ -5,7 +5,7 @@ url: /convert-pdf-to-other-formats-without-using-storage/
 weight: 20
 ---
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+
 # **Introduction**
 This example allows you to convert PDF documents to other formats without uploading to any storage using Aspose.Pdf for Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. In case of PDF to HTML, Aspose for Cloud service returns the output as a ZIP file because there can be multiple supporting files in the output.
 ## **Resource**

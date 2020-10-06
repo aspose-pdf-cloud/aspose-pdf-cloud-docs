@@ -14,9 +14,9 @@ weight: 20
 - Integrates with other cloud services
 ### **Storage**
 - Work with Aspose for Cloud storage
-- Work with [third party storages](https://docs.aspose.cloud/display/totalcloud/How+to+Configure+3rd+Party+Cloud+Storages)
+- Work with [third party storages](https://docs.aspose.cloud/total/how-to-configure-3rd-party-cloud-storages/)
 - Work with documents (using URL) stored at remote servers
-- Store output documents to Aspose for Cloud or [third party storages](https://docs.aspose.cloud/display/totalcloud/How+to+Configure+3rd+Party+Cloud+Storages)
+- Store output documents to Aspose for Cloud or [third party storages](https://docs.aspose.cloud/total/how-to-configure-3rd-party-cloud-storages/)
 ### **Document**
 - Create PDF documents from different formats
   - Empty PDF
