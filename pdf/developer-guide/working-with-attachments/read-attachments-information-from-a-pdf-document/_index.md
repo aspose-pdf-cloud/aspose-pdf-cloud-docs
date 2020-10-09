@@ -15,7 +15,7 @@ Aspose.PDF Cloud allows you to read attachment information from a PDF Doucment. 
 ### **cURL Information**
 {{% alert color="primary" %}} 
 
-We have used [PdfWithEmbeddedFiles.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithEmbeddedFiles.pdf) as an example below
+We have used [PdfWithEmbeddedFiles.pdf](https://docs-old.aspose.cloud/download/attachments/1245466/PdfWithEmbeddedFiles.pdf?version=1&modificationDate=1560543302929&api=v2) as an example below
 
 {{% /alert %}} 
 
@@ -131,7 +131,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Get all attachments**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Objective C" tabName8="Android" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android"  tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -171,21 +171,11 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="7" >}}
 
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
 {{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-attachments-GetAllAttachmentsExample-1.java" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Attachments-GetAllAttachments-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
+{{< tab tabNum="8" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-GetAttachments.go" >}}
 

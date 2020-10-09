@@ -120,11 +120,8 @@ curl -X POST "https://api.aspose.cloud/v3.0/pdf/test.pdf/pages/1/stamps/text" -H
 ```java
 
 {  
-
   "Code": 200,
-
   "Status": "created"
-
 }
 
 ```

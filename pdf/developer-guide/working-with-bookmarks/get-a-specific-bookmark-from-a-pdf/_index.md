@@ -13,7 +13,7 @@ This example allows you to get a specific bookmark from a PDF using Aspose.PDF f
 | :- | :- | :- | :- |
 |/pdf/{name}/bookmarks/list/{bookmarkPath}|GET|Get specific bookmark from Document|[GetBookmarks](https://apireference.aspose.cloud/pdf/#!/Bookmarks/GetBookmarks)|
 ### **cURL Example**
-Input File: [PDFWithBookmarks.pdf](attachments/1245467/1512041.pdf)
+Input File: [PDFWithBookmarks.pdf](https://docs-old.aspose.cloud/download/attachments/1245467/PdfWithBookmarks.pdf?version=1&modificationDate=1556172828026&api=v2)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -133,7 +133,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Get specific bookmark**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android"  tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -178,16 +178,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Bookmarks-GetSpecificBookmark-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-GetBookmarks.go" >}}
 

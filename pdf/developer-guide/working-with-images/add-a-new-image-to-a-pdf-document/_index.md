@@ -26,7 +26,7 @@ This example allows you to add an images to a page in a PDF Document.
 ## **Resource**
 The following Aspose.PDF Cloud REST API resource has been used in the examples: [PostInsertImage](https://apireference.aspose.cloud/pdf/#!/Images/PostInsertImage).
 ## **cURL Example**
-Input File: [PDF With Images](attachments/7242524/7209028.pdf)
+Input File: [PDF With Images](https://docs-old.aspose.cloud/download/attachments/7242524/PdfWithImages2.pdf?version=1&modificationDate=1559502491364&api=v2)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -138,7 +138,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available
 ## **SDK Examples**
 **Get all Fields**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android"  tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -183,20 +183,6 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< gist "aspose-cloud" "8c0678437a10062f840ba17f5a719535" "Examples-DotNET-CSharp-Images-AddImage.cs" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "8c0678437a10062f840ba17f5a719535" "Examples-DotNET-CSharp-Images-AddImage.cs" >}}
-
-
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-AddImage.go" >}}
 

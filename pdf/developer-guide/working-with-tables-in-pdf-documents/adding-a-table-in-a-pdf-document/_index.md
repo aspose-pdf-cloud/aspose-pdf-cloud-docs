@@ -15,2018 +15,1016 @@ Aspose.PDF Cloud allows you to create a table in a PDF Document. Aspose.PDF Clou
 #### **Request Object Model**
 Please refer to our GitHub Page for the [Table](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/docs/Table.md) Requst Object Structure
 #### **Request Object JSON**
+```
 [
-
   {
-
     "Top": 100,
-
     "DefaultCellTextState": {
-
       "FontSize": 11,
-
       "Font": "Arial Bold",
-
       "ForegroundColor": {
-
         "A": 255,
-
         "R": 0,
-
         "G": 0,
-
         "B": 255
-
       },
-
       "BackgroundColor": {
-
         "A": 255,
-
         "R": 255,
-
         "G": 0,
-
         "B": 0
-
       },
-
       "FontStyle": "Bold"
-
     },
-
     "Rows": [
-
       {
-
         "Cells": [
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           }
-
         ]
-
       },
-
       {
-
         "Cells": [
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           }
-
         ]
-
       },
-
       {
-
         "Cells": [
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           }
-
         ]
-
       },
-
       {
-
         "Cells": [
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
-                "Text": "y",
-
+                "Text": "y"
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           }
-
         ]
-
       },
-
       {
-
         "Cells": [
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y"
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "value",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           },
-
           {
-
             "BackgroundColor": {
-
               "A": 255,
-
               "R": 0,
-
               "G": 136,
-
               "B": 0
-
             },
-
             "DefaultCellTextState": {
-
               "FontSize": 11,
-
               "Font": "Arial Bold",
-
               "ForegroundColor": {
-
                 "A": 255,
-
                 "R": 0,
-
                 "G": 0,
-
                 "B": 255
-
               },
-
               "BackgroundColor": {
-
                 "A": 255,
-
                 "R": 255,
-
                 "G": 0,
-
                 "B": 0
-
               },
-
               "FontStyle": "Bold"
-
             },
-
             "Paragraphs": [
-
               {
-
                 "Text": "y",
-
                 "TextState": {
-
                   "FontSize": 11,
-
                   "Font": "Arial Bold",
-
                   "ForegroundColor": {
-
                     "A": 255,
-
                     "R": 0,
-
                     "G": 0,
-
                     "B": 255
-
                   },
-
                   "BackgroundColor": {
-
                     "A": 255,
-
                     "R": 255,
-
                     "G": 0,
-
                     "B": 0
-
                   },
-
                   "FontStyle": "Bold"
-
                 }
-
               }
-
             ]
-
           }
-
         ]
-
       }
-
     ],
-
     "DefaultCellBorder": {
-
       "Left": {
-
         "LineWidth": 1,
-
         "Color": {
-
           "A": 255,
-
           "R": 0,
-
           "G": 255,
-
           "B": 0
-
         }
-
       },
-
       "Right": {
-
         "LineWidth": 1,
-
         "Color": {
-
           "A": 255,
-
           "R": 0,
-
           "G": 255,
-
           "B": 0
-
         }
-
       },
-
       "Top": {
-
         "LineWidth": 1,
-
         "Color": {
-
           "A": 255,
-
           "R": 0,
-
           "G": 255,
-
           "B": 0
-
         }
-
       },
-
       "Bottom": {
-
         "LineWidth": 1,
-
         "Color": {
-
           "A": 255,
-
           "R": 0,
-
           "G": 255,
-
           "B": 0
-
         }
-
       },
-
       "RoundedBorderRadius": 0
-
     },
-
     "ColumnWidths": " 30 30 30 30 30"
-
   }
-
 ]
-
+```
 ### **cURL Example**
 {{% alert color="primary" %}} 
 
-In the example below we use [PdfWithTable.pdf](attachments/7243124/7209031.pdf) to view table information.
+In the example below we use [PdfWithTable.pdf](https://docs-old.aspose.cloud/download/attachments/7243124/PdfWithTable.pdf?version=1&modificationDate=1560712270126&api=v2) to view table information.
 
 {{% /alert %}} 
 
@@ -2043,10 +1041,6 @@ curl -v "https://api.aspose.cloud/connect/token" \
 -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
-
-
-
-
 
 
 ```
@@ -2068,11 +1062,8 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/sample-table.pdf/pages/1/tables/" \
 ```java
 
 {
-
   "Code": 200,
-
   "Status": "Created"
-
 }
 
 ```

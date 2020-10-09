@@ -14,7 +14,6 @@ Aspose.PDF Cloud allows you to add or replace Strikeout Annotation information i
 |/pdf/{name}/pages/{pageNumber}/annotations/strikeout|POST|Add document page StrikeOut annotations.|[PostPageStrikeOutAnnotations](https://apireference.aspose.cloud/pdf/#!/Annotations/GetDocumentStrikeOutAnnotations)|
 |/pdf/{name}/pages/{pageNumber}/annotations/strikeout |PUT|Replace document StrikeOut annotationt|[PutStrikeOutAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/PutStrikeOutAnnotation)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
 
 Suppose we have the following Strikeout Annotation information for the document
 
@@ -155,11 +154,12 @@ Suppose we have the following Strikeout Annotation information for the document
       ]
 {
    "Code":200,
+   
    "Status":"OK"
 }
+
 ```
 
-{{% /alert %}} 
 
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 

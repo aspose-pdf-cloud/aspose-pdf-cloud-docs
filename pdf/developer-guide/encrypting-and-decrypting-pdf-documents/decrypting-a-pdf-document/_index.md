@@ -48,11 +48,8 @@ curl -v "http://api.aspose.cloud/v3.0/pdf/decrypt?outPath=test-out.pdf&password=
 ```java
 
 {
-
    "Code":200,
-
    "Status":"OK"
-
 }
 
 ```

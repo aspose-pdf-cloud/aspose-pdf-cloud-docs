@@ -149,9 +149,7 @@ Suppose, we have the following **Highlight Annotation** information which need t
    
 {
 	"Code":200,
-	
    	"Status":"OK"
-   	
 }
 ```
 

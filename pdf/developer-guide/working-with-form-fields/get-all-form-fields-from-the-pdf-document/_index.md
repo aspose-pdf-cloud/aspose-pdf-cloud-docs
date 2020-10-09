@@ -19,7 +19,7 @@ This example allows you to get all of the form fields from the PDF document usin
 |name|true|Path|String|The name of the document in storage to read form fields from|
 
 ### **cURL Example**
-Input File: [PDF With Forms](attachments/1245738/7209025.pdf)
+Input File: [PDF With Forms](https://docs-old.aspose.cloud/download/attachments/1245738/PdfWithAcroForm.pdf?version=1&modificationDate=1559424407264&api=v2)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

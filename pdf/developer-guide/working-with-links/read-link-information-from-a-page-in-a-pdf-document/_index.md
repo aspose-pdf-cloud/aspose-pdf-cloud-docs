@@ -13,7 +13,7 @@ Aspose.PDF Cloud allows you to read link information from a page within a PDF Do
 | :- | :- | :- | :- |
 |/pdf/{name}/pages/{pageNumber}/links|GET|Read link information from a PDF Document|[GetPageLinkAnnotations](https://apireference.aspose.cloud/pdf/#!/Links/GetPageLinkAnnotations)|
 ### **cURL Example**
-Input File: [PdfWithLinks.pdf](attachments/1245470/1512042.pdf)
+Input File: [PdfWithLinks.pdf](https://docs-old.aspose.cloud/download/attachments/1245470/PdfWithLinks.pdf?version=1&modificationDate=1556378974004&api=v2)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -109,7 +109,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Get all links from PDF**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -154,16 +154,6 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Links-GetAllLinks-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-GetLinks.go" >}}
 

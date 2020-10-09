@@ -15,8 +15,6 @@ This example allows you to download a specific attachment from a PDF using Aspos
 ### **cURL Example**
 {{% alert color="primary" %}} 
 
-We have used [PdfWithEmbeddedFiles.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/pdf/attachments/PdfWithEmbeddedFiles.pdf) as an example below
-
 {{% /alert %}} 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -64,7 +62,7 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Download specific attachment**
 
-{{< tabs tabTotal="10" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="8" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android"  tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -109,16 +107,6 @@ The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available 
 {{< /tab >}}
 
 {{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-cloud" "7504a6497d59fcfae04b9de8c6aa1e50" "Examples-Perl-Attachments-DownloadSpecificAttachment-1.pl" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="10" >}}
 
 {{< gist "aspose-cloud" "4481cfc65cfd602cbf6cdacba51c7228" "Examples-Go-DownloadAttachment.go" >}}
 
