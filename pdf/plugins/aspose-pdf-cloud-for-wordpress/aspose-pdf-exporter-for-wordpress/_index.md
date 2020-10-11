@@ -56,7 +56,7 @@ Once downloaded, please follow these steps to install the module to your WordPre
 
 1. Log into your site as either Admin or another Supersuser level account.
 1. Navigate to the **Plugin** menu and select **Add New**.
-1. Type **Aspose Pdf Exporter \*in the search box and click \*Search Plugin button. \*Or click the**Upload \*menu and choose the ZIP folder you downloaded from the locations above.
+1. Type **Aspose Pdf Exporter** in the search box and click **Search Plugin button**. **Or click the**Upload menu and choose the ZIP folder you downloaded from the locations above.
 1. Click **Install Now**.
 1. After installation, click **Settings** to see the configuration page.
 ## **Using and Video Demo**
