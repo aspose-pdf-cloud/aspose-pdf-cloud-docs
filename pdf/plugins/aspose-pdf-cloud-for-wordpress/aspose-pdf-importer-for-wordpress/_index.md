@@ -5,13 +5,13 @@ url: /aspose-pdf-importer-for-wordpress/
 weight: 10
 ---
 
-## **Introduction**
+## <ins>**Introduction**
 ### **What is WordPress?**
 WordPress is a free open source blogging tool and a content management system (CMS) based on PHP and MySQL, which runs on a web hosting service. Features include a plugin architecture and a template system. WordPress is used by more than 22.0% of the top 10 million websites as of August 2013. WordPress is the most popular blogging system in use on the Web, at more than 60 million websites. It’s probably the easiest and most powerful blogging and website content management system (or CMS) in existence today.
 ### **Aspose.PDF Importer**
 Aspose.PDF Importer Plugin for WordPress allows WordPress user to get/read contents of PDF documents without requiring any other software such as Adobe Acrobat or PDF reader. This module demonstrates the powerful convert feature of [Aspose.PDF Cloud](https://products.aspose.cloud/pdf/family). It adds a simple button in WordPress *Edit Post* section and asks for the PDF file to be imported into the editor. Once the PDF file is provided, users get the document contents displayed on the editor immediately.
 
-## **System Requirements and Supported Platforms**
+## <ins>**System Requirements and Supported Platforms**
 ### **System Requirements**
 In order to install and use Aspose.PDF Importer Plugin you need to have below listed items.
 
@@ -21,7 +21,7 @@ In order to install and use Aspose.PDF Importer Plugin you need to have below li
 Please feel free to [contact us](https://forum.aspose.cloud/c/pdf) if you find any issues in installing or using this plugin.
 ### **Supported Platforms**
 It is supported up to 5.4.1 version of WordPress and It requires PHP version to be > = 5..6.20
-## **Support, Extend and Contribute**
+## <ins>**Support, Extend and Contribute**
 ### **Support**
 We believe the key to success lies in our ability to support and establish mutually beneficial long-term relationships with our customers. Our experts are here to answer your questions, help you troubleshoot issues, improve your experience and increase satisfaction with our products. If you have any questions and need support on Aspose.PDF Importer plugin you can log them using any of the following platforms.
 
@@ -35,7 +35,7 @@ We believe the key to success lies in our ability to support and establish mutua
 - Aspose_Pdf_Importer.php - Contains main plugin code.
 - aspose_pdf_importer_admin.php - Contains configuration page html and other admin related code.
 - getAsposePdfContent.php - Contains code for importing content from pdf file.
-## **Downloading and Installing**
+## <ins>**Downloading and Installing**
 ### **Downloading**
 You can download the Aspose.PDF Importer Plugin from one of the following locations:
 
@@ -48,7 +48,7 @@ Once downloaded, please follow these steps to install the module to your WordPre
 1. Type **Aspose.PDF Importer** in the search box and click **Search Plugin button**. Or click the **Upload**menu and choose the ZIP folder you downloaded from the locations above.
 1. Click **Install Now**.
 1. After installation, click **Settings** to see the configuration page.
-## **Using and Video Demo**
+## <ins>**Using and Video Demo**
 ### **Using**
 After you have installed Aspose.PDF Import Plugin it is really simple to start using it on your website. Please follow these simple steps to get started.
 

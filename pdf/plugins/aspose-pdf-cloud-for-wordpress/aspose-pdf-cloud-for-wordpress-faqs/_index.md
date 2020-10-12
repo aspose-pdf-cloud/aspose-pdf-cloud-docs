@@ -5,7 +5,6 @@ url: /aspose-pdf-cloud-for-wordpress-faqs/
 weight: 40
 ---
 
-### **/\*<![CDATA[\*/ div.rbtoc1598266698710 {padding: 0px;} div.rbtoc1598266698710 ul {list-style: none;margin-left: 0px;} div.rbtoc1598266698710 li {margin-left: 0px;padding-left: 0px;} /\*]]>\*/ Aspose.PDF Importer Can I use Aspose.PDF Importer plugin without having account on aspose.cloud? Can I use word doc file to read and insert text into the editor? What is App SID? What should I know about it?**
 ## **Aspose.PDF Importer**
 ### **Can I use Aspose.PDF Importer plugin without having account on aspose.cloud?**
 Yes, Now Aspose.PDF Importer plugin is FREE and hence no need to have an account on [aspose.cloud](https://www.aspose.cloud/)

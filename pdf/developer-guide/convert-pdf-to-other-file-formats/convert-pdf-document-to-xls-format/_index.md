@@ -18,9 +18,9 @@ This API enables you to convert PDF document to XLS format. Please check [API R
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToXls) lets you call the REST API directly from the browser.
 ### **cURL Example**
-**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
+**Input Document:**  [Sample.pdf](/pdf/convert-pdf-document-to-xls-format/Sample.pdf)
 
-**Output Document:**  [result.xls](https://docs.aspose.cloud/download/attachments/1246156/result.xls?version=1&modificationDate=1524826572208&api=v2)
+**Output Document:**  [result.xls](/pdf/convert-pdf-document-to-xls-format/result.xls)
 
 {{< tabs tabTotal="2" tabID="57" tabName1="Request" tabName2="Response" >}}
 

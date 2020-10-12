@@ -577,7 +577,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 ## <ins>**SDK Examples**
 **Create PDF from JPEG**
 
-{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Node.js" tabName6="Android" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -605,17 +605,11 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-pdf" "9f0b01c075bd0f5df6d7d74056fd14a2" "ConvertPDFFromJPG.py.py" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="6" >}}
-
 {{< gist "aspose-pdf" "879ac2c46818756a244f31a3dfd3b48a" "Examples-Node.js-Document-CreatePdfFromJPEG-1.js" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="7" >}}
+{{< tab tabNum="6" >}}
 
 {{< gist "aspose-pdf" "531368565ace35fc131f3e7b44b4e322" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-images-CreatePDFFromJPGExample-1.java" >}}
 

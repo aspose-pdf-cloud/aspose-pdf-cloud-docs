@@ -19,7 +19,7 @@ You can **convert PDF to SVG** by using Aspose.PDF Cloud REST API. The SDKs are
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToSvg) lets you call the REST API directly from the browser.
 
 ### **cURL Example**
-**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
+**Input Document:**  [Sample.pdf](/pdf/convert-pdf-document-to-svg-format/Sample.pdf)
 
 {{< tabs tabTotal="2" tabID="17" tabName1="Request" tabName2="Response" >}}
 

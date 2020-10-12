@@ -20,9 +20,9 @@ We have provided a separate API for each of the following use case:
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/GetPdfInStorageToHtml) lets you call the REST API directly from the browser.
 ### **cURL Example**
-**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf) 
+**Input Document:** [4pages.pdf](/pdf/convert-pdf-document-to-html-format/4pages.pdf) 
 
-**Output Document:** [result.zip](https://docs.aspose.cloud/download/attachments/1246146/result.zip?version=1&modificationDate=1530869324418&api=v2) 
+**Output Document:** [result.zip](/pdf/convert-pdf-document-to-html-format/result.zip) 
 
 
 {{< tabs tabTotal="2" tabID="6" tabName1="Request" tabName2="Response" >}}

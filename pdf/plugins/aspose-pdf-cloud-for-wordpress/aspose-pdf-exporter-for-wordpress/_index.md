@@ -5,12 +5,12 @@ url: /aspose-pdf-exporter-for-wordpress/
 weight: 20
 ---
 
-## **Introduction**
+## <ins>**Introduction**
 ### **What is WordPress?**
 WordPress is a free open source blogging tool and a content management system (CMS) based on PHP and MySQL, which runs on a web hosting service. Features include a plugin architecture and a template system. WordPress is used by more than 22.0% of the top 10 million websites as of August 2013. WordPress is the most popular blogging system in use on the Web, at more than 60 million websites. It’s probably the easiest and most powerful blogging and website content management system (or CMS) in existence today.
 ### **Aspose PDF Exporter**
 Aspose PDF Exporter exports posts into a PDF document. Currently this plugin works as a bulk action of posts, pages, or any custom post type. The Aspose PDF Exporter plugin for WordPress allows administrators to export post contents to PDF documents. This module demonstrates Aspose.Pdf for Cloud’s powerful export feature. It adds a simple bulk action in the **Aspose Export to PDF** list. As soon as the bulk action is called, it exports all posts to a PDF document.
-## **System Requirements and Supported Platforms**
+## <ins>**System Requirements and Supported Platforms**
 ### **System Requirements**
 In order to install and use Aspose Pdf Exporter Plugin you need to have below listed items.
 
@@ -20,7 +20,7 @@ In order to install and use Aspose Pdf Exporter Plugin you need to have below li
 Please feel free to contact us if you find any issues in installing or using this plugin.
 ### **Supported Platforms**
 - It is supported up to 4..1.1 version of WordPress and It requires PHP version to be > = 5.3
-## **Support, Extend and Contribute**
+## <ins>**Support, Extend and Contribute**
 ### **Support**
 We believe the key to success lies in our ability to support and establish mutually beneficial long-term relationships with our customers. Our experts are here to answer your questions, help you troubleshoot issues, improve your experience and increase satisfaction with our products. If you have any questions and need support on Aspose PDF Exporter plugin you can log them using any of the following platforms.
 
@@ -45,7 +45,7 @@ Please follow these simple steps to get started
 - Aspose_Pdf_Exporter.php - Contains main plugin code.
 - aspose_pdf_exporter_admin.php - Contains configuration page html and other admin related code.
 - asposePdfConverter.php - Contains code for exporting posts into pdf.
-## **Downloading and installing**
+## <ins>**Downloading and installing**
 ### **Downloading**
 You can download the Aspose PDF Exporter Plugin from one of the following locations:
 
@@ -56,10 +56,10 @@ Once downloaded, please follow these steps to install the module to your WordPre
 
 1. Log into your site as either Admin or another Supersuser level account.
 1. Navigate to the **Plugin** menu and select **Add New**.
-1. Type **Aspose Pdf Exporter** in the search box and click **Search Plugin button**. **Or click the**Upload menu and choose the ZIP folder you downloaded from the locations above.
+1. Type **Aspose Pdf Exporter** in the search box and click **Search Plugin button**. **Or click the** Upload menu and choose the ZIP folder you downloaded from the locations above.
 1. Click **Install Now**.
 1. After installation, click **Settings** to see the configuration page.
-## **Using and Video Demo**
+## <ins>**Using and Video Demo**
 ### **Using**
 After you have installed the Aspose PDF Exporter plugin it is really simple to start using it on your website. Please follow these simple steps to get started.
 

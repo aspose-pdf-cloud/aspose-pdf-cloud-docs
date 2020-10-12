@@ -10,9 +10,9 @@ This example allows you to create PDF file from HTML using Aspose.PDF for Cloud 
 ## <ins>**Resource**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Document/PutCreateDocument) lets you call the REST API directly from the browser.
 ## <ins>**cURL Example**
-**Template File:** [HtmlExample1.html](https://docs.aspose.cloud/download/attachments/1245793/HtmlExample1.html?version=1&modificationDate=1530780343226&api=v2)
+**Template File:** [HtmlExample1.html](/pdf/create-pdf-from-html/HtmlExample1.html)
 
-**Output File:** [HtmlExample1.pdf](https://docs.aspose.cloud/download/attachments/1245793/HtmlExample1.pdf?version=1&modificationDate=1530780493254&api=v2)
+**Output File:** [HtmlExample1.pdf](/pdf/create-pdf-from-html/HtmlExample1.pdf)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

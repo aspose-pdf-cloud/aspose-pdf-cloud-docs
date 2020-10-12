@@ -24,9 +24,9 @@ We have provided a separate API for each of the following use cases:
 1. [Converts PDF document (in request content) to DOC format and uploads resulting file to storage](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToDoc)
 
 ### **cURL Example**
-**Input Document:**  [Sample.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf)
+**Input Document:** [Sample.pdf](/pdf/convert-pdf-document-to-doc-format/Sample.pdf)
 
-**Output Document:** [result.doc ](https://docs.aspose.cloud/download/attachments/1246153/result.doc?version=1&modificationDate=1524819616277&api=v2)
+**Output Document:** [result.doc](/pdf/convert-pdf-document-to-doc-format/result.doc)
    
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}

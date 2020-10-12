@@ -21,9 +21,9 @@ We have provided a separate API for each of the following use case:
 ## **Resource URI**
 [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToLaTeX) lets you call the REST API directly from the browser.
 ### **cURL Example**
-**Input Document:** [4pages.pdf](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet/blob/master/testData/4pages.pdf) 
+**Input Document:** [4pages.pdf](/pdf/convert-pdf-document-to-latex-format/4pages.pdf) 
 
-**Output Document:** [result.latex](https://docs.aspose.cloud/download/attachments/1246147/result.latex?version=1&modificationDate=1530861152872&api=v2) 
+**Output Document:** [result.latex](/pdf/convert-pdf-document-to-latex-format/result.latex) 
 
 {{< tabs tabTotal="2" tabID="32" tabName1="Request" tabName2="Response" >}}
 

@@ -10,11 +10,11 @@ This example allows you to create PDF file from XML using Aspose.PDF  Cloud API
 ## <ins>**Resource URI**
  [Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Document/PutCreateDocument) lets you call the REST API directly from the browser.
 ## <ins>**cURL Example**
-**Template File:** [Simple.xslt](https://docs.aspose.cloud/download/attachments/1245794/Simple.xslt?version=1&modificationDate=1530782674446&api=v2) 
+**Template File:** [Simple.xslt](/pdf/create-pdf-from-xml/Simple.xslt) 
 
-**Data File:** [Simple.xml](https://docs.aspose.cloud/download/attachments/1245794/Simple.xml?version=1&modificationDate=1530782691585&api=v2) 
+**Data File:** [Simple.xml](/pdf/create-pdf-from-xml/Simple.xml) 
 
-**Output File: [XmlExample1.pdf](https://docs.aspose.cloud/download/attachments/1245794/XmlExample1.pdf?version=1&modificationDate=1530782708432&api=v2)**
+**Output File:** [XmlExample1.pdf](/pdf/create-pdf-from-xml/XmlExample1.pdf)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
