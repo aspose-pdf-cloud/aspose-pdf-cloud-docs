@@ -25,7 +25,7 @@ and the following parameters:
 ## **Resource**
 The following Aspose.PDF Cloud REST API resource has been used in the examples:[ Add Pages](https://apireference.aspose.cloud/pdf/#!/Pages/Pages_PutAddNewPage).
 ## **cURL Example**
-Input File: [4pages.pdf](https://docs-old.aspose.cloud/download/attachments/1245782/4pages.pdf?version=1&modificationDate=1556175983484&api=v2)
+Input File: [4pages.pdf](/pdf/add-a-new-page-in-pdf/4pages.pdf)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

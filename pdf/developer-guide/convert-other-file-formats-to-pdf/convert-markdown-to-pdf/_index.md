@@ -54,13 +54,4 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 {{< /tab >}}
 
 {{< /tabs >}}
-### **SDK Example**
-{{< tabs tabTotal="1" tabID="63" tabName1="C#" >}}
 
-{{< tab tabNum="1" >}}
-
-
-
-{{< /tab >}}
-
-{{< /tabs >}}

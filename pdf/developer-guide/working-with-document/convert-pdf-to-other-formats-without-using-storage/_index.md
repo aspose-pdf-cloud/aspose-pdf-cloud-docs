@@ -11,7 +11,7 @@ This example allows you to convert PDF documents to other formats without upload
 ## **Resource**
 The following Aspose.Pdf for Cloud REST API resource has been used in the examples: [convert (Controller resource)](https://apireference.aspose.cloud/pdf/#!/Document/Document_PutConvertDocument).
 ## **REST Methods References**
-We're referring some common methods in the REST examples to perform general operations. These methods can be found at the following page: [REST API Methods](http://www.aspose.com/docs/display/rest/REST+API+Methods)
+We're referring some common methods in the REST examples to perform general operations. These methods can be found at the following page: REST API Methods
 ## **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -57,7 +57,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ## **SDK Examples**
 **Convert PDF to other Formats without using Storage**
 
-{{< tabs tabTotal="9" tabID="5" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" >}}
+{{< tabs tabTotal="7" tabID="5" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Python" tabName5="Node.js" tabName6="Android" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -67,45 +67,31 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="2" >}}
 
-{{< /tab >}}
-
-{{< tab tabNum="3" >}}
-
 {{< gist "" "3ca02f4242892bb88f733c42b71e88d6" "Examples-PHP-Document-PutConvertDocument-.php" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="4" >}}
+{{< tab tabNum="3" >}}
 
 {{< gist "" "a06bf056ce7d665a0c7dc0a389c58275" "Examples-Ruby-Document-convert_document_from_request_content_to_specified_format-.rb" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="5" >}}
+{{< tab tabNum="4" >}}
 
 {{< gist "aspose-pdf" "9f0b01c075bd0f5df6d7d74056fd14a2" "ConvertPDFWithoutStorage.py" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="6" >}}
+{{< tab tabNum="5" >}}
 
 {{< gist "aspose-pdf" "879ac2c46818756a244f31a3dfd3b48a" "Examples-Node.js-Document-ConvertPdfToOtherFormat-1.js" >}}
 
 {{< /tab >}}
 
-{{< tab tabNum="7" >}}
+{{< tab tabNum="6" >}}
 
 {{< gist "aspose-pdf" "531368565ace35fc131f3e7b44b4e322" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-documents-ConvertPDFtoOtherFormatsWithoutStorage-1.java" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="8" >}}
-
-{{< /tab >}}
-
-{{< tab tabNum="9" >}}
-
-{{< gist "aspose-pdf" "316a7b68434c0790210c455da62eb029" "Examples-Perl-Document-ConvertPdfToOtherFormat-1.pl" >}}
 
 {{< /tab >}}
 
