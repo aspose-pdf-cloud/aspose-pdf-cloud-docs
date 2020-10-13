@@ -13,7 +13,7 @@ This example allows you to get a specific bookmark from a PDF using Aspose.PDF f
 | :- | :- | :- | :- |
 |/pdf/{name}/bookmarks/list/{bookmarkPath}|GET|Get specific bookmark from Document|[GetBookmarks](https://apireference.aspose.cloud/pdf/#!/Bookmarks/GetBookmarks)|
 ### **cURL Example**
-Input File: [PDFWithBookmarks.pdf](https://docs-old.aspose.cloud/download/attachments/1245467/PdfWithBookmarks.pdf?version=1&modificationDate=1556172828026&api=v2)
+Input File: [PDFWithBookmarks.pdf](/pdf/get-a-specific-bookmark-from-a-pdf/PdfWithBookmarks.pdf)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

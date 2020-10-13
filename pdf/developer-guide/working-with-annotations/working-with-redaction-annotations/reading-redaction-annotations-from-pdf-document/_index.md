@@ -16,7 +16,7 @@ Aspose.PDF Cloud allows you to read Redaction Annotation information from a PDF 
 |/pdf/{name}/annotations/redaction/{annotationId}|GET|Read Redaction Annotation by ID|[GetRedactionAnnotation](https://apireference.aspose.cloud/pdf/#/Annotations/GetRedactionAnnotation)|
 ### **cURL Example** 
 
-We have used [PdfWithAnnotations.pdf](https://docs-old.aspose.cloud/download/attachments/7243085/PdfWithAnnotations.pdf?version=1&modificationDate=1560630761778&api=v2) for the example below. In this example we are demonstration **/pdf/{name}/annotations/highlight/{redaction}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/redaction**or **/pdf/{name}/annotations/redaction** to get the desired annotation identifier. The above resources return the following Highlight Annotation information for the document
+We have used [PdfWithAnnotations.pdf](/pdf/reading-redaction-annotations-from-pdf-document/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/highlight/{redaction}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/redaction**or **/pdf/{name}/annotations/redaction** to get the desired annotation identifier. The above resources return the following Highlight Annotation information for the document
 
 ```java
 

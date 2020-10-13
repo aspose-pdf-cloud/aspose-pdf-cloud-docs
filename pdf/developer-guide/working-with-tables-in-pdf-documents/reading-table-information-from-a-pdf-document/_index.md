@@ -20,7 +20,7 @@ Please refer to our GitHub Page for the [Table Recognzed](https://github.com/as
 ### **cURL Example**
 {{% alert color="primary" %}} 
 
-In the example below we use [PdfWithTable.pdf](https://docs-old.aspose.cloud/download/attachments/7243124/PdfWithTable.pdf?version=1&modificationDate=1560712270126&api=v2) to view table information.
+In the example below we use [PdfWithTable.pdf](/pdf/reading-table-information-from-a-pdf-document/PdfWithTable.pdf) to view table information.
 
 {{% /alert %}} 
 

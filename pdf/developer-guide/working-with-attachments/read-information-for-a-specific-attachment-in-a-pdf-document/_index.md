@@ -13,9 +13,6 @@ Aspose.PDF Cloud allows you to read a specific attachment information in a PDF D
 | :- | :- | :- | :- |
 |/pdf/{name}/attachments/{attachmentIndex}|GET|Read specific attachment information fa PDF Document|[GetDocumentAttachmentByIndex](https://apireference.aspose.cloud/pdf/#!/Attachments/GetDocumentAttachmentByIndex)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
-
-{{% /alert %}} 
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

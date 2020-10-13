@@ -13,10 +13,6 @@ This example allows you to download a specific attachment from a PDF using Aspos
 | :- | :- | :- | :- |
 |/pdf/{name}/attachments/{attachmentIndex}/download|GET|Download attachment information from a PDF Document|[GetDownloadDocumentAttachmentByIndex](https://apireference.aspose.cloud/pdf/#!/Attachments/GetDownloadDocumentAttachmentByIndex)|
 ### **cURL Example**
-{{% alert color="primary" %}} 
-
-{{% /alert %}} 
-
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}

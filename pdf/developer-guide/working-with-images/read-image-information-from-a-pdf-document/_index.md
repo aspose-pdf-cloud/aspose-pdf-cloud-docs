@@ -22,7 +22,7 @@ This example allows you to read all images from a page in a PDF Document.
 ## **Resource**
 The following Aspose.PDF Cloud REST API resource has been used in the examples: [GetImage](https://apireference.aspose.cloud/pdf/#!/Images/GetImage).
 ## **cURL Example**
-Input File: [PDF With Images](https://docs-old.aspose.cloud/download/attachments/7242524/PdfWithImages2.pdf?version=1&modificationDate=1559502491364&api=v2)
+Input File: [PDF With Images](/pdf/read-image-information-from-a-pdf-document/PdfWithImages.pdf)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

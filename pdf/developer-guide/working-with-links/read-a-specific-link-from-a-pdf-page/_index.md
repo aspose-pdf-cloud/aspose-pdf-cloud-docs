@@ -15,7 +15,7 @@ Aspose.PDF Cloud allows you to read information about a specific link from a PDF
 |/pdf/{name}/links/{linkId}|GET|Read link information from a PDF Document by a Link Annotation ID|[GetLinkAnnotation](https://apireference.aspose.cloud/pdf/#!/Links/GetLinkAnnotation)|
 
 ### **cURL Example**
-Input File: [PdfWithLinks.pdf](https://docs-old.aspose.cloud/download/attachments/1245463/PdfWithLinks.pdf?version=1&modificationDate=1556379080808&api=v2)
+Input File: [PdfWithLinks.pdf](/pdf/read-a-specific-link-from-a-pdf-page/PdfWithLinks.pdf)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

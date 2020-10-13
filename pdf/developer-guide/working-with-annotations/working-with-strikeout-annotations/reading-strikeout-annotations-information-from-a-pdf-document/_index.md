@@ -16,7 +16,7 @@ Aspose.PDF Cloud allows you to read Strikeout Annotation information from a PDF 
 |/pdf/{name}/annotations/strikeout/{annotationId}|GET|Read Annotation by ID|[GetStrikeOutAnnotation](https://apireference.aspose.cloud/pdf/#!/Annotations/GetStrikeOutAnnotation)|
 ### **cURL Example**
 
-We have used [PdfWithAnnotations.pdf](https://docs-old.aspose.cloud/download/attachments/7243085/PdfWithAnnotations.pdf?version=1&modificationDate=1560630761778&api=v2) for the example below. In this example we are demonstration **/pdf/{name}/annotations/strikeout /{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/strikeout** or **/pdf/{name}/annotations/strikeout** to get the desired annotation identifier. The above resources return the following Strikeout Annotation information for the document
+We have used [PdfWithAnnotations.pdf](/pdf/reading-strikeout-annotations-information-from-a-pdf-document/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/strikeout /{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/strikeout** or **/pdf/{name}/annotations/strikeout** to get the desired annotation identifier. The above resources return the following Strikeout Annotation information for the document
 
 ```java
 

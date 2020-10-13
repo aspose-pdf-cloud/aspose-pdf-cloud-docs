@@ -13,7 +13,7 @@ Aspose.PDF Cloud allows you to read link information from a page within a PDF Do
 | :- | :- | :- | :- |
 |/pdf/{name}/pages/{pageNumber}/links|GET|Read link information from a PDF Document|[GetPageLinkAnnotations](https://apireference.aspose.cloud/pdf/#!/Links/GetPageLinkAnnotations)|
 ### **cURL Example**
-Input File: [PdfWithLinks.pdf](https://docs-old.aspose.cloud/download/attachments/1245470/PdfWithLinks.pdf?version=1&modificationDate=1556378974004&api=v2)
+Input File: [PdfWithLinks.pdf](/pdf/read-link-information-from-a-page-in-a-pdf-document/PdfWithLinks.pdf)
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

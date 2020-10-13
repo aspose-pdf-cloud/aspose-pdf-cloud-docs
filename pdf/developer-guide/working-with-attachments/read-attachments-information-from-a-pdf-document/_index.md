@@ -15,7 +15,7 @@ Aspose.PDF Cloud allows you to read attachment information from a PDF Doucment. 
 ### **cURL Information**
 {{% alert color="primary" %}} 
 
-We have used [PdfWithEmbeddedFiles.pdf](https://docs-old.aspose.cloud/download/attachments/1245466/PdfWithEmbeddedFiles.pdf?version=1&modificationDate=1560543302929&api=v2) as an example below
+We have used [PdfWithEmbeddedFiles.pdf](/pdf/read-attachments-information-from-a-pdf-document/PdfWithEmbeddedFiles.pdf) as an example below
 
 {{% /alert %}} 
 

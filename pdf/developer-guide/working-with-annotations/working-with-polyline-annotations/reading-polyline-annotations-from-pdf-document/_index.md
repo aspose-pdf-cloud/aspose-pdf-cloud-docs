@@ -16,7 +16,7 @@ Aspose.PDF Cloud allows you to read Polyline Annotation information from a PDF D
 |/pdf/{name}/annotations/polyline/{annotationId}|GET|Read Annotation by ID|[GetPolyLineAnnotation](https://apireference.aspose.cloud/pdf/#!/Annotations/GetPolyLineAnnotation)|
 ### **cURL Example**
 
-We have used [PdfWithAnnotations.pdf](https://docs-old.aspose.cloud/download/attachments/7243085/PdfWithAnnotations.pdf?version=1&modificationDate=1560630761778&api=v2) for the example below. In this example we are demonstration **/pdf/{name}/annotations/polyline/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/polyline** or **/pdf/{name}/annotations/polyline** to get the desired annotation identifier. The above resources return the following Line Annotation information for the document
+We have used [PdfWithAnnotations.pdf](/pdf/reading-polyline-annotations-from-pdf-document/PdfWithAnnotations.pdf) for the example below. In this example we are demonstration **/pdf/{name}/annotations/polyline/{annotationId}** resource to read Annotation Information by ID. You can use **/pdf/{name}/annotations/polyline** or **/pdf/{name}/annotations/polyline** to get the desired annotation identifier. The above resources return the following Line Annotation information for the document
 
 ```java
 
