@@ -11,5 +11,3 @@ weight: 10
 - [Developer Guide](/pdf/developer-guide/)
 - [Plugins](/pdf/plugins/)
 - [Release Notes](/pdf/release-notes/)
-
-### Aspose.PDF Cloud...
