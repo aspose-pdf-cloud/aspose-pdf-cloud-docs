@@ -213,6 +213,7 @@ All the below operation convert the PDF Page to a Image File and the resultant f
 |EMF|[/pdf/{name}/pages/{pageNumber}/convert/emf](https://apireference.aspose.cloud/pdf/#!/Pages/PutPageConvertToEmf)|PUT|
 |BMP|[/pdf/{name}/pages/{pageNumber}/convert/bmp](https://apireference.aspose.cloud/pdf/#!/Pages/PutPageConvertToBmp)|PUT|
 |GIF|[/pdf/{name}/pages/{pageNumber}/convert/gif](https://apireference.aspose.cloud/pdf/#!/Pages/PutPageConvertToGif)|PUT|
+
 ### **Convert PDF Page to TIFF**
 #### **cURL Example**
 {{< tabs tabTotal="2" tabID="25" tabName1="Request" tabName2="Response" >}}
