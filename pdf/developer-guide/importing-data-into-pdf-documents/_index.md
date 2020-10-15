@@ -65,6 +65,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/import/xml?xmlFilePath
 |**API**|**Type**|**Description**|
 | :- | :- | :- |
 |/pdf/{name}/import/xml|POST|[PostImportFieldsFromXml](https://apireference.aspose.cloud/pdf/#/ImportXmlToPdf/PostImportFieldsFromXml)|
+
 #### **cURL Example**
 {{< tabs tabTotal="1" tabID="6" tabName1="Request" >}}
 
