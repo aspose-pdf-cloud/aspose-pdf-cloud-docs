@@ -1,16 +1,16 @@
 ---
-title: "Convert LaTeX to PDF"
+title: "Convert TeX to PDF"
 type: docs
-url: /convert-latex-to-pdf/
+url: /convert-tex-to-pdf/
 weight: 30
 ---
 
-# <ins>**Convert LaTeX to PDF**
+# <ins>**Convert TeX to PDF**
 
 ### **Resource Information**
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
-|/pdf/create/latex|GET|Convert LaTeX file (located on storage) to PDF format and return resulting file in response|[GetLaTeXInStorageToPdf](https://apireference.aspose.cloud/pdf/#!/Convert/GetLaTeXInStorageToPdf)|
+|/pdf/create/tex|GET|Convert TeX file (located on storage) to PDF format and return resulting file in response|[GetTeXInStorageToPdf](https://apireference.aspose.cloud/pdf/#!/Convert/GetTeXInStorageToPdf)|
 ### **Resource Params**
 The above API also supports the following request params
 
@@ -36,7 +36,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 ```java
 
-curl -v "https://api.aspose.cloud/v3.0/pdf/create/latex?srcPath=textexample.tex" \
+curl -v "https://api.aspose.cloud/v3.0/pdf/create/tex?srcPath=textexample.tex" \
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
@@ -62,7 +62,7 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 
 {{< tab tabNum="1" >}}
 
-{{< gist "aspose-cloud" "67c1ec9de6e6fcd5917244c4291dc5b0" "Examples-ConvertToPDFExamples-GetLaTeXInStorageToPdfExample.cs" >}}
+{{< gist "aspose-cloud" "67c1ec9de6e6fcd5917244c4291dc5b0" "Examples-ConvertToPDFExamples-GetTeXInStorageToPdfExample.cs" >}}
 
 {{< /tab >}}
 

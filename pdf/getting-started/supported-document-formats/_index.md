@@ -12,7 +12,7 @@ weight: 30
 |[PDF](https://wiki.fileformat.com/view/pdf/)|Portable Document Format|{{< emoticons/tick >}}|{{< emoticons/tick >}} |
 |[EPUB](https://docs.fileformat.com/ebook/epub/)|Ebook file format|{{< emoticons/tick >}}| |
 |[HTML](https://wiki.fileformat.com/web/html/)|HTML Format|{{< emoticons/tick >}}| |
-|[TeX](https://wiki.fileformat.com/page-description-language/tex/)|LaTex typesetting file format|{{< emoticons/tick >}}| |
+|[TeX](https://wiki.fileformat.com/page-description-language/tex/)|Tex typesetting file format|{{< emoticons/tick >}}| |
 |[MHT](https://wiki.fileformat.com/web/mhtml/)|MHTML Document|{{< emoticons/tick >}}| |
 |[PCL](https://wiki.fileformat.com/page-description-language/pcl/)|Printer Control Language Files|{{< emoticons/tick >}}| |
 |[PS](https://wiki.fileformat.com/page-description-language/ps/)|Postscript Files|{{< emoticons/tick >}}| |
@@ -28,7 +28,7 @@ weight: 30
 |[DOCX](https://wiki.fileformat.com/specification/word-processing/docx/)|Saves the document in the Microsoft Word format| |{{< emoticons/tick >}}|
 |[EPUB](https://wiki.fileformat.com/ebook/epub/)|Saves the document in the Ebook file format| |{{< emoticons/tick >}}|
 |[HTML](https://wiki.fileformat.com/web/html/)|Saves the document in HTML Format| |{{< emoticons/tick >}}|
-|[TeX](https://wiki.fileformat.com/page-description-language/tex/)|Saves the document in the LaTex typesetting file format| |{{< emoticons/tick >}}|
+|[TeX](https://wiki.fileformat.com/page-description-language/tex/)|Saves the document in the Tex typesetting file format| |{{< emoticons/tick >}}|
 |[MobiXML](https://wiki.fileformat.com/ebook/mobi/)|Saves the document in eBook MobiXML Standard format| |{{< emoticons/tick >}}|
 |[SVG](https://wiki.fileformat.com/page-description-language/svg/)|Saves the document in Scalable Vector Graphics (An XML-based vector image format)| |{{< emoticons/tick >}}|
 |[JPEG](https://wiki.fileformat.com/image/jpeg/)|Saves the document in JPEG Format| |{{< emoticons/tick >}}|

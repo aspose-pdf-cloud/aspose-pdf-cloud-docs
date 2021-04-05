@@ -1,29 +1,29 @@
 ---
-title: "Convert PDF Document to LaTeX Format"
+title: "Convert PDF Document to TeX Format"
 type: docs
-url: /convert-pdf-document-to-latex-format/
-keywords: "convert PDF to Latex, Python, Java, C#, PHP, Ruby, Swift, Android, Go"
-description: "You can convert pdf to latex or tex by using Aspose.PDF Cloud REST API. The SDKs are available in various languages such as, C#, Java, Python, Ruby, PHP, Node.js, Swift, Android and Go. Please check API Reference page for the description of API&amp;apos;s parameters."
+url: /convert-pdf-document-to-tex-format/
+keywords: "convert PDF to Tex, Python, Java, C#, PHP, Ruby, Swift, Android, Go"
+description: "You can convert pdf to tex or tex by using Aspose.PDF Cloud REST API. The SDKs are available in various languages such as, C#, Java, Python, Ruby, PHP, Node.js, Swift, Android and Go. Please check API Reference page for the description of API&amp;apos;s parameters."
 weight: 80
 ---
 
-# <ins>**Converting PDF to LaTeX**
+# <ins>**Converting PDF to TeX**
 
 
 ## **Introduction**
-This API enables you to convert PDF document to LaTeX or Tex format. Please check [API Reference page](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToLaTeX) for the description of API's parameters.
+This API enables you to convert PDF document to TeX or Tex format. Please check [API Reference page](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToTeX) for the description of API's parameters.
 
 We have provided a separate API for each of the following use case:
 
-1. [Converts PDF document (located on storage) to LaTeX format and returns resulting file in response content](https://apireference.aspose.cloud/pdf/#!/Convert/GetPdfInStorageToLaTeX)
-1. [Converts PDF document (located on storage) to LaTeX format and uploads resulting file to storage](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToLaTeX)
-1. [Converts PDF document (in request content) to LaTeX format and uploads resulting file to storage](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToLaTeX)
+1. [Converts PDF document (located on storage) to TeX format and returns resulting file in response content](https://apireference.aspose.cloud/pdf/#!/Convert/GetPdfInStorageToTeX)
+1. [Converts PDF document (located on storage) to TeX format and uploads resulting file to storage](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToTeX)
+1. [Converts PDF document (in request content) to TeX format and uploads resulting file to storage](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInRequestToTeX)
 ## **Resource URI**
-[Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToLaTeX) lets you call the REST API directly from the browser.
+[Aspose.PDF Swagger UI](https://apireference.aspose.cloud/pdf/#!/Convert/PutPdfInStorageToTeX) lets you call the REST API directly from the browser.
 ### **cURL Example**
-**Input Document:** [4pages.pdf](/pdf/convert-pdf-document-to-latex-format/4pages.pdf) 
+**Input Document:** [4pages.pdf](/pdf/convert-pdf-document-to-tex-format/4pages.pdf) 
 
-**Output Document:** [result.latex](/pdf/convert-pdf-document-to-latex-format/result.latex) 
+**Output Document:** [result.tex](/pdf/convert-pdf-document-to-tex-format/result.tex) 
 
 {{< tabs tabTotal="2" tabID="32" tabName1="Request" tabName2="Response" >}}
 
@@ -39,7 +39,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_c
 
 ```java
 
-curl -v "https://api.aspose.cloud/v3.0/pdf/convert/latex?outPath=result.latex" \
+curl -v "https://api.aspose.cloud/v3.0/pdf/convert/tex?outPath=result.tex" \
 -X PUT \
 -T 4pages.pdf \
 -H "Content-Type: multipart/form-data" \
@@ -69,7 +69,7 @@ curl -v "https://api.aspose.cloud/v3.0/pdf/convert/latex?outPath=result.latex" \
 
 {{< tab tabNum="1" >}}
 
-{{< gist "aspose-cloud" "67c1ec9de6e6fcd5917244c4291dc5b0" "Examples-ConvertExamples-PutPdfInStorageToLaTeXExample.cs" >}}
+{{< gist "aspose-cloud" "67c1ec9de6e6fcd5917244c4291dc5b0" "Examples-ConvertExamples-PutPdfInStorageToTeXExample.cs" >}}
 
 {{< /tab >}}
 

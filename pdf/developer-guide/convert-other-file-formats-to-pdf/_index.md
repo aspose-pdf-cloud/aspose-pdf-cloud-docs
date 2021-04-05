@@ -11,7 +11,7 @@ Aspose.PDF Cloud allows a flexible and easy way to convert multiple file formats
 
 - [Convert EPUB to PDF](/pdf/convert-epub-to-pdf/)
 - [Convert Web to PDF](/pdf/convert-web-to-pdf/)
-- [Convert LaTeX to PDF](/pdf/convert-latex-to-pdf/)
+- [Convert TeX to PDF](/pdf/convert-tex-to-pdf/)
 - [Convert MHT to PDF](/pdf/convert-mht-to-pdf/)
 - [Convert HTML to PDF](/pdf/convert-html-to-pdf/)
 - [Convert PS to PDF](/pdf/convert-ps-to-pdf/)
