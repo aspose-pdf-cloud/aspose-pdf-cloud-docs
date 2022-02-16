@@ -102,13 +102,13 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="1" >}}
 
-{{< gist "aspose-cloud" "8c0678437a10062f840ba17f5a719535" "Examples-DotNET-CSharp-Document-SplitPdfFiles-1.cs" >}}
+{{< gist "kaferi" "a29102b5986bc5253aa1b5874a03332e" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cloud" "18d4826e80a1b2eeb8c3f55da5f8dc13" "Examples-JAVA-SDK-src-main-java-com-aspose-pdf-cloud-examples-documents-SplitPDfFilesExample-split-pdf-files.java" >}}
+{{< gist "kaferi" "b20c33cb9e9a384835f34d2866c4a00b" >}}
 
 {{< /tab >}}
 
@@ -138,7 +138,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="7" >}}
 
-{{< gist "aspose-cloud" "cf2d35a97229ccaaf2eb88e7adfbe80a" "Examples-Android-app-src-main-java-com-aspose-pdf-cloud-examples-documents-SplitPDfFilesExample-1.java" >}}
+{{< gist "kaferi" "f86df8d006fbd7257cd69af344ccbf91" >}}
 
 {{< /tab >}}
 
