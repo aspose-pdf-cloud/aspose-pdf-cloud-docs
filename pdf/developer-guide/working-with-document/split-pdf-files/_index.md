@@ -132,7 +132,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="6" >}}
 
-{{< gist "aspose-cloud" "86742b353d1dae0d2db0b0a9bb0299eb" "Examples-Node.js-Document-SplitPdfFiles-1.js" >}}
+{{< gist "kaferi" "2cafb36acabb37a9ba048196651600fd.js" "PostSplitDocument.js" >}}
 
 {{< /tab >}}
 
