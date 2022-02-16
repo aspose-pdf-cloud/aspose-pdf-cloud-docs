@@ -114,7 +114,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "6cabe1c58163af282039ac0e77ca291d" "Examples-PHP-Document-PostSplitDocument-.php" >}}
+{{< gist "kaferi" "ddfd8073beadf7a569997f73ed7518be" >}}
 
 {{< /tab >}}
 
