@@ -132,7 +132,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="6" >}}
 
-{{< gist "kaferi" "2cafb36acabb37a9ba048196651600fd.js" "PostSplitDocument.js" >}}
+{{< gist "kaferi" "2cafb36acabb37a9ba048196651600fd" >}}
 
 {{< /tab >}}
 
