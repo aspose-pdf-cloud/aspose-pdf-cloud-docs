@@ -120,13 +120,13 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "439fc6df85e4691799dd9a0916a6e326" "Examples-Ruby-Document-split_document-.rb" >}}
+{{< gist "kaferi" "12083df37bee5327e33271a6e4ba0fa0" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cloud" "40abf24492216bf27557f639af52c7c3" "SplitPDFFile.py" >}}
+{{< gist "kaferi" "7c1b56ac2c2a632f4db7b289f8ad7ada" >}}
 
 {{< /tab >}}
 
