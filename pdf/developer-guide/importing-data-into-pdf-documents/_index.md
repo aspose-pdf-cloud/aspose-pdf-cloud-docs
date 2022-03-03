@@ -1,22 +1,29 @@
 ---
-title: "Importing data into PDF Documents"
+title: Importing data into PDF Documents
 type: docs
 url: /importing-data-into-pdf-documents/
 weight: 50
+description: Importing data from XML files, importing data from XML files in Request with Aspose.PDF Cloud.
+lastmod: "2022-01-10"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.5
 ---
 
-# **Introduction**
+## Introduction
+
 This example allows you to import data from a variety of file formats into a PDF Document. The API has the following properties
 
 
-## **API Information**
+## API Information
+
 For all these example we have used the sample files test.xml, test.fdf, test.xfdf
-### **Importing data from XML Files**
+### Importing data from XML Files
 
 |**API**|**Type**|**Description**|
 | :- | :- | :- |
 |/pdf/{name}/import/xml|GET|[GetImportFieldsFromXmlInStorage](https://apireference.aspose.cloud/pdf/#/Import/GetImportFieldsFromXmlInStorage)|
-#### **cURL Example**
+#### cURL Example
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}

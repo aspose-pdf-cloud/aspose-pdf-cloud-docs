@@ -1,18 +1,25 @@
 ---
-title: "Working with Document display properties"
+title: Working with Document display properties
 type: docs
 url: /working-with-document-display-properties/
 weight: 220
+description: This article explains about working with document display properties with Aspose.PDF Cloud.
+lastmod: "2022-02-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
-# **Introduction**
+## Introduction
+
 Aspose.PDF Cloud allows you to read display properties for a PDF Document. Aspose.PDF provides the following functionality
-### **API Information**
+
+### API Information
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
 |/pdf/{name}/displayproperties|GET|Read document display properties|[GetDocumentDisplayProperties](https://apireference.aspose.cloud/pdf/#/DisplayProperties/GetDocumentDisplayProperties)|
-### **cURL Example**
+### cURL Example
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}

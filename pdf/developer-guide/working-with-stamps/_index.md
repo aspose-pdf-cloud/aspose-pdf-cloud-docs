@@ -1,18 +1,28 @@
 ---
-title: "Working with Stamps"
+title: Working with Stamps
 type: docs
 url: /working-with-stamps/
 weight: 170
+description: This section describes how to add image stamps and text stamps to a PDF page with Aspose.PDF Cloud.
+lastmod: "2022-02-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
-## **Introduction**
+## Introduction
+
 Using Aspose.PDF Cloud allows you to add Stamp Information to a PDF Document. 
-### **Stamp Types**
+
+### Stamp Types
+
 - [Text Stamp](/pdf/add-text-stamp-watermark-to-a-pdf-page/)
 - [Image Stamp](/pdf/add-image-stamp-watermark-to-a-pdf-page/)
 - [PDF File as a stamp](/pdf/add-pdf-page-as-stamp-watermark-to-a-pdf-page/)
 - [Page N of N Stamp](/pdf/add-page-number-stamp-to-a-pdf-page/)
-### **API Information**
+
+### API Information
+
 The Aspose.PDF Cloud API uses the following API Resource Properties for adding stamps to a PDF Document
 
 |**Property Name** |**Type** |**Description** |**RO/RW** |
@@ -38,7 +48,7 @@ The Aspose.PDF Cloud API uses the following API Resource Properties for adding s
 |VerticalAlignment |string |Vertical alignment of stamp on page. The value is from the set: None, Top, Center, Bottom. |RW |
 |StartingNumber |int |The number of starting page. Other pages will be numbered starting from this value. Used for?PageNumber stamps only. |RW |
 |TextState |complex:TextState |The stamp text state, used for Text and PageNumber stamps only. See detailed data below. |RW|
-##### **TextState properties**
+##### TextState properties
 
 |**Property Name** |**Type** |**Description** |**RO/RW** |
 | :- | :- | :- | :- |
@@ -47,7 +57,8 @@ The Aspose.PDF Cloud API uses the following API Resource Properties for adding s
 |FontSize |float |Font size. |RW |
 |FontStyle |string |Font style, supported values are: Bold, Italic. Normal style is used by default. |RW |
 |ForegroundColor |comlex:Color |Foreground text color. |RW |
-##### **Color properties**
+
+##### Color properties
 
 |**Property Name** |**Type** |**Description** |**RO/RW** |
 | :- | :- | :- | :- |

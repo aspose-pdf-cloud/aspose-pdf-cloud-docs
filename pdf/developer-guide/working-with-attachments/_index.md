@@ -1,8 +1,13 @@
 ---
-title: "Working with Attachments"
+title: Working with Attachments
 type: docs
 url: /working-with-attachments/
 weight: 160
+description: Use Aspose.PDF Cloud for working with attachments. Add and remove attachments in PDF files, read attachments information from a PDF file, download a specific attachment.
+lastmod: "2022-02-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
 - [Read attachments information from a PDF Document](/pdf/read-attachments-information-from-a-pdf-document/)

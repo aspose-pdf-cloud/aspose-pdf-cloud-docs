@@ -1,11 +1,16 @@
 ---
-title: "Convert Other File Formats to PDF"
+title: Convert Other File Formats to PDF
 type: docs
 url: /convert-other-file-formats-to-pdf/
 weight: 30
+description: This topic show you how to Aspose.PDF allows to convert other file formats such as EPUB, WEB, PCL, XPS, PS, XML, SVG, HTML, DOC to PDF document.
+lastmod: "2022-01-10"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.5
 ---
 
-# <ins>**Introduction**
+## Introduction
 
 Aspose.PDF Cloud allows a flexible and easy way to convert multiple file formats to PDF.  Below is a list of API exposed by Aspose.PDF Cloud to convert multiple file formats to PDF
 

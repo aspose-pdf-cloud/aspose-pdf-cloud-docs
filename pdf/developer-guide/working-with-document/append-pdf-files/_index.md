@@ -1,5 +1,5 @@
 ---
-title: "Append PDF Files"
+title: Append PDF Files
 type: docs
 url: /append-pdf-files/
 weight: 60

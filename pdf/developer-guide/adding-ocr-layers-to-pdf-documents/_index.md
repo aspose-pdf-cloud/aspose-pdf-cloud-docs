@@ -1,23 +1,34 @@
 ---
-title: "Adding OCR layers to PDF Documents"
+title: Adding OCR layers to PDF Documents
 type: docs
 url: /adding-ocr-layers-to-pdf-documents/
 weight: 210
+description: Aspose.PDF Cloud allows you to create searchable documents from scanned PDF Files. Learn more in the next section of the documentation.
+lastmod: "2022-01-10"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.5
 ---
 
-# **Introduction**
+## Introduction
+
 Aspose.PDF Cloud allows you to create searchable documents from scanned PDF Files. Aspose.PDF provides the following functionality
-### **API Information**
+
+### API Information
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
 |/pdf/{name}/ocr|PUT|Generate OCR layer for images in input PDF document.|[PutSearchableDocument](https://apireference.aspose.cloud/pdf/#/Ocr/PutSearchableDocument)|
-### **cURL Example**
+
+### cURL Example
+
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
+
 **Get Authentication Token**
+
 
 ```java
 
@@ -57,5 +68,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/eng.pdf/ocr?lang=rus%2Ceng" -H "a
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+
+### SDK Source
+
 The Aspose.PDF Cloud SDKs can be downloaded from the following page: [Available SDKs](/pdf/available-sdks/)

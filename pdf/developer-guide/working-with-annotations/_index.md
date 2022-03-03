@@ -3,6 +3,11 @@ title: "Working with Annotations"
 type: docs
 url: /working-with-annotations/
 weight: 180
+description: With Aspose.PDF Cloud you may add, delete and get annotation from your PDF file. Check all lists of annotations to resolve your task. 
+lastmod: "2022-01-10"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.5
 ---
 
 - [Working with Strikeout Annotations ](/pdf/working-with-strikeout-annotations/)
