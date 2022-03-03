@@ -30,7 +30,8 @@ Aspose.PDF Cloud allows you to create searchable documents from scanned PDF File
 **Get Authentication Token**
 
 
-```java
+```bash
+
 
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=<APP_SID>&client_secret=<APP_KEY>" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
