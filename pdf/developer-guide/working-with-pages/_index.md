@@ -1,8 +1,13 @@
 ---
-title: "Working with Pages"
+title: Working with Pages
 type: docs
 url: /working-with-pages/
 weight: 60
+description:  How to add pages, add headers and footers, add watermarks  you can know in this section. Aspose.PDF Cloud explain to you all details on this topic. 
+lastmod: "2022-02-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
 - [Add a New Page in PDF](/pdf/add-a-new-page-in-pdf/)

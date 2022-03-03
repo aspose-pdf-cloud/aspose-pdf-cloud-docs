@@ -1,19 +1,28 @@
 ---
-title: "Working with Files and Storage using Aspose.PDF Cloud"
+title: Working with Files and Storage using Aspose.PDF Cloud
 type: docs
 url: /working-with-files-and-storage-using-aspose-pdf-cloud/
 weight: 200
+description: Working with files and storage in your PDF documents using Aspose.PDF Cloud.
+lastmod: "2022-02-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
-## **Introduction**
+## Introduction
+
 Aspose.PF Cloud provides helper functions to work with files uploaded to Aspose Cloud Storage or any other Cloud Storage of your choice. If you need any help getting started with setting third party storage please refer to [Aspose Cloud UI Help Topics](https://docs.aspose.cloud/display/totalcloud/Aspose+Cloud+UI+Help+Topics).
-### **Download a file from Cloud Storage**
-#### **API Information**
+
+### Download a file from Cloud Storage
+
+#### API Information
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
 |/pdf/storage/file/{path}|GET|Download a File from Storage|[DownloadFile](https://apireference.aspose.cloud/pdf/#/File/DownloadFile)|
-#### **cURL Example**
+#### cURL Example
+
 {{< tabs tabTotal="1" tabID="1" tabName1="Request" >}}
 
 {{< tab tabNum="1" >}}
@@ -41,7 +50,8 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/storage/file/4pages.pdf" \
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **SDK Example**
+#### SDK Example
+
 {{< tabs tabTotal="1" tabID="4" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
@@ -51,13 +61,17 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/storage/file/4pages.pdf" \
 {{< /tab >}}
 
 {{< /tabs >}}
-### **Uploading a file from Cloud Storage**
-#### **API Information**
+
+### Uploading a file from Cloud Storage
+
+#### API Information
+
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
 |/pdf/storage/file/{path}|PUT|Upload a file to Cloud Storage|[UploadFile](https://apireference.aspose.cloud/pdf/#/File/UploadFile)|
-#### **cURL Example**
+#### cURL Example
+
 {{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -107,7 +121,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/test.pdf" \
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **SDK Example**
+
+#### SDK Example
+
 {{< tabs tabTotal="1" tabID="9" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
@@ -117,13 +133,16 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/test.pdf" \
 {{< /tab >}}
 
 {{< /tabs >}}
-### **Copying a file to a new location on Cloud Storage**
+
+### Copying a file to a new location on Cloud Storage
+
 #### **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
 |/pdf/storage/file/copy/{srcPath}|PUT|Duplicate a file to a new location on Cloud Storage|[CopyFile](https://apireference.aspose.cloud/pdf/#/File/CopyFile)|
-#### **cURL Example**
+#### cURL Example
+
 {{< tabs tabTotal="1" tabID="10" tabName1="Request" >}}
 
 {{< tab tabNum="1" >}}
@@ -151,7 +170,9 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/copy/4pages.pdf?dest
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **SDK Example**
+
+#### SDK Example
+
 {{< tabs tabTotal="1" tabID="13" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
@@ -161,13 +182,17 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/copy/4pages.pdf?dest
 {{< /tab >}}
 
 {{< /tabs >}}
-### **Moving a file to a new location on Cloud Storage**
-#### **API Information**
+
+### Moving a file to a new location on Cloud Storage
+
+#### API Information
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
 |/pdf/storage/file/MOVE/{srcPath}|PUT|Move a file to a new location on Cloud Storage|[MoveFile](https://apireference.aspose.cloud/pdf/#/File/MoveFile)|
-#### **cURL Example**
+
+#### cURL Example
+
 {{< tabs tabTotal="1" tabID="14" tabName1="Request" >}}
 
 {{< tab tabNum="1" >}}
@@ -195,7 +220,8 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/move/test.pdf?destPa
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **SDK Example**
+#### SDK Example
+
 {{< tabs tabTotal="1" tabID="17" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
@@ -205,13 +231,17 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/storage/file/move/test.pdf?destPa
 {{< /tab >}}
 
 {{< /tabs >}}
-### **Deleting a file on Cloud Storage**
-#### **API Information**
+
+### Deleting a file on Cloud Storage
+
+#### API Information
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
 |/pdf/storage/file/{path}|DELETE|Delete a file from Cloud Storage|[DeleteFile](https://apireference.aspose.cloud/pdf/#/File/DeleteFile)|
-#### **cURL Example**
+
+#### cURL Example
+
 {{< tabs tabTotal="1" tabID="18" tabName1="Request" >}}
 
 {{< tab tabNum="1" >}}
@@ -239,7 +269,9 @@ curl -X DELETE "https://api.aspose.cloud/v3.0/pdf/storage/file/test.pdf?storageN
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **SDK Example**
+
+#### SDK Example
+
 {{< tabs tabTotal="1" tabID="21" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}

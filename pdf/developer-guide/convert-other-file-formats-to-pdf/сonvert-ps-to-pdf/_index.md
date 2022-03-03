@@ -1,27 +1,38 @@
 ---
-title: "Convert PS to PDF"
+title: Convert PS to PDF
 type: docs
 url: /convert-ps-to-pdf/
 weight: 60
+description: This topic show you how to Aspose.PDF allows to convert Convert PS to PDF document.
+lastmod: "2022-01-10"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.5
 ---
-# <ins>**Convert PS to PDF**
 
-### **Resource Information**
+## Convert PS to PDF
+
+### Resource Information
+
 |**Resource URL**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
 |/pdf/create/ps|GET|Convert PS file (located on storage) to PDF format and return resulting file in response|[GetPsInStorageToPdf](https://apireference.aspose.cloud/pdf/#!/Convert/GetPsInStorageToPdf)|
-### **Resource Params**
+### Resource Params
+
 The above API also supports the following request params
 
 |**Parameter**|**Required**|**Type**|**Data Type**|
 | :- | :- | :- | :- |
 |srcPath|true|Query|string|
-### **cURL Example**
+### cURL Example
+
 {{< tabs tabTotal="2" tabID="24" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
+
 **Get Authentication Token**
+
 
 ```java
 
@@ -56,7 +67,8 @@ Binary Output written to console. Use the --output flag on cURL to write the str
 {{< /tab >}}
 
 {{< /tabs >}}
-### **SDK Example**
+### SDK Example
+
 {{< tabs tabTotal="1" tabID="28" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}

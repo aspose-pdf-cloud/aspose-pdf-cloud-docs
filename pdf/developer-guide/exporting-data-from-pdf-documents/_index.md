@@ -1,22 +1,29 @@
 ---
-title: "Exporting data from PDF Documents"
+title: Exporting data from PDF Documents
 type: docs
 url: /exporting-data-from-pdf-documents/
 weight: 190
+description: Aspose.PDF Cloud allows you to encrypt and decrypt PDF documents using signature and certification.
+lastmod: "2022-01-10"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.5
 ---
 
-# **Introduction**
+## Introduction
+
 This example allows you to export data from PDF Documents to a variety of File Formats
 
+## API Information
 
-## **API Information**
-### **Export data to XML**
+### Export data to XML
 
 |**API**|**Type**|**Description**|
 | :- | :- | :- |
 |/pdf/{name}/export/xml|GET|[GetExportFieldsFromPdfToXmlInStorage](https://apireference.aspose.cloud/pdf/#/ExportPdfToXml/GetExportFieldsFromPdfToXmlInStorage)|
 |/pdf/{name}/export/xml|PUT|[PutExportFieldsFromPdfToXmlInStorage](https://apireference.aspose.cloud/pdf/#/ExportPdfToXml/PutExportFieldsFromPdfToXmlInStorage)|
-#### **cURL Example**
+#### cURL Example
+
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -58,7 +65,8 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xml" -H "accept
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **SDK Example**
+#### SDK Example
+
 {{< tabs tabTotal="1" tabID="5" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
@@ -68,13 +76,16 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xml" -H "accept
 {{< /tab >}}
 
 {{< /tabs >}}
-### **Export data to XFDF**
+
+### Export data to XFDF
 
 |**API**|**Type**|**Description**|
 | :- | :- | :- |
 |/pdf/{name}/export/xfdf|GET|[GetExportFieldsFromPdfToXfdfInStorage](https://apireference.aspose.cloud/pdf/#/ExportPdfToXfdf/GetExportFieldsFromPdfToXfdfInStorage)|
 |/pdf/{name}/export/xfdf|PUT|[PutExportFieldsFromPdfToXfdfInStorage](https://apireference.aspose.cloud/pdf/#/ExportPdfToXfdf/PutExportFieldsFromPdfToXfdfInStorage)|
-#### **cURL Example**
+
+#### cURL Example
+
 {{< tabs tabTotal="2" tabID="6" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -120,7 +131,8 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xfdf" -H "accep
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **SDK Example**
+#### SDK Example
+
 {{< tabs tabTotal="1" tabID="10" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
@@ -130,13 +142,14 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/xfdf" -H "accep
 {{< /tab >}}
 
 {{< /tabs >}}
-### **Export data to FDF**
+### Export data to FDF
 
 |**API**|**Type**|**Description**|
 | :- | :- | :- |
 |/pdf/{name}/export/fdf|GET|[GetExportFieldsFromPdfToFdfInStorage](https://apireference.aspose.cloud/pdf/#/ExportPdfToFdf/GetExportFieldsFromPdfToFdfInStorage)|
 |/pdf/{name}/export/fdf|PUT|[PutExportFieldsFromPdfToFdfInStorage](https://apireference.aspose.cloud/pdf/#/ExportPdfToFdf/PutExportFieldsFromPdfToFdfInStorage)|
-#### **cURL Example**
+#### cURL Example
+
 {{< tabs tabTotal="2" tabID="11" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -168,7 +181,8 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/fdf" -H "accept
 {{< /tab >}}
 
 {{< /tabs >}}
-#### **SDK Example**
+#### SDK Example
+
 {{< tabs tabTotal="1" tabID="15" tabName1="C#" >}}
 
 {{< tab tabNum="1" >}}
@@ -178,5 +192,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/sample.pdf/export/fdf" -H "accept
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDK Source**
+
+**SDK Source**
+
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-pdf-cloud) for a complete list of Aspose.PDF SDKs along with working examples, to get you started in no time.
