@@ -4,6 +4,7 @@ type: docs
 url: /release-notes-2022/
 weight: 8
 ---
+- [Aspose.PDF Cloud 22.11 Release Notes](/pdf/aspose-pdf-cloud-22-12-release-notes/)
 - [Aspose.PDF Cloud 22.11 Release Notes](/pdf/aspose-pdf-cloud-22-11-release-notes/)
 - [Aspose.PDF Cloud 22.10 Release Notes](/pdf/aspose-pdf-cloud-22-10-release-notes/)
 - [Aspose.PDF Cloud 22.9 Release Notes](/pdf/aspose-pdf-cloud-22-9-release-notes/)
