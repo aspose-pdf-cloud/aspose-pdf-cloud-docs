@@ -24,7 +24,7 @@ All the below operation convert the PDF Page to a Image File and the resultant f
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -55,11 +55,11 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/tiff?w
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_credentials&client_id={{client_id}}&client_secret={{client_key}}" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id={{client_id}}&client_secret={{client_key}}" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 
@@ -82,7 +82,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/jpeg?w
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -113,7 +113,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/png?wi
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -144,7 +144,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/emf?wi
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -175,7 +175,7 @@ curl -X GET "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/bmp?wi
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -220,7 +220,7 @@ All the below operation convert the PDF Page to a Image File and the resultant f
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -261,7 +261,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/tiff?w
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -302,7 +302,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/jpeg?w
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -343,7 +343,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/png?wi
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -384,7 +384,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/emf?wi
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 
@@ -425,7 +425,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/pdf/4pages.pdf/pages/1/convert/bmp?wi
 
 {{< tab tabNum="1" >}}
 
-**Get Authrtication Token**
+**Get Authentication Token**
 
 ```html
 

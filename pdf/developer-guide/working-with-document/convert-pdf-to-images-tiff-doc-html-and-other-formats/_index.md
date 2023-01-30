@@ -21,7 +21,7 @@ We're referring some common methods in the REST examples to perform general oper
 
 ```groovy
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d "grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json" 
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json" 
 
 ```
 
