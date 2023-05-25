@@ -5,6 +5,7 @@ url: /release-notes-2023/
 weight: 7
 ---
 
+- [Aspose.PDF Cloud 23.5 Release Notes](/pdf/aspose-pdf-cloud-23-5-release-notes/)
 - [Aspose.PDF Cloud 23.4 Release Notes](/pdf/aspose-pdf-cloud-23-4-release-notes/)
 - [Aspose.PDF Cloud 23.3 Release Notes](/pdf/aspose-pdf-cloud-23-3-release-notes/)
 - [Aspose.PDF Cloud 23.2 Release Notes](/pdf/aspose-pdf-cloud-23-2-release-notes/)
