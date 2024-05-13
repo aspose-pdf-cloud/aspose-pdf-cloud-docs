@@ -17,3 +17,12 @@ weight: 10
 - [Developer Guide](/pdf/developer-guide/)
 - [Plugins](/pdf/plugins/)
 - [Release Notes](/pdf/release-notes/)
+
+
+**Welcome to Aspose.PDF for AWS**
+
+**Aspose.PDF for AWS** is a production-ready RESTful API, delivered with No-Code File Format Apps on PDF Aspose.App. We offer this solution on the AWS Marketplace for use with container and Kubernetes private infrastructure. As a standalone product, it enables document processing without any limitations on the users of Aspose.App. It also includes preliminary customer support and operates on a pay-as-you-go basis with the power of an Aspose.PDF license.
+
+## Chapters
+
+- [Getting Started with Aspose.PDF for AWS](/pdf/marketplace/aspose-pdf-for-aws/)
