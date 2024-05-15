@@ -25,4 +25,4 @@ weight: 10
 
 ## Chapters
 
-- [Getting Started with Aspose.PDF for AWS](/pdf/marketplace/aspose-pdf-for-aws/)
+- [Getting Started with Aspose.PDF for AWS](/pdf/aspose-pdf-for-aws/)
