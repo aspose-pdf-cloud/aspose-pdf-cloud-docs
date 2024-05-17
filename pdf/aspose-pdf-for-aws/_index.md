@@ -330,9 +330,10 @@ Adjusting the heap hard limit can prevent out-of-memory (OOM) errors and avoid c
 
 
 ## **Aspose.PDF for AWS Features**
-[PHP Client](https://git.saltov.dynabic.com/pdf/pdf/cloud/applications/webappsnats/-/tree/develop/Aspose.Pdf.RestApi/Client/php-client)	
-[.NET Client](https://git.saltov.dynabic.com/pdf/pdf/cloud/applications/webappsnats/-/tree/develop/Aspose.Pdf.RestApi/Client/dotnet-client)	
-[Java Client](https://git.saltov.dynabic.com/pdf/pdf/cloud/applications/webappsnats/-/tree/develop/Aspose.Pdf.RestApi/Client/java-client)	
+[PHP Client](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/php-cLient)	
+[.NET Client](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/dotnet-client)	
+[Java Client](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/java-client)	
+[Kotlin Client](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/kotlin-client)	
 
 ### **Add page numbers to document.**
 - Adds page numbers to the provided documents with the specified alignment, starting number, and format.
@@ -422,6 +423,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Changes the fonts of the provided files using the specified font replacements.**
 - This method is designed to be used as an HTTP POST action, accepting form data for the font replacements and file uploads.
@@ -505,6 +527,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -597,6 +640,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Compress document.**
 - Compresses the provided files using the specified compression level.
@@ -683,6 +747,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -824,6 +909,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Convert web page to document.**
 - Converts a web page to the specified output format.
@@ -910,6 +1016,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -1002,6 +1129,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Sign document with certificate.**
 - Electronically signs the provided documents with the specified certificate.
@@ -1088,6 +1236,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -1180,6 +1349,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Fill form.**
 - Fills a form with the provided files.
@@ -1261,6 +1451,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -1348,6 +1559,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Calculate document hash.**
 - Calculate hashes of provided files using the specified algorithm.
@@ -1429,6 +1661,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -1518,6 +1771,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -1623,6 +1897,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Read and change document metadata.**
 - Performs metadata operations on the provided files.
@@ -1709,6 +2004,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -1801,6 +2117,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Parse document.**
 - Parses the provided files using a parser service.
@@ -1887,6 +2224,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -1979,6 +2337,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Remove document annotations.**
 - Removes annotations from the provided documents.
@@ -2065,6 +2444,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -2157,6 +2557,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Remove pages from document.**
 - Removes specified pages from the provided files.
@@ -2243,6 +2664,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -2335,6 +2777,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Resize document.**
 - Resizes the provided files to the specified dimensions or using a preset size.
@@ -2421,6 +2884,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -2513,6 +2997,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Search document text.**
 - Searches the provided files for the specified query and makr found text with yellow background.
@@ -2599,6 +3104,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -2691,6 +3217,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Add signature to document.**
 - Adds a signature, text and image to the provided documents.
@@ -2777,6 +3324,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -2869,6 +3437,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Split image.**
 - Splits the provided images into smaller parts based on the specified parameters.
@@ -2955,6 +3544,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -3047,6 +3657,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Verify document certificate.**
 - Verifies the electronic signature of the provided files.
@@ -3133,6 +3764,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
@@ -3225,6 +3877,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Count words and chars in document.**
 - Counts the words in the provided files within the specified page range.
@@ -3314,6 +3987,27 @@ try {
 }
 </code></pre>
 </details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+}
+</code></pre>
+</details>
 
 ### **Convert XFA format to a another format.**
 - Converts the provided documents from XFA format to a different format.
@@ -3395,6 +4089,27 @@ try {
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
     e.printStackTrace();
+}
+</code></pre>
+</details>
+<details><summary>kotlin</summary>
+<pre><code>
+// Import classes:
+//import io.swagger.client.infrastructure.\*
+//import io.swagger.client.models.\*;
+
+val apiInstance = ApiApi()
+val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
+try {
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling ApiApi#pdfWebapiXfaconvertPost")
+    e.printStackTrace()
 }
 </code></pre>
 </details>
