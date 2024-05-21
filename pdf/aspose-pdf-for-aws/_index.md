@@ -35,22 +35,22 @@ If you encounter any issues while using our API, please let us know by contactin
 We provide client SDKs for different programming languages to make it easier for you to integrate our API into your applications. These SDKs are designed to simplify the process of making requests to our API and handling responses. They abstract away many of the complexities of HTTP and JSON, allowing you to focus on your application's logic.
 
 
-#### [.NET](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/dotnet-client) 6.0
+#### [.NET 6.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/dotnet-client)
 
 For .NET developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
 
 
-#### [Java](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/java-client) 11
+#### [Java 11](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/java-client)
 
 For Java developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
 
 
-#### [PHP](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/php-cLient) 8.0
+#### [PHP 8.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/php-cLient)
 
 For PHP developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
 
 
-#### [Kotlin](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/kotlin-client) 1.4.0
+#### [Kotlin 1.4.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/kotlin-client)
 
 For Kotlin developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
 
