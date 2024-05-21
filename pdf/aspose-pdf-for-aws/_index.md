@@ -35,19 +35,24 @@ If you encounter any issues while using our API, please let us know by contactin
 We provide client SDKs for different programming languages to make it easier for you to integrate our API into your applications. These SDKs are designed to simplify the process of making requests to our API and handling responses. They abstract away many of the complexities of HTTP and JSON, allowing you to focus on your application's logic.
 
 
-#### .NET 6.0
+#### [.NET](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/dotnet-client) 6.0
 
 For .NET developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
 
 
-#### Java 11 and above
+#### [Java](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/java-client) 11
 
 For Java developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
 
 
-#### PHP 8.0
+#### [PHP](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/php-cLient) 8.0
 
 For PHP developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
+
+
+#### [Kotlin](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/kotlin-client) 1.4.0
+
+For Kotlin developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
 
 
 
@@ -3510,6 +3515,23 @@ try {
     e.printStackTrace()
 }
 </code></pre>
+</details>
+
+### **Translate document.**
+- Translate the provided files.
+
+<details><summary>curl</summary>
+<pre><code>
+curl -X POST 'http://localhost:5252/pdf/webapi/translate?source=value&target=value' -F 'files=@file.pdf'
+</code></pre>
+</details>
+<details><summary>php</summary>
+</details>
+<details><summary>dotnet</summary>
+</details>
+<details><summary>java</summary>
+</details>
+<details><summary>kotlin</summary>
 </details>
 
 ### **Unlock document.**
