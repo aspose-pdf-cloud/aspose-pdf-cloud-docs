@@ -8,7 +8,7 @@ weight: 10
 ---
 # Aspose.PDF for AWS
 
-## Getting Started with Aspose.PDF for AWS 
+## Getting Started with Aspose.PDF for AWS
 
 This tutorial will guide you through the process of using our API to manipulate PDF and other document formats.
 
