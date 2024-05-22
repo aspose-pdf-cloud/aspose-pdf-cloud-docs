@@ -135,8 +135,8 @@ Choose how to launch the software. Use the CloudFormation template to deploy the
 Once the stack is created, go to the outputs tab to find the link to the public IP. Access the web endpoint of the container solution and start using it. 
 
 **Parameters:**
-- **Http listening port:** To connect to product API using http you need to use 5252 port.
-- **Https listening port:** To connect to product API using https you need to use 7256 port.
+- **Http listening port:** To connect to product API using http you need to use 80 port.
+- **Https listening port:** To connect to product API using https you need to add [certificate](https://learn.microsoft.com/en-us/aspnet/core/security/docker-https?view=aspnetcore-8.0).
 - **Access OpenAPI UI:** To discover product API with OpenAPI UI you need to use /swagger route.
 
 #### Step 4: Manage Container Applications with App Registry
