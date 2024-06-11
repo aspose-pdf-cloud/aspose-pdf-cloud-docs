@@ -3082,8 +3082,8 @@ try {
 
 **Supported formats:**
 
-| bmp | image | jpg | png |
-| --- | --- | --- | --- |
+| bmp | doc | image | jpg | png | pptx | docx | pdf |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 
 <details><summary>curl</summary>
 <pre><code>
@@ -3522,7 +3522,7 @@ try {
 
 <details><summary>curl</summary>
 <pre><code>
-curl -X POST 'http://localhost:5252/pdf/webapi/translate?source=value&target=value' -F 'files=@file.pdf'
+curl -X POST 'http://localhost:5252/pdf/webapi/translate?source=value&target=value&translationSource=value' -F 'files=@file.pdf'
 </code></pre>
 </details>
 <details><summary>php</summary>
