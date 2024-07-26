@@ -10,141 +10,96 @@ weight: 10
 
 ## Getting Started with Aspose.PDF for AWS
 
-This tutorial will guide you through the process of using our API to manipulate PDF and other document formats.
+To effectively manipulate PDF and other document formats using an API, follow this tutorial on Aspose.PDF for AWS. This guide will take you through setting up your environment, initializing the API, and executing various document manipulations. By the end of this tutorial, you will be proficient in using Aspose.PDF for AWS for all your document handling needs.
 
+
+### Reporting Issues
+
+If you encounter any issues while using our API, report them to ensure they get resolved efficiently. Contact our support team on forum and provide detailed information about the problem, including any error messages received. This will help the support team diagnose and resolve your issue more effectively, ensuring a smoother experience with the API.
+
+- error message
+- error call stack
+- logs in AWS
 
 ### Steps
 
 The following steps will guide you through the process of using our API:
 
+1. **Send a Document or Image:** Initiate the process by sending a document or image file via a POST request with the necessary query parameters to set up processing.
 
-- The first step is to send a document or image file to a POST request with query parameters to setup processing.
+2. **Check the processing Status:** After sending the POST request, check the status of the file conversion process by making a POST request with the folder name received in the upload response.
 
-- After sending the POST request, you can check the status of the file conversion process using a POST request with folder name received on upload response.
+3. **Download the Converted File:** Once the file processed, download the converted file using a GET request with the folder name received in the upload response.
 
-- Once the file conversion process is complete, you can download the converted file using a GET request with folder name received on upload response.
+### Conversion PDF to DOCX example
 
-### Reporting Issues
+By following these steps, you can successfully send, monitor, and retrieve converted files using the Aspose.PDF API for AWS
 
-If you encounter any issues while using our API, please let us know by contacting our support team at support@aspose.com. Please provide as much detail as possible about the problem, including any error messages you received.
+1. **Send a Document for Conversion**
+```bash
+curl -X POST 'http://localhost/pdf/webapi/convert?inputType=pdf&outputType=docx' -F 'files=@test.pdf'
+```
 
+Response description:
+- **StatusCode:** 204 - The request has been successfully received, and file processing is initiated.
+- **Status:** A string indicating the status of the request. In this case, it is "Processing".
+- **Locked:** A boolean indicating whether the file is locked or not. In this case, it is false.
+- **FileProcessingErrorCode:** Custom error responses, this time is "OK", indicating no error.
+- **FolderName:** Unique identifier for the folder where the file is being processed.
+- **AppInstanceId:** A unique identifier for the application instance that processed the file. In this case, it is "Aspose Pdf Rest.API_05bfc9e8-2486-4a88-9c3d-58999e4f66d8".
+
+2. **Check the Status of File Conversion using folder name**
+```bash
+curl -X POST 'http://localhost/pdf/webapi/status/7088936f-bcf4-40b9-a06f-d7ca21f3f33e'
+```
+
+Response description:
+- **StatusCode:** 200 - The request has been successfully received, and the response contains the requested data.
+- **Status:** A string indicating the status of the request. In this case, it is "Complete", indicating that the file conversion process has completed successfully.
+- **SharedFiles:** An array of shared files. In this case, it contains a single object with details about the converted file.
+- **FileProcessingErrorCode:** Custom error responses, this time is "OK", indicating no error.
+- **FileCount:** The number of files being processed. In this case, it is 1.
+- **FileName:** The name of the file being processed. In this case, it is "test.docx".
+- **FolderName:** A unique identifier for the folder where the file is being processed.
+
+3. **Receive error of processing.**
+```bash
+curl -X POST 'http://localhost/pdf/webapi/status/7088936f-bcf4-40b9-a06f-d7ca21f3f33e'
+```
+
+Response description:
+- **StatusCode:** The HTTP status code of the response. A status code of 500 indicates that there was an internal server error.
+- **Status:** A string indicating the status of the request. In this case, it is "Incorrect file header", indicating that there was an error with the file header during the file conversion process.
+- **FolderName:** A unique identifier for the folder where the file is being processed.
+
+4. **Download processed file using folder name and file name.**
+```bash
+curl -X GET 'http://localhost/pdf/webapi/download/7088936f-bcf4-40b9-a06f-d7ca21f3f33e?file=test.docx' > test.docx
+```
+
+Response description:
+Provides stream that can be saved to file.
 
 
 ### Client SDKs
 
 We provide client SDKs for different programming languages to make it easier for you to integrate our API into your applications. These SDKs are designed to simplify the process of making requests to our API and handling responses. They abstract away many of the complexities of HTTP and JSON, allowing you to focus on your application's logic.
 
-
 #### [.NET 6.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/dotnet-client)
 
-For .NET developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
-
+For .NET developers, we provide a client SDK that abstracts the complexities of HTTP and JSON, allowing you to focus on your application's logic.
 
 #### [Java 11](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/java-client)
 
-For Java developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
-
+For Java developers, we offer a client SDK designed to simplify API integration.
 
 #### [PHP 5.5](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/php-cLient)
 
-For PHP developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
-
+For PHP developers, our client SDK makes interacting with our API straightforward.
 
 #### [Kotlin 1.4.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/kotlin-client)
 
-For Kotlin developers, we provide a client SDK that you can use to interact with our API. You can find the SDK on GitHub.
-
-
-
-The is a POST request that allows clients to convert PDF files to different formats.
-```bash
-curl -X POST 'http://localhost:5252/pdf/webapi/convert?inputType=pdf&outputType=docx' -F 'files=@test.pdf'
-```
-- **StatusCode**: 204 The request has been successfully received and file processing is initiated.
-- **Status**: A string indicating the status of the request. In this case, it is "Processing".
-- **Locked**: A boolean indicating whether the file is locked or not. In this case, it is false.
-- **SharedFiles**: An array of shared files. In this case, it contains a single object with details about the converted file.
-- **FileProcessingErrorCode**: Custom error responses, this time is "OK", indicating no error.
-- **FolderName**: A unique identifier for the folder where the file is being processed.
-
-The is a POST request endpoint that is used to check the status of a file conversion process. 7088936f-bcf4-40b9-a06f-d7ca21f3f33e is a unique identifier for the folder where the file is being processed.
-```bash
-curl -X POST 'http://localhost:5252/pdf/webapi/status/7088936f-bcf4-40b9-a06f-d7ca21f3f33e'
-```
-- **StatusCode**: The HTTP status code of the response. A status code of 204 indicates that the request has been successfully received but processing not finished.
-- **Status**: A string indicating the status of the request. In this case, it is "Processing".
-- **Locked**: A boolean indicating whether the file is locked or not. In this case, it is false.
-- **SharedFiles**: An array of shared files. In this case, it contains a single object with details about the converted file.
-- **FileProcessingErrorCode**: Custom error responses, this time is "OK", indicating no error.
-- **FolderName**: A unique identifier for the folder where the file is being processed.
-
-The is a POST request endpoint that is used to check the status of a file conversion process. 7088936f-bcf4-40b9-a06f-d7ca21f3f33e is a unique identifier for the folder where the file is being processed.
-```bash
-curl -X POST 'http://localhost:5252/pdf/webapi/status/7088936f-bcf4-40b9-a06f-d7ca21f3f33e'
-```
-- **StatusCode**: The HTTP status code of the response. A status code of 200 indicates that the request has been successfully received and the response contains the requested data.
-- **Status**: A string indicating the status of the request. In this case, it is "Complete", indicating that the file conversion process has completed successfully.
-- **Locked**: A boolean indicating whether the file is locked or not. In this case, it is false.
-- **SharedFiles**: An array of shared files. In this case, it contains a single object with details about the converted file.
-- **FileProcessingErrorCode**: Custom error responses, this time is "OK", indicating no error.
-- **FileName**: The name of the file being processed. In this case, it is "test.docx".
-- **FolderName**: A unique identifier for the folder where the file is being processed.
-- **AppInstanceId**: A unique identifier for the application instance that processed the file. In this case, it is "Aspose Pdf Rest.API_05bfc9e8-2486-4a88-9c3d-58999e4f66d8".
-
-The is a POST request endpoint that is used to check the status of a file conversion process. 7088936f-bcf4-40b9-a06f-d7ca21f3f33e is a unique identifier for the folder where the file is being processed.
-```bash
-curl -X POST 'http://localhost:5252/pdf/webapi/status/7088936f-bcf4-40b9-a06f-d7ca21f3f33e'
-```
-- **StatusCode**: The HTTP status code of the response. A status code of 500 indicates that there was an internal server error.
-- **Status**: A string indicating the status of the request. In this case, it is "Incorrect file header", indicating that there was an error with the file header during the file conversion process.
-- **Locked**: A boolean indicating whether the file is locked or not. In this case, it is false.
-- **SharedFiles**: An array of shared files. In this case, it contains a single object with details about the converted file.
-- **FileProcessingErrorCode**: Custom error responses, this time is "OK", indicating no error.
-- **FileCount**: The number of files being processed. In this case, it is 0.
-- **FileName**: The name of the file being processed. In this case, it is "test.docx".
-- **FolderName**: A unique identifier for the folder where the file is being processed.
-- **AppInstanceId**: A unique identifier for the application instance that processed the file. In this case, it is "Aspose Pdf Rest.API_05bfc9e8-2486-4a88-9c3d-58999e4f66d8".
-
-The GET request endpoint that is used to download a converted file. The response from the server will be the file content of the converted file. Since the curl command is used with the > operator to redirect the output to a file, the actual response body will not be displayed in the terminal. Instead, the file test.docx will be created in the current directory with the content of the downloaded file.
-```bash
-curl -X GET 'http://localhost:5252/pdf/webapi/download/7088936f-bcf4-40b9-a06f-d7ca21f3f33e?file=test.docx' > test.docx
-```
-- **SharedFiles**: An array of shared files. In this case, it contains a single object with details about the converted file.
-
-
-## How to Deploy AWS Marketplace Container Product on Amazon ECS
-
-### Prerequisites:
-- Subscribe to Aspose Pdf for AWS product.
-
-### Deployment Steps:
-#### Step 1: Configuration
-Select ECS as the delivery method. Retain default software version setting and continue to launch.
-
-#### Step 2: Launch the Software Using CloudFormation
-Choose how to launch the software. Use the CloudFormation template to deploy the product. Specify parameters of the new CloudFormation stack.
-
-**Parameters:**
-- **Existing ECS Cluster Name:** The name of the existing ECS cluster where the product will be deployed.
-- **ECS Cluster Security Group:** The security group associated with the ECS cluster.
-- **Amazon VPC:** The Amazon Virtual Private Cloud (VPC) where the product will deploy.
-- **Subnets:** The subnets used by the ECS cluster.
-- **IP Address for SSH Access:** The IP address used to access the Aspose Pdf for AWS product console.
-
-#### Step 3: Access product RESTful API
-Once the stack is created, go to the outputs tab to find the link to the public IP. Access the web endpoint of the container solution and start using it. 
-
-**Parameters:**
-- **Http listening port:** To connect to product API using http you need to use 80 port.
-- **Https listening port:** To connect to product API using https you need to add [certificate](https://learn.microsoft.com/en-us/aspnet/core/security/docker-https?view=aspnetcore-8.0).
-- **Access OpenAPI UI:** To discover product API with OpenAPI UI you need to use /swagger route.
-
-#### Step 4: Manage Container Applications with App Registry
-Manage your organization's container applications using AWS Service Catalog App Registry. Download container from repository of applications and resources launched using CloudFormation. Define and manage application environment variables.
-
-#### Step 5: Explore Application Details
-Drill into the Aspose Pdf for AWS application in App Registry. View resource details and attribute groups to determine the source of the container and its security classification.
-
+For Kotlin developers, we provide a client SDK that eases the API integration process.
 
 ## Environment Variables
 
@@ -272,8 +227,8 @@ Adjusting the heap hard limit can prevent out-of-memory (OOM) errors and avoid c
 [Java Client](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/java-client)	
 [Kotlin Client](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/kotlin-client)	
 
-### **Add page numbers to document.**
-- Adds page numbers to the provided documents with the specified alignment, starting number, and format.
+### **Add Page Numbers to Document.**
+- Adds page numbers to your documents based on specified alignment, starting number, and format. The service ensures that page numbers are accurately applied, improving the readability and professionalism of your documents. It supports various formats, including DOC, PPTX, TIFF, DOCX, and PDF, to cater to your specific requirements.
 
 **Supported formats:**
 
@@ -382,10 +337,9 @@ try {
 </code></pre>
 </details>
 
-### **Changes the fonts of the provided files using the specified font replacements.**
-- This method is designed to be used as an HTTP POST action, accepting form data for the font replacements and file uploads.
-The font replacements should be provided as a JSON string, and the files should be uploaded as multipart/form-data.
-The method uses Kafka for asynchronous processing and can optionally store the status of the task.
+### **Change Fonts in Provided Files.**
+- Updates the fonts in your documents according to specified replacements.
+Provide the font replacement details as a JSON string and upload your files using multipart/form-data.The service processes these requests asynchronously using Kafka, ensuring efficient handling of your files.
 
 <details><summary>curl</summary>
 <pre><code>
@@ -490,7 +444,7 @@ try {
 </details>
 
 ### **Compare documents text.**
-- Compare provided files and create document with marked changes.
+- Compares the text of the provided documents and highlights the differences. Upload the files you want to compare, and the service will analyze them to detect any changes in the text. The result is a new document that clearly marks all text variations, making it easy to review and understand the modifications between the original and updated versions.
 
 **Supported formats:**
 
@@ -599,8 +553,8 @@ try {
 </code></pre>
 </details>
 
-### **Compress document.**
-- Compresses the provided files using the specified compression level.
+### **Compress Document.**
+- Compresses the provided documents to reduce their file size based on the specified compression level. Upload the documents and choose the desired compression level. The service will reduce the file sizes while maintaining quality, resulting in compressed files that are easier to handle and share, saving storage space and reducing upload and download times.
 
 **Supported formats:**
 
@@ -709,8 +663,8 @@ try {
 </code></pre>
 </details>
 
-### **Convert document to another format.**
-- Converts the provided files from one format to another.
+### **Convert Document to Another Format.**
+- Converts documents from one format to another seamlessly. Upload the files you need to convert and specify the target format. The service will handle the conversion process efficiently, ensuring that the resulting document is ready for use in the desired format and compatible with various applications and systems.
 
 **Supported formats:**
 
@@ -868,8 +822,8 @@ try {
 </code></pre>
 </details>
 
-### **Convert web page to document.**
-- Converts a web page to the specified output format.
+### **Convert Web Page to Document.**
+- Converts a web page to a document in the specified output format. Provide the URL of the web page and choose the desired format for conversion. The service will create a document that mirrors the content and layout of the original web page, ensuring it is well-formatted and suitable for your needs.
 
 **Supported formats:**
 
@@ -978,8 +932,8 @@ try {
 </code></pre>
 </details>
 
-### **Crop document.**
-- Crops the provided files to the specified dimensions.
+### **Crop Document.**
+- Crops the provided document to the specified dimensions by removing unwanted areas. Upload the document and specify the dimensions for cropping. The service will adjust the file accordingly, resulting in a precisely cropped document that meets your requirements.
 
 **Supported formats:**
 
@@ -1088,8 +1042,8 @@ try {
 </code></pre>
 </details>
 
-### **Sign document with certificate.**
-- Electronically signs the provided documents with the specified certificate.
+### **Sign Document with Certificate.**
+- Applies a digital signature to the provided document using the specified certificate. Upload the document and provide the certificate details, and the service will securely apply the signature, ensuring that the document is authenticated and legally binding.
 
 **Supported formats:**
 
@@ -1198,8 +1152,8 @@ try {
 </code></pre>
 </details>
 
-### **Extract tables from document.**
-- Extracts tables from the provided documents and converts them to the specified output format.
+### **Extract Tables from Document.**
+- Extracts tables from the provided document and converts them into the specified output format. Upload the document containing the tables and choose the format you prefer. The service will extract the tables and deliver them in the selected format, facilitating easier data usage and analysis.
 
 **Supported formats:**
 
@@ -1308,8 +1262,8 @@ try {
 </code></pre>
 </details>
 
-### **Fill form.**
-- Fills a form with the provided files.
+### **Fill Form.**
+- Completes a form using information from the provided files. Upload the form and the files containing the necessary data, and the service will accurately fill out the form for you. This ensures that the form is completed correctly and in a timely manner.
 
 <details><summary>curl</summary>
 <pre><code>
@@ -1414,7 +1368,7 @@ try {
 </details>
 
 ### **Make GIF.**
-- Creates a GIF from the provided images.
+- Creates a GIF from a collection of images, ensuring smooth transitions and cohesive animation. Upload the images you want to include, and the service will generate a GIF based on your specifications. This service is ideal for animating a series of product shots, creating engaging social media content, or other animation needs.
 
 <details><summary>curl</summary>
 <pre><code>
@@ -1518,8 +1472,8 @@ try {
 </code></pre>
 </details>
 
-### **Calculate document hash.**
-- Calculate hashes of provided files using the specified algorithm.
+### **Calculate Document Hash.**
+- Calculates the hash values for the provided documents using the specified hashing algorithm. Upload the documents and choose the desired algorithm, and the service will generate hash values for each file. This process helps verify that the documents have not been altered or corrupted, ensuring data integrity.
 
 <details><summary>curl</summary>
 <pre><code>
@@ -1624,7 +1578,7 @@ try {
 </details>
 
 ### **Lock document.**
-- Locks a document with the provided password and optional files.
+- Locks the provided document with a specified password to restrict access to authorized users only. Upload the file and provide a password, and the service will apply the password protection to secure the document. Optionally, you can include additional files to further enhance the security of the document.
 
 **Supported formats:**
 
@@ -1733,8 +1687,8 @@ try {
 </code></pre>
 </details>
 
-### **Merge documents.**
-- Merges the provided files into a single document or image, with options for orientation and page size.
+### **Merge Documents.**
+- Merges multiple documents or images into a single file based on specified preferences for orientation and page size. Upload the files you want to consolidate and define your formatting preferences. This service will combine the files into one, ensuring that the final document or image meets your requirements.
 
 **Supported formats:**
 
@@ -1856,8 +1810,8 @@ try {
 </code></pre>
 </details>
 
-### **Read and change document metadata.**
-- Performs metadata operations on the provided files.
+### **Read and Change Document Metadata.**
+- Reads and updates the metadata of the provided documents based on specified operations. Upload the documents and define the metadata changes you need. This service will read the existing metadata, apply the changes, and ensure that your files contain accurate and updated information.
 
 **Supported formats:**
 
@@ -1966,8 +1920,8 @@ try {
 </code></pre>
 </details>
 
-### **Organize document pages.**
-- Organizes the provided documents by removing or moving specified pages.
+### **Organize Document Pages.**
+- Reorganizes the pages of the provided document based on your instructions. Upload the document and specify which pages to remove or move, and the service will rearrange the pages accordingly, ensuring that the document is organized as you require.
 
 **Supported formats:**
 
@@ -2076,8 +2030,8 @@ try {
 </code></pre>
 </details>
 
-### **Parse document.**
-- Parses the provided files using a parser service.
+### **Parse Document.**
+- Analyses and extracts relevant content from the provided document files. The parsing service organizes the data within your documents to make it accessible and tailored to your specific requirements.
 
 **Supported formats:**
 
@@ -2186,8 +2140,8 @@ try {
 </code></pre>
 </details>
 
-### **Redact document text.**
-- Redacts specified text from the provided documents, with options to search case-sensitively, target in text, comments, and metadata.
+### **Redact Document Text.**
+- Redacts sensitive information from the provided documents by removing specified text, comments, and metadata. You can specify the text to be redacted and use case-sensitive search to ensure thorough removal. This service helps maintain confidentiality and security by ensuring that sensitive information is completely removed.
 
 **Supported formats:**
 
@@ -2296,8 +2250,8 @@ try {
 </code></pre>
 </details>
 
-### **Remove document annotations.**
-- Removes annotations from the provided documents.
+### **Remove Document Annotations.**
+- Removes all annotations, including comments, highlights, and markup, from the provided documents. By specifying the documents, this service ensures that they are cleaned of any annotations, resulting in a clean and annotation-free file.
 
 **Supported formats:**
 
@@ -2406,8 +2360,8 @@ try {
 </code></pre>
 </details>
 
-### **Removes document watermark.**
-- Removes a watermark from the document pages.
+### **Remove Document Watermark.**
+- Removes an unwanted watermark from all pages of the provided document. Submit the document, and this service will efficiently eliminate the watermark, resulting in a clean version of the file without the watermark.
 
 **Supported formats:**
 
@@ -2516,8 +2470,8 @@ try {
 </code></pre>
 </details>
 
-### **Remove pages from document.**
-- Removes specified pages from the provided files.
+### **Remove Pages from Document.**
+- Removes specified pages from the provided document, leaving only the pages you want to keep. Simply provide the document and specify which pages to remove, and the service will process the file accordingly.
 
 **Supported formats:**
 
@@ -2626,8 +2580,8 @@ try {
 </code></pre>
 </details>
 
-### **Repair document.**
-- Repairs the provided files.
+### **Repair Document.**
+- Repairs a corrupted or error-ridden document by identifying and fixing issues. Upload the problematic file, and this service will restore it to a usable state.
 
 **Supported formats:**
 
@@ -2736,8 +2690,8 @@ try {
 </code></pre>
 </details>
 
-### **Resize document.**
-- Resizes the provided files to the specified dimensions or using a preset size.
+### **Resize Document.**
+- Resizes the document to fit the specified dimensions or preset sizes. Provide the file and specify the desired dimensions, or select from available preset sizes to adjust the document accordingly.
 
 **Supported formats:**
 
@@ -2846,8 +2800,8 @@ try {
 </code></pre>
 </details>
 
-### **Rotate document.**
-- Rotates the provided files by a specified angle, with options for rotation type and page number.
+### **Rotate Document.**
+- Rotates the document by a specified angle, allowing for adjustment of the document's orientation. You can choose the type of rotation and target specific pages to ensure the document is aligned according to your needs.
 
 **Supported formats:**
 
@@ -2956,8 +2910,8 @@ try {
 </code></pre>
 </details>
 
-### **Search document text.**
-- Searches the provided files for the specified query and makr found text with yellow background.
+### **Search Document Text.**
+- Searches the provided documents for the specified query and highlights the found text with a yellow background. This service helps you quickly locate and review relevant sections of your documents.
 
 **Supported formats:**
 
@@ -3066,8 +3020,8 @@ try {
 </code></pre>
 </details>
 
-### **Make scanned pdf searchable.**
-- Converts the provided files into a searchable PDF format for the specified language.
+### **Make Scanned PDF Searchable.**
+- Converts scanned PDFs into a searchable PDF format by recognizing and indexing text. This service ensures that you can easily search through your documents by making the text searchable in the specified language.
 
 **Supported formats:**
 
@@ -3176,8 +3130,8 @@ try {
 </code></pre>
 </details>
 
-### **Add signature to document.**
-- Adds a signature, text and image to the provided documents.
+### **Add Signature to Document.**
+- Adds a signature to the provided documents, allowing for the insertion of both text and image signatures. This service ensures that your documents are properly signed and authenticated according to your specifications.
 
 **Supported formats:**
 
@@ -3286,8 +3240,8 @@ try {
 </code></pre>
 </details>
 
-### **Split document.**
-- Splits the provided documents based on the specified split type and page rage to spit.
+### **Split Document.**
+- Splits a document into smaller parts based on specified criteria, such as type or page range. This service ensures that each segment meets your exact requirements, simplifying document management and organization.
 
 **Supported formats:**
 
@@ -3296,7 +3250,7 @@ try {
 
 <details><summary>curl</summary>
 <pre><code>
-curl -X POST 'http://localhost:5252/pdf/webapi/splitdoc?inputType=value&splitType=value&pars=value' -F 'files=@file.pdf'
+curl -X POST 'http://localhost:5252/pdf/webapi/splitdoc?inputType=value&splitType=value&pairs=value' -F 'files=@file.pdf'
 </code></pre>
 </details>
 <details><summary>php</summary>
@@ -3396,8 +3350,8 @@ try {
 </code></pre>
 </details>
 
-### **Split image.**
-- Splits the provided images into smaller parts based on the specified parameters.
+### **Split Image.**
+- Splits large images into smaller sections according to the specified parameters, making it easier to handle and process image data.
 
 **Supported formats:**
 
@@ -3406,7 +3360,7 @@ try {
 
 <details><summary>curl</summary>
 <pre><code>
-curl -X POST 'http://localhost:5252/pdf/webapi/splitdoc?inputType=value&splitType=value&pars=value' -F 'files=@file.pdf'
+curl -X POST 'http://localhost:5252/pdf/webapi/splitdoc?inputType=value&splitType=value&pairs=value' -F 'files=@file.pdf'
 </code></pre>
 </details>
 <details><summary>php</summary>
@@ -3506,8 +3460,8 @@ try {
 </code></pre>
 </details>
 
-### **Unlock document.**
-- Attempts to unlock a document with an password and associated files.
+### **Unlock Document.**
+- Attempts to unlock a password-protected document, using any associated files if necessary, to grant access to the content.
 
 **Supported formats:**
 
@@ -3616,8 +3570,8 @@ try {
 </code></pre>
 </details>
 
-### **Verify document certificate.**
-- Verifies the electronic signature of the provided files.
+### **Verify Document Certificate.**
+- Verifies the electronic signature of the provided document to ensure its authenticity and integrity. This service checks the digital certificates in the document to confirm their validity and trustworthiness.
 
 **Supported formats:**
 
@@ -3726,8 +3680,8 @@ try {
 </code></pre>
 </details>
 
-### **Add watermark to document.**
-- Adds a watermark to the provided files.
+### **Add Watermark to Document.**
+- Adds a watermark to the provided documents, helping to protect and identify them. This service ensures that the watermark is applied according to your specifications, enhancing the security and ownership of your content.
 
 **Supported formats:**
 
@@ -3836,8 +3790,8 @@ try {
 </code></pre>
 </details>
 
-### **Count words and chars in document.**
-- Counts the words in the provided files within the specified page range.
+### **Count Words and Characters in Document.**
+- Counts the words and characters in the provided documents within the specified page range. This service helps you accurately determine the length and content density of your documents, ensuring compliance with any required specifications or limits.
 
 **Supported formats:**
 
@@ -3946,8 +3900,8 @@ try {
 </code></pre>
 </details>
 
-### **Convert XFA format to a another format.**
-- Converts the provided documents from XFA format to a different format.
+### **Convert XFA Format to Another Format.**
+- Converts XFA documents to the specified format, ensuring seamless compatibility and usability. This service supports a wide range of target formats, allowing users to choose the most suitable format for their specific needs. The conversion process maintains the integrity of the original document while adapting it to the desired format, making it ideal for editing, sharing, or archiving..
 
 <details><summary>curl</summary>
 <pre><code>
