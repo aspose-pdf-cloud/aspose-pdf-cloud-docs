@@ -1,5 +1,3 @@
-# ---
-
 ---
 title: "Aspose.PDF for AWS"
 type: docs
