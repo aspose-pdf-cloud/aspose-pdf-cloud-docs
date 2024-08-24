@@ -462,6 +462,7 @@ To address these challenges, we have implemented the following environment varia
    - **OMP_THREAD_LIMIT**: Set the maximum number of threads for Tesseract OCR.
 
 4. **Security**
+   - **KEY_ENCRYPTION**: Enable AWS Key Management Service for AWS S3 environment variables
    - **DISABLE_UNMANAGED_PROCESS**: Disallow external linux utils execution from the managed Aspose.DF for AWS product.
    
 Environment variables are configured separately for each deployment environment (development, staging, production), streamlining the deployment process and simplifying configuration updates without altering the core application code.
