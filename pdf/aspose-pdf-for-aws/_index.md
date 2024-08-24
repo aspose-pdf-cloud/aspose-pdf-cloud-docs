@@ -6,6 +6,7 @@ keywords: "Discover the comprehensive capabilities of the Aspose.PDF for AWS for
 description: "The Aspose.PDF for AWS boasts an array of advanced features tailored to sophisticated document management needs. Users can effortlessly generate compressed, split, and merged PDF files, or leverage the RESTful API to develop PDF viewers, editors, and converters. With support for converting documents from Word to PDF and vice versa, as well as transformations between PDF and formats like DOC, PPT, HTML, TIFF, SVG, EPUB, TEX, XML, PCL, and JPG, the API offers extensive versatility. Furthermore, developers can harness its capabilities across a variety of programming languages including C#, Java, Python, Ruby, PHP, Node.js, Swift, Android, and Go. Additionally, the API facilitates the extraction of text and images from PDF files, further enhancing its utility for comprehensive document processing tasks."
 weight: 10
 ---
+# ---
 
 Aspose.PDF for AWS offers a modern solution for organizations looking to enhance their document processing capabilities. Whether it's converting formats, merging files, splitting documents, extracting data, or reordering content, our RESTful API, built on the powerful Aspose.PDF .NET library and optimized Linux packages, provides a streamlined and efficient approach.
 
@@ -466,7 +467,7 @@ To address these challenges, we have implemented the following environment varia
 Environment variables are configured separately for each deployment environment (development, staging, production), streamlining the deployment process and simplifying configuration updates without altering the core application code.
 
 
-#### Environment Variables
+### Environment Variables
 
 **AWS_ACCESS_KEY**
 
@@ -2231,7 +2232,7 @@ You can configure the decryption of environment variables encrypted with AWS Key
 Integrating AWS KMS with Docker environment variables in Amazon EKS enhances the security of sensitive data in your applications. By following these steps, you ensure that sensitive environment variables are encrypted, securely stored, and decrypted only when needed by your application, thereby reducing the risk of exposure.
 
 
-### Client SDKs
+## Client SDKs
 
 We provide client SDKs for different programming languages to make it easier for you to integrate our API into your applications. These SDKs are designed to simplify the process of making requests to our API and handling responses. They abstract away many of the complexities of HTTP and JSON, allowing you to focus on your application's logic.
 
