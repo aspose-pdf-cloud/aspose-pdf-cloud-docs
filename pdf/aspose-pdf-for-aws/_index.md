@@ -569,25 +569,16 @@ Is for out of memory error message instead of reboot container in Kubernetes on 
 
 Set the GC heap hard limit for the .NET runtime in bytes to manage memory usage effectively. Adjusting the COMPlus_GCHeapHardLimit can help prevent avoid unnecessary container restarts in Kubernetes but large files will throws out-of-memory (OOM) errors. Change this value if you encounter OOM issues or need to fine-tune memory allocation to better suit your application's needs.
 | Instance Size   | Memory (GiB) | COMPlus_GCHeapHardLimit (85%) |
-|-----------------|--------------|------------------------------------|
-| m7g.medium      | 4            | 0xd9999999                         |
-| m7g.large       | 8            | 0x1b3333333                        |
-| m7g.xlarge      | 16           | 0x366666666                        |
-| m7g.2xlarge     | 32           | 0x6cccccccc                        |
-| m7g.4xlarge     | 64           | 0xd99999999                        |
-| m7g.8xlarge     | 128          | 0x1b33333333                       |
-| m7g.12xlarge    | 192          | 0x28cccccccc                       |
-| m7g.16xlarge    | 256          | 0x3666666666                       |
-| m7g.metal       | 256          | 0x3666666666                       |
-| m7gd.medium     | 4            | 0xd9999999                         |
-| m7gd.large      | 8            | 0x1b3333333                        |
-| m7gd.xlarge     | 16           | 0x366666666                        |
-| m7gd.2xlarge    | 32           | 0x6cccccccc                        |
-| m7gd.4xlarge    | 64           | 0xd99999999                        |
-| m7gd.8xlarge    | 128          | 0x1b33333333                       |
-| m7gd.12xlarge   | 192          | 0x28cccccccc                       |
-| m7gd.16xlarge   | 256          | 0x3666666666                       |
-| m7gd.metal      | 256          | 0x3666666666                       |
+|-----------------|--------------|-------------------------------|
+| medium      | 4                | 3652979000        |
+| large       | 8                | 7449801000        |
+| xlarge      | 16               | 14818270000       |
+| 2xlarge     | 32               | 28547688000       |
+| 4xlarge     | 64               | 73057954000       |
+| 8xlarge     | 128              | 149407489000      |
+| 12xlarge    | 192              | 109951163000      |
+| 16xlarge    | 256              | 1482827000000     |
+| metal       | 256              | 1482827000000     |
 
 
 **DISABLE_UNMANAGED_PROCESS**
