@@ -2268,9 +2268,9 @@ This release of Aspose.PDF for AWS is designed to enhance your document processi
 
 
 ---
-**Version:** 1 **Release Date:** 1 Jul 2024
+### **Version:** 1 **Release Date:** 1 Jul 2024
 
-#### Features:
+> __Features__
 
 1. Restful API consists of 29 document manipulation endopints: conversion, merger, convert-webpage, resize, redaction, table-extraction, rotate, crop, splitter, search, metadata, compress, word-counter, parser, page-numbering, remove-pages,hash-generator, unlock, annotation, watermark, signature, lock, comparison, searchable, organize, esign, repair, remove-watermark, change-fonts
 
