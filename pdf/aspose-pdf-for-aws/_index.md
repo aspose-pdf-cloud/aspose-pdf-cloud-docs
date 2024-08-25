@@ -2344,7 +2344,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/addnumber?vAlignment=value&hAlign
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -2363,12 +2363,12 @@ $font\_size = 56; // int | The font size of the page numbers.
 $format = "format\_example"; // string | The format of the page numbers.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiAddnumberPost($files, $v\_alignment, $h\_alignment, $starting\_number, $s\_number, $f\_number, $margin, $font\_size, $format);
+    $result = $apiInstance->pdfWebapiAddnumberPost($files, $v\_alignment, $h\_alignment, $starting\_number, $s\_number, $f\_number, $margin, $font\_size, $format);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiAddnumberPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiAddnumberPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -2387,7 +2387,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var vAlignment = PageNumberVerticalAlign.B; // PageNumberVerticalAlign | The vertical alignment of the page numbers. (optional) 
             var hAlignment = PageNumberHorizontalAlign.C; // PageNumberHorizontalAlign | The horizontal alignment of the page numbers. (optional) 
             var startingNumber = 56;  // int? | The starting number for the page numbers. (optional) 
@@ -2420,7 +2420,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 PageNumberVerticalAlign vAlignment = PageNumberVerticalAlign.B; // PageNumberVerticalAlign | The vertical alignment of the page numbers.
 PageNumberHorizontalAlign hAlignment = PageNumberHorizontalAlign.C; // PageNumberHorizontalAlign | The horizontal alignment of the page numbers.
 Integer startingNumber = 56; // Integer | The starting number for the page numbers.
@@ -2445,7 +2445,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val vAlignment : PageNumberVerticalAlign =  // PageNumberVerticalAlign | The vertical alignment of the page numbers.
 val hAlignment : PageNumberHorizontalAlign =  // PageNumberHorizontalAlign | The horizontal alignment of the page numbers.
 val startingNumber : kotlin.Int = 56 // kotlin.Int | The starting number for the page numbers.
@@ -2478,7 +2478,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/change-fonts' -F 'files=@file.pdf
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -2490,12 +2490,12 @@ $font\_replacements\_json = "font\_replacements\_json\_example"; // string |
 $files = array("files\_example"); // string[] | 
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiChangeFontsPost($font\_replacements\_json, $files);
+    $result = $apiInstance->pdfWebapiChangeFontsPost($font\_replacements\_json, $files);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiChangeFontsPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiChangeFontsPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -2515,7 +2515,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var fontReplacementsJson = fontReplacementsJson\_example;  // string |  (optional) 
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
 
             try
             {
@@ -2540,7 +2540,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 String fontReplacementsJson = "fontReplacementsJson\_example"; // String | 
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 try {
     FileResponse result = apiInstance.pdfWebapiChangeFontsPost(fontReplacementsJson, files);
     System.out.println(result);
@@ -2558,7 +2558,7 @@ try {
 
 val apiInstance = ApiApi()
 val fontReplacementsJson : kotlin.String = fontReplacementsJson\_example // kotlin.String | 
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 try {
     val result : FileResponse = apiInstance.pdfWebapiChangeFontsPost(fontReplacementsJson, files)
     println(result)
@@ -2587,7 +2587,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/comparison' -F 'files=@file.pdf'
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -2598,12 +2598,12 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
 $files = array("files\_example"); // string[] | 
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiComparisonPost($files);
+    $result = $apiInstance->pdfWebapiComparisonPost($files);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiComparisonPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiComparisonPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -2622,7 +2622,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
 
             try
             {
@@ -2647,7 +2647,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 try {
     FileResponse result = apiInstance.pdfWebapiComparisonPost(files);
     System.out.println(result);
@@ -2664,7 +2664,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 try {
     val result : FileResponse = apiInstance.pdfWebapiComparisonPost(files)
     println(result)
@@ -2693,7 +2693,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/compress?compressType=value' -F '
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -2705,12 +2705,12 @@ $files = array("files\_example"); // string[] |
 $compress\_type = new \\Swagger\\Client\\Model\\CompressType(); // \\Swagger\\Client\\Model\\CompressType | The level of compression to use.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiCompressPost($files, $compress\_type);
+    $result = $apiInstance->pdfWebapiCompressPost($files, $compress\_type);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiCompressPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiCompressPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -2729,7 +2729,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var compressType = CompressType.Low; // CompressType | The level of compression to use. (optional) 
 
             try
@@ -2755,7 +2755,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 CompressType compressType = CompressType.HIGH; // CompressType | The level of compression to use.
 try {
     FileResponse result = apiInstance.pdfWebapiCompressPost(files, compressType);
@@ -2773,7 +2773,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val compressType : CompressType =  // CompressType | The level of compression to use.
 try {
     val result : FileResponse = apiInstance.pdfWebapiCompressPost(files, compressType)
@@ -2854,7 +2854,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/convert?inputType=value&outputTyp
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -2872,12 +2872,12 @@ $is\_to\_single = true; // bool | Indicates whether the conversion should result
 $separator = "separator\_example"; // string | The separator to use when converting, if applicable.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiConvertPost($files, $input\_type, $output\_type, $xml\_type, $xml\_tag, $font\_sise, $is\_to\_single, $separator);
+    $result = $apiInstance->pdfWebapiConvertPost($files, $input\_type, $output\_type, $xml\_type, $xml\_tag, $font\_sise, $is\_to\_single, $separator);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiConvertPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiConvertPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -2896,7 +2896,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var xmlType = XmlType.APS; // XmlType | The type of XML conversion to perform, if applicable. (optional) 
@@ -2928,7 +2928,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 XmlType xmlType = XmlType.APS; // XmlType | The type of XML conversion to perform, if applicable.
@@ -2952,7 +2952,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val xmlType : XmlType =  // XmlType | The type of XML conversion to perform, if applicable.
@@ -2988,7 +2988,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/convert-webpage?outputType=value'
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3000,12 +3000,12 @@ $web\_page = "web\_page\_example"; // string |
 $output\_type = "output\_type\_example"; // string | The desired format for the output file.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiConvertWebpagePost($web\_page, $output\_type);
+    $result = $apiInstance->pdfWebapiConvertWebpagePost($web\_page, $output\_type);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiConvertWebpagePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiConvertWebpagePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3098,7 +3098,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/crop?inputType=value&top=value&ri
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3115,12 +3115,12 @@ $left = 56; // int | The number of pixels to crop from the left.
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiCropPost($files, $input\_type, $top, $right, $bottom, $left, $output\_type);
+    $result = $apiInstance->pdfWebapiCropPost($files, $input\_type, $top, $right, $bottom, $left, $output\_type);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiCropPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiCropPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3139,7 +3139,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var top = 56;  // int? | The number of pixels to crop from the top. (optional) 
             var right = 56;  // int? | The number of pixels to crop from the right. (optional) 
@@ -3170,7 +3170,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 Integer top = 56; // Integer | The number of pixels to crop from the top.
 Integer right = 56; // Integer | The number of pixels to crop from the right.
@@ -3193,7 +3193,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val top : kotlin.Int = 56 // kotlin.Int | The number of pixels to crop from the top.
 val right : kotlin.Int = 56 // kotlin.Int | The number of pixels to crop from the right.
@@ -3228,7 +3228,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/esign?inputType=value' -F 'files=
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3241,12 +3241,12 @@ $files = array("files\_example"); // string[] |
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiEsignPost($passw, $files, $input\_type);
+    $result = $apiInstance->pdfWebapiEsignPost($passw, $files, $input\_type);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiEsignPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiEsignPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3266,7 +3266,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var passw = passw\_example;  // string |  (optional) 
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
 
             try
@@ -3293,7 +3293,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 String passw = "passw\_example"; // String | 
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 try {
     FileResponse result = apiInstance.pdfWebapiEsignPost(passw, files, inputType);
@@ -3312,7 +3312,7 @@ try {
 
 val apiInstance = ApiApi()
 val passw : kotlin.String = passw\_example // kotlin.String | 
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 try {
     val result : FileResponse = apiInstance.pdfWebapiEsignPost(passw, files, inputType)
@@ -3342,7 +3342,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/extract?inputType=value&outputTyp
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3355,12 +3355,12 @@ $input\_type = "input\_type\_example"; // string | The format of the input files
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiExtractPost($files, $input\_type, $output\_type);
+    $result = $apiInstance->pdfWebapiExtractPost($files, $input\_type, $output\_type);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiExtractPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiExtractPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3379,7 +3379,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
 
@@ -3406,7 +3406,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 try {
@@ -3425,7 +3425,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 try {
@@ -3451,7 +3451,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/gif?keepImagesAsIs=value&resizeTo
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3468,12 +3468,12 @@ $height = 56; // int | The height of the GIF.
 $frame\_times = "frame\_times\_example"; // string | The times for each frame in the GIF.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiGifPost($files, $keep\_images\_as\_is, $resize\_to\_image, $streched, $width, $height, $frame\_times);
+    $result = $apiInstance->pdfWebapiGifPost($files, $keep\_images\_as\_is, $resize\_to\_image, $streched, $width, $height, $frame\_times);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiGifPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiGifPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3492,7 +3492,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var keepImagesAsIs = true;  // bool? | Indicates whether the images should be kept as is. (optional) 
             var resizeToImage = 56;  // int? | The index of the image to resize the other images to. (optional) 
             var streched = true;  // bool? |  (optional) 
@@ -3523,7 +3523,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 Boolean keepImagesAsIs = true; // Boolean | Indicates whether the images should be kept as is.
 Integer resizeToImage = 56; // Integer | The index of the image to resize the other images to.
 Boolean streched = true; // Boolean | 
@@ -3546,7 +3546,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val keepImagesAsIs : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the images should be kept as is.
 val resizeToImage : kotlin.Int = 56 // kotlin.Int | The index of the image to resize the other images to.
 val streched : kotlin.Boolean = true // kotlin.Boolean | 
@@ -3581,7 +3581,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/hash?inputType=value&outputType=v
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3595,12 +3595,12 @@ $output\_type = "output\_type\_example"; // string | The desired format for the 
 $alg = new \\Swagger\\Client\\Model\\HashAlgorithm(); // \\Swagger\\Client\\Model\\HashAlgorithm | The hashing algorithm to use.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiHashPost($files, $input\_type, $output\_type, $alg);
+    $result = $apiInstance->pdfWebapiHashPost($files, $input\_type, $output\_type, $alg);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiHashPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiHashPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3619,7 +3619,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var alg = HashAlgorithm.SHA1; // HashAlgorithm | The hashing algorithm to use. (optional) 
@@ -3647,7 +3647,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 HashAlgorithm alg = HashAlgorithm.SHA1; // HashAlgorithm | The hashing algorithm to use.
@@ -3667,7 +3667,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val alg : HashAlgorithm =  // HashAlgorithm | The hashing algorithm to use.
@@ -3699,7 +3699,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/lock?passw=value' -F 'files=@file
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3711,12 +3711,12 @@ $files = array("files\_example"); // string[] |
 $passw = "passw\_example"; // string | The password required to lock the resource.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiLockPost($files, $passw);
+    $result = $apiInstance->pdfWebapiLockPost($files, $passw);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiLockPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiLockPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3735,7 +3735,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var passw = passw\_example;  // string | The password required to lock the resource. (optional) 
 
             try
@@ -3761,7 +3761,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String passw = "passw\_example"; // String | The password required to lock the resource.
 try {
     FileResponse result = apiInstance.pdfWebapiLockPost(files, passw);
@@ -3779,7 +3779,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val passw : kotlin.String = passw\_example // kotlin.String | The password required to lock the resource.
 try {
     val result : FileResponse = apiInstance.pdfWebapiLockPost(files, passw)
@@ -3822,7 +3822,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/merge?inputType=value&outputType=
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3840,12 +3840,12 @@ $page\_size = new \\Swagger\\Client\\Model\\PageSize(); // \\Swagger\\Client\\Mo
 $dc\_is\_landscape = true; // bool | Indicates whether the output file should be in landscape orientation.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiMergePost($files, $input\_type, $output\_type, $merge\_type, $horizontal, $vertical, $page\_size, $dc\_is\_landscape);
+    $result = $apiInstance->pdfWebapiMergePost($files, $input\_type, $output\_type, $merge\_type, $horizontal, $vertical, $page\_size, $dc\_is\_landscape);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiMergePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiMergePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3864,7 +3864,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output file. (optional) 
             var mergeType = MergeImageType.Vertical; // MergeImageType | Type of merger operation. (optional) 
@@ -3896,7 +3896,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output file.
 MergeImageType mergeType = MergeImageType.VERTICAL; // MergeImageType | Type of merger operation.
@@ -3920,7 +3920,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output file.
 val mergeType : MergeImageType =  // MergeImageType | Type of merger operation.
@@ -3956,7 +3956,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/metadata?operation=value&folder=v
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -3970,12 +3970,12 @@ $folder = "folder\_example"; // string | The folder where the files are located.
 $name = "name\_example"; // string | The name of the file to perform the operation on.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiMetadataPost($files, $operation, $folder, $name);
+    $result = $apiInstance->pdfWebapiMetadataPost($files, $operation, $folder, $name);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiMetadataPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiMetadataPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -3994,7 +3994,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var operation = MetadataOperation.Get; // MetadataOperation | The operation to perform on the metadata. (optional) 
             var folder = folder\_example;  // string | The folder where the files are located. (optional) 
             var name = name\_example;  // string | The name of the file to perform the operation on. (optional) 
@@ -4022,7 +4022,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 MetadataOperation operation = new MetadataOperation(); // MetadataOperation | The operation to perform on the metadata.
 String folder = "folder\_example"; // String | The folder where the files are located.
 String name = "name\_example"; // String | The name of the file to perform the operation on.
@@ -4042,7 +4042,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val operation : MetadataOperation =  // MetadataOperation | The operation to perform on the metadata.
 val folder : kotlin.String = folder\_example // kotlin.String | The folder where the files are located.
 val name : kotlin.String = name\_example // kotlin.String | The name of the file to perform the operation on.
@@ -4074,7 +4074,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/organize?inputType=value&remove=v
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -4088,12 +4088,12 @@ $remove = "remove\_example"; // string | The pages to remove from the document.
 $move = "move\_example"; // string | The pages to move within the document.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiOrganizePost($files, $input\_type, $remove, $move);
+    $result = $apiInstance->pdfWebapiOrganizePost($files, $input\_type, $remove, $move);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiOrganizePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiOrganizePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -4112,7 +4112,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var remove = remove\_example;  // string | The pages to remove from the document. (optional) 
             var move = move\_example;  // string | The pages to move within the document. (optional) 
@@ -4140,7 +4140,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String remove = "remove\_example"; // String | The pages to remove from the document.
 String move = "move\_example"; // String | The pages to move within the document.
@@ -4160,7 +4160,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val remove : kotlin.String = remove\_example // kotlin.String | The pages to remove from the document.
 val move : kotlin.String = move\_example // kotlin.String | The pages to move within the document.
@@ -4192,7 +4192,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/parse' -F 'files=@file.pdf'
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -4203,12 +4203,12 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
 $files = array("files\_example"); // string[] | 
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiParsePost($files);
+    $result = $apiInstance->pdfWebapiParsePost($files);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiParsePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiParsePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -4227,7 +4227,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
 
             try
             {
@@ -4252,7 +4252,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 try {
     FileResponse result = apiInstance.pdfWebapiParsePost(files);
     System.out.println(result);
@@ -4269,7 +4269,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 try {
     val result : FileResponse = apiInstance.pdfWebapiParsePost(files)
     println(result)
@@ -4298,7 +4298,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/redact?searchQuery=value&replaceT
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -4315,12 +4315,12 @@ $comments = true; // bool | Indicates whether comments should be redacted.
 $metadata = true; // bool | Indicates whether metadata should be redacted.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiRedactPost($files, $search\_query, $replace\_text, $case\_sensitive, $text, $comments, $metadata);
+    $result = $apiInstance->pdfWebapiRedactPost($files, $search\_query, $replace\_text, $case\_sensitive, $text, $comments, $metadata);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiRedactPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiRedactPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -4339,7 +4339,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var searchQuery = searchQuery\_example;  // string | The text to search for and redact. (optional) 
             var replaceText = replaceText\_example;  // string | The text to replace the found text with. (optional) 
             var caseSensitive = true;  // bool? | Indicates whether the search should be case-sensitive. (optional) 
@@ -4370,7 +4370,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String searchQuery = "searchQuery\_example"; // String | The text to search for and redact.
 String replaceText = "replaceText\_example"; // String | The text to replace the found text with.
 Boolean caseSensitive = true; // Boolean | Indicates whether the search should be case-sensitive.
@@ -4393,7 +4393,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val searchQuery : kotlin.String = searchQuery\_example // kotlin.String | The text to search for and redact.
 val replaceText : kotlin.String = replaceText\_example // kotlin.String | The text to replace the found text with.
 val caseSensitive : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the search should be case-sensitive.
@@ -4428,7 +4428,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/remove' -F 'files=@file.pdf'
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -4439,12 +4439,12 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
 $files = array("files\_example"); // string[] | 
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiRemovePost($files);
+    $result = $apiInstance->pdfWebapiRemovePost($files);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiRemovePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiRemovePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -4463,7 +4463,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
 
             try
             {
@@ -4488,7 +4488,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 try {
     FileResponse result = apiInstance.pdfWebapiRemovePost(files);
     System.out.println(result);
@@ -4505,7 +4505,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 try {
     val result : FileResponse = apiInstance.pdfWebapiRemovePost(files)
     println(result)
@@ -4534,7 +4534,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/remove-watermark?isAllPages=value
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -4553,12 +4553,12 @@ $watermark\_type = new \\Swagger\\Client\\Model\\WatermarkType(); // \\Swagger\\
 $remove\_range = "remove\_range\_example"; // string | The range of pages to remove the watermark from.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiRemoveWatermarkPost($watermark\_text, $top, $left, $bottom, $right, $files, $is\_all\_pages, $watermark\_type, $remove\_range);
+    $result = $apiInstance->pdfWebapiRemoveWatermarkPost($watermark\_text, $top, $left, $bottom, $right, $files, $is\_all\_pages, $watermark\_type, $remove\_range);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiRemoveWatermarkPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiRemoveWatermarkPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -4582,7 +4582,7 @@ namespace Example
             var left = 56;  // int? |  (optional) 
             var bottom = 56;  // int? |  (optional) 
             var right = 56;  // int? |  (optional) 
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var isAllPages = true;  // bool? | Indicates whether the watermark should be removed from all pages. (optional) 
             var watermarkType = WatermarkType.Artifact; // WatermarkType | The type of watermark to remove. (optional) 
             var removeRange = removeRange\_example;  // string | The range of pages to remove the watermark from. (optional) 
@@ -4615,7 +4615,7 @@ Integer top = 56; // Integer |
 Integer left = 56; // Integer | 
 Integer bottom = 56; // Integer | 
 Integer right = 56; // Integer | 
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 Boolean isAllPages = true; // Boolean | Indicates whether the watermark should be removed from all pages.
 WatermarkType watermarkType = new WatermarkType(); // WatermarkType | The type of watermark to remove.
 String removeRange = "removeRange\_example"; // String | The range of pages to remove the watermark from.
@@ -4640,7 +4640,7 @@ val top : kotlin.Int = 56 // kotlin.Int |
 val left : kotlin.Int = 56 // kotlin.Int | 
 val bottom : kotlin.Int = 56 // kotlin.Int | 
 val right : kotlin.Int = 56 // kotlin.Int | 
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val isAllPages : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the watermark should be removed from all pages.
 val watermarkType : WatermarkType =  // WatermarkType | The type of watermark to remove.
 val removeRange : kotlin.String = removeRange\_example // kotlin.String | The range of pages to remove the watermark from.
@@ -4672,7 +4672,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/removepages?removeRange=value' -F
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -4684,12 +4684,12 @@ $files = array("files\_example"); // string[] |
 $remove\_range = "remove\_range\_example"; // string | The range of pages to remove from the files.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiRemovepagesPost($files, $remove\_range);
+    $result = $apiInstance->pdfWebapiRemovepagesPost($files, $remove\_range);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiRemovepagesPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiRemovepagesPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -4708,7 +4708,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var removeRange = removeRange\_example;  // string | The range of pages to remove from the files. (optional) 
 
             try
@@ -4734,7 +4734,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String removeRange = "removeRange\_example"; // String | The range of pages to remove from the files.
 try {
     FileResponse result = apiInstance.pdfWebapiRemovepagesPost(files, removeRange);
@@ -4752,7 +4752,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val removeRange : kotlin.String = removeRange\_example // kotlin.String | The range of pages to remove from the files.
 try {
     val result : FileResponse = apiInstance.pdfWebapiRemovepagesPost(files, removeRange)
@@ -4782,7 +4782,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/repair' -F 'files=@file.pdf'
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -4793,12 +4793,12 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
 $files = array("files\_example"); // string[] | 
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiRepairPost($files);
+    $result = $apiInstance->pdfWebapiRepairPost($files);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiRepairPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiRepairPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -4817,7 +4817,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
 
             try
             {
@@ -4842,7 +4842,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 try {
     FileResponse result = apiInstance.pdfWebapiRepairPost(files);
     System.out.println(result);
@@ -4859,7 +4859,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 try {
     val result : FileResponse = apiInstance.pdfWebapiRepairPost(files)
     println(result)
@@ -4888,7 +4888,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/resize?inputType=value&outputType
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -4909,12 +4909,12 @@ $use\_proportions = true; // bool | Indicates whether to maintain the aspect rat
 $page\_size = new \\Swagger\\Client\\Model\\ResizePageSize(); // \\Swagger\\Client\\Model\\ResizePageSize | The page size to use for the resized files.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiResizePost($files, $input\_type, $output\_type, $resize\_type, $preset\_type, $preset\_size, $width, $height, $percentage, $use\_proportions, $page\_size);
+    $result = $apiInstance->pdfWebapiResizePost($files, $input\_type, $output\_type, $resize\_type, $preset\_type, $preset\_size, $width, $height, $percentage, $use\_proportions, $page\_size);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiResizePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiResizePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -4933,7 +4933,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var resizeType = ResizeType.Percentage; // ResizeType | The type of resizing to apply. (optional) 
@@ -4968,7 +4968,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 ResizeType resizeType = ResizeType.PERCENTAGE; // ResizeType | The type of resizing to apply.
@@ -4995,7 +4995,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val resizeType : ResizeType =  // ResizeType | The type of resizing to apply.
@@ -5034,7 +5034,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/rotate?angle=value&rotateType=val
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5048,12 +5048,12 @@ $rotate\_type = new \\Swagger\\Client\\Model\\RotateType(); // \\Swagger\\Client
 $page\_num = "page\_num\_example"; // string | The page number to rotate, if applicable.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiRotatePost($files, $angle, $rotate\_type, $page\_num);
+    $result = $apiInstance->pdfWebapiRotatePost($files, $angle, $rotate\_type, $page\_num);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiRotatePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiRotatePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -5072,7 +5072,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var angle = RotateAngle.On90; // RotateAngle | The angle by which to rotate the files. (optional) 
             var rotateType = RotateType.S; // RotateType | The type of rotation to perform. (optional) 
             var pageNum = pageNum\_example;  // string | The page number to rotate, if applicable. (optional) 
@@ -5100,7 +5100,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 RotateAngle angle = RotateAngle.ON90; // RotateAngle | The angle by which to rotate the files.
 RotateType rotateType = RotateType.A; // RotateType | The type of rotation to perform.
 String pageNum = "pageNum\_example"; // String | The page number to rotate, if applicable.
@@ -5120,7 +5120,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val angle : RotateAngle =  // RotateAngle | The angle by which to rotate the files.
 val rotateType : RotateType =  // RotateType | The type of rotation to perform.
 val pageNum : kotlin.String = pageNum\_example // kotlin.String | The page number to rotate, if applicable.
@@ -5152,7 +5152,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/search?query=value' -F 'files=@fi
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5164,12 +5164,12 @@ $files = array("files\_example"); // string[] |
 $query = "query\_example"; // string | The text to search for within the files.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiSearchPost($files, $query);
+    $result = $apiInstance->pdfWebapiSearchPost($files, $query);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiSearchPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiSearchPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -5188,7 +5188,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var query = query\_example;  // string | The text to search for within the files. (optional) 
 
             try
@@ -5214,7 +5214,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String query = "query\_example"; // String | The text to search for within the files.
 try {
     FileResponse result = apiInstance.pdfWebapiSearchPost(files, query);
@@ -5232,7 +5232,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val query : kotlin.String = query\_example // kotlin.String | The text to search for within the files.
 try {
     val result : FileResponse = apiInstance.pdfWebapiSearchPost(files, query)
@@ -5262,7 +5262,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/searchable?lang=value' -F 'files=
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5274,12 +5274,12 @@ $files = array("files\_example"); // string[] |
 $lang = "lang\_example"; // string | The language of the files to be converted.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiSearchablePost($files, $lang);
+    $result = $apiInstance->pdfWebapiSearchablePost($files, $lang);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiSearchablePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiSearchablePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -5298,7 +5298,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var lang = lang\_example;  // string | The language of the files to be converted. (optional) 
 
             try
@@ -5324,7 +5324,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String lang = "lang\_example"; // String | The language of the files to be converted.
 try {
     FileResponse result = apiInstance.pdfWebapiSearchablePost(files, lang);
@@ -5342,7 +5342,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val lang : kotlin.String = lang\_example // kotlin.String | The language of the files to be converted.
 try {
     val result : FileResponse = apiInstance.pdfWebapiSearchablePost(files, lang)
@@ -5372,7 +5372,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/signature?inputType=value&outputT
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5389,12 +5389,12 @@ $output\_type = "output\_type\_example"; // string | The desired format for the 
 $signature\_type = new \\Swagger\\Client\\Model\\SignatureType(); // \\Swagger\\Client\\Model\\SignatureType | The type of signature to add.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiSignaturePost($image, $text, $text\_color, $files, $input\_type, $output\_type, $signature\_type);
+    $result = $apiInstance->pdfWebapiSignaturePost($image, $text, $text\_color, $files, $input\_type, $output\_type, $signature\_type);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiSignaturePost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiSignaturePost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -5416,7 +5416,7 @@ namespace Example
             var image = image\_example;  // string |  (optional) 
             var text = text\_example;  // string |  (optional) 
             var textColor = textColor\_example;  // string |  (optional) 
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var signatureType = SignatureType.Image; // SignatureType | The type of signature to add. (optional) 
@@ -5447,7 +5447,7 @@ ApiApi apiInstance = new ApiApi();
 String image = "image\_example"; // String | 
 String text = "text\_example"; // String | 
 String textColor = "textColor\_example"; // String | 
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 SignatureType signatureType = SignatureType.TEXT; // SignatureType | The type of signature to add.
@@ -5470,7 +5470,7 @@ val apiInstance = ApiApi()
 val image : kotlin.String = image\_example // kotlin.String | 
 val text : kotlin.String = text\_example // kotlin.String | 
 val textColor : kotlin.String = textColor\_example // kotlin.String | 
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val signatureType : SignatureType =  // SignatureType | The type of signature to add.
@@ -5502,7 +5502,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/splitdoc?inputType=value&splitTyp
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5515,12 +5515,12 @@ $split\_type = new \\Swagger\\Client\\Model\\SplitDocType(); // \\Swagger\\Clien
 $pars = "pars\_example"; // string | Optional page rage for the splitting operation.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiSplitdocPost($files, $split\_type, $pars);
+    $result = $apiInstance->pdfWebapiSplitdocPost($files, $split\_type, $pars);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiSplitdocPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiSplitdocPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -5539,7 +5539,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var splitType = SplitDocType.AllPages; // SplitDocType | The type of splitting to be performed. (optional) 
             var pars = pars\_example;  // string | Optional page rage for the splitting operation. (optional) 
 
@@ -5566,7 +5566,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 SplitDocType splitType = SplitDocType.ODDEVEN; // SplitDocType | The type of splitting to be performed.
 String pars = "pars\_example"; // String | Optional page rage for the splitting operation.
 try {
@@ -5585,7 +5585,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val splitType : SplitDocType =  // SplitDocType | The type of splitting to be performed.
 val pars : kotlin.String = pars\_example // kotlin.String | Optional page rage for the splitting operation.
 try {
@@ -5616,7 +5616,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/splitdoc?inputType=value&splitTyp
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5629,12 +5629,12 @@ $split\_type = new \\Swagger\\Client\\Model\\SplitDocType(); // \\Swagger\\Clien
 $pars = "pars\_example"; // string | Optional page rage for the splitting operation.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiSplitdocPost($files, $split\_type, $pars);
+    $result = $apiInstance->pdfWebapiSplitdocPost($files, $split\_type, $pars);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiSplitdocPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiSplitdocPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -5653,7 +5653,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var splitType = SplitDocType.AllPages; // SplitDocType | The type of splitting to be performed. (optional) 
             var pars = pars\_example;  // string | Optional page rage for the splitting operation. (optional) 
 
@@ -5680,7 +5680,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 SplitDocType splitType = SplitDocType.ODDEVEN; // SplitDocType | The type of splitting to be performed.
 String pars = "pars\_example"; // String | Optional page rage for the splitting operation.
 try {
@@ -5699,7 +5699,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val splitType : SplitDocType =  // SplitDocType | The type of splitting to be performed.
 val pars : kotlin.String = pars\_example // kotlin.String | Optional page rage for the splitting operation.
 try {
@@ -5730,7 +5730,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/unlock?passw=value' -F 'files=@fi
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5742,12 +5742,12 @@ $files = array("files\_example"); // string[] |
 $passw = "passw\_example"; // string | The password used in locked document.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiUnlockPost($files, $passw);
+    $result = $apiInstance->pdfWebapiUnlockPost($files, $passw);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiUnlockPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiUnlockPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -5766,7 +5766,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var passw = passw\_example;  // string | The password used in locked document. (optional) 
 
             try
@@ -5792,7 +5792,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String passw = "passw\_example"; // String | The password used in locked document.
 try {
     FileResponse result = apiInstance.pdfWebapiUnlockPost(files, passw);
@@ -5810,7 +5810,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val passw : kotlin.String = passw\_example // kotlin.String | The password used in locked document.
 try {
     val result : FileResponse = apiInstance.pdfWebapiUnlockPost(files, passw)
@@ -5840,7 +5840,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/esign?inputType=value' -F 'files=
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5853,12 +5853,12 @@ $files = array("files\_example"); // string[] |
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiEsignPost($passw, $files, $input\_type);
+    $result = $apiInstance->pdfWebapiEsignPost($passw, $files, $input\_type);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiEsignPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiEsignPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -5878,7 +5878,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var passw = passw\_example;  // string |  (optional) 
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
 
             try
@@ -5905,7 +5905,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 String passw = "passw\_example"; // String | 
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 try {
     FileResponse result = apiInstance.pdfWebapiEsignPost(passw, files, inputType);
@@ -5924,7 +5924,7 @@ try {
 
 val apiInstance = ApiApi()
 val passw : kotlin.String = passw\_example // kotlin.String | 
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 try {
     val result : FileResponse = apiInstance.pdfWebapiEsignPost(passw, files, inputType)
@@ -5954,7 +5954,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/watermark?inputType=value&outputT
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -5982,12 +5982,12 @@ $page\_from = 56; // int | The starting page number for the watermark.
 $page\_to = 56; // int | The ending page number for the watermark.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiWatermarkPost($files, $input\_type, $output\_type, $is\_colored, $is\_text, $text, $name, $size, $bold, $italic, $underlined, $color, $is\_background, $rotation, $transparency, $layer, $page\_from, $page\_to);
+    $result = $apiInstance->pdfWebapiWatermarkPost($files, $input\_type, $output\_type, $is\_colored, $is\_text, $text, $name, $size, $bold, $italic, $underlined, $color, $is\_background, $rotation, $transparency, $layer, $page\_from, $page\_to);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiWatermarkPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiWatermarkPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -6006,7 +6006,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var isColored = true;  // bool? | Indicate is watermark will be in color or grayscale. (optional) 
@@ -6048,7 +6048,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 Boolean isColored = true; // Boolean | Indicate is watermark will be in color or grayscale.
@@ -6082,7 +6082,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val isColored : kotlin.Boolean = true // kotlin.Boolean | Indicate is watermark will be in color or grayscale.
@@ -6128,7 +6128,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/wordcounter?pageRange=value' -F '
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -6140,12 +6140,12 @@ $files = array("files\_example"); // string[] |
 $page\_range = "page\_range\_example"; // string | The range of pages to count words in.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiWordcounterPost($files, $page\_range);
+    $result = $apiInstance->pdfWebapiWordcounterPost($files, $page\_range);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiWordcounterPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiWordcounterPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -6164,7 +6164,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var pageRange = pageRange\_example;  // string | The range of pages to count words in. (optional) 
 
             try
@@ -6190,7 +6190,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String pageRange = "pageRange\_example"; // String | The range of pages to count words in.
 try {
     FileResponse result = apiInstance.pdfWebapiWordcounterPost(files, pageRange);
@@ -6208,7 +6208,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val pageRange : kotlin.String = pageRange\_example // kotlin.String | The range of pages to count words in.
 try {
     val result : FileResponse = apiInstance.pdfWebapiWordcounterPost(files, pageRange)
@@ -6233,7 +6233,7 @@ curl -X POST 'http://localhost:5252/pdf/webapi/xfaconvert?inputType=value' -F 'f
 </details>
 <details><summary>php</summary>
 <pre><code>
-&lt;?php
+<?php
 require\_once(\_\_DIR\_\_ . '/vendor/autoload.php');
 
 $apiInstance = new Swagger\\Client\\Api\\ApiApi(
@@ -6245,12 +6245,12 @@ $files = array("files\_example"); // string[] |
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 
 try {
-    $result = $apiInstance-&gt;pdfWebapiXfaconvertPost($files, $input\_type);
+    $result = $apiInstance->pdfWebapiXfaconvertPost($files, $input\_type);
     print\_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ApiApi-&gt;pdfWebapiXfaconvertPost: ', $e-&gt;getMessage(), PHP\_EOL;
+    echo 'Exception when calling ApiApi->pdfWebapiXfaconvertPost: ', $e->getMessage(), PHP\_EOL;
 }
-?&gt;
+?>
 </code></pre>
 </details>
 <details><summary>dotnet</summary>
@@ -6269,7 +6269,7 @@ namespace Example
         {
 
             var apiInstance = new ApiApi();
-            var files = new List&lt;FileParameter&gt;(); // List&lt;FileParameter&gt; |  (optional) 
+            var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
 
             try
@@ -6295,7 +6295,7 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
-List&lt;File&gt; files = Arrays.asList(new File("/path/to/file")); // List&lt;File&gt; | 
+List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 try {
     FileResponse result = apiInstance.pdfWebapiXfaconvertPost(files, inputType);
@@ -6313,7 +6313,7 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
-val files : kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; =  // kotlin.Array&lt;kotlin.Array&lt;kotlin.Byte&gt;&gt; | 
+val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 try {
     val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
