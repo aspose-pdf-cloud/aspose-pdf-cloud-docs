@@ -580,7 +580,7 @@ You are managing implementing KMS store for sensitive environment variables and 
 
 
 
-### Deploy Container Product on Amazon ECS
+### Deploy Container on Amazon ECS
 
 This guide provides step-by-step instructions on how to obtain an AWS Marketplace container and set it up in Amazon ECS with environment variables configured and using a host network on a public subnet.
 
@@ -697,7 +697,7 @@ Configure security groups, IAM roles, and policies to control access to your ECS
 Regularly update the container image to ensure security and performance. 
 
 
-### Deploy Container Product on Amazon EKS
+### Deploy Container on Amazon EKS
 
 This guide outlines the steps to deploy an Aspose.PDF for AWS AWS Marketplace container to Amazon Elastic Kubernetes Service (EKS) using an EC2 instance from the client machine.
 
@@ -1532,7 +1532,7 @@ Response:
 }
 ```
 
-### AWS S3 File Storage and Processing
+### AWS S3 File Storage Structure
 
 > __Persistent storage__
 
@@ -2237,19 +2237,19 @@ Integrating AWS KMS with Docker environment variables in Amazon EKS enhances the
 
 We provide client SDKs for different programming languages to make it easier for you to integrate our API into your applications. These SDKs are designed to simplify the process of making requests to our API and handling responses. They abstract away many of the complexities of HTTP and JSON, allowing you to focus on your application's logic.
 
-#### [.NET 6.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/dotnet-client)
+### [.NET 6.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/dotnet-client)
 
 For .NET developers, we provide a client SDK that abstracts the complexities of HTTP and JSON, allowing you to focus on your application's logic.
 
-#### [Java 11](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/java-client)
+### [Java 11](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/java-client)
 
 For Java developers, we offer a client SDK designed to simplify API integration.
 
-#### [PHP 5.5](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/php-cLient)
+### [PHP 5.5](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/php-cLient)
 
 For PHP developers, our client SDK makes interacting with our API straightforward.
 
-#### [Kotlin 1.4.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/kotlin-client)
+### [Kotlin 1.4.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/kotlin-client)
 
 For Kotlin developers, we provide a client SDK that eases the API integration process.
 
@@ -2308,7 +2308,7 @@ This release of Aspose.PDF for AWS is designed to enhance your document processi
 | parser | pdf, pptx, html, epub, mhtml |
 | page-numbering | pdf, pptx, docx, tiff, doc |
 | remove-pages | pdf, pptx, docx, tiff, xlsx |
-| hash | md5, sha1, sha256, sha384, sha512 |
+| hash-generator | md5, sha1, sha256, sha384, sha512 |
 | unlock | pdf, pptx |
 | annotation | pdf |
 | watermark | pdf |
