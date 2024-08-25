@@ -540,6 +540,16 @@ Max files count in batch for processing.
 Specify the default number of files in a batch for processing. Adjusting the MAX_BATCH_FILES can optimize processing efficiency and resource usage. Change this value if you encounter performance issues with large batches or need to customize batch processing based on your workload, ensuring smooth and efficient batch processing.
 
 
+**MAX_INFLIGHT**
+
+Maximum number of tasks processed in parallel.
+
+**Default Value:** 10
+
+
+Define the maximum number of tasks that can be processed simultaneously. If the number of tasks exceeds this value, additional tasks will wait in the queue until resources become available. Adjusting the MAX_INFLIGHT setting helps manage resource utilization and can improve system stability and performance. Increase this value to allow more parallel processing if your system can handle the load, or decrease it if you need to limit concurrent processing to avoid overloading resources.
+
+
 **OMP_THREAD_LIMIT**
 
 This option useful for use with searchable pdf endpoint and Tesseract.
@@ -558,6 +568,26 @@ Is for out of memory error message instead of reboot container in Kubernetes on 
 
 
 Set the GC heap hard limit for the .NET runtime in bytes to manage memory usage effectively. Adjusting the COMPlus_GCHeapHardLimit can help prevent avoid unnecessary container restarts in Kubernetes but large files will throws out-of-memory (OOM) errors. Change this value if you encounter OOM issues or need to fine-tune memory allocation to better suit your application's needs.
+| Instance Size   | Memory (GiB) | COMPlus_GCHeapHardLimit (85%) |
+|-----------------|--------------|------------------------------------|
+| m7g.medium      | 4            | 0xd9999999                         |
+| m7g.large       | 8            | 0x1b3333333                        |
+| m7g.xlarge      | 16           | 0x366666666                        |
+| m7g.2xlarge     | 32           | 0x6cccccccc                        |
+| m7g.4xlarge     | 64           | 0xd99999999                        |
+| m7g.8xlarge     | 128          | 0x1b33333333                       |
+| m7g.12xlarge    | 192          | 0x28cccccccc                       |
+| m7g.16xlarge    | 256          | 0x3666666666                       |
+| m7g.metal       | 256          | 0x3666666666                       |
+| m7gd.medium     | 4            | 0xd9999999                         |
+| m7gd.large      | 8            | 0x1b3333333                        |
+| m7gd.xlarge     | 16           | 0x366666666                        |
+| m7gd.2xlarge    | 32           | 0x6cccccccc                        |
+| m7gd.4xlarge    | 64           | 0xd99999999                        |
+| m7gd.8xlarge    | 128          | 0x1b33333333                       |
+| m7gd.12xlarge   | 192          | 0x28cccccccc                       |
+| m7gd.16xlarge   | 256          | 0x3666666666                       |
+| m7gd.metal      | 256          | 0x3666666666                       |
 
 
 **DISABLE_UNMANAGED_PROCESS**
@@ -1488,6 +1518,16 @@ Additional Resources
 Use HTTPS (TLS) to ensure encrypted connections and protect against eavesdropping and network manipulation. Apply the aws:SecureTransport condition in your Amazon S3 bucket policies to enforce HTTPS-only connections.
 n in your Amazon S3 bucket policies to enforce HTTPS-only connections.
 
+
+### Document with Passwords
+
+You may need to process encrypted documents through our containerized REST API, with support for various operations such as merging, converting, and splitting.
+
+To ensure secure processing, a password is required to unlock encrypted documents before any operation.
+
+Our API supports the **documentPassword** form parameter across all endpoints, allowing you to specify the necessary password for your documents. In the current version, when submitting multiple documents in a single request, the same password must be used for all. If your documents have different passwords, you can achieve this by running multiple concurrent API calls, each handling one document at a time with its specific password.
+
+This approach provides you with a secure and flexible way to process encrypted documents across all our REST API endpoints, ensuring that your operations run smoothly, whether you’re working with single or multiple documents.
 
 
 
@@ -3694,7 +3734,9 @@ try {
 
 <details><summary>curl</summary>
 <pre><code>
-curl -X POST 'http://localhost:5252/pdf/webapi/lock?passw=value' -F 'files=@file.pdf'
+curl -X POST 'http://localhost:5252/pdf/webapi/lock' \\
+     -F 'files=@file.pdf' \\
+     -F 'documentPassword=value'
 </code></pre>
 </details>
 <details><summary>php</summary>
@@ -5725,7 +5767,9 @@ try {
 
 <details><summary>curl</summary>
 <pre><code>
-curl -X POST 'http://localhost:5252/pdf/webapi/unlock?passw=value' -F 'files=@file.pdf'
+curl -X POST 'http://localhost:5252/pdf/webapi/unlock' \\
+     -F 'files=@file.pdf' \\
+     -F 'documentPassword=value'
 </code></pre>
 </details>
 <details><summary>php</summary>
