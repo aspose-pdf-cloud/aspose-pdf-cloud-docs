@@ -594,7 +594,7 @@ You are managing a .NET application that might need to execute external processe
 
 In case it set to 'true', then enables KMS encryption for environment variables AWS_ACCESS_KEY, AWS_SECRET, AWS_REGION_ENDPOINT, AWS_BUCKET.
 
-**Default Value:** no
+**Default Value:** false
 
 
 You are managing implementing KMS store for sensitive environment variables and need to enable it for Aspose.PDF for AWS.
@@ -1987,7 +1987,7 @@ In result, the ECS service uses the updated task definition with encrypted envir
 You can configure the decryption of environment variables encrypted with AWS Key Management Service (KMS). To enable or disable the decryption of KMS environment variables, use the **`KEY_ENCRYPTION`** environment variable:
 
 - **`KEY_ENCRYPTION = 'true'`**: When set to `'true'`, the API will attempt to decrypt the environment variables using AWS KMS before use.
-- **`KEY_ENCRYPTION = 'no'`**: When set to `'no'`, the API will use the environment variables as-is without attempting decryption.
+- **`KEY_ENCRYPTION = 'false'`**: When set to `'no'`, the API will use the environment variables as-is without attempting decryption.
 
 Integrating AWS KMS with Docker environment variables in Amazon ECS enhances the security of sensitive data in your applications. By following these steps, you ensure that sensitive environment variables are encrypted, securely stored, and decrypted only when needed by your application, thereby reducing the risk of exposure.
 
@@ -2259,7 +2259,7 @@ In result the Kubernetes deployment uses the secret as environment variables.
 You can configure the decryption of environment variables encrypted with AWS Key Management Service (KMS). To enable or disable the decryption of KMS environment variables, use the **`KEY_ENCRYPTION`** environment variable:
 
 - **`KEY_ENCRYPTION = 'true'`**: When set to `'true'`, the API will attempt to decrypt the environment variables using AWS KMS before use.
-- **`KEY_ENCRYPTION = 'no'`**: When set to `'no'`, the API will use the environment variables as-is without attempting decryption.
+- **`KEY_ENCRYPTION = 'false'`**: When set to `'no'`, the API will use the environment variables as-is without attempting decryption.
 
 Integrating AWS KMS with Docker environment variables in Amazon EKS enhances the security of sensitive data in your applications. By following these steps, you ensure that sensitive environment variables are encrypted, securely stored, and decrypted only when needed by your application, thereby reducing the risk of exposure.
 
@@ -2384,6 +2384,7 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $v\_alignment = new \\Swagger\\Client\\Model\\PageNumberVerticalAlign(); // \\Swagger\\Client\\Model\\PageNumberVerticalAlign | The vertical alignment of the page numbers.
 $h\_alignment = new \\Swagger\\Client\\Model\\PageNumberHorizontalAlign(); // \\Swagger\\Client\\Model\\PageNumberHorizontalAlign | The horizontal alignment of the page numbers.
 $starting\_number = 56; // int | The starting number for the page numbers.
@@ -2394,7 +2395,7 @@ $font\_size = 56; // int | The font size of the page numbers.
 $format = "format\_example"; // string | The format of the page numbers.
 
 try {
-    $result = $apiInstance->pdfWebapiAddnumberPost($files, $v\_alignment, $h\_alignment, $starting\_number, $s\_number, $f\_number, $margin, $font\_size, $format);
+    $result = $apiInstance->pdfWebapiAddnumberPost($files, $document\_password, $v\_alignment, $h\_alignment, $starting\_number, $s\_number, $f\_number, $margin, $font\_size, $format);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiAddnumberPost: ', $e->getMessage(), PHP\_EOL;
@@ -2419,6 +2420,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var vAlignment = PageNumberVerticalAlign.B; // PageNumberVerticalAlign | The vertical alignment of the page numbers. (optional) 
             var hAlignment = PageNumberHorizontalAlign.C; // PageNumberHorizontalAlign | The horizontal alignment of the page numbers. (optional) 
             var startingNumber = 56;  // int? | The starting number for the page numbers. (optional) 
@@ -2430,8 +2432,8 @@ namespace Example
 
             try
             {
-                // Add page numbers to document.
-                FileResponse result = apiInstance.PdfWebapiAddnumberPost(files, vAlignment, hAlignment, startingNumber, sNumber, fNumber, margin, fontSize, format);
+                // Add Page Numbers to Document.
+                FileResponse result = apiInstance.PdfWebapiAddnumberPost(files, documentPassword, vAlignment, hAlignment, startingNumber, sNumber, fNumber, margin, fontSize, format);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -2452,6 +2454,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 PageNumberVerticalAlign vAlignment = PageNumberVerticalAlign.B; // PageNumberVerticalAlign | The vertical alignment of the page numbers.
 PageNumberHorizontalAlign hAlignment = PageNumberHorizontalAlign.C; // PageNumberHorizontalAlign | The horizontal alignment of the page numbers.
 Integer startingNumber = 56; // Integer | The starting number for the page numbers.
@@ -2461,7 +2464,7 @@ Integer margin = 56; // Integer | The margin around the page numbers.
 Integer fontSize = 56; // Integer | The font size of the page numbers.
 String format = "format\_example"; // String | The format of the page numbers.
 try {
-    FileResponse result = apiInstance.pdfWebapiAddnumberPost(files, vAlignment, hAlignment, startingNumber, sNumber, fNumber, margin, fontSize, format);
+    FileResponse result = apiInstance.pdfWebapiAddnumberPost(files, documentPassword, vAlignment, hAlignment, startingNumber, sNumber, fNumber, margin, fontSize, format);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiAddnumberPost");
@@ -2477,6 +2480,7 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val vAlignment : PageNumberVerticalAlign =  // PageNumberVerticalAlign | The vertical alignment of the page numbers.
 val hAlignment : PageNumberHorizontalAlign =  // PageNumberHorizontalAlign | The horizontal alignment of the page numbers.
 val startingNumber : kotlin.Int = 56 // kotlin.Int | The starting number for the page numbers.
@@ -2486,7 +2490,7 @@ val margin : kotlin.Int = 56 // kotlin.Int | The margin around the page numbers.
 val fontSize : kotlin.Int = 56 // kotlin.Int | The font size of the page numbers.
 val format : kotlin.String = format\_example // kotlin.String | The format of the page numbers.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiAddnumberPost(files, vAlignment, hAlignment, startingNumber, sNumber, fNumber, margin, fontSize, format)
+    val result : FileResponse = apiInstance.pdfWebapiAddnumberPost(files, documentPassword, vAlignment, hAlignment, startingNumber, sNumber, fNumber, margin, fontSize, format)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiAddnumberPost")
@@ -2519,9 +2523,10 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
 );
 $font\_replacements\_json = "font\_replacements\_json\_example"; // string | 
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 
 try {
-    $result = $apiInstance->pdfWebapiChangeFontsPost($font\_replacements\_json, $files);
+    $result = $apiInstance->pdfWebapiChangeFontsPost($font\_replacements\_json, $files, $document\_password);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiChangeFontsPost: ', $e->getMessage(), PHP\_EOL;
@@ -2547,10 +2552,12 @@ namespace Example
             var apiInstance = new ApiApi();
             var fontReplacementsJson = fontReplacementsJson\_example;  // string |  (optional) 
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
 
             try
             {
-                FileResponse result = apiInstance.PdfWebapiChangeFontsPost(fontReplacementsJson, files);
+                // Change Fonts in Provided Files.
+                FileResponse result = apiInstance.PdfWebapiChangeFontsPost(fontReplacementsJson, files, documentPassword);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -2572,8 +2579,9 @@ namespace Example
 ApiApi apiInstance = new ApiApi();
 String fontReplacementsJson = "fontReplacementsJson\_example"; // String | 
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 try {
-    FileResponse result = apiInstance.pdfWebapiChangeFontsPost(fontReplacementsJson, files);
+    FileResponse result = apiInstance.pdfWebapiChangeFontsPost(fontReplacementsJson, files, documentPassword);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiChangeFontsPost");
@@ -2590,8 +2598,9 @@ try {
 val apiInstance = ApiApi()
 val fontReplacementsJson : kotlin.String = fontReplacementsJson\_example // kotlin.String | 
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 try {
-    val result : FileResponse = apiInstance.pdfWebapiChangeFontsPost(fontReplacementsJson, files)
+    val result : FileResponse = apiInstance.pdfWebapiChangeFontsPost(fontReplacementsJson, files, documentPassword)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiChangeFontsPost")
@@ -2627,9 +2636,10 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 
 try {
-    $result = $apiInstance->pdfWebapiComparisonPost($files);
+    $result = $apiInstance->pdfWebapiComparisonPost($files, $document\_password);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiComparisonPost: ', $e->getMessage(), PHP\_EOL;
@@ -2654,11 +2664,12 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
 
             try
             {
                 // Compare documents text.
-                FileResponse result = apiInstance.PdfWebapiComparisonPost(files);
+                FileResponse result = apiInstance.PdfWebapiComparisonPost(files, documentPassword);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -2679,8 +2690,9 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 try {
-    FileResponse result = apiInstance.pdfWebapiComparisonPost(files);
+    FileResponse result = apiInstance.pdfWebapiComparisonPost(files, documentPassword);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiComparisonPost");
@@ -2696,8 +2708,9 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 try {
-    val result : FileResponse = apiInstance.pdfWebapiComparisonPost(files)
+    val result : FileResponse = apiInstance.pdfWebapiComparisonPost(files, documentPassword)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiComparisonPost")
@@ -2733,10 +2746,11 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $compress\_type = new \\Swagger\\Client\\Model\\CompressType(); // \\Swagger\\Client\\Model\\CompressType | The level of compression to use.
 
 try {
-    $result = $apiInstance->pdfWebapiCompressPost($files, $compress\_type);
+    $result = $apiInstance->pdfWebapiCompressPost($files, $document\_password, $compress\_type);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiCompressPost: ', $e->getMessage(), PHP\_EOL;
@@ -2762,11 +2776,12 @@ namespace Example
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var compressType = CompressType.Low; // CompressType | The level of compression to use. (optional) 
-
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
+            
             try
             {
-                // Compress document.
-                FileResponse result = apiInstance.PdfWebapiCompressPost(files, compressType);
+                // Compress Document.
+                FileResponse result = apiInstance.PdfWebapiCompressPost(files, documentPassword, compressType);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -2788,8 +2803,9 @@ namespace Example
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 CompressType compressType = CompressType.HIGH; // CompressType | The level of compression to use.
+String documentPassword = "documentPassword\_example"; // String | 
 try {
-    FileResponse result = apiInstance.pdfWebapiCompressPost(files, compressType);
+    FileResponse result = apiInstance.pdfWebapiCompressPost(files, documentPassword, compressType);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiCompressPost");
@@ -2805,9 +2821,10 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val compressType : CompressType =  // CompressType | The level of compression to use.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiCompressPost(files, compressType)
+    val result : FileResponse = apiInstance.pdfWebapiCompressPost(files, documentPassword, compressType)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiCompressPost")
@@ -2894,6 +2911,7 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 $xml\_type = new \\Swagger\\Client\\Model\\XmlType(); // \\Swagger\\Client\\Model\\XmlType | The type of XML conversion to perform, if applicable.
@@ -2903,7 +2921,7 @@ $is\_to\_single = true; // bool | Indicates whether the conversion should result
 $separator = "separator\_example"; // string | The separator to use when converting, if applicable.
 
 try {
-    $result = $apiInstance->pdfWebapiConvertPost($files, $input\_type, $output\_type, $xml\_type, $xml\_tag, $font\_sise, $is\_to\_single, $separator);
+    $result = $apiInstance->pdfWebapiConvertPost($files, $document\_password, $input\_type, $output\_type, $xml\_type, $xml\_tag, $font\_sise, $is\_to\_single, $separator);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiConvertPost: ', $e->getMessage(), PHP\_EOL;
@@ -2928,6 +2946,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var xmlType = XmlType.APS; // XmlType | The type of XML conversion to perform, if applicable. (optional) 
@@ -2938,8 +2957,8 @@ namespace Example
 
             try
             {
-                // Convert document to another format.
-                FileResponse result = apiInstance.PdfWebapiConvertPost(files, inputType, outputType, xmlType, xmlTag, fontSise, isToSingle, separator);
+                // Convert Document to Another Format.
+                FileResponse result = apiInstance.PdfWebapiConvertPost(files, documentPassword, inputType, outputType, xmlType, xmlTag, fontSise, isToSingle, separator);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -2960,6 +2979,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 XmlType xmlType = XmlType.APS; // XmlType | The type of XML conversion to perform, if applicable.
@@ -2968,7 +2988,7 @@ Integer fontSise = 56; // Integer |
 Boolean isToSingle = true; // Boolean | Indicates whether the conversion should result in a single file, if applicable.
 String separator = "separator\_example"; // String | The separator to use when converting, if applicable.
 try {
-    FileResponse result = apiInstance.pdfWebapiConvertPost(files, inputType, outputType, xmlType, xmlTag, fontSise, isToSingle, separator);
+    FileResponse result = apiInstance.pdfWebapiConvertPost(files, documentPassword, inputType, outputType, xmlType, xmlTag, fontSise, isToSingle, separator);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiConvertPost");
@@ -2984,6 +3004,7 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val xmlType : XmlType =  // XmlType | The type of XML conversion to perform, if applicable.
@@ -2992,7 +3013,7 @@ val fontSise : kotlin.Int = 56 // kotlin.Int |
 val isToSingle : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the conversion should result in a single file, if applicable.
 val separator : kotlin.String = separator\_example // kotlin.String | The separator to use when converting, if applicable.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiConvertPost(files, inputType, outputType, xmlType, xmlTag, fontSise, isToSingle, separator)
+    val result : FileResponse = apiInstance.pdfWebapiConvertPost(files, documentPassword, inputType, outputType, xmlType, xmlTag, fontSise, isToSingle, separator)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiConvertPost")
@@ -3028,10 +3049,11 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $web\_page = "web\_page\_example"; // string | 
+$document\_password = "document\_password\_example"; // string | 
 $output\_type = "output\_type\_example"; // string | The desired format for the output file.
 
 try {
-    $result = $apiInstance->pdfWebapiConvertWebpagePost($web\_page, $output\_type);
+    $result = $apiInstance->pdfWebapiConvertWebpagePost($web\_page, $document\_password, $output\_type);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiConvertWebpagePost: ', $e->getMessage(), PHP\_EOL;
@@ -3056,12 +3078,13 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var webPage = webPage\_example;  // string |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output file. (optional) 
 
             try
             {
-                // Convert web page to document.
-                FileResponse result = apiInstance.PdfWebapiConvertWebpagePost(webPage, outputType);
+                // Convert Web Page to Document.
+                FileResponse result = apiInstance.PdfWebapiConvertWebpagePost(webPage, documentPassword, outputType);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -3082,9 +3105,10 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 String webPage = "webPage\_example"; // String | 
+String documentPassword = "documentPassword\_example"; // String | 
 String outputType = "outputType\_example"; // String | The desired format for the output file.
 try {
-    FileResponse result = apiInstance.pdfWebapiConvertWebpagePost(webPage, outputType);
+    FileResponse result = apiInstance.pdfWebapiConvertWebpagePost(webPage, documentPassword, outputType);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiConvertWebpagePost");
@@ -3100,9 +3124,10 @@ try {
 
 val apiInstance = ApiApi()
 val webPage : kotlin.String = webPage\_example // kotlin.String | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output file.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiConvertWebpagePost(webPage, outputType)
+    val result : FileResponse = apiInstance.pdfWebapiConvertWebpagePost(webPage, documentPassword, outputType)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiConvertWebpagePost")
@@ -3138,6 +3163,7 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $top = 56; // int | The number of pixels to crop from the top.
 $right = 56; // int | The number of pixels to crop from the right.
@@ -3146,7 +3172,7 @@ $left = 56; // int | The number of pixels to crop from the left.
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 
 try {
-    $result = $apiInstance->pdfWebapiCropPost($files, $input\_type, $top, $right, $bottom, $left, $output\_type);
+    $result = $apiInstance->pdfWebapiCropPost($files, $document\_password, $input\_type, $top, $right, $bottom, $left, $output\_type);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiCropPost: ', $e->getMessage(), PHP\_EOL;
@@ -3171,6 +3197,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var top = 56;  // int? | The number of pixels to crop from the top. (optional) 
             var right = 56;  // int? | The number of pixels to crop from the right. (optional) 
@@ -3180,8 +3207,8 @@ namespace Example
 
             try
             {
-                // Crop document.
-                FileResponse result = apiInstance.PdfWebapiCropPost(files, inputType, top, right, bottom, left, outputType);
+                // Crop Document.
+                FileResponse result = apiInstance.PdfWebapiCropPost(files, documentPassword, inputType, top, right, bottom, left, outputType);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -3202,6 +3229,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 Integer top = 56; // Integer | The number of pixels to crop from the top.
 Integer right = 56; // Integer | The number of pixels to crop from the right.
@@ -3209,7 +3237,7 @@ Integer bottom = 56; // Integer | The number of pixels to crop from the bottom.
 Integer left = 56; // Integer | The number of pixels to crop from the left.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 try {
-    FileResponse result = apiInstance.pdfWebapiCropPost(files, inputType, top, right, bottom, left, outputType);
+    FileResponse result = apiInstance.pdfWebapiCropPost(files, documentPassword, inputType, top, right, bottom, left, outputType);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiCropPost");
@@ -3225,6 +3253,7 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val top : kotlin.Int = 56 // kotlin.Int | The number of pixels to crop from the top.
 val right : kotlin.Int = 56 // kotlin.Int | The number of pixels to crop from the right.
@@ -3232,7 +3261,7 @@ val bottom : kotlin.Int = 56 // kotlin.Int | The number of pixels to crop from t
 val left : kotlin.Int = 56 // kotlin.Int | The number of pixels to crop from the left.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiCropPost(files, inputType, top, right, bottom, left, outputType)
+    val result : FileResponse = apiInstance.pdfWebapiCropPost(files, documentPassword, inputType, top, right, bottom, left, outputType)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiCropPost")
@@ -3268,11 +3297,14 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $passw = "passw\_example"; // string | 
+$initials = "initials\_example"; // string | 
+$invite = "invite\_example"; // string | 
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 
 try {
-    $result = $apiInstance->pdfWebapiEsignPost($passw, $files, $input\_type);
+    $result = $apiInstance->pdfWebapiEsignPost($passw, $initials, $invite, $files, $document\_password, $input\_type);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiEsignPost: ', $e->getMessage(), PHP\_EOL;
@@ -3298,12 +3330,14 @@ namespace Example
             var apiInstance = new ApiApi();
             var passw = passw\_example;  // string |  (optional) 
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var invite = invite\_example;  // string |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
 
             try
             {
-                // Sign document with certificate.
-                FileResponse result = apiInstance.PdfWebapiEsignPost(passw, files, inputType);
+                // Sign Document with Certificate.
+                FileResponse result = apiInstance.PdfWebapiEsignPost(passw, initials, invite, files, documentPassword, inputType);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -3324,10 +3358,13 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 String passw = "passw\_example"; // String | 
+String initials = "initials\_example"; // String | 
+String invite = "invite\_example"; // String | 
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 try {
-    FileResponse result = apiInstance.pdfWebapiEsignPost(passw, files, inputType);
+    FileResponse result = apiInstance.pdfWebapiEsignPost(passw, initials, invite, files, documentPassword, inputType);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiEsignPost");
@@ -3343,10 +3380,13 @@ try {
 
 val apiInstance = ApiApi()
 val passw : kotlin.String = passw\_example // kotlin.String | 
+val initials : kotlin.String = initials\_example // kotlin.String | 
+val invite : kotlin.String = invite\_example // kotlin.String | 
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiEsignPost(passw, files, inputType)
+    val result : FileResponse = apiInstance.pdfWebapiEsignPost(passw, initials, invite, files, documentPassword, inputType)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiEsignPost")
@@ -3382,11 +3422,12 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 
 try {
-    $result = $apiInstance->pdfWebapiExtractPost($files, $input\_type, $output\_type);
+    $result = $apiInstance->pdfWebapiExtractPost($files, $document\_password, $input\_type, $output\_type);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiExtractPost: ', $e->getMessage(), PHP\_EOL;
@@ -3411,13 +3452,14 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
 
             try
             {
-                // Extract tables from document.
-                FileResponse result = apiInstance.PdfWebapiExtractPost(files, inputType, outputType);
+                // Extract Tables from Document.
+                FileResponse result = apiInstance.PdfWebapiExtractPost(files, documentPassword, inputType, outputType);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -3438,10 +3480,11 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 try {
-    FileResponse result = apiInstance.pdfWebapiExtractPost(files, inputType, outputType);
+    FileResponse result = apiInstance.pdfWebapiExtractPost(files, documentPassword, inputType, outputType);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiExtractPost");
@@ -3457,10 +3500,11 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiExtractPost(files, inputType, outputType)
+    val result : FileResponse = apiInstance.pdfWebapiExtractPost(files, documentPassword, inputType, outputType)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiExtractPost")
@@ -3491,6 +3535,7 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $keep\_images\_as\_is = true; // bool | Indicates whether the images should be kept as is.
 $resize\_to\_image = 56; // int | The index of the image to resize the other images to.
 $streched = true; // bool | 
@@ -3499,7 +3544,7 @@ $height = 56; // int | The height of the GIF.
 $frame\_times = "frame\_times\_example"; // string | The times for each frame in the GIF.
 
 try {
-    $result = $apiInstance->pdfWebapiGifPost($files, $keep\_images\_as\_is, $resize\_to\_image, $streched, $width, $height, $frame\_times);
+    $result = $apiInstance->pdfWebapiGifPost($files, $document\_password, $keep\_images\_as\_is, $resize\_to\_image, $streched, $width, $height, $frame\_times);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiGifPost: ', $e->getMessage(), PHP\_EOL;
@@ -3524,6 +3569,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var keepImagesAsIs = true;  // bool? | Indicates whether the images should be kept as is. (optional) 
             var resizeToImage = 56;  // int? | The index of the image to resize the other images to. (optional) 
             var streched = true;  // bool? |  (optional) 
@@ -3534,7 +3580,7 @@ namespace Example
             try
             {
                 // Make GIF.
-                FileResponse result = apiInstance.PdfWebapiGifPost(files, keepImagesAsIs, resizeToImage, streched, width, height, frameTimes);
+                FileResponse result = apiInstance.PdfWebapiGifPost(files, documentPassword, keepImagesAsIs, resizeToImage, streched, width, height, frameTimes);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -3555,6 +3601,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 Boolean keepImagesAsIs = true; // Boolean | Indicates whether the images should be kept as is.
 Integer resizeToImage = 56; // Integer | The index of the image to resize the other images to.
 Boolean streched = true; // Boolean | 
@@ -3562,7 +3609,7 @@ Integer width = 56; // Integer | The width of the GIF.
 Integer height = 56; // Integer | The height of the GIF.
 String frameTimes = "frameTimes\_example"; // String | The times for each frame in the GIF.
 try {
-    FileResponse result = apiInstance.pdfWebapiGifPost(files, keepImagesAsIs, resizeToImage, streched, width, height, frameTimes);
+    FileResponse result = apiInstance.pdfWebapiGifPost(files, documentPassword, keepImagesAsIs, resizeToImage, streched, width, height, frameTimes);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiGifPost");
@@ -3578,6 +3625,7 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val keepImagesAsIs : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the images should be kept as is.
 val resizeToImage : kotlin.Int = 56 // kotlin.Int | The index of the image to resize the other images to.
 val streched : kotlin.Boolean = true // kotlin.Boolean | 
@@ -3585,7 +3633,7 @@ val width : kotlin.Int = 56 // kotlin.Int | The width of the GIF.
 val height : kotlin.Int = 56 // kotlin.Int | The height of the GIF.
 val frameTimes : kotlin.String = frameTimes\_example // kotlin.String | The times for each frame in the GIF.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiGifPost(files, keepImagesAsIs, resizeToImage, streched, width, height, frameTimes)
+    val result : FileResponse = apiInstance.pdfWebapiGifPost(files, documentPassword, keepImagesAsIs, resizeToImage, streched, width, height, frameTimes)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiGifPost")
@@ -3621,12 +3669,13 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 $alg = new \\Swagger\\Client\\Model\\HashAlgorithm(); // \\Swagger\\Client\\Model\\HashAlgorithm | The hashing algorithm to use.
 
 try {
-    $result = $apiInstance->pdfWebapiHashPost($files, $input\_type, $output\_type, $alg);
+    $result = $apiInstance->pdfWebapiHashPost($files, $document\_password, $input\_type, $output\_type, $alg);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiHashPost: ', $e->getMessage(), PHP\_EOL;
@@ -3651,14 +3700,15 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var alg = HashAlgorithm.SHA1; // HashAlgorithm | The hashing algorithm to use. (optional) 
 
             try
             {
-                // Calculate document hash.
-                FileResponse result = apiInstance.PdfWebapiHashPost(files, inputType, outputType, alg);
+                // Calculate Document Hash.
+                FileResponse result = apiInstance.PdfWebapiHashPost(files, documentPassword, inputType, outputType, alg);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -3679,11 +3729,12 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 HashAlgorithm alg = HashAlgorithm.SHA1; // HashAlgorithm | The hashing algorithm to use.
 try {
-    FileResponse result = apiInstance.pdfWebapiHashPost(files, inputType, outputType, alg);
+    FileResponse result = apiInstance.pdfWebapiHashPost(files, documentPassword, inputType, outputType, alg);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiHashPost");
@@ -3699,11 +3750,12 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val alg : HashAlgorithm =  // HashAlgorithm | The hashing algorithm to use.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiHashPost(files, inputType, outputType, alg)
+    val result : FileResponse = apiInstance.pdfWebapiHashPost(files, documentPassword, inputType, outputType, alg)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiHashPost")
@@ -3740,11 +3792,11 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     // This is optional, ``GuzzleHttp\\Client`` will be used as default.
     new GuzzleHttp\\Client()
 );
+$password = "password\_example"; // string | 
 $files = array("files\_example"); // string[] | 
-$passw = "passw\_example"; // string | The password required to lock the resource.
 
 try {
-    $result = $apiInstance->pdfWebapiLockPost($files, $passw);
+    $result = $apiInstance->pdfWebapiLockPost($password, $files);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiLockPost: ', $e->getMessage(), PHP\_EOL;
@@ -3769,12 +3821,12 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
-            var passw = passw\_example;  // string | The password required to lock the resource. (optional) 
-
+            var password = password\_example;  // string |  (optional) 
+            
             try
             {
                 // Lock document.
-                FileResponse result = apiInstance.PdfWebapiLockPost(files, passw);
+                FileResponse result = apiInstance.PdfWebapiLockPost(password, files);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -3794,10 +3846,10 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
+String password = "password\_example"; // String | 
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
-String passw = "passw\_example"; // String | The password required to lock the resource.
 try {
-    FileResponse result = apiInstance.pdfWebapiLockPost(files, passw);
+    FileResponse result = apiInstance.pdfWebapiLockPost(password, files);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiLockPost");
@@ -3812,10 +3864,10 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
+val password : kotlin.String = password\_example // kotlin.String | 
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
-val passw : kotlin.String = passw\_example // kotlin.String | The password required to lock the resource.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiLockPost(files, passw)
+    val result : FileResponse = apiInstance.pdfWebapiLockPost(password, files)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiLockPost")
@@ -3864,6 +3916,7 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $output\_type = "output\_type\_example"; // string | The desired format for the output file.
 $merge\_type = new \\Swagger\\Client\\Model\\MergeImageType(); // \\Swagger\\Client\\Model\\MergeImageType | Type of merger operation.
@@ -3873,7 +3926,7 @@ $page\_size = new \\Swagger\\Client\\Model\\PageSize(); // \\Swagger\\Client\\Mo
 $dc\_is\_landscape = true; // bool | Indicates whether the output file should be in landscape orientation.
 
 try {
-    $result = $apiInstance->pdfWebapiMergePost($files, $input\_type, $output\_type, $merge\_type, $horizontal, $vertical, $page\_size, $dc\_is\_landscape);
+    $result = $apiInstance->pdfWebapiMergePost($files, $document\_password, $input\_type, $output\_type, $merge\_type, $horizontal, $vertical, $page\_size, $dc\_is\_landscape);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiMergePost: ', $e->getMessage(), PHP\_EOL;
@@ -3898,6 +3951,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output file. (optional) 
             var mergeType = MergeImageType.Vertical; // MergeImageType | Type of merger operation. (optional) 
@@ -3908,8 +3962,8 @@ namespace Example
 
             try
             {
-                // Merge documents.
-                FileResponse result = apiInstance.PdfWebapiMergePost(files, inputType, outputType, mergeType, horizontal, vertical, pageSize, dcIsLandscape);
+                // Merge Documents.
+                FileResponse result = apiInstance.PdfWebapiMergePost(files, documentPassword, inputType, outputType, mergeType, horizontal, vertical, pageSize, dcIsLandscape);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -3930,6 +3984,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output file.
 MergeImageType mergeType = MergeImageType.VERTICAL; // MergeImageType | Type of merger operation.
@@ -3938,7 +3993,7 @@ Integer vertical = 56; // Integer | The number of images to merge vertically, if
 PageSize pageSize = PageSize.A4; // PageSize | The page size for the output file, if applicable.
 Boolean dcIsLandscape = true; // Boolean | Indicates whether the output file should be in landscape orientation.
 try {
-    FileResponse result = apiInstance.pdfWebapiMergePost(files, inputType, outputType, mergeType, horizontal, vertical, pageSize, dcIsLandscape);
+    FileResponse result = apiInstance.pdfWebapiMergePost(files, documentPassword, inputType, outputType, mergeType, horizontal, vertical, pageSize, dcIsLandscape);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiMergePost");
@@ -3954,6 +4009,7 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output file.
 val mergeType : MergeImageType =  // MergeImageType | Type of merger operation.
@@ -3962,7 +4018,7 @@ val vertical : kotlin.Int = 56 // kotlin.Int | The number of images to merge ver
 val pageSize : PageSize =  // PageSize | The page size for the output file, if applicable.
 val dcIsLandscape : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the output file should be in landscape orientation.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiMergePost(files, inputType, outputType, mergeType, horizontal, vertical, pageSize, dcIsLandscape)
+    val result : FileResponse = apiInstance.pdfWebapiMergePost(files, documentPassword, inputType, outputType, mergeType, horizontal, vertical, pageSize, dcIsLandscape)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiMergePost")
@@ -3998,12 +4054,13 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $operation = new \\Swagger\\Client\\Model\\MetadataOperation(); // \\Swagger\\Client\\Model\\MetadataOperation | The operation to perform on the metadata.
 $folder = "folder\_example"; // string | The folder where the files are located.
 $name = "name\_example"; // string | The name of the file to perform the operation on.
 
 try {
-    $result = $apiInstance->pdfWebapiMetadataPost($files, $operation, $folder, $name);
+    $result = $apiInstance->pdfWebapiMetadataPost($files, $document\_password, $operation, $folder, $name);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiMetadataPost: ', $e->getMessage(), PHP\_EOL;
@@ -4029,13 +4086,14 @@ namespace Example
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var operation = MetadataOperation.Get; // MetadataOperation | The operation to perform on the metadata. (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var folder = folder\_example;  // string | The folder where the files are located. (optional) 
             var name = name\_example;  // string | The name of the file to perform the operation on. (optional) 
 
             try
             {
-                // Read and change document metadata.
-                FileResponse result = apiInstance.PdfWebapiMetadataPost(files, operation, folder, name);
+                // Read and Change Document Metadata.
+                FileResponse result = apiInstance.PdfWebapiMetadataPost(files, documentPassword, operation, folder, name);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -4056,11 +4114,12 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 MetadataOperation operation = new MetadataOperation(); // MetadataOperation | The operation to perform on the metadata.
 String folder = "folder\_example"; // String | The folder where the files are located.
 String name = "name\_example"; // String | The name of the file to perform the operation on.
 try {
-    FileResponse result = apiInstance.pdfWebapiMetadataPost(files, operation, folder, name);
+    FileResponse result = apiInstance.pdfWebapiMetadataPost(files, documentPassword, operation, folder, name);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiMetadataPost");
@@ -4076,11 +4135,12 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val operation : MetadataOperation =  // MetadataOperation | The operation to perform on the metadata.
 val folder : kotlin.String = folder\_example // kotlin.String | The folder where the files are located.
 val name : kotlin.String = name\_example // kotlin.String | The name of the file to perform the operation on.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiMetadataPost(files, operation, folder, name)
+    val result : FileResponse = apiInstance.pdfWebapiMetadataPost(files, documentPassword, operation, folder, name)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiMetadataPost")
@@ -4116,12 +4176,13 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $remove = "remove\_example"; // string | The pages to remove from the document.
 $move = "move\_example"; // string | The pages to move within the document.
 
 try {
-    $result = $apiInstance->pdfWebapiOrganizePost($files, $input\_type, $remove, $move);
+    $result = $apiInstance->pdfWebapiOrganizePost($files, $document\_password, $input\_type, $remove, $move);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiOrganizePost: ', $e->getMessage(), PHP\_EOL;
@@ -4146,14 +4207,15 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var remove = remove\_example;  // string | The pages to remove from the document. (optional) 
             var move = move\_example;  // string | The pages to move within the document. (optional) 
 
             try
             {
-                // Organize document pages.
-                FileResponse result = apiInstance.PdfWebapiOrganizePost(files, inputType, remove, move);
+                // Organize Document Pages.
+                FileResponse result = apiInstance.PdfWebapiOrganizePost(files, documentPassword, inputType, remove, move);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -4174,11 +4236,12 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String remove = "remove\_example"; // String | The pages to remove from the document.
 String move = "move\_example"; // String | The pages to move within the document.
 try {
-    FileResponse result = apiInstance.pdfWebapiOrganizePost(files, inputType, remove, move);
+    FileResponse result = apiInstance.pdfWebapiOrganizePost(files, documentPassword, inputType, remove, move);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiOrganizePost");
@@ -4194,11 +4257,12 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val remove : kotlin.String = remove\_example // kotlin.String | The pages to remove from the document.
 val move : kotlin.String = move\_example // kotlin.String | The pages to move within the document.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiOrganizePost(files, inputType, remove, move)
+    val result : FileResponse = apiInstance.pdfWebapiOrganizePost(files, documentPassword, inputType, remove, move)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiOrganizePost")
@@ -4234,9 +4298,10 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 
 try {
-    $result = $apiInstance->pdfWebapiParsePost($files);
+    $result = $apiInstance->pdfWebapiParsePost($files, $document\_password);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiParsePost: ', $e->getMessage(), PHP\_EOL;
@@ -4261,11 +4326,12 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
 
             try
             {
-                // Parse document.
-                FileResponse result = apiInstance.PdfWebapiParsePost(files);
+                // Parse Document.
+                FileResponse result = apiInstance.PdfWebapiParsePost(files, documentPassword);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -4286,8 +4352,9 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 try {
-    FileResponse result = apiInstance.pdfWebapiParsePost(files);
+    FileResponse result = apiInstance.pdfWebapiParsePost(files, documentPassword);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiParsePost");
@@ -4303,8 +4370,9 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 try {
-    val result : FileResponse = apiInstance.pdfWebapiParsePost(files)
+    val result : FileResponse = apiInstance.pdfWebapiParsePost(files, documentPassword)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiParsePost")
@@ -4340,6 +4408,7 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $search\_query = "search\_query\_example"; // string | The text to search for and redact.
 $replace\_text = "replace\_text\_example"; // string | The text to replace the found text with.
 $case\_sensitive = true; // bool | Indicates whether the search should be case-sensitive.
@@ -4348,7 +4417,7 @@ $comments = true; // bool | Indicates whether comments should be redacted.
 $metadata = true; // bool | Indicates whether metadata should be redacted.
 
 try {
-    $result = $apiInstance->pdfWebapiRedactPost($files, $search\_query, $replace\_text, $case\_sensitive, $text, $comments, $metadata);
+    $result = $apiInstance->pdfWebapiRedactPost($files, $document\_password, $search\_query, $replace\_text, $case\_sensitive, $text, $comments, $metadata);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiRedactPost: ', $e->getMessage(), PHP\_EOL;
@@ -4373,6 +4442,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var searchQuery = searchQuery\_example;  // string | The text to search for and redact. (optional) 
             var replaceText = replaceText\_example;  // string | The text to replace the found text with. (optional) 
             var caseSensitive = true;  // bool? | Indicates whether the search should be case-sensitive. (optional) 
@@ -4382,8 +4452,8 @@ namespace Example
 
             try
             {
-                // Redact document text.
-                FileResponse result = apiInstance.PdfWebapiRedactPost(files, searchQuery, replaceText, caseSensitive, text, comments, metadata);
+                // Redact Document Text.
+                FileResponse result = apiInstance.PdfWebapiRedactPost(files, documentPassword, searchQuery, replaceText, caseSensitive, text, comments, metadata);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -4404,6 +4474,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String searchQuery = "searchQuery\_example"; // String | The text to search for and redact.
 String replaceText = "replaceText\_example"; // String | The text to replace the found text with.
 Boolean caseSensitive = true; // Boolean | Indicates whether the search should be case-sensitive.
@@ -4411,7 +4482,7 @@ Boolean text = true; // Boolean | Indicates whether text should be redacted.
 Boolean comments = true; // Boolean | Indicates whether comments should be redacted.
 Boolean metadata = true; // Boolean | Indicates whether metadata should be redacted.
 try {
-    FileResponse result = apiInstance.pdfWebapiRedactPost(files, searchQuery, replaceText, caseSensitive, text, comments, metadata);
+    FileResponse result = apiInstance.pdfWebapiRedactPost(files, documentPassword, searchQuery, replaceText, caseSensitive, text, comments, metadata);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiRedactPost");
@@ -4427,6 +4498,7 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val searchQuery : kotlin.String = searchQuery\_example // kotlin.String | The text to search for and redact.
 val replaceText : kotlin.String = replaceText\_example // kotlin.String | The text to replace the found text with.
 val caseSensitive : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the search should be case-sensitive.
@@ -4434,7 +4506,7 @@ val text : kotlin.Boolean = true // kotlin.Boolean | Indicates whether text shou
 val comments : kotlin.Boolean = true // kotlin.Boolean | Indicates whether comments should be redacted.
 val metadata : kotlin.Boolean = true // kotlin.Boolean | Indicates whether metadata should be redacted.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiRedactPost(files, searchQuery, replaceText, caseSensitive, text, comments, metadata)
+    val result : FileResponse = apiInstance.pdfWebapiRedactPost(files, documentPassword, searchQuery, replaceText, caseSensitive, text, comments, metadata)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiRedactPost")
@@ -4470,9 +4542,10 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 
 try {
-    $result = $apiInstance->pdfWebapiRemovePost($files);
+    $result = $apiInstance->pdfWebapiRemovePost($files, $document\_password);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiRemovePost: ', $e->getMessage(), PHP\_EOL;
@@ -4497,11 +4570,12 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
 
             try
             {
-                // Remove document annotations.
-                FileResponse result = apiInstance.PdfWebapiRemovePost(files);
+                // Remove Document Annotations.
+                FileResponse result = apiInstance.PdfWebapiRemovePost(files, documentPassword);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -4522,8 +4596,9 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 try {
-    FileResponse result = apiInstance.pdfWebapiRemovePost(files);
+    FileResponse result = apiInstance.pdfWebapiRemovePost(files, documentPassword);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiRemovePost");
@@ -4539,8 +4614,9 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 try {
-    val result : FileResponse = apiInstance.pdfWebapiRemovePost(files)
+    val result : FileResponse = apiInstance.pdfWebapiRemovePost(files, documentPassword)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiRemovePost")
@@ -4581,12 +4657,13 @@ $left = 56; // int |
 $bottom = 56; // int | 
 $right = 56; // int | 
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $is\_all\_pages = true; // bool | Indicates whether the watermark should be removed from all pages.
 $watermark\_type = new \\Swagger\\Client\\Model\\WatermarkType(); // \\Swagger\\Client\\Model\\WatermarkType | The type of watermark to remove.
 $remove\_range = "remove\_range\_example"; // string | The range of pages to remove the watermark from.
 
 try {
-    $result = $apiInstance->pdfWebapiRemoveWatermarkPost($watermark\_text, $top, $left, $bottom, $right, $files, $is\_all\_pages, $watermark\_type, $remove\_range);
+    $result = $apiInstance->pdfWebapiRemoveWatermarkPost($watermark\_text, $top, $left, $bottom, $right, $files, $document\_password, $is\_all\_pages, $watermark\_type, $remove\_range);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiRemoveWatermarkPost: ', $e->getMessage(), PHP\_EOL;
@@ -4616,14 +4693,15 @@ namespace Example
             var bottom = 56;  // int? |  (optional) 
             var right = 56;  // int? |  (optional) 
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var isAllPages = true;  // bool? | Indicates whether the watermark should be removed from all pages. (optional) 
             var watermarkType = WatermarkType.Artifact; // WatermarkType | The type of watermark to remove. (optional) 
             var removeRange = removeRange\_example;  // string | The range of pages to remove the watermark from. (optional) 
 
             try
             {
-                // Removes document watermark.
-                FileResponse result = apiInstance.PdfWebapiRemoveWatermarkPost(watermarkText, top, left, bottom, right, files, isAllPages, watermarkType, removeRange);
+                // Remove Document Watermark.
+                FileResponse result = apiInstance.PdfWebapiRemoveWatermarkPost(watermarkText, top, left, bottom, right, files, documentPassword, isAllPages, watermarkType, removeRange);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -4649,11 +4727,12 @@ Integer left = 56; // Integer |
 Integer bottom = 56; // Integer | 
 Integer right = 56; // Integer | 
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 Boolean isAllPages = true; // Boolean | Indicates whether the watermark should be removed from all pages.
 WatermarkType watermarkType = new WatermarkType(); // WatermarkType | The type of watermark to remove.
 String removeRange = "removeRange\_example"; // String | The range of pages to remove the watermark from.
 try {
-    FileResponse result = apiInstance.pdfWebapiRemoveWatermarkPost(watermarkText, top, left, bottom, right, files, isAllPages, watermarkType, removeRange);
+    FileResponse result = apiInstance.pdfWebapiRemoveWatermarkPost(watermarkText, top, left, bottom, right, files, documentPassword, isAllPages, watermarkType, removeRange);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiRemoveWatermarkPost");
@@ -4674,11 +4753,12 @@ val left : kotlin.Int = 56 // kotlin.Int |
 val bottom : kotlin.Int = 56 // kotlin.Int | 
 val right : kotlin.Int = 56 // kotlin.Int | 
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val isAllPages : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the watermark should be removed from all pages.
 val watermarkType : WatermarkType =  // WatermarkType | The type of watermark to remove.
 val removeRange : kotlin.String = removeRange\_example // kotlin.String | The range of pages to remove the watermark from.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiRemoveWatermarkPost(watermarkText, top, left, bottom, right, files, isAllPages, watermarkType, removeRange)
+    val result : FileResponse = apiInstance.pdfWebapiRemoveWatermarkPost(watermarkText, top, left, bottom, right, files, documentPassword, isAllPages, watermarkType, removeRange)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiRemoveWatermarkPost")
@@ -4714,10 +4794,11 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $remove\_range = "remove\_range\_example"; // string | The range of pages to remove from the files.
 
 try {
-    $result = $apiInstance->pdfWebapiRemovepagesPost($files, $remove\_range);
+    $result = $apiInstance->pdfWebapiRemovepagesPost($files, $document\_password, $remove\_range);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiRemovepagesPost: ', $e->getMessage(), PHP\_EOL;
@@ -4742,12 +4823,13 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var removeRange = removeRange\_example;  // string | The range of pages to remove from the files. (optional) 
 
             try
             {
-                // Remove pages from document.
-                FileResponse result = apiInstance.PdfWebapiRemovepagesPost(files, removeRange);
+                // Remove Pages from Document.
+                FileResponse result = apiInstance.PdfWebapiRemovepagesPost(files, documentPassword, removeRange);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -4768,9 +4850,10 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String removeRange = "removeRange\_example"; // String | The range of pages to remove from the files.
 try {
-    FileResponse result = apiInstance.pdfWebapiRemovepagesPost(files, removeRange);
+    FileResponse result = apiInstance.pdfWebapiRemovepagesPost(files, documentPassword, removeRange);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiRemovepagesPost");
@@ -4786,9 +4869,10 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val removeRange : kotlin.String = removeRange\_example // kotlin.String | The range of pages to remove from the files.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiRemovepagesPost(files, removeRange)
+    val result : FileResponse = apiInstance.pdfWebapiRemovepagesPost(files, documentPassword, removeRange)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiRemovepagesPost")
@@ -4824,9 +4908,10 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 
 try {
-    $result = $apiInstance->pdfWebapiRepairPost($files);
+    $result = $apiInstance->pdfWebapiRepairPost($files, $document\_password);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiRepairPost: ', $e->getMessage(), PHP\_EOL;
@@ -4851,11 +4936,12 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
 
             try
             {
-                // Repair document.
-                FileResponse result = apiInstance.PdfWebapiRepairPost(files);
+                // Repair Document.
+                FileResponse result = apiInstance.PdfWebapiRepairPost(files, documentPassword);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -4876,8 +4962,9 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 try {
-    FileResponse result = apiInstance.pdfWebapiRepairPost(files);
+    FileResponse result = apiInstance.pdfWebapiRepairPost(files, documentPassword);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiRepairPost");
@@ -4893,8 +4980,9 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 try {
-    val result : FileResponse = apiInstance.pdfWebapiRepairPost(files)
+    val result : FileResponse = apiInstance.pdfWebapiRepairPost(files, documentPassword)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiRepairPost")
@@ -4930,6 +5018,7 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 $resize\_type = new \\Swagger\\Client\\Model\\ResizeType(); // \\Swagger\\Client\\Model\\ResizeType | The type of resizing to apply.
@@ -4942,7 +5031,7 @@ $use\_proportions = true; // bool | Indicates whether to maintain the aspect rat
 $page\_size = new \\Swagger\\Client\\Model\\ResizePageSize(); // \\Swagger\\Client\\Model\\ResizePageSize | The page size to use for the resized files.
 
 try {
-    $result = $apiInstance->pdfWebapiResizePost($files, $input\_type, $output\_type, $resize\_type, $preset\_type, $preset\_size, $width, $height, $percentage, $use\_proportions, $page\_size);
+    $result = $apiInstance->pdfWebapiResizePost($files, $document\_password, $input\_type, $output\_type, $resize\_type, $preset\_type, $preset\_size, $width, $height, $percentage, $use\_proportions, $page\_size);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiResizePost: ', $e->getMessage(), PHP\_EOL;
@@ -4967,6 +5056,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var resizeType = ResizeType.Percentage; // ResizeType | The type of resizing to apply. (optional) 
@@ -4980,8 +5070,8 @@ namespace Example
 
             try
             {
-                // Resize document.
-                FileResponse result = apiInstance.PdfWebapiResizePost(files, inputType, outputType, resizeType, presetType, presetSize, width, height, percentage, useProportions, pageSize);
+                // Resize Document.
+                FileResponse result = apiInstance.PdfWebapiResizePost(files, documentPassword, inputType, outputType, resizeType, presetType, presetSize, width, height, percentage, useProportions, pageSize);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -5002,6 +5092,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 ResizeType resizeType = ResizeType.PERCENTAGE; // ResizeType | The type of resizing to apply.
@@ -5013,7 +5104,7 @@ Integer percentage = 56; // Integer | The percentage to resize the files by.
 Boolean useProportions = true; // Boolean | Indicates whether to maintain the aspect ratio when resizing.
 ResizePageSize pageSize = ResizePageSize.A4; // ResizePageSize | The page size to use for the resized files.
 try {
-    FileResponse result = apiInstance.pdfWebapiResizePost(files, inputType, outputType, resizeType, presetType, presetSize, width, height, percentage, useProportions, pageSize);
+    FileResponse result = apiInstance.pdfWebapiResizePost(files, documentPassword, inputType, outputType, resizeType, presetType, presetSize, width, height, percentage, useProportions, pageSize);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiResizePost");
@@ -5029,6 +5120,7 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val resizeType : ResizeType =  // ResizeType | The type of resizing to apply.
@@ -5040,7 +5132,7 @@ val percentage : kotlin.Int = 56 // kotlin.Int | The percentage to resize the fi
 val useProportions : kotlin.Boolean = true // kotlin.Boolean | Indicates whether to maintain the aspect ratio when resizing.
 val pageSize : ResizePageSize =  // ResizePageSize | The page size to use for the resized files.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiResizePost(files, inputType, outputType, resizeType, presetType, presetSize, width, height, percentage, useProportions, pageSize)
+    val result : FileResponse = apiInstance.pdfWebapiResizePost(files, documentPassword, inputType, outputType, resizeType, presetType, presetSize, width, height, percentage, useProportions, pageSize)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiResizePost")
@@ -5076,12 +5168,13 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $angle = new \\Swagger\\Client\\Model\\RotateAngle(); // \\Swagger\\Client\\Model\\RotateAngle | The angle by which to rotate the files.
 $rotate\_type = new \\Swagger\\Client\\Model\\RotateType(); // \\Swagger\\Client\\Model\\RotateType | The type of rotation to perform.
 $page\_num = "page\_num\_example"; // string | The page number to rotate, if applicable.
 
 try {
-    $result = $apiInstance->pdfWebapiRotatePost($files, $angle, $rotate\_type, $page\_num);
+    $result = $apiInstance->pdfWebapiRotatePost($files, $document\_password, $angle, $rotate\_type, $page\_num);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiRotatePost: ', $e->getMessage(), PHP\_EOL;
@@ -5107,13 +5200,14 @@ namespace Example
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var angle = RotateAngle.On90; // RotateAngle | The angle by which to rotate the files. (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var rotateType = RotateType.S; // RotateType | The type of rotation to perform. (optional) 
             var pageNum = pageNum\_example;  // string | The page number to rotate, if applicable. (optional) 
 
             try
             {
-                // Rotate document.
-                FileResponse result = apiInstance.PdfWebapiRotatePost(files, angle, rotateType, pageNum);
+                // Rotate Document.
+                FileResponse result = apiInstance.PdfWebapiRotatePost(files, documentPassword, angle, rotateType, pageNum);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -5135,10 +5229,11 @@ namespace Example
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 RotateAngle angle = RotateAngle.ON90; // RotateAngle | The angle by which to rotate the files.
+String documentPassword = "documentPassword\_example"; // String | 
 RotateType rotateType = RotateType.A; // RotateType | The type of rotation to perform.
 String pageNum = "pageNum\_example"; // String | The page number to rotate, if applicable.
 try {
-    FileResponse result = apiInstance.pdfWebapiRotatePost(files, angle, rotateType, pageNum);
+    FileResponse result = apiInstance.pdfWebapiRotatePost(files, documentPassword, angle, rotateType, pageNum);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiRotatePost");
@@ -5154,11 +5249,12 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val angle : RotateAngle =  // RotateAngle | The angle by which to rotate the files.
 val rotateType : RotateType =  // RotateType | The type of rotation to perform.
 val pageNum : kotlin.String = pageNum\_example // kotlin.String | The page number to rotate, if applicable.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiRotatePost(files, angle, rotateType, pageNum)
+    val result : FileResponse = apiInstance.pdfWebapiRotatePost(files, documentPassword, angle, rotateType, pageNum)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiRotatePost")
@@ -5194,10 +5290,11 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $query = "query\_example"; // string | The text to search for within the files.
 
 try {
-    $result = $apiInstance->pdfWebapiSearchPost($files, $query);
+    $result = $apiInstance->pdfWebapiSearchPost($files, $document\_password, $query);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiSearchPost: ', $e->getMessage(), PHP\_EOL;
@@ -5222,12 +5319,13 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var query = query\_example;  // string | The text to search for within the files. (optional) 
 
             try
             {
-                // Search document text.
-                FileResponse result = apiInstance.PdfWebapiSearchPost(files, query);
+                // Search Document Text.
+                FileResponse result = apiInstance.PdfWebapiSearchPost(files, documentPassword, query);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -5248,9 +5346,10 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String query = "query\_example"; // String | The text to search for within the files.
 try {
-    FileResponse result = apiInstance.pdfWebapiSearchPost(files, query);
+    FileResponse result = apiInstance.pdfWebapiSearchPost(files, documentPassword, query);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiSearchPost");
@@ -5266,9 +5365,10 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val query : kotlin.String = query\_example // kotlin.String | The text to search for within the files.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiSearchPost(files, query)
+    val result : FileResponse = apiInstance.pdfWebapiSearchPost(files, documentPassword, query)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiSearchPost")
@@ -5336,7 +5436,7 @@ namespace Example
 
             try
             {
-                // Make scanned pdf searchable.
+                // Make Scanned PDF Searchable.
                 FileResponse result = apiInstance.PdfWebapiSearchablePost(files, lang);
                 Debug.WriteLine(result);
             }
@@ -5417,12 +5517,13 @@ $image = "image\_example"; // string |
 $text = "text\_example"; // string | 
 $text\_color = "text\_color\_example"; // string | 
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 $signature\_type = new \\Swagger\\Client\\Model\\SignatureType(); // \\Swagger\\Client\\Model\\SignatureType | The type of signature to add.
 
 try {
-    $result = $apiInstance->pdfWebapiSignaturePost($image, $text, $text\_color, $files, $input\_type, $output\_type, $signature\_type);
+    $result = $apiInstance->pdfWebapiSignaturePost($image, $text, $text\_color, $files, $document\_password, $input\_type, $output\_type, $signature\_type);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiSignaturePost: ', $e->getMessage(), PHP\_EOL;
@@ -5450,14 +5551,15 @@ namespace Example
             var text = text\_example;  // string |  (optional) 
             var textColor = textColor\_example;  // string |  (optional) 
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var signatureType = SignatureType.Image; // SignatureType | The type of signature to add. (optional) 
 
             try
             {
-                // Add signature to document.
-                FileResponse result = apiInstance.PdfWebapiSignaturePost(image, text, textColor, files, inputType, outputType, signatureType);
+                // Add Signature to Document.
+                FileResponse result = apiInstance.PdfWebapiSignaturePost(image, text, textColor, files, documentPassword, inputType, outputType, signatureType);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -5481,11 +5583,12 @@ String image = "image\_example"; // String |
 String text = "text\_example"; // String | 
 String textColor = "textColor\_example"; // String | 
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 SignatureType signatureType = SignatureType.TEXT; // SignatureType | The type of signature to add.
 try {
-    FileResponse result = apiInstance.pdfWebapiSignaturePost(image, text, textColor, files, inputType, outputType, signatureType);
+    FileResponse result = apiInstance.pdfWebapiSignaturePost(image, text, textColor, files, documentPassword, inputType, outputType, signatureType);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiSignaturePost");
@@ -5504,11 +5607,12 @@ val image : kotlin.String = image\_example // kotlin.String |
 val text : kotlin.String = text\_example // kotlin.String | 
 val textColor : kotlin.String = textColor\_example // kotlin.String | 
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val signatureType : SignatureType =  // SignatureType | The type of signature to add.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiSignaturePost(image, text, textColor, files, inputType, outputType, signatureType)
+    val result : FileResponse = apiInstance.pdfWebapiSignaturePost(image, text, textColor, files, documentPassword, inputType, outputType, signatureType)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiSignaturePost")
@@ -5544,11 +5648,13 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
+$input\_type = "input\_type\_example"; // string | The format of the input files.
 $split\_type = new \\Swagger\\Client\\Model\\SplitDocType(); // \\Swagger\\Client\\Model\\SplitDocType | The type of splitting to be performed.
-$pars = "pars\_example"; // string | Optional page rage for the splitting operation.
+$pairs = "pairs\_example"; // string | Optional page rage for the splitting operation.
 
 try {
-    $result = $apiInstance->pdfWebapiSplitdocPost($files, $split\_type, $pars);
+    $result = $apiInstance->pdfWebapiSplitdocPost($files, $document\_password, $input\_type, $split\_type, $pairs);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiSplitdocPost: ', $e->getMessage(), PHP\_EOL;
@@ -5574,12 +5680,14 @@ namespace Example
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var splitType = SplitDocType.AllPages; // SplitDocType | The type of splitting to be performed. (optional) 
-            var pars = pars\_example;  // string | Optional page rage for the splitting operation. (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
+            var inputType = inputType\_example;  // string | The format of the input files. (optional) 
+            var pairs = pairs\_example;  // string | Optional page rage for the splitting operation. (optional) 
 
             try
             {
-                // Split document.
-                FileResponse result = apiInstance.PdfWebapiSplitdocPost(files, splitType, pars);
+                // Split Document.
+                FileResponse result = apiInstance.PdfWebapiSplitdocPost(files, documentPassword, inputType, splitType, pairs);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -5601,9 +5709,11 @@ namespace Example
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 SplitDocType splitType = SplitDocType.ODDEVEN; // SplitDocType | The type of splitting to be performed.
-String pars = "pars\_example"; // String | Optional page rage for the splitting operation.
+String documentPassword = "documentPassword\_example"; // String | 
+String inputType = "inputType\_example"; // String | The format of the input files.
+String pairs = "pairs\_example"; // String | Optional page rage for the splitting operation.
 try {
-    FileResponse result = apiInstance.pdfWebapiSplitdocPost(files, splitType, pars);
+    FileResponse result = apiInstance.pdfWebapiSplitdocPost(files, documentPassword, inputType, splitType, pairs);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiSplitdocPost");
@@ -5619,10 +5729,12 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val splitType : SplitDocType =  // SplitDocType | The type of splitting to be performed.
-val pars : kotlin.String = pars\_example // kotlin.String | Optional page rage for the splitting operation.
+val pairs : kotlin.String = pairs\_example // kotlin.String | Optional page rage for the splitting operation.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiSplitdocPost(files, splitType, pars)
+    val result : FileResponse = apiInstance.pdfWebapiSplitdocPost(files, documentPassword, inputType, splitType, pairs)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiSplitdocPost")
@@ -5658,11 +5770,13 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
+$input\_type = "input\_type\_example"; // string | The format of the input files.
 $split\_type = new \\Swagger\\Client\\Model\\SplitDocType(); // \\Swagger\\Client\\Model\\SplitDocType | The type of splitting to be performed.
-$pars = "pars\_example"; // string | Optional page rage for the splitting operation.
+$pairs = "pairs\_example"; // string | Optional page rage for the splitting operation.
 
 try {
-    $result = $apiInstance->pdfWebapiSplitdocPost($files, $split\_type, $pars);
+    $result = $apiInstance->pdfWebapiSplitdocPost($files, $document\_password, $input\_type, $split\_type, $pairs);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiSplitdocPost: ', $e->getMessage(), PHP\_EOL;
@@ -5688,12 +5802,14 @@ namespace Example
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
             var splitType = SplitDocType.AllPages; // SplitDocType | The type of splitting to be performed. (optional) 
-            var pars = pars\_example;  // string | Optional page rage for the splitting operation. (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
+            var inputType = inputType\_example;  // string | The format of the input files. (optional) 
+            var pairs = pairs\_example;  // string | Optional page rage for the splitting operation. (optional) 
 
             try
             {
-                // Split document.
-                FileResponse result = apiInstance.PdfWebapiSplitdocPost(files, splitType, pars);
+                // Split Document.
+                FileResponse result = apiInstance.PdfWebapiSplitdocPost(files, documentPassword, inputType, splitType, pairs);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -5715,9 +5831,11 @@ namespace Example
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
 SplitDocType splitType = SplitDocType.ODDEVEN; // SplitDocType | The type of splitting to be performed.
-String pars = "pars\_example"; // String | Optional page rage for the splitting operation.
+String documentPassword = "documentPassword\_example"; // String | 
+String inputType = "inputType\_example"; // String | The format of the input files.
+String pairs = "pairs\_example"; // String | Optional page rage for the splitting operation.
 try {
-    FileResponse result = apiInstance.pdfWebapiSplitdocPost(files, splitType, pars);
+    FileResponse result = apiInstance.pdfWebapiSplitdocPost(files, documentPassword, inputType, splitType, pairs);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiSplitdocPost");
@@ -5733,10 +5851,12 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
+val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val splitType : SplitDocType =  // SplitDocType | The type of splitting to be performed.
-val pars : kotlin.String = pars\_example // kotlin.String | Optional page rage for the splitting operation.
+val pairs : kotlin.String = pairs\_example // kotlin.String | Optional page rage for the splitting operation.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiSplitdocPost(files, splitType, pars)
+    val result : FileResponse = apiInstance.pdfWebapiSplitdocPost(files, documentPassword, inputType, splitType, pairs)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiSplitdocPost")
@@ -5773,11 +5893,11 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     // This is optional, ``GuzzleHttp\\Client`` will be used as default.
     new GuzzleHttp\\Client()
 );
+$password = "password\_example"; // string | 
 $files = array("files\_example"); // string[] | 
-$passw = "passw\_example"; // string | The password used in locked document.
 
 try {
-    $result = $apiInstance->pdfWebapiUnlockPost($files, $passw);
+    $result = $apiInstance->pdfWebapiUnlockPost($password, $files);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiUnlockPost: ', $e->getMessage(), PHP\_EOL;
@@ -5802,12 +5922,12 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
-            var passw = passw\_example;  // string | The password used in locked document. (optional) 
+            var password = passw\_example;  // string | The password used in locked document. (optional) 
 
             try
             {
-                // Unlock document.
-                FileResponse result = apiInstance.PdfWebapiUnlockPost(files, passw);
+                // Unlock Document.
+                FileResponse result = apiInstance.PdfWebapiUnlockPost(password, files);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -5827,10 +5947,10 @@ namespace Example
 
 
 ApiApi apiInstance = new ApiApi();
+String password = "password\_example"; // String | 
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
-String passw = "passw\_example"; // String | The password used in locked document.
 try {
-    FileResponse result = apiInstance.pdfWebapiUnlockPost(files, passw);
+    FileResponse result = apiInstance.pdfWebapiUnlockPost(password, files);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiUnlockPost");
@@ -5845,10 +5965,10 @@ try {
 //import io.swagger.client.models.\*;
 
 val apiInstance = ApiApi()
+val password : kotlin.String = password\_example // kotlin.String | 
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
-val passw : kotlin.String = passw\_example // kotlin.String | The password used in locked document.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiUnlockPost(files, passw)
+    val result : FileResponse = apiInstance.pdfWebapiUnlockPost(password, files)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiUnlockPost")
@@ -5884,11 +6004,14 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $passw = "passw\_example"; // string | 
+$initials = "initials\_example"; // string | 
+$invite = "invite\_example"; // string | 
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 
 try {
-    $result = $apiInstance->pdfWebapiEsignPost($passw, $files, $input\_type);
+    $result = $apiInstance->pdfWebapiEsignPost($passw, $initials, $invite, $files, $document\_password, $input\_type);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiEsignPost: ', $e->getMessage(), PHP\_EOL;
@@ -5914,12 +6037,14 @@ namespace Example
             var apiInstance = new ApiApi();
             var passw = passw\_example;  // string |  (optional) 
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var invite = invite\_example;  // string |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
 
             try
             {
-                // Sign document with certificate.
-                FileResponse result = apiInstance.PdfWebapiEsignPost(passw, files, inputType);
+                // Sign Document with Certificate.
+                FileResponse result = apiInstance.PdfWebapiEsignPost(passw, initials, invite, files, documentPassword, inputType);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -5940,10 +6065,13 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 String passw = "passw\_example"; // String | 
+String initials = "initials\_example"; // String | 
+String invite = "invite\_example"; // String | 
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 try {
-    FileResponse result = apiInstance.pdfWebapiEsignPost(passw, files, inputType);
+    FileResponse result = apiInstance.pdfWebapiEsignPost(passw, initials, invite, files, documentPassword, inputType);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiEsignPost");
@@ -5959,10 +6087,13 @@ try {
 
 val apiInstance = ApiApi()
 val passw : kotlin.String = passw\_example // kotlin.String | 
+val initials : kotlin.String = initials\_example // kotlin.String | 
+val invite : kotlin.String = invite\_example // kotlin.String | 
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiEsignPost(passw, files, inputType)
+    val result : FileResponse = apiInstance.pdfWebapiEsignPost(passw, initials, invite, files, documentPassword, inputType)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiEsignPost")
@@ -5998,6 +6129,7 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 $output\_type = "output\_type\_example"; // string | The desired format for the output files.
 $is\_colored = true; // bool | Indicate is watermark will be in color or grayscale.
@@ -6017,7 +6149,7 @@ $page\_from = 56; // int | The starting page number for the watermark.
 $page\_to = 56; // int | The ending page number for the watermark.
 
 try {
-    $result = $apiInstance->pdfWebapiWatermarkPost($files, $input\_type, $output\_type, $is\_colored, $is\_text, $text, $name, $size, $bold, $italic, $underlined, $color, $is\_background, $rotation, $transparency, $layer, $page\_from, $page\_to);
+    $result = $apiInstance->pdfWebapiWatermarkPost($files, $document\_password, $input\_type, $output\_type, $is\_colored, $is\_text, $text, $name, $size, $bold, $italic, $underlined, $color, $is\_background, $rotation, $transparency, $layer, $page\_from, $page\_to);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiWatermarkPost: ', $e->getMessage(), PHP\_EOL;
@@ -6042,6 +6174,7 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
             var outputType = outputType\_example;  // string | The desired format for the output files. (optional) 
             var isColored = true;  // bool? | Indicate is watermark will be in color or grayscale. (optional) 
@@ -6055,15 +6188,15 @@ namespace Example
             var color = color\_example;  // string | The color of the text or image watermark. (optional) 
             var isBackground = true;  // bool? | Indicates whether the watermark is a background watermark. (optional) 
             var rotation = 56;  // int? | The rotation angle of the watermark. (optional) 
-            var transparency = 3.4;  // float? | The transparency of the watermark. (optional) 
+            var transparency = 0.4;  // float? | The transparency of the watermark. (optional) 
             var layer = true;  // bool? | Indicates whether the watermark is a layer. (optional) 
             var pageFrom = 56;  // int? | The starting page number for the watermark. (optional) 
             var pageTo = 56;  // int? | The ending page number for the watermark. (optional) 
 
             try
             {
-                // Add watermark to document.
-                FileResponse result = apiInstance.PdfWebapiWatermarkPost(files, inputType, outputType, isColored, isText, text, name, size, bold, italic, underlined, color, isBackground, rotation, transparency, layer, pageFrom, pageTo);
+                // Add Watermark to Document.
+                FileResponse result = apiInstance.PdfWebapiWatermarkPost(files, documentPassword, inputType, outputType, isColored, isText, text, name, size, bold, italic, underlined, color, isBackground, rotation, transparency, layer, pageFrom, pageTo);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -6084,6 +6217,7 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 String outputType = "outputType\_example"; // String | The desired format for the output files.
 Boolean isColored = true; // Boolean | Indicate is watermark will be in color or grayscale.
@@ -6102,7 +6236,7 @@ Boolean layer = true; // Boolean | Indicates whether the watermark is a layer.
 Integer pageFrom = 56; // Integer | The starting page number for the watermark.
 Integer pageTo = 56; // Integer | The ending page number for the watermark.
 try {
-    FileResponse result = apiInstance.pdfWebapiWatermarkPost(files, inputType, outputType, isColored, isText, text, name, size, bold, italic, underlined, color, isBackground, rotation, transparency, layer, pageFrom, pageTo);
+    FileResponse result = apiInstance.pdfWebapiWatermarkPost(files, documentPassword, inputType, outputType, isColored, isText, text, name, size, bold, italic, underlined, color, isBackground, rotation, transparency, layer, pageFrom, pageTo);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiWatermarkPost");
@@ -6118,6 +6252,7 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 val outputType : kotlin.String = outputType\_example // kotlin.String | The desired format for the output files.
 val isColored : kotlin.Boolean = true // kotlin.Boolean | Indicate is watermark will be in color or grayscale.
@@ -6136,7 +6271,7 @@ val layer : kotlin.Boolean = true // kotlin.Boolean | Indicates whether the wate
 val pageFrom : kotlin.Int = 56 // kotlin.Int | The starting page number for the watermark.
 val pageTo : kotlin.Int = 56 // kotlin.Int | The ending page number for the watermark.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiWatermarkPost(files, inputType, outputType, isColored, isText, text, name, size, bold, italic, underlined, color, isBackground, rotation, transparency, layer, pageFrom, pageTo)
+    val result : FileResponse = apiInstance.pdfWebapiWatermarkPost(files, documentPassword, inputType, outputType, isColored, isText, text, name, size, bold, italic, underlined, color, isBackground, rotation, transparency, layer, pageFrom, pageTo)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiWatermarkPost")
@@ -6172,10 +6307,11 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $page\_range = "page\_range\_example"; // string | The range of pages to count words in.
 
 try {
-    $result = $apiInstance->pdfWebapiWordcounterPost($files, $page\_range);
+    $result = $apiInstance->pdfWebapiWordcounterPost($files, $document\_password, $page\_range);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiWordcounterPost: ', $e->getMessage(), PHP\_EOL;
@@ -6200,12 +6336,13 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var pageRange = pageRange\_example;  // string | The range of pages to count words in. (optional) 
 
             try
             {
-                // Count words and chars in document.
-                FileResponse result = apiInstance.PdfWebapiWordcounterPost(files, pageRange);
+                // Count Words and Characters in Document.
+                FileResponse result = apiInstance.PdfWebapiWordcounterPost(files, documentPassword, pageRange);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -6226,9 +6363,10 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String pageRange = "pageRange\_example"; // String | The range of pages to count words in.
 try {
-    FileResponse result = apiInstance.pdfWebapiWordcounterPost(files, pageRange);
+    FileResponse result = apiInstance.pdfWebapiWordcounterPost(files, documentPassword, pageRange);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiWordcounterPost");
@@ -6244,9 +6382,10 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val pageRange : kotlin.String = pageRange\_example // kotlin.String | The range of pages to count words in.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiWordcounterPost(files, pageRange)
+    val result : FileResponse = apiInstance.pdfWebapiWordcounterPost(files, documentPassword, pageRange)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiWordcounterPost")
@@ -6277,10 +6416,11 @@ $apiInstance = new Swagger\\Client\\Api\\ApiApi(
     new GuzzleHttp\\Client()
 );
 $files = array("files\_example"); // string[] | 
+$document\_password = "document\_password\_example"; // string | 
 $input\_type = "input\_type\_example"; // string | The format of the input files.
 
 try {
-    $result = $apiInstance->pdfWebapiXfaconvertPost($files, $input\_type);
+    $result = $apiInstance->pdfWebapiXfaconvertPost($files, $document\_password, $input\_type);
     print\_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling ApiApi->pdfWebapiXfaconvertPost: ', $e->getMessage(), PHP\_EOL;
@@ -6305,12 +6445,13 @@ namespace Example
 
             var apiInstance = new ApiApi();
             var files = new List<FileParameter>(); // List<FileParameter> |  (optional) 
+            var documentPassword = documentPassword\_example;  // string |  (optional) 
             var inputType = inputType\_example;  // string | The format of the input files. (optional) 
 
             try
             {
-                // Convert XFA format to a another format.
-                FileResponse result = apiInstance.PdfWebapiXfaconvertPost(files, inputType);
+                // Convert XFA Format to Another Format.
+                FileResponse result = apiInstance.PdfWebapiXfaconvertPost(files, documentPassword, inputType);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -6331,9 +6472,10 @@ namespace Example
 
 ApiApi apiInstance = new ApiApi();
 List<File> files = Arrays.asList(new File("/path/to/file")); // List<File> | 
+String documentPassword = "documentPassword\_example"; // String | 
 String inputType = "inputType\_example"; // String | The format of the input files.
 try {
-    FileResponse result = apiInstance.pdfWebapiXfaconvertPost(files, inputType);
+    FileResponse result = apiInstance.pdfWebapiXfaconvertPost(files, documentPassword, inputType);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling ApiApi#pdfWebapiXfaconvertPost");
@@ -6349,9 +6491,10 @@ try {
 
 val apiInstance = ApiApi()
 val files : kotlin.Array<kotlin.Array<kotlin.Byte>> =  // kotlin.Array<kotlin.Array<kotlin.Byte>> | 
+val documentPassword : kotlin.String = documentPassword\_example // kotlin.String | 
 val inputType : kotlin.String = inputType\_example // kotlin.String | The format of the input files.
 try {
-    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, inputType)
+    val result : FileResponse = apiInstance.pdfWebapiXfaconvertPost(files, documentPassword, inputType)
     println(result)
 } catch (e: ClientException) {
     println("4xx response calling ApiApi#pdfWebapiXfaconvertPost")
