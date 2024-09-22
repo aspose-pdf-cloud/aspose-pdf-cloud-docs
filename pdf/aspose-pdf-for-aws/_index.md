@@ -8,17 +8,17 @@ weight: 10
 ---
 # ---
 
-Aspose.PDF for AWS offers a modern solution for organizations looking to enhance their document processing capabilities. Whether it's converting formats, merging files, splitting documents, extracting data, or reordering content, our RESTful API, built on the powerful Aspose.PDF .NET library and optimized Linux packages, provides a streamlined and efficient approach.
+[Aspose.PDF for AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo) offers a modern solution for organizations looking to enhance their document processing capabilities. Whether it's converting formats, merging files, splitting documents, extracting data, or reordering content, our RESTful API, built on the powerful [Aspose.PDF .NET library](https://docs.aspose.com/pdf/net/) and optimized Linux packages, provides a streamlined and efficient approach.
 
-Recognizing the need for continuous improvement, many organizations explore ways to optimize their document workflows. Aspose.PDF for AWS enables them to achieve this by eliminating the need to develop custom code for complex tasks. With our API, users benefit from the Aspose.PDF .NET managed library, which addresses common issues associated with unmanaged code, such as stability and performance concerns. Enhanced with linux packages, our solution ensures fast processing speeds and comes with dedicated 24/7 support, giving you peace of mind and the reliability you need for mission-critical applications. The simplicity of saving documents to Amazon S3 further enhances the ease of setup and integration.
+Recognizing the need for continuous improvement, many organizations explore ways to optimize their document workflows. Aspose.PDF for AWS enables them to achieve this by eliminating the need to develop custom code for complex tasks. With our API, users benefit from the Aspose.PDF .NET managed library, which addresses common issues associated with unmanaged code, such as stability and performance concerns. Enhanced with linux packages, our solution ensures fast processing speeds and comes with dedicated 24/7 [support](https://helpdesk.aspose.com/), giving you peace of mind and the reliability you need for mission-critical applications. The simplicity of saving documents to [Amazon S3](https://aws.amazon.com/s3/) further enhances the ease of setup and integration.
 
-Users can quickly begin utilizing the API through the intuitive Swagger UI, facilitating manual document tasks without requiring extensive technical expertise. For developers, integrating the API into existing systems is straightforward with support for popular programming languages like .NET, Java, PHP, and Kotlin.
+Users can quickly begin utilizing the API through the intuitive Swagger UI, facilitating manual document tasks without requiring extensive technical expertise. For developers, integrating the API into existing systems is straightforward with support for popular programming languages like [.NET](https://dotnet.microsoft.com), [Java](https://www.java.com), [PHP](https://www.php.net), and [Kotlin](https://kotlinlang.org).
 
-Organizations looking to optimize their document processing can find real value in the pay-as-you-go model offered by Aspose.PDF for AWS. With no need for a initial payment to get started, you only pay for the resources you actually use to process. This flexibility makes it easier to scale your operations as demand fluctuates, ensuring that you’re not overpaying for unused capacity. By using Aspose.PDF for AWS, your organization can efficiently manage document workflows, adjust quickly to changing needs.
+Organizations looking to optimize their document processing can find real value in the pay-as-you-go model offered by Aspose.PDF for AWS. With no need for a initial payment to get started, you only pay for the resources you actually use to process. This flexibility makes it easier to scale your operations as demand fluctuates, ensuring that you’re not overpaying for unused capacity. By using [Aspose.PDF for AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo), your organization can efficiently manage document workflows, adjust quickly to changing needs.
 
 ## Pricing
 
-Our pricing model offers a competitive and flexible structure based on the number of files processed within the same S3 bucket of the account. The pricing is divided into tiers to accommodate various usage levels:
+Our [pricing model](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#pdp-pricing) offers a competitive and flexible structure based on the number of files processed within the same [S3 bucket](https://aws.amazon.com/s3/) of the account. The pricing is divided into tiers to accommodate various usage levels:
 
 **Tier 1:**      0 to 8,000 Files      $0.10
 
@@ -39,7 +39,7 @@ On the title page of the running container, you can view the count of processed 
 
 ## Getting Started with Aspose.PDF for AWS
 
-To effectively manipulate PDF and other document formats using an API, follow this tutorial on Aspose.PDF for AWS. This guide will take you through setting up your environment, initializing the API, and executing various document manipulations. By the end of this tutorial, you will be proficient in using Aspose.PDF for AWS for all your document handling needs.
+To effectively manipulate PDF and other document formats using an API, follow this tutorial on [Aspose.PDF for AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo). This guide will take you through setting up your environment, initializing the API, and executing various document manipulations. By the end of this tutorial, you will be proficient in using Aspose.PDF for AWS for all your document handling needs.
 
 
 ### Reporting Issues
@@ -83,7 +83,7 @@ The following steps will guide you through the process of using our API:
 
 ### Using Swagger UI
 
-Swagger UI is a powerful tool for interacting with RESTful APIs. It provides a user-friendly interface that allows you to visualize and test the endpoints of your API without writing any additional code. This guide will walk you through the basics of using Swagger UI to understand and interact with a Aspose.PDF for AWS from browser.
+[Swagger](https://swagger.io/) is a powerful tool for interacting with RESTful APIs. It provides a user-friendly interface that allows you to visualize and test the endpoints of your API without writing any additional code. This guide will walk you through the basics of using [Swagger UI](https://swagger.io/tools/swagger-ui/) to understand and interact with a Aspose.PDF for AWS from browser.
 
 Swagger UI is an open-source tool that allows you to interact with API through a web interface. Swagger UI can be accessed in several ways:
 
@@ -170,7 +170,7 @@ Swagger UI is a valuable tool for anyone working with RESTful APIs. It simplifie
 
 ### Conversion PDF to DOCX example
 
-By following these steps, you can successfully send, monitor, and retrieve converted files using the Aspose.PDF API for AWS
+By following these steps, you can successfully send, monitor, and retrieve converted files using the [Aspose.PDF AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo)
 
 1. **Send a Document for Conversion**
 ```bash
@@ -299,8 +299,8 @@ By including both the ErrorCallStack and an example of the file that caused the 
 
 ## Installation
 
-Deploying Aspose.PDF for AWS Marketplace container product with a RESTful API requires a scalable and reliable setup using ECS of EKS.
-Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS) are provided options, each suited for different needs.
+Deploying Aspose.PDF for AWS Marketplace container product with a [RESTful API](https://dotnet.microsoft.com/en-us/apps/aspnet/apis) requires a scalable and reliable setup using ECS of EKS.
+Amazon Elastic Container Service [ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html) and Amazon Elastic Kubernetes Service [EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) are provided options, each suited for different needs.
 
 > __When to Use ECS__
 
@@ -313,8 +313,8 @@ It handles scaling and operations, letting you focus on your application.
 It’s ideal for hybrid or multi-cloud environments and leverages the full Kubernetes ecosystem.
 
 Both ECS and EKS offer robust scaling. 
-ECS uses AWS Auto Scaling for effortless scaling. 
-EKS leverages Kubernetes' built-in scaling features. 
+ECS uses AWS [Auto Scaling](https://docs.aws.amazon.com/whitepapers/latest/containers-on-aws/scaling.html) for effortless scaling. 
+EKS leverages Kubernetes' built-in [scaling](https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html) features. 
 Since the application processes tasks independently on each node, both services can efficiently handle increased demand.
 
 Choose ECS for simplicity and integration, and EKS for advanced configurations and flexibility. 
@@ -322,7 +322,7 @@ Both ensure your application scales reliably and performs well.
 
 ### Creating an AWS S3 Bucket
 
-This guide walks you through creating a new Amazon S3 bucket and setting up an IAM user with permissions to access the bucket with Aspose.PDF for AWS to store processed files. These steps ensure secure and controlled access to your S3 resources.
+This guide walks you through creating a new [Amazon S3 bucket](https://aws.amazon.com/s3/) and setting up an [IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html) with permissions to access the bucket with Aspose.PDF for AWS to store processed files. These steps ensure secure and controlled access to your S3 resources.
 
 > __Prerequisites__
 
@@ -379,7 +379,7 @@ In result, an IAM user with programmatic access to S3 is created.
 
 > __Step 3: (Optional) Create a Custom IAM Policy for Specific S3 Access__
 
-If you need to grant more specific access to the S3 bucket, create a custom IAM policy.
+If you need to grant more specific access to the S3 bucket, create a custom [IAM policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html).
 
 1. **Go to the IAM Policies Section:**
    - In the IAM console, click on **Policies** in the left-hand menu, then click **Create policy**.
@@ -419,7 +419,7 @@ This policy allows the user to list objects in the bucket and perform PutObject,
 
 Attach the Policy to the User:
 
-After creating the policy, go to the IAM user you created, and attach this custom policy to them.
+After creating the policy, go to the IAM user you created, and [attach this custom policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_managed-policies.html) to them.
 
 In result, the IAM user now has specific access to the S3 bucket according to the custom policy.
 
@@ -607,15 +607,15 @@ This guide provides step-by-step instructions on how to obtain an AWS Marketplac
 
 > __Prerequisites__
 
-- Subscribe to [Aspose Pdf for AWS product](https://aws.amazon.com/marketplace/management/products/prod-u54zvr2umqvmo/overview).
+- Subscribe to [Aspose Pdf for AWS product](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo).
 - Select the latest version of the product to obtain link to container in Elastic Container Registry 
 
 > __1. Obtain the AWS Marketplace Container repository url__
 
 Login to AWS Marketplace:
 
-- Navigate to the AWS Marketplace.
-- Search for Aspose.PDF for AWS container product.
+- Navigate to the [AWS Marketplace](https://aws.amazon.com/marketplace/).
+- Search for [Aspose.PDF for AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo) container product.
 - Click on the container product and subscribe to it.
 
 View Product in Amazon ECR:
@@ -631,7 +631,7 @@ where '<account_id>.dkr.ecr.<region>.amazonaws.com/aspose/aspose_pdf_for_aws:pro
 
 Create an ECS Cluster:
 
-- Go to the Amazon ECS console.
+- Go to the [Amazon ECS console](https://console.aws.amazon.com/ecs).
 - Choose Clusters from the left-hand navigation pane and click Create Cluster.
 - Select EC2 Linux + Networking as the cluster template.
 
@@ -681,7 +681,7 @@ Configure Environment Variables:
 
 Log Configuration:
 
-- Configure logging to Amazon CloudWatch if desired by specifying a log group and stream.
+- Configure logging to [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) if desired by specifying a log group and stream.
 
 > __4. Run the Task__
 
@@ -720,7 +720,7 @@ Regularly update the container image to ensure security and performance.
 
 ### Deploy Container on Amazon EKS
 
-This guide outlines the steps to deploy an Aspose.PDF for AWS AWS Marketplace container to Amazon Elastic Kubernetes Service (EKS) using an EC2 instance from the client machine.
+This guide outlines the steps to deploy an [Aspose.PDF for AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo) AWS Marketplace container to Amazon Elastic Kubernetes Service [EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) using an EC2 instance from the client machine.
 
 > __Prerequisites__
 
@@ -728,7 +728,7 @@ Select EKS as the delivery method. Retain the default software version setting a
 
 - Subscribe to [Aspose Pdf for AWS product](https://aws.amazon.com/marketplace/management/products/prod-u54zvr2umqvmo/overview).
 
-nce subscribed, repository url to the container image will be available as instruction on summary page:
+Once subscribed, repository url to the container image will be available as instruction on summary page:
 
 aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <account_id>.dkr.ecr.<region>.amazonaws.com
 docker pull <account_id>.dkr.ecr.<region>.amazonaws.com/aspose/aspose_pdf_for_aws:prod-<sha>
@@ -737,13 +737,13 @@ where '<account_id>.dkr.ecr.<region>.amazonaws.com/aspose/aspose_pdf_for_aws:pro
 
 > __1. Create a new deployment IAM user__
 
-- Go to the AWS Management Console and navigate to the IAM service.
+- Go to the [AWS Management Console](https://aws.amazon.com/console/) and navigate to the [IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) service.
 - Create a new user with AdministratorAccess policy.
 - Download the security credentials (Access Key ID and Secret Access Key) for the IAM user, as you'll need them in the next step.
 
 > __2. Configure Linux Client Machine__
 
-Install AWS CLI, eksctl, and kubectl:
+Install [AWS CLI](https://aws.amazon.com/cli/), [eksctl](https://eksctl.io/), and [kubectl](https://kubernetes.io/docs/reference/kubectl/):
 
 - Use the following user data script when launching the instance to automatically install the necessary tools:
 
@@ -770,7 +770,7 @@ kubectl version --short --client
 
 - Configure the AWS CLI:
 
-Run **aws configure** and enter the IAM user credentials you created earlier.
+Run **[aws configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)** and enter the IAM user credentials you created earlier.
 
 > __3. Create an EKS Cluster__
 
@@ -888,7 +888,8 @@ kubectl get rs
 kubectl get pod
 kubectl get svc
 ```
-To access the application, obtain the Load Balancer DNS name from the service output and access it in your browser to view the application.
+
+To access the application, obtain the [Load Balancer DNS](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/using-domain-names-with-elb.html) name from the service output and access it in your browser to view the application.
 
 Once the stack is created, go to the outputs tab to find the link to the public IP. Access the web endpoint of the container solution and start using it.
 
@@ -913,7 +914,8 @@ Run the following command to delete the cluster and associated resources:
 ```bash
 eksctl delete cluster --name mycluster --region us-east-1
 ```
-You also need to **delete Elastic Cloud Balancer**.
+
+You also need to delete instance of **[Elastic Cloud Balancer](https://aws.amazon.com/elasticloadbalancing/)**.
 
 Adhere to AWS security best practices by regularly updating Aspose.PDF for AWS container images, applying the latest security patches, and using IAM roles and policies to control access to your EKS resources. 
 Encrypt sensitive data at rest and in transit, and regularly review and audit your security configurations to safeguard against potential threats.
@@ -921,7 +923,7 @@ Encrypt sensitive data at rest and in transit, and regularly review and audit yo
 
 ### Monitoring Health of Instance
 
-Monitoring the health of product ECS or EKS instances is essential for maintaining the reliability and performance of your applications. By leveraging AWS CloudWatch Logs, you can track the status and performance of the service, identify issues, and troubleshoot effectively:
+Monitoring the health of product ECS or EKS instances is essential for maintaining the reliability and performance of your applications. By leveraging [AWS CloudWatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html), you can track the status and performance of the service, identify issues, and troubleshoot effectively:
 
 - An AWS account with the necessary permissions.
 - An cluster with one or more running Aspose.PDF for AWS services.
@@ -932,7 +934,7 @@ Monitoring the health of product ECS or EKS instances is essential for maintaini
 
 > __1. Create CloudWatch Log Group__
 
-CloudWatch Logs require a log group to store log streams.
+CloudWatch Logs require a [log group](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html) to store log streams.
 
 To create a CloudWatch log group for your ECS service logs:
 
@@ -1008,7 +1010,7 @@ CloudWatch Alarms are set up to monitor ECS service logs and notify you of poten
 
 > __6. Automate Log Analysis with CloudWatch Insights__
 
-For analyzing large volumes of log data manually can be time-consuming. Use CloudWatch Logs Insights to automate log analysis:
+For analyzing large volumes of log data manually can be time-consuming. Use [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax.html) to automate log analysis:
 
 - Open the AWS Management Console and navigate to the CloudWatch section.
 - Select "Logs Insights" from the sidebar.
@@ -1042,7 +1044,7 @@ A CloudWatch log group is created to store EKS service logs.
 
 > __2. Enable Fluent Bit for EKS Logging__
 
-To centralize logs from your EKS cluster, use Fluent Bit as a log router. Fluent Bit can collect logs from Kubernetes pods and send them to CloudWatch Logs.
+To centralize logs from your EKS cluster, use [Fluent Bit](https://fluentbit.io/) as a log router. Fluent Bit can collect logs from Kubernetes pods and send them to CloudWatch Logs.
 
 - Deploy Fluent Bit as a DaemonSet in your EKS cluster. Use the following YAML configuration:
 
@@ -1196,6 +1198,7 @@ fields @timestamp, @message
 | filter @message like /ERROR/
 | stats count() by bin(1m)
 ```
+
 Run the query to get insights into your EKS service logs.
 
 CloudWatch Logs Insights helps automate log analysis, providing quick insights into EKS service health.
@@ -1225,7 +1228,7 @@ By implementing these practices, organizations can effectively secure sensitive 
 
 ### Change Ports on ECS
 
-This guide will help you modify and update ports for Aspose.PDF for AWS container deployed on Amazon ECS using task definitions. Proper port configuration ensures your applications run on the correct ports, maintaining consistency across different environments.
+This guide will help you modify and update ports for [Aspose.PDF for AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo) container deployed on Amazon ECS using task definitions. Proper port configuration ensures your applications run on the correct ports, maintaining consistency across different environments.
 
 > __Step 1: Set Port Mappings in the Task Definition__
 
@@ -1318,7 +1321,8 @@ Example:
 ]
 
 ```
-Configuring ports within your ECS task definition ensures that your Docker ASP.NET applications run on the desired ports. By properly setting the "Port mappings" and "Environment variables" fields, you can maintain consistency and prevent port conflicts across different environments.
+
+Configuring ports within your ECS task definition ensures that your Docker ASP.NET applications run on the desired ports. By properly setting the [Port mappings](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_PortMapping.html) and "Environment variables" fields, you can maintain consistency and prevent port conflicts across different environments.
 
 ### Changing Ports on EKS
 
@@ -1410,7 +1414,7 @@ Refer to the official Kubernetes documentation for more detailed guidance on con
 
 ### Setting Up HTTPS Certificate
 
-To guide developers through the setup and configuration of HTTPS certificates for ASP.NET .NET containers. This ensures secure communication and prevents potential security threats like person-in-the-middle attacks.
+To guide developers through the setup and configuration of HTTPS certificates for [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) containers. This ensures secure communication and prevents potential security threats like person-in-the-middle attacks.
 
 > __Step 1: Generate HTTPS Development Certificate__
 
@@ -1496,13 +1500,13 @@ Explanation:
 
 "update-ca-certificates": Command to update the CA certificates in the container.
 
-Additional Resources
+Additional Resources:
 
 [SSL on Amazon Linux 2](https://docs.aws.amazon.com/linux/al2/ug/SSL-on-amazon-linux-2.html)
 
 [Certificate Signing on Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/cert-signing.html)
 
-[End-to-End TLS Encryption on Amazon EKS](https://aws.amazon.com/blogs/containers/setting-up-end-to-end-tls-encryption-on-amazon-eks-with-the-new-aws-load-balancer-controllerv/)
+[End-to-End TLS Encryption on Amazon EKS](https://aws.amazon.com/blogs/containers/setting-up-end-to-end-tls-encryption-on-amazon-eks-with-the-new-aws-load-balancer-controller/)
 
 > ___Security Recommendation___
 
@@ -1512,7 +1516,7 @@ n in your Amazon S3 bucket policies to enforce HTTPS-only connections.
 
 ### Document with Passwords
 
-You may need to process encrypted documents through our containerized REST API, with support for various operations such as merging, converting, and splitting.
+You may need to process [encrypted documents](https://docs.aspose.com/pdf/net/encrypt-pdf-file) through our containerized REST API, with support for various operations such as merging, converting, and splitting.
 
 To ensure secure processing, a password is required to unlock encrypted documents before any operation.
 
@@ -1600,8 +1604,9 @@ To use encrypted file storage for your temporary directory in Amazon ECS or EKS,
 
 > __Amazon ECS__
 
-1. **Create an Amazon EFS (Elastic File System):**
-   - Go to the Amazon EFS console.
+1. **Create an Amazon EFS [Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html):**
+   - Go to the [Amazon EFS console](https://aws.amazon.com/efs
+).
    - Click on "Create file system."
    - Follow the steps to create a new file system. Ensure that you enable encryption at rest.
 
@@ -1661,7 +1666,7 @@ In addition to immediate removal, AWS S3 provides several other methods for mana
 
 S3 Lifecycle Policies:
 
-* Automated Transition and Expiration: Define lifecycle rules to transition objects to different storage classes (e.g., from S3 Standard to S3 Glacier) or to expire objects after a specified period.
+* Automated Transition and Expiration: Define [S3 lifecycle rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html) to transition objects to different storage classes (e.g., from S3 Standard to S3 Glacier) or to expire objects after a specified period.
 Cost Management: Helps reduce costs by automatically moving data to more cost-effective storage classes as it ages.
 Object Lock:
 
@@ -1685,7 +1690,7 @@ By utilizing these methods alongside the immediate remove feature, you can imple
 
 ### Securing S3 Bucket
 
-This guide provides steps to create and configure IAM policies for securing an S3 bucket such that users can delete files but not edit, and only upload new files without listing objects. 
+This guide provides steps to create and configure [IAM policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) for securing an S3 bucket such that users can delete files but not edit, and only upload new files without listing objects. 
 Files will be stored in a Guid folder to create unique random paths.
 
 > __1. IAM Policies__
@@ -2266,7 +2271,7 @@ Integrating AWS KMS with Docker environment variables in Amazon EKS enhances the
 
 ## Client SDKs
 
-We provide client SDKs for different programming languages to make it easier for you to integrate our API into your applications. These SDKs are designed to simplify the process of making requests to our API and handling responses. They abstract away many of the complexities of HTTP and JSON, allowing you to focus on your application's logic.
+We provide [client SDKs](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk) for different programming languages to make it easier for you to integrate our API into your applications. These SDKs are designed to simplify the process of making requests to our API and handling responses. They abstract away many of the complexities of HTTP and JSON, allowing you to focus on your application's logic.
 
 ### [.NET 6.0](https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk/tree/main/dotnet-client)
 
@@ -2287,7 +2292,7 @@ For Kotlin developers, we provide a client SDK that eases the API integration pr
 
 ## Release Notes
 
-Aspose.PDF for AWS offers Aspose.PDF library manipulation capabilities, enabling users to seamlessly manage and process PDF and other document formats within the AWS environment. The latest release introduces essential features designed to optimize document handling and streamline operations from Aspose PDF Apps team.
+[Aspose.PDF for AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo) offers [Aspose.PDF library](https://docs.aspose.com/pdf/) manipulation capabilities, enabling users to seamlessly manage and process PDF and other document formats within the AWS environment. The latest release introduces essential features designed to optimize document handling and streamline operations from [Aspose PDF Web team](https://products.aspose.app/pdf/).
 
 ### Support
 
@@ -2332,9 +2337,9 @@ This release of Aspose.PDF for AWS is designed to enhance your document processi
 | rotate | pdf, pptx, docx, jpg, tiff, bmp, png, gif, svg |
 | crop | pdf, jpg, bmp, png, gif, webp, svg, apng |
 | splitter | pdf, jpg, tiff, bmp, png, gif, image |
+| compress | pdf, docx, jpg, bmp, png, epub, image |
 | search | pdf, pptx, docx, doc, xlsx, ble |
 | metadata | pdf, pptx, docx, jpg, tiff, xlsx |
-| compress | pdf, jpg, bmp, png, epub, image |
 | word-counter | pdf, pptx, docx, doc, xlsx, document |
 | parser | pdf, pptx, html, epub, mhtml |
 | page-numbering | pdf, pptx, docx, tiff, doc |
@@ -2727,8 +2732,8 @@ try {
 
 **Supported formats:**
 
-| bmp | epub | image | jpg | png | pdf |
-| --- | --- | --- | --- | --- | --- |
+| bmp | epub | image | jpg | png | docx | pdf |
+| --- | --- | --- | --- | --- | --- | --- |
 
 <details><summary>curl</summary>
 <pre><code>
@@ -2869,6 +2874,7 @@ try {
 | mhtml |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; |  | &#9745; | &#9745; |  |  | &#9745; | &#9745; | &#9745; | &#9745; |  |  | &#9745; | &#9745; | &#9745; | &#9745; |  |  |  |  |  |  | &#9745; | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mov | &#9745; |  |  |  |  |  |  |  |  |  |  | &#9745; | &#9745; |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mp3 | &#9745; |  |  |  |  |  |  |  |  | &#9745; |  |  | &#9745; |  |  |  |  |  |  | &#9745; |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mp4 | &#9745; |  |  |  |  |  |  |  |  | &#9745; |  | &#9745; |  |  |  |  |  |  |  | &#9745; |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | odt |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | oxps |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  | &#9745; |  | &#9745; |  |  | &#9745; |  |  |  |  | &#9745; |  |  |  |  | &#9745; | &#9745; | &#9745; |  |  |  |  |  |  | &#9745; | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | pages |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  | &#9745; |  |  |  |  |  |  |  | &#9745; |  | &#9745; | &#9745; | &#9745; |  | &#9745; | &#9745; | &#9745; |  | &#9745; | &#9745; | &#9745; | &#9745; |  |  | &#9745; | &#9745; | &#9745; |  |  |  |  |  | &#9745; |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -2890,7 +2896,7 @@ try {
 | wav | &#9745; |  |  |  |  |  |  |  |  | &#9745; |  | &#9745; | &#9745; |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | webp | &#9745; |  |  |  | &#9745; |  |  |  | &#9745; | &#9745; |  |  | &#9745; | &#9745; | &#9745; |  |  | &#9745; |  |  | &#9745; |  |  | &#9745; | &#9745; |  | &#9745; | &#9745; |  | &#9745; | &#9745; |  | &#9745; |  |  | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; |  | &#9745; | &#9745; | &#9745; | &#9745; |  | &#9745; | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | webpage |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  | &#9745; |  |  |  |  | &#9745; |  |  |  |  | &#9745; | &#9745; |  |  | &#9745; | &#9745; |  | &#9745; |  | &#9745; |  | &#9745; |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |
-| docx | &#9745; |  |  |  |  |  |  |  |  | &#9745; |  |  | &#9745; | &#9745; | &#9745; |  |  | &#9745; | &#9745; |  |  |  |  | &#9745; | &#9745; | &#9745; |  |  | &#9745; |  | &#9745; | &#9745; | &#9745; | &#9745; |  | &#9745; |  |  | &#9745; | &#9745; | &#9745; | &#9745; |  | &#9745; | &#9745; |  |  | &#9745; |  |  | &#9745; | &#9745; |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |
+| docx | &#9745; |  |  |  |  |  |  |  |  | &#9745; |  |  | &#9745; | &#9745; | &#9745; |  |  | &#9745; | &#9745; |  |  |  |  | &#9745; | &#9745; | &#9745; |  |  | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; |  | &#9745; |  |  | &#9745; | &#9745; | &#9745; | &#9745; |  | &#9745; | &#9745; |  |  | &#9745; |  |  | &#9745; | &#9745; |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |
 | xml |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  | &#9745; | &#9745; | &#9745; | &#9745; |  | &#9745; | &#9745; |  |  |  |  |  | &#9745; | &#9745; |  | &#9745; |  |  | &#9745; | &#9745; | &#9745; | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |
 | xps |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  | &#9745; |  | &#9745; |  | &#9745; |  |  | &#9745; | &#9745; |  | &#9745; | &#9745; | &#9745; |  |  |  | &#9745; | &#9745; | &#9745; | &#9745; |  |  |  |  |  |  |  | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | zip | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
