@@ -16,6 +16,64 @@ Users can quickly begin utilizing the API through the intuitive Swagger UI, faci
 
 Organizations looking to optimize their document processing can find real value in the pay-as-you-go model offered by Aspose.PDF for AWS. With no need for a initial payment to get started, you only pay for the resources you actually use to process. This flexibility makes it easier to scale your operations as demand fluctuates, ensuring that you’re not overpaying for unused capacity. By using [Aspose.PDF for AWS](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo), your organization can efficiently manage document workflows, adjust quickly to changing needs.
 
+## Aspose.PDF for AWS Trial
+
+You can start using **Aspose.PDF for AWS** right away in **trial mode**. 
+Just works when you launch configured the container. 
+
+### What to expect in trial mode:
+- Some advanced APIs and formats have evaluation watermark
+- Document size is [limited](https://docs.aspose.com/pdf/net/licensing/#limitation-of-an-evaluation-version) (about **4 pages, 4 elements per page**).
+- The container runs for **one hour at a time**. Want more time? Just restart the container.
+
+Trial mode is perfect for exploring features and checking if the product fits your needs.  
+
+### Why Enable Billing?  
+
+- No evaluation watermark
+- Process **unlimited pages**  
+- Access **advanced APIs and features**  
+- Unlock **all supported formats**  
+- Run containers continuously without trial limits  
+
+### If You See an Error on trial 
+
+Without the right permission, you may see an error like this:  
+
+```bash
+arn:aws:sts::111111111:assumed-role/ecsInstanceRole/i-22222222 is not authorized to perform: aws-marketplace:MeterUsage
+```
+
+This simply means the IAM role of container doesn’t have the **MeterUsage** action to bill. Add the policy above, restart, and you’re good to go to full version.  
+
+## Billing
+
+When you’re ready to move beyond trial, enable **metered billing**. This unlocks full document processing and all supported APIs.  
+
+By default, AWS roles don’t allow billing. You’ll need to give your container permission to call the AWS **MeterUsage API**.  
+
+### How to enable billing:
+
+1. Open the [IAM Console](https://console.aws.amazon.com/iam/).  
+2. Find the IAM role used by your ECS/EKS instance (often called `ecsInstanceRole`).  
+3. Add this policy to the role (new policy or inline):  
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "aws-marketplace:MeterUsage",
+      "Resource": "*"
+    }
+  ]
+}
+```  
+
+4. Save the role and restart your container.  
+5. Done — billing is active and your container is no longer limited to trial mode.  
+
 ## Pricing
 
 Our [pricing model](https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#pdp-pricing) offers a competitive and flexible structure based on the number of files processed within the same [S3 bucket](https://aws.amazon.com/s3/) of the account. The pricing is divided into tiers to accommodate various usage levels:
