@@ -525,6 +525,23 @@ To address these challenges, we have implemented the following environment varia
    
 Environment variables are configured separately for each deployment environment (development, staging, production), streamlining the deployment process and simplifying configuration updates without altering the core application code.
 
+### Default Storage Behavior
+
+By default, the application uses **Local File Storage** for storing and managing your files. This means:
+
+- All processed files are stored on container local file system
+- No S3 storage credentials are required
+- Files are saved to a local directory on your container
+
+If you want to use AWS S3 instead of local storage for your application files, configure the following environment variables
+
+#### Troubleshooting
+
+> "Access Denied" Errors with S3
+
+- Verify your AWS credentials are correct
+- Ensure your IAM user/role has `s3:PutObject`, `s3:GetObject`, `s3:DeleteObject` permissions
+- Check that the bucket exists and is accessible from your region
 
 ### Environment Variables
 
