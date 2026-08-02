@@ -31,6 +31,52 @@ Just works when you launch configured the container.
 
 Trial mode is perfect for exploring features and checking if the product fits your needs.  
 
+### APIs and formats that need no license at all
+
+Several endpoints never touch the Aspose.PDF engine — they are built on image, archive and
+cryptography libraries instead. These are **not affected by the evaluation limitations at all**:
+no evaluation watermark, no 4-page limit, no element-per-page limit. You can use them **fully and
+indefinitely in trial mode**.
+
+**Whole APIs — license-free for every supported input:**
+
+| API | Endpoint | Formats |
+| --- | --- | --- |
+| Hash generator | `/webapi/hash` | any input file; MD5, SHA1, SHA256, SHA384, SHA512 |
+| GIF builder | `/webapi/gif` | bmp, gif, jpg, png, tiff → animated gif |
+| Image splitter | `/webapi/splitimage` | bmp, gif, jpg, png, tiff |
+
+**APIs that are license-free for particular input formats** — the listed formats are handled by the
+image/text pipeline, while the remaining formats of the same endpoint go through the Aspose.PDF
+engine and are subject to the usual trial limitations:
+
+| API | Endpoint | License-free formats | Needs a license |
+| --- | --- | --- | --- |
+| Image resize | `/webapi/resize` | apng, bmp, gif, jpg, png, tiff, webp | svg, pdf, eps |
+| Image crop | `/webapi/crop` | gif, webp | svg, pdf |
+| Rotate | `/webapi/rotate` | svg | pdf, docx, pptx, and raster images |
+| Content parser | `/webapi/parse` | docx, xlsx, xls, pptx | pdf, epub, html, mhtml |
+| Word counter | `/webapi/wordcounter` | txt | pdf, docx, xlsx, pptx |
+
+**Merge** is license-free whenever nothing is rendered into a document:
+
+| Merge | License-free |
+| --- | --- |
+| image → image | jpg, png, bmp, gif, webp input with **jpg, png or webp** output (for example jpg → jpg) |
+| tiff → tiff | jpg, png, bmp, gif, tiff, tif input with **tiff** output |
+| archive → archive | any of zip, 7z, tar, gz, bz2, rar into any other |
+
+Merging into pdf, docx, doc, pptx, xlsx, tex, html or ofd builds the result with the Aspose.PDF
+engine and is subject to the trial limitations.
+
+Everything else — document conversion, split of documents, compress, watermark, redaction, e-sign,
+OCR/searchable, table extraction, comparison, repair, lock/unlock and page numbering — runs through
+the Aspose.PDF engine and is subject to the trial limitations until billing is enabled.
+
+Two things still apply to the license-free endpoints: the **one-hour container lifetime** of trial
+mode (restart the container to continue), and, if the container has no `MeterUsage` permission, the
+error described below.
+
 ### Why Enable Billing?  
 
 - No evaluation watermark
