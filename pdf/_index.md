@@ -26,3 +26,12 @@ weight: 10
 ## Chapters
 
 - [Getting Started with Aspose.PDF for AWS](/pdf/aspose-pdf-for-aws/)
+
+
+**Welcome to Aspose.PDF MCP**
+
+**Aspose.PDF MCP** is a Model Context Protocol (MCP) server that lets AI assistants and agents convert, merge, split, secure and extract content from PDF documents. It is deployed as a container on your own infrastructure, such as Amazon ECS, AWS Fargate or Amazon EKS, and is billed on a pay-as-you-go basis.
+
+## Chapters
+
+- [Getting Started with Aspose.PDF MCP](/pdf/aspose-pdf-mcp/)
